@@ -1,4 +1,4 @@
-# HTML-Only Web Site from Scratch
+# Sitio Web con HTML puro desde cero
 Sabemos que Markdown + Github Pages es una combinación poderosa para crear sitios web rápidamente. Para pasar al siguiente nivel, es hora de que volvamos a crear nuestras páginas web desde cero, línea por línea.
 
 ## Configuración y Documentación
