@@ -1,41 +1,126 @@
-# Code 102: Intro al Desarrollo de Software
-Esta es la Guía del Facilitador para el curso Code 102. Este documento está dirigido a los instructores.
+﻿# Código 201: Fundamentos del Desarrollo de Software
 
-Todos los recursos principales están delineados en el [Documento Guía](https://docs.google.com/document/d/1QXPjUWIDARerOch8qAlIUeqICTt_3zTWzkWsomhaiSY/edit).
+Bienvenido a la guía del Instructor para Código 201.
 
-## Índice de Temas
+## Resumen
 
-1. [Aprendiendo. Markdown.](./curriculum/class-01/)
-1. [La Computadora del Programador](./curriculum/class-02/)
-1. [Revisiones y la Nube](./curriculum/class-03/)
-1. [Estructurar páginas web con HTML](./curriculum/class-04/)
-1. [Diseñar páginas web con CSS](./curriculum/class-05/)
-1. [Activar páginas web con JavaScript](./curriculum/class-06/)
-1. [Programación con JavaScript](./curriculum/class-07/)
-1. [Suficiente matemáticas, lógica y arquitectura de computadoras](./curriculum/class-08/)
-1. [Coaching de Carrera](./curriculum/class-09/)
-1. [Examen de Entrada 201](./curriculum/class-10/)
+Construir una base sólida en el desarrollo de software y aprender a usar
+HTML, CSS, JavaScript, y diferentes librerías para crear 
+aplicaciones web totalmente funcionales.
 
-## Enfoque de la Instrucción
+Este curso guiará a los estudiantes a desarrollar una base completa
+de habilidades necesarias para el desarrollo web actual. Estas habilidades incluyen
+HTML, CSS y programación en JavaScript utilizando el flujo de trabajo de Git,
+organización de projectos, diseño con wireframes y uso
+de métodos de desarrollo ágil introductorios.
 
-El objetivo de Code 102 es preparar a las personas para tener éxito en el curso Code 201 y en adelante. Queremos ver a las personas adquirir las habilidades necesarias para manejar el ritmo rápido y la gran cantidad de nueva información que experimentarán.
+El curso consiste de un total de 160 horas, las cuales incluyen clases, sesiones de laboratorio, trabajo cooperativo y 
+projectos colaborativos.
 
-Con ese fin, este curso ayudará a las personas a SABER que pueden aprender, y a prepararlas para hacer cosas que son "difíciles". Hay algunas habilidades cruciales que queremos que adquieran, así que desglosaremos esas habilidades en pequeñas partes, y proporcionaremos la oportunidad para practicar repetidamente. Como instructor, proporcionarás numerosos ejemplos de alta calidad del camino correcto para hacer las cosas, para que los estudiantes puedan absorber tu experiencia.
+## Resultados
 
-Cada sesión de clase está respaldada por una presentación de diapositivas, una reflexión de discusión y una asignación de "laboratorio" (presentada como una discusión, para que sea visible para los compañeros) que se verifica con un cuestionario. Todas las entregas son completas/incompletas o autoevaluadas, en lugar de ser evaluadas manualmente por un TA, como con otros cursos.
+-   Definir la estructura de una página web utilizando las convenciones
+    estructurales jerárquicas de la semántica de HTML5.
+-   Utilizar CSS y HTML para implementar estilos de maquetación (layout) incluyendo grid,
+    fluid y técnicas responsivas, además de diseñar contenido con colores,
+    tipografías e imágenes.
+-   Utilizar Javascript para crear projectos web interactivos, de modo que los datos
+    de entrada del usuario sean almacenados y procesados para crear contenido actualizado
+    y personalizado cuando el usuario interactúa con una página. 
+-   Programar en JavaScript aprovechando los fundamentos de las Ciencias de la
+    Computación, el paradigma de la Programación orientada a objetos, los tipos de datos básicos,
+    las estructuras de datos y algoritmos básicos, para que el código sea
+    eficiente, sin errores, y se ajuste a las normas y prácticas comúnmente aceptadas 
+    de sintaxis y estilo, determinado por la funcionalidad del código
+    y la habilidad de pasar por un linter.
+-   Utilizar los sistemas de control de versiones y flujos de trabajo estándar en la industra,
+    incluyendo Git y GitHub, para escribir código funcional y debidamente diseñado,
+    y para trabajar de forma eficiente y armoniosa en entornos
+    profesionales.
+-   Prepararse para el curso Código 301.
 
-Las diapositivas se pueden encontrar en la [Unidad de Equipo](https://drive.google.com/drive/u/0/folders/1BkE_J6PXWVJ_3FlS7L24Jj4cGaPsNoek), y tendrán notas del presentador para delinear la discusión prevista de cada diapositiva.
+## Requisitos previos
 
-Las asignaciones de reflexión permiten a los estudiantes interactuar con los recursos de apoyo para el material (antes de la clase, si lo desean) y compartir aprendizajes con los compañeros de clase. Los estudiantes tomarán sus propias notas en sus notas de lectura, luego lo publicarán en un hilo de discusión, para desbloquear la visibilidad de los comentarios de otros estudiantes.
+-   Se necesita: Conocimiento de conceptos básicos de álgebra.
+-   Código 101: Explorar los Fundamentos del Desarrollo de Software: Si eres completamente nuevo
+    en el mundo de la programación, terminar el Código 101 para construir tu primera página web usando HTML y
+    CSS para saber si seguir en el Desarrollo de Software es ideal para
+    ti.
+-   Código 102: Introducción al Desarrollo de Software: Prepárate para el Código 201
+    con laboratorios guiados para familiarizarte con las
+    herramientas profesionales del rubro, como git y el potente
+    editor de texto VSCode. Practica con HTML y CSS, y aprende
+    JavaScript básico mientras desarrollas páginas web temáticas con GitHub Pages.
 
-Las asignaciones de laboratorio brindan práctica, pero en última instancia no se califican en la clase. En cambio, los estudiantes pueden verificar que han adquirido la experiencia requerida al tomar un cuestionario autoevaluado (opciones múltiples, coincidencias, etc.). Los cuestionarios están destinados a ser una evaluación formativa, por lo que se permiten repetir y se conservan las puntuaciones más altas.
+## Contenido
 
-## Ejecución de la Clase
+### Conceptos
 
-Cada sesión del curso tendrá su propio módulo en Canvas. Esto permitirá a los estudiantes ver lo que viene, qué trabajo se espera de ellos y qué progreso están haciendo adecuadamente. Además de los materiales del currículo, Canvas proporcionará soporte administrativo, con cosas como seguimiento de asistencia y encuestas de feedback.
+-   HTML5 y CSS3
+-   Programación orientada a objetos
+-   Introducción a las Estructuras de Datos y Algoritmos
+-   Manipulación y control del Modelo de Objeto de Documento (DOM)
+-   Distintos enfoques para la Maquetación (layout)
+-   Utilizar repositorios en GitHub y compartir el código con otros equipos en proyectos
 
-El curso de Canvas se configurará aproximadamente 1 semana antes del inicio de la clase.
+### Lenguajes
 
-Cada sesión de clase está diseñada para durar 3 horas. Esto generalmente da suficiente tiempo para introducir algunos temas nuevos, mientras se desarrollan las habilidades adquiridas anteriormente. Llamamos a esto "Aprendizaje Apilado", y les da a los estudiantes la oportunidad de continuar practicando habilidades previamente cubiertas.
+#### HTML
 
-Cada sesión de clase de 3 horas debe incluir 2 descansos, lo más cerca posible de las marcas de 1h y 2h.
+-   Estructura
+-   Texto
+-   Enlaces
+-   Imágenes
+-   Tablas
+-   HTML5
+-   Formularios
+-   Procedimento
+-   Diseño
+
+#### CSS
+
+-   Color
+-   Texto
+-   Cajas
+-   Listas
+-   Tablas
+-   Formularios
+-   Grid Layouts
+-   Fluid Layouts
+-   Animaciones y Transiciones
+
+#### JavaScript
+
+-   Bucles
+-   Condicionales
+-   Funciones
+-   Objetos (Incluye Propiedades y Métodos)
+-   Programación orientada a objetos
+-   Extensiones de objetos con Prototipos
+-   Eventos, Listeners de Eventos, y Handlers de Eventos en Funciones Callback
+-   Manipulación y control del DOM utilizando JavaScript \"Vanilla\" sin
+    jQuery
+-   Uso de librerías externas como ChartJS
+-   Almacenamiento local y JSON
+-   Conocimentos básicos de MVC
+
+## Entornos y Herramientas
+
+-   Unix y el Símbolo del sistema
+-   Git y GitHub
+-   Un editor de texto
+-   Herramientas para desarrolladores de Chrome
+
+## Modulos
+
+El contenido de cada curso se enseñará mediante módulos, en los que
+se instruirá un nuevo concepto en cada clase, tomando como base la
+sesión previa. Es un estilo de enseñanza exigente que necesita de persistencia,
+práctica y colaboración, pero permite que se enseñen más conceptos
+a lo largo del curso. Este método permite que los estudiantes aprendan y
+retengan más información en poco tiempo.
+
+## Política respecto a las tareas
+
+Para aprobar la clase, los estudiantes deberán obtener un mínmo del 90% de
+los puntos disponibles.
