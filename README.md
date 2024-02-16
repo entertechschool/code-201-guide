@@ -1,6 +1,6 @@
-﻿# Código 201: Fundamentos del Desarrollo de Software
+﻿# Code 201: Fundamentos del Desarrollo de Software
 
-Bienvenido a la guía del Instructor para Código 201.
+Bienvenido a la guía del Instructor para Code 201.
 
 ## Resumen
 
@@ -37,16 +37,16 @@ projectos colaborativos.
     incluyendo Git y GitHub, para escribir código funcional y debidamente diseñado,
     y para trabajar de forma eficiente y armoniosa en entornos
     profesionales.
--   Prepararse para el curso Código 301.
+-   Prepararse para el curso Code 301.
 
 ## Requisitos previos
 
 -   Se necesita: Conocimiento de conceptos básicos de álgebra.
--   Código 101: Explorar los Fundamentos del Desarrollo de Software: Si eres completamente nuevo
+-   Code 101: Explorar los Fundamentos del Desarrollo de Software: Si eres completamente nuevo
     en el mundo de la programación, terminar el Código 101 para construir tu primera página web usando HTML y
     CSS para saber si seguir en el Desarrollo de Software es ideal para
     ti.
--   Código 102: Introducción al Desarrollo de Software: Prepárate para el Código 201
+-   Code 102: Introducción al Desarrollo de Software: Prepárate para el Code 201
     con laboratorios guiados para familiarizarte con las
     herramientas profesionales del rubro, como git y el potente
     editor de texto VSCode. Practica con HTML y CSS, y aprende
