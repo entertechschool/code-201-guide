@@ -1,126 +1,126 @@
-# Code 201: Foundations of Software Development
+﻿# Code 201: Fundamentos del Desarrollo de Software
 
-Welcome to the Code 201 Facilitator Guide.
+Bienvenido a la guía del Instructor para Code 201.
 
-## Overview
+## Resumen
 
-Build a strong software development foundation and learn how to use
-HTML, CSS, JavaScript, and various libraries to create fully-functional
-web apps.
+Construir una base sólida en el desarrollo de software y aprender a usar
+HTML, CSS, JavaScript, y diferentes librerías para crear 
+aplicaciones web totalmente funcionales.
 
-This course guides students toward developing a well-rounded foundation
-of skills necessary for modern web development. These skills include
-HTML, CSS, and JavaScript coding; utilizing Git workflow processes,
-project organization, designing with wireframing and employing
-introductory Agile development methods.
+Este curso guiará a los estudiantes a desarrollar una base completa
+de habilidades necesarias para el desarrollo web actual. Estas habilidades incluyen
+programación en HTML, CSS y JavaScript utilizando el flujo de trabajo de Git,
+organización de projectos, diseño con wireframes y uso
+de métodos de desarrollo Agile introductorios.
 
-The course totals 160 hours, including lectures, lab, coworking, and
-collaborative projects.
+El curso consiste de un total de 160 horas, las cuales incluyen clases, sesiones de laboratorio, trabajo cooperativo y 
+projectos colaborativos.
 
-## Outcomes
+## Resultados
 
--   Define the structure of a web page utilizing the semantic
-    hierarchical structural conventions of HTML5.
--   Apply CSS and HTML to implement page layout styles including grid,
-    fluid, and responsive techniques; and to style content with color,
-    typography, and images.
--   Utilize Javascript to make web projects interactive, such that user
-    input is stored and processed to create updated and personalized
-    content when a user interacts with a page.
--   Write JavaScript that leverages the fundamentals of Computer
-    Science, the Object-Oriented Programming paradigm, basic data types,
-    data structures, and basic algorithms, so that the code is
-    efficient, error-free, and matches commonly accepted standards and
-    practices of syntax and style, as measured by the code's
-    functionality and ability to pass a code linter.
--   Utilize industry-standard version control tools and workflows,
-    including Git and GitHub, to write functional, properly styled code
-    and to work efficiently and harmoniously in professional
-    environments.
--   Be prepared for a Code 301 course.
+-   Definir la estructura de una página web utilizando las convenciones
+    estructurales jerárquicas de la semántica de HTML5.
+-   Utilizar CSS y HTML para implementar estilos de layout incluyendo grid,
+    fluid y técnicas responsivas, además de diseñar contenido con colores,
+    tipografías e imágenes.
+-   Utilizar Javascript para crear projectos web interactivos, de modo que los datos
+    de entrada del usuario sean almacenados y procesados para crear contenido actualizado
+    y personalizado cuando el usuario interactúa con una página. 
+-   Programar en JavaScript aprovechando los fundamentos de las Ciencias de la
+    Computación, el paradigma de la Programación orientada a objetos, los tipos de datos básicos,
+    las estructuras de datos y algoritmos básicos, para que el código sea
+    eficiente, sin errores, y se ajuste a las normas y prácticas comúnmente aceptadas 
+    de sintaxis y estilo, determinado por la funcionalidad del código
+    y la habilidad de pasar por un linter.
+-   Utilizar los sistemas de control de versiones y flujos de trabajo estándar en la industra,
+    incluyendo Git y GitHub, para escribir código funcional y debidamente diseñado,
+    y para trabajar de forma eficiente y armoniosa en entornos
+    profesionales.
+-   Prepararse para el curso Code 301.
 
-## Prerequisites
+## Requisitos previos
 
--   Required: Familiarity with basic algebra concepts.
--   Code 101: Explore Software Development: If you are completely new to
-    coding, complete Code 101 to build your first website using HTML and
-    CSS and to find out if a career in software development is right for
-    you.
--   Code 102: Intro to Software Development: Prepare for the Code 201
-    deep-dive with instructor-led labs introducing you to the
-    professional tools of the trade, like git and the powerful VSCode
-    text editor. Practice more with HTML & CSS, and learn basic
-    JavaScript as you deploy themed websites with GitHub Pages.
+-   Se necesita: Conocimiento de conceptos básicos de álgebra.
+-   Code 101: Explorar los Fundamentos del Desarrollo de Software: Si eres completamente nuevo
+    en el mundo de la programación, terminar el curso Code 101 para construir tu primera página web usando HTML y
+    CSS para saber si seguir en el Desarrollo de Software es ideal para
+    ti.
+-   Code 102: Introducción al Desarrollo de Software: Prepárate para el Code 201
+    con laboratorios guiados para familiarizarte con las
+    herramientas profesionales del rubro, como git y el potente
+    editor de texto VSCode. Practica con HTML y CSS, y aprende
+    JavaScript básico mientras desarrollas páginas web temáticas con GitHub Pages.
 
-## Topics
+## Contenido
 
-### Concepts
+### Conceptos
 
--   HTML5 and CSS3
--   Object-Oriented Programming
--   Introductory Data Structures & Algorithms
--   Document Object Model (DOM) Manipulation & Traversal
--   Multiple Approaches to Page Layout
--   Using GitHub Repos and Sharing Code With Project Teams
+-   HTML5 y CSS3
+-   Programación orientada a objetos
+-   Introducción a las Estructuras de Datos y Algoritmos
+-   Manipulación y control del Modelo de Objeto de Documento (DOM)
+-   Distintos enfoques para el layout de páginas
+-   Utilizar repositorios en GitHub y compartir el código con otros equipos en proyectos
 
-### Languages
+### Lenguajes
 
 #### HTML
 
--   Structure
--   Text
--   Links
--   Images
--   Tables
+-   Estructura
+-   Texto
+-   Enlaces
+-   Imágenes
+-   Tablas
 -   HTML5
--   Forms
--   Process
--   Design
+-   Formularios
+-   Procedimento
+-   Diseño
 
 #### CSS
 
 -   Color
--   Text
--   Boxes
--   Lists
--   Tables
--   Forms
+-   Texto
+-   Cajas
+-   Listas
+-   Tablas
+-   Formularios
 -   Grid Layouts
 -   Fluid Layouts
--   Animations and Transitions
+-   Animaciones y Transiciones
 
 #### JavaScript
 
--   Loops
--   Conditions
--   Functions
--   Objects (Including Properties and Methods)
--   Object-Oriented Programming
--   Object Extension with Prototypes
--   Events, Event Listeners, and Event Handlers in Callback Functions
--   DOM Manipulation and Traversal Using \"Vanilla\" JavaScript without
+-   Bucles
+-   Condicionales
+-   Funciones
+-   Objetos (Incluye Propiedades y Métodos)
+-   Programación orientada a objetos
+-   Extensiones de objetos con Prototipos
+-   Events, Event Listeners, y Event Handlers en Funciones Callback
+-   Manipulación y control del DOM utilizando JavaScript \"Vanilla\" sin
     jQuery
--   Utilization of an external library such as ChartJS
--   Local Storage and JSON
--   The Basics of MVC
+-   Uso de librerías externas como ChartJS
+-   Almacenamiento local y JSON
+-   Conocimentos básicos de MVC
 
-## Environments and Tools
+## Entornos y Herramientas
 
--   Unix and the Command Prompt
--   Git and GitHub
--   A Text Editor
--   Chrome Dev Tools
+-   Unix y el Símbolo del sistema
+-   Git y GitHub
+-   Un editor de texto
+-   Herramientas para desarrolladores de Chrome
 
-## Stacked Modules
+## Modulos
 
-Concepts in each of our courses are taught using stacked modules, where
-a new concept is introduced in each class session, building upon what
-came before it. This is a challenging style that requires persistence,
-practice, and collaboration, but allows more concepts to be introduced
-over the length of the course. This method helps students learn and
-retain more information in a short period of time.
+El contenido de cada curso se enseñará mediante módulos, en los que
+se instruirá un nuevo concepto en cada clase, tomando como base la
+sesión previa. Es un estilo de enseñanza exigente que necesita de persistencia,
+práctica y colaboración, pero permite que se enseñen más conceptos
+a lo largo del curso. Este método permite que los estudiantes aprendan y
+retengan más información en poco tiempo.
 
-## Homework Policy
+## Política respecto a las tareas
 
-In order to pass the class, students must attain at least 90% of
-available points.
+Para aprobar la clase, los estudiantes deberán obtener un mínmo del 90% de
+los puntos disponibles.
