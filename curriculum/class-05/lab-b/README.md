@@ -1,8 +1,8 @@
-﻿# Laboratorio: Finaliza el proyecto "Acerca de mí"
+﻿# Laboratorio: Finalize el proyecto "About me"
 
 ## Descripción del problema
 
-Dale los toques finales a tu sitio web Acerca de mí Asegúrate de que tu app final cumpla con todos los requisitos para este proyecto.
+Dale los toques finales a tu sitio web About me. Asegúrate de que tu app final cumpla con todos los requisitos para este proyecto.
 
 ## Instrucciones
 

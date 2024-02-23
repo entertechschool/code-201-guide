@@ -101,7 +101,7 @@ projectos colaborativos.
 -   Manipulación y control del DOM utilizando JavaScript \"Vanilla\" sin
     jQuery
 -   Uso de librerías externas como ChartJS
--   Almacenamiento local y JSON
+-   Local storage y JSON
 -   Conocimentos básicos de MVC
 
 ## Entornos y Herramientas

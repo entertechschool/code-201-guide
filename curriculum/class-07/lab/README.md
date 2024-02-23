@@ -1,8 +1,8 @@
-﻿# Laboratorio: Galletas de salmón parte 2
+﻿# Laboratorio: Salmon Cookies parte 2
 
 ## Descripción del problema
 
-¡La descripción del problema de [Las galletas de Salmón de Pat](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
+¡La descripción del problema de [Pat's Salmon Cookies](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
 
 ## Instrucciones
 

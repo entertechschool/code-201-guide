@@ -1,4 +1,4 @@
-﻿## Lecturas: Enlaces en HTML, Funciones en JS, e Introducción al Layout en CSS
+﻿## Lecturas: Enlaces en HTML, Funciones en JS, e Introducción al CSS: Layout
 
 A continuación encontrarás material de lectura, ejemplos de código y algunos recursos adicionales de apoyo para el tema de esta clase y la próxima.
 
@@ -16,8 +16,8 @@ Reivisa las instrucciones de envío para orientarte sobre cómo completar y envi
 
 ### [CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout){:target="_blank"}
 
-[Layout en CSS: Normal Flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow){:target="_blank"}
-[Layout en CSS: Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){:target="_blank"}
+[CSS: Layout: Normal Flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow){:target="_blank"}
+[CSS: Layout: Positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning){:target="_blank"}
 
 1. ¿A qué se refiere con "normal flow"?
 1. ¿Cuáles son algunas de las diferencias entre los elementos `block-level` e `inline`?

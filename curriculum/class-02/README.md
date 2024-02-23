@@ -40,7 +40,7 @@ Esta clase de centra en practicar con JavaScript, una introducción a los tipos 
 
 - **Lab 05c** será publicado al final de la clase. Es un tutorial sobre el uso de los selectores en CSS, y deberá entregarse al mismo tiempo que las demás tareas del Laboratorio 05. Lo publicaremos con anticipación para otorgarte flexibilidad y tiempo extra para completar estos tutoriales.
 
-- Registros de aprendizaje: A partir de esta clase, habrá una tarea relacionada a sus registros de aprendizaje por cada ciclo de clase/laboratorio. El propósito de esta tarea es reflexionar sobre lo aprendido y cómo se está utilizando el material. Estas tareas deberán entregarse antes de la próxima clase.
+## Registros de aprendizaje A partir de esta clase, habrá una tarea relacionada a sus registros de aprendizaje por cada ciclo de clase/laboratorio. El propósito de esta tarea es reflexionar sobre lo aprendido y cómo se está utilizando el material. Estas tareas deberán entregarse antes de la próxima clase.
 
 - Hoy tendremos mucho trabajo a detalle sobre JS y CSS. Esperamos que solo necesites instrucciones mínimas sobre HTML excepto para los conceptos y resumen de las prácticas, además de los detalles sobre la interface en JS y CSS.
 

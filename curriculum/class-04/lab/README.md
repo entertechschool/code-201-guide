@@ -4,7 +4,7 @@ Lee el documento por completo antes de comenzar con el trabajo del laboratorio.
 
 ## Descripción del problema
 
-Cuando se pueda, tu instructor te emparejará con otro estudiante para este ejercicio de pair programming. Ambos trabajarán y ampliarán el proyecto de juego de adivinanzas Acerca de mí del otro. Asegúrate de leer y seguir estas instrucciones para el pair programming con mucho cuidado. **Si no estás emparejado con otro estudiante, envía una solcitud a nuestros TAs para completar la tarea.**
+Cuando se pueda, tu instructor te emparejará con otro estudiante para este ejercicio de pair programming. Ambos trabajarán y ampliarán el proyecto de juego de adivinanzas About me del otro. Asegúrate de leer y seguir estas instrucciones para el pair programming con mucho cuidado. **Si no estás emparejado con otro estudiante, envía una solcitud a nuestros TAs para completar la tarea.**
 
 ## Instrucciones para el pair programming
 

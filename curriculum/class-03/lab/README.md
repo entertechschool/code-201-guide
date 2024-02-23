@@ -1,10 +1,10 @@
-﻿# Laboratorio: Extiende el proyecto "Acerca de mí"
+﻿# Laboratorio: Extiende el proyecto "About me"
 
 Lee el documento por completo antes de comenzar con el trabajo del laboratorio.
 
 ## Descripción del problema
 
-¡Cuéntanos más acerca de tí! Construye una página web "Acerca de mí", con un cuestionario para el usuario sobre datos curiosos y le dé información acerca de ti y de dónde vienes. Tomaremos este proyecto como base para los próximos laboratorios. Prepárate para actualizar tu código todos los días y aprender cómo una página web comienza con una idea hasta ser un sitio implementado mediante distintas iteraciones de desarrollo.
+¡Cuéntanos más acerca de tí! Construye una página web "About me", con un cuestionario para el usuario sobre datos curiosos y le dé información acerca de ti y de dónde vienes. Tomaremos este proyecto como base para los próximos laboratorios. Prepárate para actualizar tu código todos los días y aprender cómo una página web comienza con una idea hasta ser un sitio implementado mediante distintas iteraciones de desarrollo.
 
 ## Historias de usuario
 
@@ -20,7 +20,7 @@ A continuación se encuentran los requisitos para el laboratorio en este formato
 
 ## Instrucciones
 
-Continúa desarrollando a partir de tu laboratorio 02 al añadir funciones adicionales a tu Juego de adivinanzas Acerca de mí Trabaja con el mismo repositorio que utilizaste para el Laboratorio 2, y modifica tu archivo README.md para describir tu proyecto con las nuevas características que estás añadiendo.
+Continúa desarrollando a partir de tu laboratorio 02 al añadir funciones adicionales a tu Juego de adivinanzas About me Trabaja con el mismo repositorio que utilizaste para el Laboratorio 2, y modifica tu archivo README.md para describir tu proyecto con las nuevas características que estás añadiendo.
 
 1. Como usuario, me gustaría ver una serie de datos relacionados a los intereses de los dueños del sitio para poder ver más información acerca de ellos de forma rápida.
     - Crea un "Top Diez" al final de tu página HTML como una lista ordenada usando HTML. Algunas ideas que podrías incluir pueden ser top diez películas favoritas, top diez lugares favoritos, o top diez lugares para visitar. Puedes escoger hacer cualquier top diez que desees.

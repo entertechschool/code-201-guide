@@ -1,8 +1,8 @@
-﻿# Más temas sobre Layout en CSS
+﻿# Más sobre CSS: Layout
 
 ## Resumen
 
-En esta clase aprenderás sobre el layout de una página utilizando CSS y HTML con un wireframe determinado. También abarcaremos un layout de CSS más avanzado, Flexbox.
+En esta clase aprenderás sobre el layout de una página utilizando CSS y HTML con un wireframe determinado. También abarcaremos un CSS layout más avanzado, Flexbox.
 
 ## Descripción general
 

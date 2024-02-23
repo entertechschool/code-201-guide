@@ -1,8 +1,8 @@
-﻿# CSS para Imágenes, Color, Texto y Git Branching
+﻿# CSS: Imágenes, Color, Texto y Git Branching
 
 ## Resumen
 
-En esta clase nos apartaremos del proyecto de cuestionario "Acerca de Mí". Tendrás otras dos tareas de laboratorio para entregar que te ayudarán con CSS y a aprender un nuevo flujo de trabajo de git
+En esta clase nos apartaremos del proyecto de cuestionario "About me". Tendrás otras dos tareas de laboratorio para entregar que te ayudarán con CSS y a aprender un nuevo flujo de trabajo de git
 
 ## Descripción general
 
@@ -41,7 +41,7 @@ En esta clase nos apartaremos del proyecto de cuestionario "Acerca de Mí". Tend
 
 ## Demostración de código para el laboratorio
 
-El laboratorio de esta clase está 'aislado', en el sentido de que no está conectado con el proyecto "Acerca de mí".
+El laboratorio de esta clase está 'aislado', en el sentido de que no está conectado con el proyecto "About me".
 
 Trabajarán de forma individual. El flujo de trabajo de GitHub de hoy también es diferente, y está diseñado para que practiques con ramas, la cual es la última parte importante de Git que nos queda por abordar. Necesitamos dedicarle un poco de tiempo, y practicar con ella, para que entiendas lo que estás haciendo.
 

@@ -1,126 +1,126 @@
-# Code 201: Foundations of Software Development - Core Syllabus
+﻿# Code 201: Fundamentos del Desarrollo de Software - Sílabo principal
 
-## Course Information
+## Información del curso
 
-- Course Level: Code 201
+- Nivel del Curso: Code 201:
 
-## Course Prerequisites
+## Requisitos previos del curso
 
-- Code 102
+- Code 102:
 
-> Students with previous relevant or equivalent experience can test out of this requirement in their application.
+> Los estudiantes con experiencia previa relevante o equivalente pueden no cumplir con este requisito en su solicitud.
 
-## Course Description
+## Descripción del curso
 
-This course guides students toward developing a well-rounded foundation of skills necessary for modern web development. These skills include HTML, CSS, and JavaScript coding; utilizing Git workflow processes, project organization, designing with wire-framing and employing introductory Agile development methods.
+Este curso guiará a los estudiantes a desarrollar una base completa de habilidades necesarias para el desarrollo web actual. Estas habilidades incluyen programación en HTML, CSS y JavaScript utilizando el flujo de trabajo de Git, organización de proyectos, diseño con wireframes y utilizando métodos de desarrollo Agile básicos.
 
-## Program Learning Outcomes
+## Resultados del programa
 
-Builds a strong software development foundation and learn how to use HTML, CSS, JavaScript, and various libraries to create fully-functional web apps.
+Construir una base sólida de desarrollo de software y aprender a usar HTML, CSS, JavaScript, y diferentes librerías para crear aplicaciones web totalmente funcionales.
 
-This course guides students toward developing a well-rounded foundation of skills necessary for modern web development. These skills include HTML, CSS, and JavaScript coding; utilizing Git workflow processes, project organization, designing with wireframing and employing introductory Agile development methods.
+Este curso guiará a los estudiantes a desarrollar una base completa de habilidades necesarias para el desarrollo web actual. Estas habilidades incluyen programación en HTML, CSS y JavaScript utilizando el flujo de trabajo de Git, organización de proyectos, diseño con wireframes y utilizando métodos de desarrollo Agile básicos.
 
-## Student Learning Outcomes
+## Resultados del aprendizaje de los estudiantes
 
-Upon satisfactory completion of this course, a student should be able to:
+Tras finalizar satisfactoriamente este curso, el estudiante deberá ser capaz de:
 
-### Describe and Define
+#### Describir y definir
 
-#### Languages
+#### Lenguajes
 
 ##### HTML
 
-- Structure
-- Text
-- Links
-- Images
-- Tables
+- Estructura
+- Texto
+- Enlaces
+- Imágenes
+- Tablas
 - HTML5
-- Forms
-- Process
-- Design
+- Formularios
+- Procedimento
+- Diseño
 
 ##### CSS
 
 - Color
-- Text
-- Boxes
-- Lists
-- Tables
-- Forms
+- Texto
+- Cajas
+- Listas
+- Tablas
+- Formularios
 - Grid Layouts
 - Fluid Layouts
-- Animations and Transitions
+- Animaciones y Transiciones
 
 ##### JavaScript
 
-- Loops
-- Conditions
-- Functions
-- Objects (Including Properties and Methods)
-- Object-Oriented Programming
-- Object Extension with Prototypes
-- Events, Event Listeners, and Event Handlers in Callback Functions
-- DOM Manipulation and Traversal Using "Vanilla" JavaScript without jQuery
-- Utilization of an external library such as ChartJS
-- Local Storage and JSON
-- The Basics of MVC
+- Bucles
+- Condicionales
+- Funciones
+- Objetos (Incluye Propiedades y Métodos)
+- Programación orientada a objetos
+- Extensiones de objetos con Prototipos
+- Events, Event Listeners, y Event Handlers en Funciones Callback
+- Manipulación y control del DOM utilizando JavaScript \"Vanilla\" sin jQuery
+- Uso de librerías externas como ChartJS
+- Local storage y JSON
+- Conocimentos básicos de MVC
 
-##### Environments and Tools
+##### Entornos y Herramientas
 
-- Unix and the Command Prompt
-- Git and GitHub
-- A Text Editor
-- Chrome Dev Tools
+- Unix y el Símbolo del sistema
+- Git y GitHub
+- Un editor de texto
+- Herramientas para desarrolladores de Chrome
 
-### Execute
+### Ejecutar
 
-- Define the structure of a web page utilizing the semantic hierarchical structural conventions of HTML5.
-- Apply CSS to style content with color, typography, and images.
-- Apply CSS and HTML to implement page layout styles including grid, fluid, and responsive techniques.
-- Utilize Javascript to make web projects interactive, such that user input is stored and processed to create updated and personalized content when a user interacts with a page.
-- Write JavaScript that leverages the fundamentals of Computer Science, the Object-Oriented Programming paradigm, basic data types, data structures, and basic algorithms, so that the code is efficient, error-free, and matches commonly accepted standards and practices of syntax and style, as measured by the code’s functionality and ability to pass a code linter.
-- Utilize industry-standard version control tools and workflows, including Git and GitHub, to write functional, properly styled code and to work efficiently and harmoniously in professional environments.
+-   Definir la estructura de una página web utilizando las convenciones estructurales jerárquicas de la semántica de HTML5.
+- Utilizar CSS para diseñar contenido con colores, tipografías e imágenes.
+- Utilizar CSS y HTML para implementar estilos de layout incluyendo grid, fluid y técnicas responsivas.
+- Utilizar Javascript para crear projectos web interactivos, de modo que los datos de entrada del usuario sean almacenados y procesados para crear contenido actualizado y personalizado cuando el usuario interactúa con una página.
+- Programar en JavaScript aprovechando los fundamentos de las Ciencias de la Computación, el paradigma de la Programación orientada a objetos, los tipos de datos básicos, estructuras de datos, and algoritmos básicos, para que el código sea eficiente, sin errores, y se ajuste a las normas y prácticas comúnmente aceptadas de la sintaxis y el estilo, determinado por la funcionalidad del código y la habilidad de pasar por un linter.
+- Utilizar los sistemas de control de versiones y flujos de trabajo estándar en la industra, incluyendo Git y GitHub, para escribir código funcional y debidamente diseñado en entornos profesionales.
 
 
-## Course Schedule
+## Agenda del curso
 
-### Module 1
+### Módulo 1
 
-| Class # | Topic | Lab |
+| Clase # | Tema | Laboratorio |
 |-----------------|-----------|----------|
-| 01 | Introduction to Development | Web Site with proper HTML, CSS, JavaScript Structure |
-| 02 | Basics of HTML, CSS, JS | User input and output |
-| 03 | Control Flow; Box Model | Conditional logic |
-| 04 | Javascript Functions; Pair Programming |Encapsulate logic in functions |
-| 05 | Images, Color, Style; Branching | Fidelity; Practice JS and Git branching |
+| 01 | Introducción al desarrollo | Sitios web con estructura HTML, CSS, JavaScript adecuada |
+| 02 | Conceptos básicos de HTML, CSS, JS | Input y output del usuario |
+| 03 | Control de flujo; Box Model | Lógica condicional |
+| 04 | Funciones en Javascript; Pair Programming |Encapsular la lógica en funciones |
+| 05 | Imágenes, Color, Estilo; Branching | Fidelidad; Practica JS y branching en Git |
 
-### Module 2
+### Módulo 2
 
-| Class # | Topic | Lab |
+| Clase # | Tema | Laboratorio |
 |-----------------|-----------|----------|
-| 06 | Javascript Objects; The DOM | Generate and display data in the DOM|
-| 07 | OOP; HTML Tables | Convert literals to constructors; Dynamic table output |
-| 08 | CSS Layout: Flex | Wire-frame exercise; Styling |
-| 09 | HTML Forms & JavaScript Events | Form input + dynamic elements |
-| 10 | JS Debugging; CSS Layouts | Git Practice; JS Debugger; Generate markup from a mock-up |
+| 06 | Objetivos en Javascript; El DOM | Genera y visualiza datos en el DOM|
+| 07 | OOP; Tablas en HTML | Convierte literales a constructores; Output de tablas dinámicas |
+| 08 | CSS: Layout: Flex | Ejercicios de Wire-frame; Estilos |
+| 09 | Formularios en HTML y Eventos en JavaScript | Input de formularios + elementos dinámicos |
+| 10 | JS Debugging; CSS: Layouts | Práctica de Git; Debugger de JS ; Generar lenguaje de marcado desde una maqueta |
 
-### Module 3
+### Módulo 3
 
-| Class # | Topic | Lab |
+| Clase # | Tema | Laboratorio |
 |-----------------|-----------|----------|
-| 11 | A/V; Accessibility; `Math.random()` | Selecting random options and Capturing user input |
-| 12 | 3rd Party Libraries and Documentation | Integrating Chart.js |
-| 13 | Application State with Local Storage API | Storing/Retrieving data from local storage |
-| 14 | Psyhological Safety | Exploring an existing code base |
-| 15 | Project Kickoff | Merge conflict practice |
+| 11 | A/V; Accesibilidad; `Math.random()` | Seleccionar opciones al azar y Recoger el input del usuario |
+| 12 | Librerías y Documentación de terceros | Integrar Chart.js |
+| 13 | Estado de la aplicación con API de local storage | Almacenar/Recuperar datos desde el local storage |
+| 14 | Seguridad psicológica | Explorar un código base existente |
+| 15 | Comienzo del Proyecto | Práctica de Merge conflicts |
 
-### Module 4 - Final Project
+### Módulo 4 - Proyecto final
 
-| Class # | Deliverables |
+| Clase # | Entregables |
 |-----------------|-----------|
-| 16 | Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements|
-| 17 | Phase 1 |
+| 16 | Wireframes, Historias de usuario, Plan de estructura, DevOps, Documentación, Acuerdos|
+| 17 | Fase 1 |
 | 18 | MVP |
-| 19 | Final Polish, Presentation Practice |
-| 20 | Live Project Presentations |
+| 19 | Toques finales, Práctica de presentación |
+| 20 | Presentaciones del proyecto en vivo |

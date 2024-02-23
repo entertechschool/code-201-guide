@@ -1,4 +1,4 @@
-﻿# Laboratorio: Práctica de selectores en CSS
+﻿# Laboratorio: Práctica CSS: selectores
 
 ## Descripción del problema
 

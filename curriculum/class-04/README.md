@@ -1,4 +1,4 @@
-﻿# Functiones en JS, Pair Programming, e Introducción al Layout en CSS
+﻿# Functiones en JS, Pair Programming, e Introducción a CSS: Layout
 
 ## Resumen
 
@@ -26,7 +26,7 @@ En esta clase aprenderemos sobre uno de los componentes fundamentales en JavaScr
 
 - Comprender cómo trabajan las funciones en JavaScript, así como sus componentes incluyendo declaraciones, calls, parameters, arguments, y returns.
 - Haz pair programming con un compañero y gestiona los aspectos colaborativos y de control de versiones trabajando con Git (desde la línea de comandos) y GitHub (en el navegador).
-- Demuesstra tus conocimientos de los principios de layout de CSS incluyendo los position block, inline, normal, relative, absolute, float, y fixed.
+- Demuestra tus conocimientos de los principios de CSS: Layout incluyendo los position block, inline, normal, relative, absolute, float, y fixed.
 
 ## Notas
 

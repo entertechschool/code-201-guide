@@ -1,10 +1,10 @@
-﻿# Laboratorio: Proyecto "Acerca de mí"
+﻿# Laboratorio: Proyecto "About me"
 
 Lee el documento por completo antes de comenzar con el trabajo del laboratorio.
 
 ## Descripción del problema
 
-¡Cuéntanos más acerca de tí! Construye una página web "Acerca de mí", con un cuestionario para el usuario sobre datos curiosos y le dé información acerca de ti y de dónde vienes. Tomaremos este proyecto como base para los próximos laboratorios. Prepárate para actualizar tu código todos los días y aprender cómo una página web comienza con una idea hasta ser un sitio implementado mediante distintas reiteraciones de desarrollo.
+¡Cuéntanos más acerca de tí! Construye una página web "About me", con un cuestionario para el usuario sobre datos curiosos y le dé información acerca de ti y de dónde vienes. Tomaremos este proyecto como base para los próximos laboratorios. Prepárate para actualizar tu código todos los días y aprender cómo una página web comienza con una idea hasta ser un sitio implementado mediante distintas reiteraciones de desarrollo.
 
 ## Historias de usuario
 
@@ -22,7 +22,7 @@ A continuación se encuentran los requisitos para el laboratorio en este formato
 
 1. Como usuario, me gustaría aprender más sobre el dueño de la página para poder conocerlo mejor.
 
-    - Crea un juego de adivinanzas en la página Acerca de mí que utilice HTML, CSS, y JavaScript.
+    - Crea un juego de adivinanzas en la página About me que utilice HTML, CSS, y JavaScript.
 
     - Incluye en tu página HTML una pequeña biografía, datos sobre tu educación, un resumen sobre tu experiencia laboral y logros que quisieras alcanzar.
 

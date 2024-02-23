@@ -5,7 +5,7 @@ Lee esta tarea por completo antes de comenzar con el laboratorio. Puede que dese
 
 ## Descripción del problema
 
-¡La descripción del problema de [Las galletas de salmón de Pat](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
+¡La descripción del problema de [Pat's Salmon Cookies](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
 
 
 ## Instrucciones

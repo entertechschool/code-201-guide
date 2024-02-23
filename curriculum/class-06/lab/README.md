@@ -1,4 +1,4 @@
-﻿# Laboratorio: Galletas de salmón
+﻿# Laboratorio: Salmon Cookies
 
 Lee esta tarea por completo antes de comenzar con el laboratorio. Puede que desees
 [abrirlo en una nueva pestaña](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"}.
@@ -6,13 +6,13 @@ Lee esta tarea por completo antes de comenzar con el laboratorio. Puede que dese
 ## Descripción del problema
 
 A tu amigo Pat se le ocurrió una idea de negocio al combinar su amor por los dulces y su pasión por los
-ecosistemas saludables. Pat ha desarrollado una receta de dulces para merendar llamadas Galletas de salmón. Estas galletas están hechas en
+ecosistemas saludables. Pat ha desarrollado una receta de dulces para merendar llamadas Salmon Cookies. Estas galletas están hechas en
 la forma de un salmón y son aptas tanto para humanos como para salmones.
 
 Pat necesita ayuda con la marca de su negocio, así como ayuda con la gestión interna de datos de la 
 empresa, y ha solicitado tu ayuda por tu trabajo extenso y comprobado en el desarrollo de aplicaciones web.
 
-Las Galletas de salmón de Pat, las cuales serán una franquicia internacional, necesitan una aplicación de desmotración conceptual para calcular el número 
+Pat's Salmon Cookies, las cuales serán una franquicia internacional, necesitan una aplicación de desmotración conceptual para calcular el número 
 de galletas que cada sucursal debe fabricar cada día para que puedan gestionar sus inventarios de suministros y sus horarios de horneado. El
 número de galletas por hacer dependerá de las horas de operación (6:00 AM a 8:00 PM para todas las ubicaciones) y algunos factores
 únicos de cada ubicación:
