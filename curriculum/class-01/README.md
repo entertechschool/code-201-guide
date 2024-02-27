@@ -2,7 +2,7 @@
 
 ## Resumen
 
-¡Bienvenido al curso Code 201! En esta clase, vamos a repasar los conceptos básicos de HTML, CSS y JavaScript, además de configurar nuestros sistemas para el desarrollo web profesional.
+¡Bienvenido al curso Code 201! En esta clase vamos a repasar los conceptos básicos de HTML, CSS y JavaScript, además de configurar nuestros sistemas para el desarrollo web profesional.
 
 ## Descripción general
 

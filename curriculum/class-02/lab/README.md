@@ -59,7 +59,7 @@ Esta guía de estilo es una serie de criterios y prácticas que se deben seguir 
 
 ### Logros Adicionales
 
-Después de completas los requerimientos enumerados previamente, puedes elegir completar estos desafíos implementando algunos o todos los elementos siguientes en tu aplicación.
+Después de completar los requerimientos enumerados previamente, puedes elegir completar estos desafíos implementando algunos o todos los elementos siguientes en tu aplicación.
 
 - Esfuérzate con tu trabajo en CSS. Experimenta, prueba nuevas características o técnicas que no hayas probado con anterioridad (quizás un sticky header o un sticky footer, icon fonts como FontAwesome, etc.) o solo trata de pulir tu layout/estilo tanto como sea posible.
 

@@ -1,4 +1,4 @@
-﻿## Resumen de las lecturas
+﻿# Resumen de las lecturas
 
 En el curso Code 201, tenemos varias lecturas, especialmente en la primera mitad del curso. Lo más importante es concentrarse en los conceptos, y saber dónde encontrar ejemplos en las lecturas más que leer palabra por palabra.
 
@@ -56,7 +56,7 @@ Lee el comienzo de [Getting Started with HTML](https://developer.mozilla.org/en-
 [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript){:target="_blank"}
 
 1. Describe 2 cosas que *requieran* de JavaScript en el navegador.
-1. ¿Cómo puede añadir JavaScript a un documento en HTML?
+1. ¿Cómo se puede añadir JavaScript a un documento en HTML?
 
 Si tienes alguna pregunta o comentario de las lecturas, ¡apúntalas en tus Notas!
 
