@@ -1,1 +1,0 @@
-﻿Resumen del curso
