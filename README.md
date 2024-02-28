@@ -10,9 +10,9 @@ aplicaciones web totalmente funcionales.
 
 Este curso guiará a los estudiantes a desarrollar una base completa
 de habilidades necesarias para el desarrollo web actual. Estas habilidades incluyen
-HTML, CSS y programación en JavaScript utilizando el flujo de trabajo de Git,
+programación en HTML, CSS y JavaScript utilizando el flujo de trabajo de Git,
 organización de projectos, diseño con wireframes y uso
-de métodos de desarrollo ágil introductorios.
+de métodos de desarrollo Agile introductorios.
 
 El curso consiste de un total de 160 horas, las cuales incluyen clases, sesiones de laboratorio, trabajo cooperativo y 
 projectos colaborativos.
@@ -21,7 +21,7 @@ projectos colaborativos.
 
 -   Definir la estructura de una página web utilizando las convenciones
     estructurales jerárquicas de la semántica de HTML5.
--   Utilizar CSS y HTML para implementar estilos de maquetación (layout) incluyendo grid,
+-   Utilizar CSS y HTML para implementar estilos de layout incluyendo grid,
     fluid y técnicas responsivas, además de diseñar contenido con colores,
     tipografías e imágenes.
 -   Utilizar Javascript para crear projectos web interactivos, de modo que los datos
@@ -43,7 +43,7 @@ projectos colaborativos.
 
 -   Se necesita: Conocimiento de conceptos básicos de álgebra.
 -   Code 101: Explorar los Fundamentos del Desarrollo de Software: Si eres completamente nuevo
-    en el mundo de la programación, terminar el Código 101 para construir tu primera página web usando HTML y
+    en el mundo de la programación, terminar el curso Code 101 para construir tu primera página web usando HTML y
     CSS para saber si seguir en el Desarrollo de Software es ideal para
     ti.
 -   Code 102: Introducción al Desarrollo de Software: Prepárate para el Code 201
@@ -60,7 +60,7 @@ projectos colaborativos.
 -   Programación orientada a objetos
 -   Introducción a las Estructuras de Datos y Algoritmos
 -   Manipulación y control del Modelo de Objeto de Documento (DOM)
--   Distintos enfoques para la Maquetación (layout)
+-   Distintos enfoques para el layout de páginas
 -   Utilizar repositorios en GitHub y compartir el código con otros equipos en proyectos
 
 ### Lenguajes
@@ -97,11 +97,11 @@ projectos colaborativos.
 -   Objetos (Incluye Propiedades y Métodos)
 -   Programación orientada a objetos
 -   Extensiones de objetos con Prototipos
--   Eventos, Listeners de Eventos, y Handlers de Eventos en Funciones Callback
+-   Events, Event Listeners, y Event Handlers en Funciones Callback
 -   Manipulación y control del DOM utilizando JavaScript \"Vanilla\" sin
     jQuery
 -   Uso de librerías externas como ChartJS
--   Almacenamiento local y JSON
+-   Local storage y JSON
 -   Conocimentos básicos de MVC
 
 ## Entornos y Herramientas
