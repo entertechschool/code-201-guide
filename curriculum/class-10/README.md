@@ -2,7 +2,7 @@
 
 ## Resumen
 
-Aprender a **depurar tu código te ayudará a identificar los errores que ves en la consola y cómo arreglarlos.
+Aprender a **depurar** tu código te ayudará a identificar los errores que ves en la consola y cómo arreglarlos.
 
 ## Descripción general
 
