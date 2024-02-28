@@ -1,4 +1,4 @@
-﻿# Proyecto Grupal Comienza con los Wireframes y requisitos de Software
+﻿# Proyecto Grupal: Comienza con los Wireframes y requisitos de Software
 
 ## Wireframes
 

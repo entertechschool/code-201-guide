@@ -1,4 +1,4 @@
-﻿# Proyecto Grupal Acuerdo de equipo
+﻿# Proyecto Grupal: Acuerdo de equipo
 
 El primer paso en la planificación del proyecto es establecer el Acuerdo de equipo. Esto será la guía para la colaborción de tu equipo durante la semana del proyecto.
 
