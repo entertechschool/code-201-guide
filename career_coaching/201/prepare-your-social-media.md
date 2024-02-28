@@ -4,7 +4,7 @@ Asegúrate de que tus cuentas de redes sociales estén bajo tu control y que apr
 
 ## Tarea
 
-Prepara tus cuentas de redes sociales siguiento este [taller individual](https://docs.google.com/presentation/d/1yTT4Ts5GOzHOTGeqwMbJdTCsgRheu7qJq0rWm4MJjcw/edit){:target="_blank"}  para aprender a tomar control de tu presencia el línea.
+Prepara tus cuentas de redes sociales siguiendo este [taller individual](https://docs.google.com/presentation/d/1yTT4Ts5GOzHOTGeqwMbJdTCsgRheu7qJq0rWm4MJjcw/edit){:target="_blank"}  para aprender a tomar control de tu presencia en línea.
 
 Para enviar esta tarea, envía los enlaces a tus cuentas de redes sociales públicas. 
 
