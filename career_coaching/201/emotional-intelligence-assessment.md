@@ -2,7 +2,7 @@
 
 ## Tarea
 
-Una vez entendemos nuestras emociones, debemos ser capaz de gestionarlas de forma positiva.  
+Una vez entendemos nuestras emociones, debemos ser capaces de gestionarlas de forma positiva.  
 
 Esta tarea de trabajo previo es una encuesta de “Interligencia Emocional”. Responde honestamente para obtener puntuaciones distribuidas en algunas categorías. 
 
