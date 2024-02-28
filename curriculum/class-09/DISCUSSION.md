@@ -1,4 +1,4 @@
-﻿## Lecturas: Formularios y Events en JS
+﻿# Lecturas: Formularios y Events en JS
 
 A continuación encontrarás material de lectura, ejemplos de código y algunos recursos adicionales de apoyo para el tema de esta clase y la próxima.
 

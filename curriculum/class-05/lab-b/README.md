@@ -1,4 +1,4 @@
-﻿# Laboratorio: Finalize el proyecto "About me"
+﻿# Laboratorio: Finaliza el proyecto "About me"
 
 ## Descripción del problema
 

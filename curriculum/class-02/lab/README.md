@@ -77,4 +77,5 @@ El equipo de instructores evaluarán tu tarea y te darán retroalimentación.
 1. Añade un comentario a tu envío con las respuestas a las siguientes preguntas.
     - ¿Cómo te fue, en general?
     - ¿Qué observaciones o preguntas tienes acerca de lo que hemos aprendido hasta ahora?
-    - ¿Cuánto tiempo te tomó terminar esta tarea? - Y, antes de que comenzaras, ¿cuánto tiempo creiste que te tomaría terminar esta tarea?
+    - ¿Cuánto tiempo te tomó terminar esta tarea? 
+    - Y, antes de que comenzaras, ¿cuánto tiempo creiste que te tomaría terminar esta tarea?

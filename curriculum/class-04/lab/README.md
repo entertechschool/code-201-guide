@@ -34,7 +34,7 @@ Nota: Antes de comenzar con estos pasos, asegúrate de que ambos repositorios es
 
 - Transporta la lógica de todas las preguntas a funciones: En esta clase aprenderemos sobre funciones, y ahora transportaremos la lógica de cada pregunta individual a funciones por separado, y llamaremos a esas funciones al ejecutar el juego.
 
-- Básicamente, esto es bastante sencillo y directo: 'envuelve' la lógica y las variables de una pregunta con una `función algúnNombreQueElegiste() {` al comienzo, y añade una llave de cierre `}` al final. Para que este función se ejecute, solo llámala después: `algúnNombreQueElegiste();` Después de completar este paso, el juego debería funcionar exactamente igual que antes. **a-c-p**
+- Básicamente, esto es bastante sencillo y directo: 'envuelve' la lógica y las variables de una pregunta con una `function algúnNombreQueElegiste() {` al comienzo, y añade una llave de cierre `}` al final. Para que este función se ejecute, solo llámala después: `algúnNombreQueElegiste();` Después de completar este paso, el juego debería funcionar exactamente igual que antes. **a-c-p**
 
 - Actualiza el archivo README: En el archivo README, añade los nombres del Driver y del Navigator e indica que ambos trabajaron en el código. Esto es un registro básico para mantenerse al día de cómo se ha estado editando el código en un formato amigable para el usuario. **a-c-p**
 

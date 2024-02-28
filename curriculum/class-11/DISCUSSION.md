@@ -1,4 +1,4 @@
-﻿## Lecturas: Audio, video, imágenes
+﻿# Lecturas: Audio, video, imágenes
 
 A continuación encontrarás material de lectura, ejemplos de código y algunos recursos adicionales de apoyo para el tema de esta clase y la próxima.
 

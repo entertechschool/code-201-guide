@@ -1,4 +1,4 @@
-﻿## Lecturas: Chart.js, Canvas
+﻿# Lecturas: Chart.js, Canvas
 
 A continuación encontrarás material de lectura, ejemplos de código y algunos recursos adicionales de apoyo para el tema de esta clase y la próxima.
 

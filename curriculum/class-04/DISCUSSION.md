@@ -23,7 +23,7 @@ Reivisa las instrucciones de envío para orientarte sobre cómo completar y envi
 1. ¿Cuáles son algunas de las diferencias entre los elementos `block-level` e `inline`?
 1. El _______ positioning es la posición por defecto de todos los elementos en html.
 1. Nombra algunas ventajas de utilizar absolute positioning en un elemento.
-1. ¿Cuá es una diferencia clave entre fixed positioning y absolute positioning?
+1. ¿Cuál es una diferencia clave entre fixed positioning y absolute positioning?
 
 ### [Learn JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript){:target="_blank"}
 

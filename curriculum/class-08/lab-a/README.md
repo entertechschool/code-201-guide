@@ -51,7 +51,7 @@ Busca en el directorio del repositorio de la clase de hoy en GitHub una versión
 
 ## Instrucciones de envío
 
-El equipo de instructores evaluarán tu tarea y te darán retroalimentación.
+El equipo de instructores evaluará tu tarea y te darán retroalimentación.
 
 1. Envía el enlace de tu repositorio para este proyecto.
 1. Añade un comentario a tu envío con las respuestas a las siguientes preguntas.
