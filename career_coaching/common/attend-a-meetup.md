@@ -1,4 +1,4 @@
-﻿# Asistir a una reunión
+﻿# Asiste a una reunión
 
 Antes del final del curso, tendrás que asistir a un encuentro de uno de los grupos de reunión locales. 
 
