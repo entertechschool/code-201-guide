@@ -1,4 +1,4 @@
-﻿## Lecturas: Descripción del problema, Objetos y el DOM
+﻿# Lecturas: Descripción del problema, Objetos y el DOM
 
 A continuación encontrarás material de lectura, ejemplos de código y algunos recursos adicionales de apoyo para el tema de esta clase y la próxima.
 

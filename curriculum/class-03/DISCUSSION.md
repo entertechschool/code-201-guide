@@ -1,4 +1,4 @@
-﻿## Lecturas: # Listas en HTML, Control de flujo en JS, y CSS: Box Model
+﻿# Lecturas: Listas en HTML, Control de flujo en JS, y CSS: Box Model
 
 A continuación encontrarás material de lectura, ejemplos de código y algunos recursos adicionales de apoyo para el tema de esta clase y la próxima.
 
