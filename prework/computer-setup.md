@@ -1,6 +1,6 @@
 ﻿# Configuración de la computadora
 
-Confirma que tu laptop o computadora está debidamente configurada con el software y configuraciones apropiadas para que puedas comenzar con tu trabajo de la clase.
+Confirma que tu laptop o computadora esté debidamente configurada con el software y configuraciones apropiadas para que puedas comenzar con tu trabajo de la clase.
 
 [Verify Your Setup](https://codefellows.github.io/setup-guide/system-setup/verify){:target="_blank"}
 
