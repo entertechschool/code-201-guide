@@ -8,8 +8,8 @@ Probablemente solo debas emplear como 10-15 minutos en esta tarea, aunque si vez
 
 ## Reflexión
 
-Escribe una relfexión breve acerca de lo aprendido hoy, o utilizar la siguiente indicación para comenzar.
+Escribe una relfexión breve acerca de lo aprendido hoy, o utiliza la siguiente indicación para comenzar.
 
 [*"Los adultos necesitan saber por qué aprenden algo; tan pronto como respondan esta pregunta, están listos para comenzar."*](https://elearningindustry.com/pedagogy-vs-andragogy-in-elearning-can-you-tell-the-difference)
 
-El ***porqué*** se aplica tanto a larga escala (aprender desarrollo web como una nueva profesión) y pequeña escala (aprender acerca de una nueva herramienta o técnica), y tu registro de aprendizaje es un excelente lugar para identificar y contempla esos ***porqués**. Son importantes. Entonces... ¿Cuál es tu ***porqué***?
+El ***porqué*** se aplica tanto a larga escala (aprender desarrollo web como una nueva profesión) y pequeña escala (aprender acerca de una nueva herramienta o técnica), y tu registro de aprendizaje es un excelente lugar para identificar y contemplar esos ***porqués**. Son importantes. Entonces... ¿Cuál es tu ***porqué***?

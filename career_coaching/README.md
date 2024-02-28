@@ -2,7 +2,7 @@
 
 Esta parte del curriculum te guiará por tu transición profesional hacia el campo de la tecnología.
 
-#Estrategia de Inicio Profesional
+# Estrategia de Inicio Profesional
 Para conseguir un empleo, es importante utilizar todas las herramientas a tu disposición.
 
 1. Tu presentación profesional está lista
@@ -11,9 +11,9 @@ Para conseguir un empleo, es importante utilizar todas las herramientas a tu dis
 1. Tus materiales están listos, revisados y refinados
 1. Y muestras una excelente competencia profesional
 
-Cada uno de tus cursos de centrará en la importancia de ser un profesional para preparate para el mercado laboral.
+Cada uno de tus cursos se centrará en la importancia de ser un profesional para preparate para el mercado laboral.
 
-Nuestro curriculum se armó el colaboración con socios industriales quienes están comprometidos a integrar a personas de distintos entornos a la fuerza laboral tecnológica. Nos han compartido secretos y buenas prácticas para conseguir un buen trabajo en el sector tecnológico. Hemos añadido y resumido este conocimiento en una guía para obtener empleo, con tareas progresivas utilizando recursos internos y externos, en paralelo con tu capacitación técnica. 
+Nuestro programa se creó en colaboración con socios industriales quienes están comprometidos a integrar a personas de distintos entornos a la fuerza laboral tecnológica. Nos han compartido secretos y buenas prácticas para conseguir un buen trabajo en el sector tecnológico. Hemos añadido y resumido este conocimiento en una guía para obtener empleo, con tareas progresivas utilizando recursos internos y externos, en paralelo con tu capacitación técnica. 
 
 Se espera que completes estas tareas de forma semanal. Cada tarea es calificada, y todas las tareas de Orientación Profesional suman un 10% de la calificación total del curso. Aunque tus envíos serán calificados, el objetivo más importante para ti es estar preparado para conocer empleadores potenciales y ser contratado.
 
@@ -27,7 +27,7 @@ La Orientación Profesional abarca estas 7 áreas interrelacionadas de tu crecim
    - Actitudes y comportamientos que se esperan en un ambiente profesional
 
 1. Presentación profesional:
-   - Saber cómo hablar acerca de tí a los integrantes de la industria para aumentar al máximo tus oportunidades
+   - Saber cómo hablar acerca de ti a los integrantes de la industria para aumentar al máximo tus oportunidades
 
 1. Crear una red de contactos:
    - El 85% de los trabajo se consiguen con la red de contactos personal de los empleadores.
