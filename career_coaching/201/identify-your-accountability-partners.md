@@ -8,7 +8,7 @@ Un accountability partner es una persona que aboga por que cumplas tus obligacio
    - Estas dos personas no deberán estar en tu círculo de amigos cercanos. Tienen que ser personas con las que seas menos casual.
 1. Una vez que tus dos compañeros hayan aceptado el rol, por favor envía sus nombres en la pantalla de tareas.
 
-Tus accountability partners serán los encargados de revisar tu curriculum y tu presentación personal en este curso.
+Tus accountability partners serán los encargados de revisar tu curriculum y tu pitch personal en este curso.
 
 _Dedica 10 minutos para esta tarea_
 

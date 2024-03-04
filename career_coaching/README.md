@@ -2,10 +2,10 @@
 
 Esta parte del curriculum te guiará por tu transición profesional hacia el campo de la tecnología.
 
-# Estrategia de Inicio Profesional
+## Estrategia de Inicio Profesional
 Para conseguir un empleo, es importante utilizar todas las herramientas a tu disposición.
 
-1. Tu presentación profesional está lista
+1. Tu pitch profesional está listo
 1. Sabes cómo aprovechar el poder de tus contactos
 1. Investigaste a las compañías previamente para sobresalir en la entrevista.
 1. Tus materiales están listos, revisados y refinados
@@ -19,14 +19,14 @@ Se espera que completes estas tareas de forma semanal. Cada tarea es calificada,
 
 Nota: Las tareas en el nivel de los cursos 201 y 301 están preparadas para prepararte para la introducción del curso 401 y aumentar al máximo tu experiencia mientras te preparamos para el mercado laboral. 
 
-# Los Siete Pilares de la Orientación Profesional
+## Los Siete Pilares de la Orientación Profesional
 
 La Orientación Profesional abarca estas 7 áreas interrelacionadas de tu crecimiento profesional:
 
 1. Conducta profesional:
    - Actitudes y comportamientos que se esperan en un ambiente profesional
 
-1. Presentación profesional:
+1. Pitch profesional:
    - Saber cómo hablar acerca de ti a los integrantes de la industria para aumentar al máximo tus oportunidades
 
 1. Crear una red de contactos:
@@ -44,7 +44,7 @@ La Orientación Profesional abarca estas 7 áreas interrelacionadas de tu crecim
 1. Preguntas de entrevista conductuales:
    - Resume tu experiencia previa para mostrar tu preparación para tu próximo trabajo
 
-# Plan de Estudios de la Orientación Profesional
+## Plan de Estudios de la Orientación Profesional
 
 Cada curso tiene un conjunto detallado de tareas para ayudarte a desarrollarte en las siguientes áreas.
 

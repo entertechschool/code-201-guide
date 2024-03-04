@@ -8,7 +8,7 @@ Hasta este punto deberías tener una idea de lo que es posible crear con lo que 
 
 Tu instructor te proporcionará los requisitos detallados para tu proyecto, y las tareas del equipo.
 
-## Proyecto Grupal: Ideas para la Presentación
+## Proyecto Grupal: Ideas para el pitch
 
 Es momento de comenzar con las preparaciones para tu Proyecto Grupal. Se les han asignado grupos, así que el primer paso para los proyectos grupales es presentar ideas.
 
@@ -20,18 +20,18 @@ Habrán dos fases para esto: aportar ideas y presentar proyectos.
 
 ### Aportando ideas
 
-Tomen una pizarra y aporten ideas. Durante esta fase, no habrá comentarios o críticas acerca de las ideas. Las ideas se deberán dar en forma de títulos o frases muy cortas. Si se necesita una explicación, guárdala para ronda de presentaciones.
+Tomen una pizarra y aporten ideas. Durante esta fase, no habrá comentarios o críticas acerca de las ideas. Las ideas se deberán dar en forma de títulos o frases muy cortas. Si se necesita una explicación, guárdala para ronda de pitches.
 
 ### Presentando un proyecto
-Una vez que se han escrito varias ideas, la presona que expresó la idea dará una presentación. Cada presentación no durará más de 2 a 3 minutos. El propósito de la presentación es vender la idea a tus compañeros de grupo. Durante esta fase, se harán preguntas pero la conversación debe ser limitada. Que sea corto y directo al punto.
+Una vez que se han escrito varias ideas, la presona que expresó la idea dará un pitch. Cada presentación no durará más de 2 a 3 minutos. El propósito del pitch es vender la idea a tus compañeros de grupo. Durante esta fase, se harán preguntas pero la conversación debe ser limitada. Que sea corto y directo al punto.
 
-Al final de la presentación, deberán tener una lista corta de ideas favoritas.
+Al final del pitch, deberán tener una lista corta de ideas favoritas.
 
-## Crea tu presentación
+## Crea tu pitch
 
 Una vez que tu equipo se haya decidido por 1 o 2 ideas favoritas, preparen sus presentaciones para enviar.
 
-Cada presentación deberá contener la siguiente información:
+Cada pitch deberá contener la siguiente información:
 
 ___Nombre del Proyecto___
 
@@ -43,7 +43,7 @@ ___Nombre del Proyecto___
 
 
 ## Envía tu trabajo
-**Solo una persona necesita enviar esta tarea para que el grupo reciba los créditos**, por favor incluye todos los nombres de los integrantes del grupo en tu documento de presentación.
+**Solo una persona necesita enviar esta tarea para que el grupo reciba los créditos**, por favor incluye todos los nombres de los integrantes del grupo en tu documento de pitch.
 
 Como grupo, lleguen a un acuerdo sobre sus 2 mejores ideas. En un documento, o en el área de texto, envían sus dos mejores presentaciones. Los instructores aprobarán una de sus dos ideas.
 Por favor, pongan su mejor opción primero, y su segunda opción al final. 

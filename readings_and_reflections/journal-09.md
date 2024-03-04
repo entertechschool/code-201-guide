@@ -10,4 +10,4 @@ Probablemente solo debas emplear como 10-15 minutos en esta tarea, aunque si ves
 
 Escribe una relfexión breve acerca de lo aprendido hoy, o utilizar la siguiente indicación para comenzar.
 
-Lee [este artículo corto](https://asana.com/resources/impostor-syndrome) acerca del Síndrome del impostor. En una escala del 1 (poco) a 10 (mucho), ¿qué tanto has experimentado estas sensaciones? ¿Siempre te has sentido de la forma en que te sientes ahora? Si has conseguido bajar el número que utilizas para calificar tu Síndrom del impostor, ¿cómo lo hiciste?
+Lee [este artículo corto](https://asana.com/es/resources/impostor-syndrome) acerca del Síndrome del impostor. En una escala del 1 (poco) a 10 (mucho), ¿qué tanto has experimentado estas sensaciones? ¿Siempre te has sentido de la forma en que te sientes ahora? Si has conseguido bajar el número que utilizas para calificar tu Síndrom del impostor, ¿cómo lo hiciste?

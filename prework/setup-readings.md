@@ -4,12 +4,12 @@ Si no tienes uno, crea un repositorio llamado `reading-notes` en GitHub, en dond
 
 Míralo como una forma de documentar y resaltar tu nuevo conocimiento. Publícalo en GitHub pages, para que sea un sitio web en línea.
 
-# Configuración y Documentación
+## Configuración y Documentación
 
 Utiliza estos recursos para comenzar:
 
-- [Markdown on GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax){:target="_blank"}
-- [Getting Started with GitHub Pages](https://guides.github.com/features/pages/){:target="_blank"}
+- [Markdown on GitHub](https://help.github.com/es/articles/basic-writing-and-formatting-syntax){:target="_blank"}
+- [Guía de inicio rápido para GitHub Pages](https://docs.github.com/es/pages/quickstart){:target="_blank"}
 
 ## Requisitos
 
