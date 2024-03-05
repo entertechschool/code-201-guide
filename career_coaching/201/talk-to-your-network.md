@@ -4,7 +4,7 @@ Lee este artículo llamado [“How many jobs are found through networking, reall
 
 ## Tarea 
 
-Ten una reunión informativa personal con una persona que ya esté en tu red de contactos. Que sea casual y profesional. Este es el momento perfecto para aprender más sobre el impacto profesional de esa persona, practiva tu presentación y aprende cómo podrías ayudar a esa persona. 
+Ten una reunión informativa personal con una persona que ya esté en tu red de contactos. Que sea casual y profesional. Este es el momento perfecto para aprender más sobre el impacto profesional de esa persona, practiva tu pitch y aprende cómo podrías ayudar a esa persona. 
 
 Envía un análisis con un pequeño resumen de:
  - con quíen te reuniste

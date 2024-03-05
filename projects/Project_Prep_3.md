@@ -27,10 +27,10 @@ Asegúrate de que todos tengan acceso a las herramientas de PM que estás utiliz
 
 Si no estás familiarizado con ninguna herramienta de PM, aquí hay algunas sugerencias:
 
-1. [GitHub Projects](https://help.github.com/en/articles/about-project-boards){:target="_blank"}
+1. [GitHub Projects](https://help.github.com/es/articles/about-project-boards){:target="_blank"}
 1. [SpiceWorks](https://www.spiceworks.com/free-help-desk-software){:target="_blank"}
 2. [Trello](https://trello.com/){:target="_blank"}
-3. [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/?nav=min){:target="_blank"}
+3. [Azure DevOps](https://azure.microsoft.com/es-es/services/devops/?nav=min){:target="_blank"}
 
 ## Envía tu trabajo
 

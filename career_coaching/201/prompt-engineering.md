@@ -1,11 +1,11 @@
 ﻿# AI y la Ingeniería de Prompts
 
-Lee las siguientes páginas de [Prompt Engineering Guide](https://www.promptingguide.ai/){:target="_blank"}
+Lee las siguientes páginas de [Guía de Ingeniería de Prompt](https://www.promptingguide.ai/es){:target="_blank"}
 
-1. [Introduction](https://www.promptingguide.ai/introduction){:target="_blank"}
-1. [Basics of Prompting](https://www.promptingguide.ai/introduction/basics){:target="_blank"}
-1. [Prompt Elements](https://www.promptingguide.ai/introduction/elements){:target="_blank"}
-1. [General Tips for Designing Prompts](https://www.promptingguide.ai/introduction/tips){:target="_blank"}
+1. [Introducción](https://www.promptingguide.ai/es/introduction){:target="_blank"}
+1. [Fundamentos del Prompting](https://www.promptingguide.ai/es/introduction/basics){:target="_blank"}
+1. [Elementos de un Prompt](https://www.promptingguide.ai/es/introduction/elements){:target="_blank"}
+1. [Consejos generales para diseñar prompts](https://www.promptingguide.ai/es/introduction/tips){:target="_blank"}
 
 ## Tarea
 
