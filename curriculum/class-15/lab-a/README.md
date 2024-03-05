@@ -1,6 +1,6 @@
 ﻿# Resumen de la tarea: Laboratorio 15
 
-Lee el documento por completo antes de comenzar con el trabajo del laboratorio. Para ver esta tarea de laboratorio en su propia pestaña, haz click [AQUÍ](https://codefellows.github.io/code-201-guide/curriculum/class-15/lab-a/){:target="_blank"}
+Lee el documento por completo antes de comenzar con el trabajo del laboratorio. Para ver esta tarea de laboratorio en su propia pestaña, haz click [AQUÍ](https://entertechschool.github.io/code-201-guide/curriculum/class-15/lab-a/){:target="_blank"}
 
 ## Descripción del problema
 

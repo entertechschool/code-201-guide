@@ -10,7 +10,7 @@ Completa el tutorial mencionado anteriormente. Tiene 32 niveles diferentes que t
 
 ## Recursos
 
-Todos los recursos para completar con esta tarea están en el sitio enlazado anteriormente. Para obtener ayuda adicional, también podras recurrir a resursos en línea como [MDN CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){:target="_blank"}.
+Todos los recursos para completar con esta tarea están en el sitio enlazado anteriormente. Para obtener ayuda adicional, también podras recurrir a resursos en línea como [MDN CSS: Selectors](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors){:target="_blank"}.
 
 ## Instrucciones de envío
 

@@ -6,9 +6,9 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 ## Lecturas
 
-### [HTML Media](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding){:target="_blank"}
+### [Medios en HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding){:target="_blank"}
 
-[Using Images In HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML){:target="_blank"}.
+[Utilizar Imágenes In HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML){:target="_blank"}.
 Lee [Common Image Types](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types){:target="_blank"} y [Choosing Image Formats](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#choosing_an_image_format){:target="_blank"}.
 
 1. ¿Cuál es un caso práctico del atributo `alt` en una página web?
@@ -17,10 +17,10 @@ Lee [Common Image Types](https://developer.mozilla.org/en-US/docs/Web/Media/Form
 1. Describe la diferencia entre una imágen `gif` y una imágen `svg`, imagina que se lo estás explicando a una persona mayor de tu comunidad.
 1. ¿Qué tipo de imagen usuarías para mostrar una captura de pantalla en tu página web y por qué?
 
-### [Learn CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS){:target="_blank"}
+### [Aprende CSS](https://developer.mozilla.org/es/docs/Learn/CSS){:target="_blank"}
 
 [Using Color in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Applying_color){:target="_blank"}.
-[Styling HTML Text Elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals){:target="_blank"}
+[Styling HTML Text Elements](https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Fundamentals){:target="_blank"}
 
 1. Describe la diferencia entre un color de primer plano y un color de fondo de un elemento HTML, imagina que estás hablando con una personas sin conocimientos técnicos
 1. Tu amigo te pide que le des un retoque a este blog sin colores.  ¿Cómo usarías el color para darle un poco de personalidad a este blog?

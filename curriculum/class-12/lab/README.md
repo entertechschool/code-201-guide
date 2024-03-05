@@ -1,10 +1,10 @@
 ﻿# Laboratorio 12: Odd Duck Products
 
-Lee el documento por completo antes de comenzar con el trabajo del laboratorio. Para ver esta tarea de laboratorio en su propia pestaña, haz click [AQUÍ](https://codefellows.github.io/code-201-guide/curriculum/class-12/lab/){:target="_blank"}
+Lee el documento por completo antes de comenzar con el trabajo del laboratorio. Para ver esta tarea de laboratorio en su propia pestaña, haz click [AQUÍ](https://entertechschool.github.io/code-201-guide/curriculum/class-12/lab/){:target="_blank"}
 
 ## Descripción del problema
 
-¡La descripción del problema de [Odd Duck Products](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
+¡La descripción del problema de [Odd Duck Products](https://entertechschool.github.io/code-201-guide/curriculum/class-11/lab/){:target="_blank"} se puede encontrar aquí!
 
 ## Instrucciones
 
@@ -47,4 +47,4 @@ No se necesitan recursos adicionales para este laboratorio.
     - ¿Qué observaciones o preguntas tienes acerca de lo que hemos aprendido hasta ahora?
     - ¿Cuánto tiempo te tomó terminar esta tarea? Y, antes de que comenzaras, ¿cuánto tiempo creiste que te tomaría terminar esta tarea?
 1. Completa el merge de tu rama actual a `main`.
-1. Una vez que hayas completado tu merge, despliega tu repositorio de GitHub utilizando [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:  target="_blank"}. Envía el enlace a tu repositorio de GitHub para este proyecto.
+1. Una vez que hayas completado tu merge, despliega tu repositorio de GitHub utilizando [Github Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:  target="_blank"}. Envía el enlace a tu repositorio de GitHub para este proyecto.

@@ -6,7 +6,7 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 ## Lecturas
 
-[JavaScript Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics){:target="_blank"}
+[Conceptos básicos de los objetos JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Basics){:target="_blank"}
 
 1. ¿Cómo le describirías un objeto a un amigo sin conocimiento técnico con el que creciste?
 1. ¿Cuáles son algunas de las ventajas de crear objetos literales?
@@ -25,14 +25,14 @@ const dog = {
 }
 ```
 
-[Introduction To The DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction){:target="_blank"}
+[Introducción al DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction){:target="_blank"}
 
 1. ¿Qué es el DOM?
 1. Describe brevemente la relación entre el DOM y JavaScript.
 
 ## Marcadores y Repaso
-
-[Understanding the problem domain is the hardest part of programming](http://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming){:target=”_blank”}
+<!--Aquí-->
+[¿Por qué parece tan difícil programar?](https://www.uv.es/vimupi/programar.html){:target=”_blank”}
 
 [What’s the difference between primitive values and object references in JavaScript?](https://betterprogramming.pub/intermediate-javascript-whats-the-difference-between-primitive-values-and-object-references-e863d70677b){:target="_blank"}
 

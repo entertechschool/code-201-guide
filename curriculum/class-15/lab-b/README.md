@@ -22,7 +22,7 @@ No hay recursos adicionales para este laboratorio.
 Este envío tiene 3 componentes:
 
 - Envía el enlace a tu repositorio de GitHub para este proyecto.
-- Asegúrate de desplegarlo en [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:target="_blank"}! Envía el enlace a tu repositorio de GitHub para este proyecto.
+- Asegúrate de desplegarlo en [Github Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:target="_blank"}! Envía el enlace a tu repositorio de GitHub para este proyecto.
 - Añade un comentario a tu envío en Canvas con las respuestas a las siguientes preguntas
   - ¿Cómo te fue, en general?
   - ¿Qué observaciones o preguntas tienes acerca de lo que hemos aprendido hasta ahora?

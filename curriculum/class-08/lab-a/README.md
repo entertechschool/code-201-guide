@@ -1,6 +1,6 @@
 ﻿# Ejercicio de wireframe HTML/CSS
 
-Lee el documento por completo antes de comenzar con el trabajo del laboratorio. Para ver esta tarea de laboratorio en su propia prestaña, haz click [aquí](https://codefellows.github.io/code-201-guide/curriculum/class-08/lab-a/){:target="_blank"}
+Lee el documento por completo antes de comenzar con el trabajo del laboratorio. Para ver esta tarea de laboratorio en su propia prestaña, haz click [aquí](https://entertechschool.github.io/code-201-guide/curriculum/class-08/lab-a/){:target="_blank"}
 
 ## Descripción del problema
 
@@ -17,7 +17,7 @@ Aquí está la versión con anotaciones y algunos otros detalles:
 Los wireframes profesionales deben mantener la presentación del sitio simple y sin contenido adicional. El propósito de un wireframe es definir el layout, mientras que el contenido real puede añadirse en el futuro. Los wireframes le permiten al cliente decidir qué layouts les gusta y cuáles no. Tradicionalmente los wireframes solo contienen:
 
 1. Imágenes placeholder
-1. Texto de placeholder como [lorem ipsum](https://lipsum.com/){:target="_blank"}
+1. Texto de placeholder como [lorem ipsum](https://es.lipsum.com/){:target="_blank"}
 
 Las imágenes placeholder son un buen recurso en un wireframe ya que son marcadores de posición con un tamaño que depende de la url que especifiques. Ejemplo: `<img src="https://place-hold.it/200x300/ddd" />` produce la siguiente imágen, con un año de 200 pixeles, una altura de 300 pixeles, y un color `#DDD`, el cual es gris claro:
 

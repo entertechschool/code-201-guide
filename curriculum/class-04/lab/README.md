@@ -44,7 +44,7 @@ Nota: Antes de comenzar con estos pasos, asegúrate de que ambos repositorios es
 
 - Desde el repositorio del Driver, el cual es un fork del repositorio del Navigator, haz click en el botón verde que dice 'Create pull request'.
 
-- Sigue los siguinetes pasos como se describen en pantalla y como se ven aquí: <https://help.GitHub.com/articles/using-pull-requests>. (Estas instrucciones para hacer un pull request desde un repositorio forked hacia su fuente son ambiguas a propósito para que practiques leyendo instrucciones, intentando con diferentes cosas, resolviendo problemas, y ayudándote con la documentación).
+- Sigue los siguinetes pasos como se describen en pantalla y como se ven aquí: <https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>. (Estas instrucciones para hacer un pull request desde un repositorio forked hacia su fuente son ambiguas a propósito para que practiques leyendo instrucciones, intentando con diferentes cosas, resolviendo problemas, y ayudándote con la documentación).
 
 - Después, el dueño del código (el Navigator) irá a su repositorio de GitHub del proyecto y aceptará el pull request. Después de eso, en el terminal de su laptop, en el mismo directorio, ingresa el comando  'git pull origin main' para extraer el código modificado de GitHub.
 

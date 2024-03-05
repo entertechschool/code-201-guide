@@ -4,7 +4,7 @@ Lee el documento por completo antes de comenzar con el trabajo del laboratorio.
 
 ## Descripción del problema
 
-¡La descripción del problema de [Pat's Salmon Cookies](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
+¡La descripción del problema de [Pat's Salmon Cookies](https://entertechschool.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
 
 ## Instrucciones
 
@@ -17,13 +17,13 @@ Hoy añadirás un formulario a tu proyecto existente del puesto de galletas para
 - Utiliza una función constructora como guía para determinar qué campos de input necesita tu formulario (pista: ¡también considera lo que pasa al crear instancias!).
 
 - Si no lo terminaste en el laboratorio 7, escribe una función individual que genere una fila de footer la cual mostrará el número total de galletas vendidas por hora en todas las ubicaciones. Cuando se añade una nueva tienda utilizando tu formulario, el total en la fila del footer deberá actualizarse para incluir estos nuevos números de venta.
-    > PISTA: El método document.querySelectorAll() puede ser útil al volver a renderizar la fila del footer [Document.querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll).
+    > PISTA: El método document.querySelectorAll() puede ser útil al volver a renderizar la fila del footer [Document.querySelectorAll()](https://developer.mozilla.org/es/docs/Web/API/Document/querySelectorAll).
 
 - Ejecuta un informe de Accesibilidad de Lighthouse y aspira a obtener una puntuación de 65-80. Haz los ajustes necesarios. Añade una captura de pantalla con tu puntuación a tu README.md.
 
 - Aplica principios DRY en cualquier lugar donde tengas trozos de código repetido. Por lo general, cuando un trozo de código aparece por 3ra vez aprox., es cuando hay que considerar refactorizar.
 
-- Valida tu html mediante [HTML5 validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation).
+- Valida tu html mediante [Validación de formularios de datos](https://developer.mozilla.org/es/docs/Learn/HTML/Forms/Form_validation).
 
 - Confirma que tu código siga el principio de responsabilidad única. Cada función deberá hacer solo una cosa, con la capacidad de expandirla de ser necesario.
 
@@ -40,7 +40,7 @@ No hay recursos adicionales para este laboratorio.
 ## Instrucciones de envío
 
 - Envía el enlace a tu PR para tu rama del repositorio de GitHub para este proyecto.
-- Despliega tu repositorio de GitHub utilizando [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:  target="_blank"}. Envía el enlace a tu repositorio de GitHub para este proyecto.
+- Despliega tu repositorio de GitHub utilizando [Github Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:  target="_blank"}. Envía el enlace a tu repositorio de GitHub para este proyecto.
 - Añade un comentario a tu envío en Canvas con las respuestas a las siguientes preguntas
   - ¿Cómo te fue, en general?
   - ¿Qué observaciones o preguntas tienes acerca de lo que hemos aprendido hasta ahora?

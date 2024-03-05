@@ -1,11 +1,11 @@
 ﻿# Resumen de la tarea
 
 Lee esta tarea por completo antes de comenzar con el laboratorio. Puede que desees
-[abrirlo en una nueva pestaña](https://codefellows.github.io/code-201-guide/curriculum/class-08/lab-b/){:target="_blank"}.
+[abrirlo en una nueva pestaña](https://entertechschool.github.io/code-201-guide/curriculum/class-08/lab-b/){:target="_blank"}.
 
 ## Descripción del problema
 
-¡La descripción del problema de [Pat's Salmon Cookies](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
+¡La descripción del problema de [Pat's Salmon Cookies](https://entertechschool.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
 
 
 ## Instrucciones
@@ -53,7 +53,7 @@ Los assets para este proyecto están ubicados en tu repositorio diario de la cla
 
 - Envía el enlace a tu repositorio de GitHub para este proyecto.
 - Despliega tu repositorio de GitHub
-  utilizando [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:
+  utilizando [Github Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:
   target="_blank"}. Envía el enlace a tu repositorio de GitHub para este proyecto.
 - Añade un comentario a tu envío en Canvas con las respuestas a las siguientes preguntas
   - ¿Cómo te fue, en general?

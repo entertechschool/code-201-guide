@@ -6,18 +6,18 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 ## Lecturas
 
-### [HTML Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms){:target="_blank"}
+### [Formularios en HTML](https://developer.mozilla.org/es/docs/Learn/Forms){:target="_blank"}
 
-[Your first Web Form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form){:target="_blank"}.
-[How To Structure A Web Form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form){:target="_blank"}.
+[Mi primer formulario HTML](https://developer.mozilla.org/es/docs/Learn/Forms/Your_first_form){:target="_blank"}.
+[Cómo estructurar un formulario HTML](https://developer.mozilla.org/es/docs/Learn/Forms/How_to_structure_a_web_form){:target="_blank"}.
 
 1. ¿Por qué los formularios son tan importantes en el desarrollo web?
 1. Al diseñar un formulario, ¿cuáles son algunas de las cosas más importantes a tener en cuenta sobre la experiencia de usuario?
 1. Enumera 5 elementos de los formularios y explica su importancia.
 
-### [Learn JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript){:target="_blank"}
+### [Aprende JS](https://developer.mozilla.org/es/docs/Learn/JavaScript){:target="_blank"}
 
-[Introduction To Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events){:target="_blank"}.
+[Introducción a los Eventos](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events){:target="_blank"}.
 
 1. ¿Cómo describirías los event a un amigo sin conocimiento técnico?
 1. Al utilizar el método `addEventListener()`, ¿cuáles son los 2 arguments que debes proporcionar?
@@ -26,9 +26,9 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 ## Marcadores y Repaso
 
-[HTML5 Input Types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types){:target="_blank"}
+[Tipos de input de HTML5](https://developer.mozilla.org/es/docs/Learn/Forms/HTML5_input_types){:target="_blank"}
 
-[Event Reference and listings](https://developer.mozilla.org/en-US/docs/Web/Events){:target="_blank"}
+[Referencia de Eventos](https://developer.mozilla.org/es/docs/Web/Events){:target="_blank"}
 
 <!--
 ## Recursos adicionales

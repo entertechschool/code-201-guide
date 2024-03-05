@@ -3,7 +3,7 @@
 
 ## Index of Cheatsheets and Resources
 
-- [new project setup](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup){:target="_blank"}
+- [new project setup](https://entertechschool.github.io/code-201-guide/curriculum/class-02/project-setup){:target="_blank"}
 - [css everything cheatsheet](https://overapi.com/css){:target="_blank"}
 - [collection of cheatsheets by overApi](https://overapi.com/){:target="_blank"}
 - [boolean practice](https://codefellows.github.io/code-201-guide/curriculum/class-03/facilitator/boolean-practice){:target="_blank"}

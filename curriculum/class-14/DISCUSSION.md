@@ -11,7 +11,8 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 1. ¿Qué le permite al desarrollador hacer un CSS transform a un elemento?
 1. Da un ejemplo de un transform y cómo puedes utiliarlo en un página web.
 
-[CSS Transitions & Animations](http://learn.shayhowe.com/advanced-html-css/transitions-animations/){:target="_blank"}
+[Transiciones CSS](https://lenguajecss.com/css/animaciones/transiciones/){:target="_blank"}
+[Animaciones CSS](https://lenguajecss.com/css/animaciones/animaciones/){:target="_blank"}
 
 1. ¿Qué le permite al desarrollador hacer un CSS transition a un elemento?
 1. ¿En qué se diferencia un CSS animation de un CSS transition?

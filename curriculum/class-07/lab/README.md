@@ -2,7 +2,7 @@
 
 ## Descripción del problema
 
-¡La descripción del problema de [Pat's Salmon Cookies](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
+¡La descripción del problema de [Pat's Salmon Cookies](https://entertechschool.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"} se puede encontrar aquí!
 
 ## Instrucciones
 
@@ -52,7 +52,7 @@ No se necesitan recursos adicionales para este laboratorio. Utiliza tu demostrac
 ## Instrucciones de envío
 
 - Envía el enlace a tu repositorio de GitHub para este proyecto.
-- Despliega tu repositorio de GitHub utilizando [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:  target="_blank"}. Envía el enlace a tu repositorio de GitHub para este proyecto.
+- Despliega tu repositorio de GitHub utilizando [Github Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:  target="_blank"}. Envía el enlace a tu repositorio de GitHub para este proyecto.
 - Añade un comentario a tu envío en Canvas con las respuestas a las siguientes preguntas
   - ¿Cómo te fue, en general?
   - ¿Qué observaciones o preguntas tienes acerca de lo que hemos aprendido hasta ahora?

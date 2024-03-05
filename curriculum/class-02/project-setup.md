@@ -90,8 +90,8 @@ El documento README es el primer punto de entrada a un proyecto de código, y la
 También echa un vistazo a las siguientes estructuras sugeridas. Ten en cuenta las similitudes y las diferencias, no hay un enfoque completamente correcto/incorrecto. Ten en consideración la información que le sería de ayuda a otros usuarios en tu proyecto, y utiliza la que sea más apropiada para tu proyecto:
 
 - [README](https://gist.github.com/jxson/1784669){:target="_blank"} por el usuario de GitHub [jxson](https://gist.github.com/jxson){:target="_blank"}
-- [Q/A en Stack Overflow acerca de "Cómo escribir un buen README"](https://gist.github.com/kipyegonmark/89fe62493f22d93705d917d634d8eeb2){:target="_blank"} (reprint)
-- [A Beginner's Guide to Writing a Kick*ss README](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3){:target="_blank"}
+- [Crea un buen README para tu proyecto en Github](https://gist.github.com/kipyegonmark/89fe62493f22d93705d917d634d8eeb2){:target="_blank"} (reprint)
+- [Una plantilla para hacer un buen README.md](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3){:target="_blank"}
 
 Por último, ¡recuerda mantener tu README actualizado! ¡No solo lo crees y luego lo tengas abandonado!
 
