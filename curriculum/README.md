@@ -2,11 +2,11 @@
 
 ## Información del curso
 
-- Nivel del Curso: Code 201:
+- Nivel del Curso: Code 201
 
 ## Requisitos previos del curso
 
-- Code 102:
+- Code 102
 
 > Los estudiantes con experiencia previa relevante o equivalente pueden no cumplir con este requisito en su solicitud.
 
