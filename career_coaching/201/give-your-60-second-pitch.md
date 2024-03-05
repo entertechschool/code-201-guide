@@ -3,7 +3,7 @@
 Ser capar de presentarte de una forma profesional habla mucho sobre ti. Utiliza estos recursos para aprender a crear tu pitch personal-profesional. Procura que tu pitch dure entre 30 a 60 segundos.
 
 - [Effective public speaking](https://www.youtube.com/watch?v=zZBJZ-dBVbE){:target="_blank"}
-- Cómo crear una pitch profesional: [Guía I](https://idealistcareers.org/guide-elevator-pitch/){:target="_blank"} y [Guía II](http://www.salesforce.org/winning-personal-pitch/){:target="_blank"}
+- Cómo crear una pitch profesional: [Guía I](https://idealistcareers.org/guide-elevator-pitch/){:target="_blank"} y [Guía II](https://dyadigital.com/busqueda-empleo/elevator-pitch-personal-consejos/){:target="_blank"}
 
 Prepárate para utilizar tu pitch profesional cuando llegue el día del proyecto de demostración. Utiliza estas preguntas para guiarte mientras escribes.
 

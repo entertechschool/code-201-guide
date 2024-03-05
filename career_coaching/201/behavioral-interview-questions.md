@@ -1,6 +1,6 @@
 ﻿# Preguntas de Entrevista Conductuales
 
-Lee este documento acerca del [S.T.A.R method](https://careerservices.wayne.edu/pdf/behavioralinterviewinfo.pdf){:target="_blank"}, el cual es el estilo que los empleadores potenciales prefieren y esperan al responder las preguntas en una entrevista conductual.
+Lee este documento acerca de la [metodología S.T.A.R](https://hireline.io/blog/responder-entrevista-de-trabajo-metodo-star/){:target="_blank"}, el cual es el estilo que los empleadores potenciales prefieren y esperan al responder las preguntas en una entrevista conductual.
 
 ## Tarea
 
