@@ -16,11 +16,11 @@ A conticuación tienes un conjunto de recursos que describen los temas para la p
 
 ## Lecturas
 
-### [Getting Started](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/){:target="_blank"}
+### [Primeros Pasos](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web){:target="_blank"}
 
-Ojea [How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works){:target="_blank"}.  
-Ojea [Website Design and Process](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like){:target="_blank"}.  
-Lee las siguientes secciones de [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics){:target="_blank"}:  Comienza en "What is JavaScript?", y continúa hasta la sección de "Comments".
+Ojea [Cómo funciona la web](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/How_the_Web_works){:target="_blank"}.  
+Ojea [La apariencia de tu sitio Web](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics){:target="_blank"}.  
+Lee las siguientes secciones de [Fundamentos de JavaScript](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics){:target="_blank"}:  Comienza en "¿Qué es JavaScript realmente?", y continúa hasta la sección de "Comentarios".
 
 1. Crea un poema corto describiendo cómo HTTP envía datos entre computadoras.
 1. Describe como los archivos HTML, CSS y JS son "analizados" en el navegador.
@@ -28,11 +28,11 @@ Lee las siguientes secciones de [JavaScript Basics](https://developer.mozilla.or
 1. ¿Cómo creas una `String` en comparación con un `Number` en Javascript?
 1. ¿Qué es una `Variable` y por qué son importantes en JavaScript?
 
-### [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/){:target="_blank"}
+### [Introducción a HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML){:target="_blank"}
 
-Lee el comienzo de [Getting Started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started){:target="_blank"}.  Comienza por el principio y lee la sección "Anatomy of an HTML document".  
-[HTML Document Structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure){:target="_blank"}.  
-[Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML){:target="_blank"}.
+Lee el comienzo de [Primeros pasos con HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started){:target="_blank"}.  Comienza por el principio y lee la sección "Anatomy of an HTML document".  
+[Estructura web y documentación](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure){:target="_blank"}.  
+[Metadatos en HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML){:target="_blank"}.
 
 1. ¿Qué es un atributo en HTML?
 1. Describe la anatomía de un elemento en HTML.
@@ -43,17 +43,17 @@ Lee el comienzo de [Getting Started with HTML](https://developer.mozilla.org/en-
 
 ### Miscelánea
 
-[How to start to design a Website](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding){:target="_blank"}.
+[¿Cómo empiezo a diseñar mi sitio web?](https://developer.mozilla.org/es/docs/Learn/Common_questions/Design_and_accessibility/Thinking_before_coding){:target="_blank"}.
 
 1. ¿Cuál es el primer paso para diseñar una página web?
 1. ¿Cuál es la pregunta más importante que se debe responder al diseñar una página web?
 
-[Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){:target="_blank"}.
+[Semántica](https://developer.mozilla.org/en-US/docs/Glossary/Semantics){:target="_blank"}.
 
 1. ¿Por qué se debe utilizar un elemento `<h1>` en vez de un `<span>` para mostrar un título de primer nivel?
 1. ¿Cuáles son los beneficios de utilizar etiquetas semánticas en nuestro HTML?
 
-[What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript){:target="_blank"}
+[¿Qué es JavaScript?](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript){:target="_blank"}
 
 1. Describe 2 cosas que *requieran* de JavaScript en el navegador.
 1. ¿Cómo se puede añadir JavaScript a un documento en HTML?

@@ -40,9 +40,9 @@ En esta clase aprenderemos sobre uno de los componentes fundamentales en JavaScr
 
 ### Recursos útiles
 
-1. [learnlayout.com](http://learnlayout.com) será nuestro punto de partida práctico en layout.
+1. [learnlayout.com](http://es.learnlayout.com) será nuestro punto de partida práctico en layout.
 1. [CSS Zen Garden](http://www.csszengarden.com/) te permite practicar estilos en CSS y ver cómo otras personas han utilizado los mismos estilos en su código HTML.
-1. [Centering in CSS](https://css-tricks.com/centering-css-complete-guide/) tiene consejos útiles para centrar contenido de forma horizontal y vertical.
+1. [Como Centrar Cualquier Cosa con CSS](https://www.freecodecamp.org/espanol/news/centrar-en-html-div-con-css/) tiene consejos útiles para centrar contenido de forma horizontal y vertical.
 1. [Floats in CSS](https://medium.freecodecamp.org/css-floats-explained-by-riding-an-escalator-57fa55232333) explicado con una escalera eléctrica.
 
 ### PAIR PROGRAMMING

@@ -6,19 +6,19 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 ## Lecturas
 
-[Video and Audio Content](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content){:target="_blank"}
+[Contenido de audio y video](https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content){:target="_blank"}
 
 1. Explica cómo la capacidad de utilizar video y audio en la web ha ido evolucionando desde el comienzo de los 2000.
 1. Describe el uso de los atributos `src` y `controls` en el elemento `<video>`.
 1. ¿Por qué es importante tener **contenido de respaldo** en el elemento `<video>`?
 1. Escribe una historia corta en donde `<audio>` y `<video>` son personajes.
-
+<!--Aquí-->
 [A Complete Guide To Grid](https://css-tricks.com/snippets/css/complete-guide-grid/){:target="_blank"}
 
 1. ¿En qué se diferencia el layout Grid del Flex?
 1. Grid container, grid item, y grid line son algunos de los términos importantes que se deben entender al utilizar Grid. Por favor describe estos términos en unas pocas frases.
 
-[Responsive Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images){:target="_blank"}
+[Imágenes Responsivas](https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images){:target="_blank"}
 
 1. Además de hacer que un sitio se vea atractivo visualmente en diferentes tamaños de pantalla, ¿por qué los desarrolladores deberían hacer imágenes responsivas?
 1. Define los siguientes atributos de `<img>`: `srcset` y `sizes`. Escribe un ejemplo de cómo se usan.
@@ -36,8 +36,8 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 ## Marcadores y Repaso
 
-[Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML){:target="_blank"}
+[Imágenes en HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML){:target="_blank"}
 
 > Este artículo es un repaso de la Clase 05.
 
-[Other Embedding Technologies](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies){:target="_blank"}
+[Otras Tecnologías de Incrustación](https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies){:target="_blank"}

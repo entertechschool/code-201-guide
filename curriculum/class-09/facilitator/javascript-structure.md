@@ -1,11 +1,11 @@
 # JavaScript Structure
 
-1. Declare Global Variables
-1. Declare Constructor functions - name should be capitalized!
-1. Declare prototype methods
-1. Declare regular functions
-1. Add event listeners
-1. Call functions
+1. Declara las Variables Globales 
+1. Declara las Funciones constructoras - ¡sus nombres deberá comenzar con mayúsculas!
+1. Declara los métodos de prototype
+1. Declara las funciones regulares
+1. Añade event listeners
+1. Llama a las funciones
 
 ```javascript
 //declare global variables at the top of your file

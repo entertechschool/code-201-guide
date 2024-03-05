@@ -34,7 +34,7 @@ Después de completas los requerimientos enumerados previamente, puedes elegir c
 
 - Utilizar el estilo interno o inline a tu gusto, aplica diseños adicionales a la página: experimenta con cosas como borders, alignment, margin, padding, etc.
 - Busca un HTML validator en línea y envía tu código. Toma una captura de pantalla del resultado y envía la imagen.
-- Visita [esta página](https://developers.google.com/web/tools/chrome-devtools/accessibility/reference){:target="_blank"} y lee sobre las herramientas de auditoría de accesibilidad integradas en Chrome. Sigue las instrucciones bajo el subtítulo "View the contrast ratio of a text element in the Color Picker" y examina los valores de la relación de contraste de las etiquetas de tu título y los párrafos. Modifica tu código hasta que alcances una relación que obtenga dos marcas de verificación. Envía una captura de pantalla de las herramientas de Chrome que lo demuestre.
+- Visita [esta página](https://developer.chrome.com/docs/devtools/accessibility/reference?hl=es-419){:target="_blank"} y lee sobre las herramientas de auditoría de accesibilidad integradas en Chrome. Y sigue las instrucciones en [esta página](https://developer.chrome.com/docs/devtools/accessibility/contrast?hl=es-419){:target="_blank"} bajo el subtítulo "Cómo corregir el texto de bajo contraste" y examina los valores de la relación de contraste de las etiquetas de tu título y los párrafos. Modifica tu código hasta que alcances una relación que obtenga dos marcas de verificación. Envía una captura de pantalla de las herramientas de Chrome que lo demuestre.
 
 ## Recursos
 

@@ -1,7 +1,7 @@
 ﻿# Laboratorio: Salmon Cookies
 
 Lee esta tarea por completo antes de comenzar con el laboratorio. Puede que desees
-[abrirlo en una nueva pestaña](https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"}.
+[abrirlo en una nueva pestaña](https://entertechschool.github.io/code-201-guide/curriculum/class-06/lab/){:target="_blank"}.
 
 ## Descripción del problema
 
@@ -66,7 +66,7 @@ responsable por generar datos de ventas y proveer el output en un documento html
 siguientes tareas en tu archivo javascript.
 
 1. Almacenar los clientes min/max por hora, y el promedio de galletas por cliente en las propiedades de un objeto.
-1. Generar un número al azar de clientes que se pueda utilizar para simular las ventas por hora, utilizando [Objects/Math/random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random){:
+1. Generar un número al azar de clientes que se pueda utilizar para simular las ventas por hora, utilizando [Objects/Math/random](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random){:
    target="_blank"}
 1. Calcular y almacenar la cantidad simulada de galletas compradas por hora en cada ubicación utilizando la cantidad promedio de galletas compradas 
    y el número generado al azar de clientes.
@@ -149,7 +149,7 @@ nuestra guía de estilo:
 1. Utiliza plantillas literales en tu lógica de JS para mostrar las tiendas como listas en la página de ventas.
 
 ### Logros Adicionales
-
+<!--Aqui-->
 1. Lee [este artículo](https://mentormate.com/blog/low-fidelity-wireframes-vs-high-fidelity-wireframes/){:target="_
    blank"} y [este artículo](https://www.justinmind.com/blog/low-fidelity-vs-high-fidelity-wireframing-is-paper-dead/){:
    target="_blank"} acerca de las diferencias entre wireframes de baja fidelidad y de alta fidelidad. En base a estas lecturas, saca
@@ -166,7 +166,7 @@ nuestra guía de estilo:
 
 - Envía el enlace a tu repositorio de GitHub para este proyecto.
 - Despliega tu repositorio de GitHub
-  utilizando [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:
+  utilizando [Github Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:
   target="_blank"}. Envía el enlace a tu repositorio de GitHub para este proyecto.
 - Añade un comentario a tu envío en Canvas con las respuestas a las siguientes preguntas
   - ¿Cómo te fue, en general?

@@ -1,8 +1,8 @@
 # Boolean Practice
 
-Evaluate the following statements. Each one should resolve to either `true` or `false`.
+Evalúa las siguientes declaraciones. Cada una deberá dar `true` o `false`.
 
-For complex statements, evaluate comparisons like `===` or `<=` first, then evaluate the `&&` and `||` comparisons.
+Para las declaraciones complejas, primero evalúa las comparaciones como `===` o `<=`, y luego las comparaciones `&&` y `||`.
 
 ```javascript
 true && true

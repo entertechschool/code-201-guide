@@ -29,15 +29,15 @@ En esta clase vas a aprender sobre las animaciones en CSS, y transicionar de un 
 
 ### Recursos adicionales
 
-- [The State of JS](http://stateofjs.com)
+- [The State of JS](https://stateofjs.com/es-ES/)
 - [2023 Stack Overflow Developer Survey](https://survey.stackoverflow.co/2023/)
-- [String methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-- [Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Métodos de String](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [Métodos de Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Basics of "pass by value" vs. "pass by reference"](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
 
 
 - Lecturas sugeridas de JS
-  - [Eloquent JavaScript](http://eloquentjavascript.net/)
+  - [Eloquent JavaScript](https://eloquentjs-es.thedojo.mx/)
   - [JS, the Good Parts](http://shop.oreilly.com/product/9780596517748.do)
   - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
   - [Eric Elliott's articles on Medium](https://medium.com/@_ericelliott)

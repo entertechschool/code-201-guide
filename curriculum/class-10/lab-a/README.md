@@ -1,7 +1,7 @@
 ﻿# Resumen de la tarea: Laboratorio 10
 
 Lee este documento por completo antes de comenzar con el laboratorio. Puedes ver esta tarea en una nueva pestaña
-[AQUÍ](https://codefellows.github.io/code-201-guide/curriculum/class-10/lab-a/){:target="_blank"}
+[AQUÍ](https://entertechschool.github.io/code-201-guide/curriculum/class-10/lab-a/){:target="_blank"}
 
 ## Descripción del problema
 

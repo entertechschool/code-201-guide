@@ -43,7 +43,7 @@ El código de inicio para este laboratorio de encuentra en este [repositorio pla
 ## Instrucciones de envío
 
 1. - Envía el enlace a tu PR más reciente de tu repositorio de GitHub para este proyecto.
-1. Despliega tu repositorio de GitHub utilizando [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:  target="_blank"}.
+1. Despliega tu repositorio de GitHub utilizando [Github Pages](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site){:  target="_blank"}.
 1. Añade un comentario al envío de Canvas con el enlace del despliegue de este proyecto en GitHub.
 1. Añade un comentario al envío de Canvas con respuestas a las siguientes preguntas:
     - ¿Cómo te fue, en general?

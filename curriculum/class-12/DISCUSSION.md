@@ -6,7 +6,8 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 ## Lecturas
 
-[JavaScript Canvas](https://www.javascripttutorial.net/web-apis/javascript-canvas/){:target="_blank"}
+[Canvas - una introducción](https://w3.unpocodetodo.info/canvas/introduccion.php){:target="_blank"}
+[Uso básico de Canvas](https://developer.mozilla.org/es/docs/Web/API/Canvas_API/Tutorial/Basic_usage){:target="_blank"}
 
 1. ¿Qué es lo que el `<canvas>` le permite lograr al desarrollador?
 1. ¿Cuál es la importancia de cerrar la etiqueta `</canvas>`?
@@ -34,8 +35,8 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 ## Marcadores y Repaso
 
-[Drawing Shapes With Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes){:target="_blank"}
+[Dibujando formas con canvas](https://developer.mozilla.org/es/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes){:target="_blank"}
+<!--Aquí-->
+[Applying Style and Colors - Canvas API](https://developer.mozilla.org/es/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors){:target="_blank"}
 
-[Applying Style and Colors - Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors){:target="_blank"}
-
-[Drawing Text - Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text){:target="_blank"}
+[Dibujar texto - Canvas API](https://developer.mozilla.org/es/docs/Web/API/Canvas_API/Tutorial/Drawing_text){:target="_blank"}

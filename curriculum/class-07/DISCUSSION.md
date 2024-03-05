@@ -10,24 +10,25 @@ Revisa las instrucciones de envío para orientarte sobre cómo completar y envia
 
 1. Explica por qué necesitamos los modelos de dominio.
 
-[HTML Table Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics){:target="_blank"}
+[Conceptos básicos de las tablas HTML](https://developer.mozilla.org/es/docs/Learn/HTML/Tables/Basics){:target="_blank"}
 
 1. ¿Por qué no se debe utilizar tablas para los layout de página?
 1. Enumera y describe 3 diferentes elementos semánticos HTML utilizados en un `<table>`.
 
-[Introducing Constructors](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#introducing_constructors){:target="_blank"}
+[Introducción a los Constructores](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Basics#introducing_constructors){:target="_blank"}
 
 1. ¿Qué es un constructor y cuáles son las ventajas de utilizarlo?
 1. ¿Cómo es que el término `this` se diferencia cuando se utiliza en un objeto literal y cuando se utiliza en un constructor?
-
-[Object Prototypes Using A Constructor](https://ui.dev/beginners-guide-to-javascript-prototype){:target="_blank"}
+<!--Este-->
+[Herencia prototípica](https://es.javascript.info/prototype-inheritance){:target="_blank"}
+[Prototipos nativos](https://es.javascript.info/native-prototypes){:target="_blank"}
 
 1. Explica los prototipos y las herencias por medio de una analogía sobre tu experiencia laboral previa.
    - *NOTA: Esta es una pregunta común en las entrevistas para desarrolladores front end*
 
 ## Marcadores y Repaso
 
-[HTML Table Advanced Features and Accessibility](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced){:target="_blank"}
+[Funciones avanzadas de las tablas HTML y accesibilidad](https://developer.mozilla.org/es/docs/Learn/HTML/Tables/Advanced){:target="_blank"}
 
 <!--
 ## Recursos adicionales
