@@ -10,7 +10,7 @@ Que una de las herramientas más útiles en la educación para adultos es la ref
 
 ![Kolb's Adult Learning Cycle (via psychologytoday.com)](learning-kolb.jpg)
 
-Este es un modelo de estilo de aprendizaje desarrollado por el investigador David Kolb y es un principio fundamental en la forma en la que está diseñado nuestro plan de estudios y cómo se enseña en Code Fellows. Ten en cuenta el componente de "Observación Reflexiva"; es un diferenciador principal entre la forma en la que aprenden los adultos y la forma en que aprenden los niños.
+Este es un modelo de estilo de aprendizaje desarrollado por el investigador David Kolb y es un principio fundamental en la forma en la que está diseñado nuestro plan de estudios y cómo se enseña en Enter Tech School. Ten en cuenta el componente de "Observación Reflexiva"; es un diferenciador principal entre la forma en la que aprenden los adultos y la forma en que aprenden los niños.
 
 Como adulto, aprender es diferente en comparación a como lo era cuando eras más joven. Haz una lectura rápida de [este artículo](https://elearningindustry.com/pedagogy-vs-andragogy-in-elearning-can-you-tell-the-difference){:target="_blank"} que describe la diferencia entre andragogía (aprendizaje orientado a adultos) y pedagogía (aprendizaje orientado a niños).
 
