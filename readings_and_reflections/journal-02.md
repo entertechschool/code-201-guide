@@ -14,4 +14,4 @@ Escribe una relfexión breve acerca de lo aprendido hoy, o utilizar la siguiente
 
 En otras palabras, tus experiencias personales al aprender las cosas que hiciste antes de aprender a programar harán que esta experiencia sea más significativa para ti, y reflexionar acerca de tus experiencias es esencial para maximizar lo que aprendes con Enter Tech School. ¿Cómo crees que tus experiencias personales y profesionales anteriores te ayudarán en esta nueva labor?
 
-***Registra tus pensamientos en el área de texto a continuación; ten en cuenta que tu instructor y TA tendrán acceso a tu regustro en esta tarea, pero este contenido no es visible al público.***
+***Registra tus pensamientos en el área de texto a continuación; ten en cuenta que tu instructor y TA tendrán acceso a tu registro en esta tarea, pero este contenido no es visible al público.***
