@@ -1,4 +1,4 @@
-﻿# Semana del proyecto Hito 4
+﻿# Semana del proyecto: Hito 4
 
 ## Preparación de la presentación
 
