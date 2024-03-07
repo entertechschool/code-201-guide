@@ -1,6 +1,6 @@
 ﻿# Semana del proyecto Hito 2
 
-# Fase de desarrollo
+## Fase de desarrollo
 
 Ahora que tu proyecto ha iniciado, así es como debes organizar los esfuerzos de desarrollo de tu equipo:
 
