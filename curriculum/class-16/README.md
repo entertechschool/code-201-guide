@@ -1,4 +1,4 @@
-﻿# Semana del proyecto Hito 1
+﻿# Semana del proyecto: Hito 1
 
 ## Fase de planificación
 
