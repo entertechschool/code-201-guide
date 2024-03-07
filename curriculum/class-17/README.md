@@ -1,4 +1,4 @@
-﻿# Semana del proyecto Hito 2
+﻿# Semana del proyecto: Hito 2
 
 ## Fase de desarrollo
 
