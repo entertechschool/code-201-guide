@@ -1,4 +1,4 @@
-﻿# Semana del proyecto Hito 5
+﻿# Semana del proyecto: Hito 5
 
 ## Día de la presentación
 
