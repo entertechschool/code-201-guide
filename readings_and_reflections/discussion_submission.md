@@ -6,7 +6,7 @@ layout: minimal
 
 - Lee para entender los recursos asignados para esta clase y mira los videos asignados. 
 - Ojea y guarda los recursos adicionales proporcionados.
-- Añade una nueva página a tus **notas de lectura**.
+- Añade una nueva página a tu repositorio **reading-notes**.
 - Añade un enlace a esta nueva página debajo del Índice de este curso.
 - Completa la tarea en tu nueva página añadiendo las siguientes notas:
   - Comienza con un enunciado sobre por qué este tema es importante y cómo se relaciona con lo que estás estudiando en este módulo.
