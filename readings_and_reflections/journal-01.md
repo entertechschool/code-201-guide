@@ -26,4 +26,4 @@ Considera la siguiente cita del artículo vinculado anteriormente:
 
 En otras palabras, deberías evaluar consistentemente tu aprendizaje, y tu registro de aprendizaje es una excelente forma de monitorearlo. ¿Cómo te ves planeando y evaluando tu aprendizaje? ¿Qué detalles vas a registrar y/o medir? ¿Cada cuánto tiempo vas a evaluar lo aprendido?
 
-***Registra tus pensamientos en el área de texto a continuación, tendrás una tarea como esta en cada clase. Ten en cuenta que tu instructor y TA tendrán acceso a tu regustro en esta tarea, pero este contenido no es visible al público.**
+***Registra tus pensamientos en el área de texto a continuación, tendrás una tarea como esta en cada clase. Ten en cuenta que tu instructor y TA tendrán acceso a tu registro en esta tarea, pero este contenido no es visible al público.**
