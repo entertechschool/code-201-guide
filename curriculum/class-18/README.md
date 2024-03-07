@@ -1,4 +1,4 @@
-﻿# Semana del proyecto Hito 3
+﻿# Semana del proyecto: Hito 3
 
 ## Desarrollo
 
