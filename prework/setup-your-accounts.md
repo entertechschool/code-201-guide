@@ -29,7 +29,7 @@ Sige [estos pasos](https://support.google.com/accounts/answer/27441) para config
 
 Cuando completes la inscripción al curso, recibirás un correo electrónico invitándote a unirte a Canvas para este curso. Sige las instrucciones del correo electrónico para conectarte.
 
-Tómate unos minutos para familiarizarte con Canvas. Para empezar, mira este [vídeo de descripción general del lienzo (5 minutos)](https://youtu.be/bZ_z8f2Q_EI){:target="_blank"}. **Consejo profesional**: Luego simplemente indaga y explora un poco, especialmente si no has usado un LMS antes.
+Tómate unos minutos para familiarizarte con Canvas. Para empezar, mira este [vídeo de descripción general de Canvas (5 minutos)](https://youtu.be/bZ_z8f2Q_EI){:target="_blank"}. **Consejo profesional**: Luego simplemente indaga y explora un poco, especialmente si no has usado un LMS antes.
 
 Una vez que lo hayas dominado, hay algunas configuraciones clave que es importante que ajustes de inmediato.
 
