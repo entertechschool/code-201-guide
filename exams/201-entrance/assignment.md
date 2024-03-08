@@ -1,10 +1,10 @@
-Welcome to the Code 201 Entrance Exam. Please read these instructions carefully. 
+Bienvenido al examen de ingreso a Code 201. Lee atentamente estas instrucciones.
 
-- This is an individual test: you may NOT collaborate with others. 
-- A score of 80% or higher is required to pass the exam. 
-- As you prepare to take this test, think of it as a quiz covering all of the Code 102 topics. 
-- You are not expected to solve these challenges just by looking over the choices. 
-- You are expected to use your professional tools and problem-solving skills to empirically find the answers. 
-- Take time to work with the code in your editor and in your browser. 
+- Esta es una prueba individual: NO podrás colaborar con otros.
+- Se requiere una puntuación igual o superior al 80% para aprobar el examen.
+- Para tu preparación, piensa en este examen como un cuestionario que cubre todos los temas de Code 102.
+- No esperamos que resuelvas estos desafíos simplemente revisando las opciones.
+- Esperamos que utilices tus herramientas profesionales y tus habilidades de resolución de problemas para encontrar las respuestas de forma empírica.
+- Tómate el tiempo para trabajar con tu editor de código y tu navegador.
 
-Be thoughtful, and have fun with it!
+¡Sé reflexivo y diviértete con ello!
