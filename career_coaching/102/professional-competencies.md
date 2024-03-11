@@ -15,7 +15,7 @@ a la organización hacia objetivos comerciales más amplios, en consonancia con 
    <dd>Busca oportunidades de interacción con el cliente, como defensor del cliente, para anticipar y descubrir sus necesidades. Utiliza información y datos detallados sobre el cliente para ofrecer resultados de alta calidad y agregar valor. Ve las funciones como parte de una experiencia de cliente integrada.</dd>
 </dl>
 
-## La competencia de mentalidad de crecimiento
+## La competencia del Growth Mindset
 
 Demostrado por el compromiso con la mejora continua a través de la adaptabilidad, el optimismo, la curiosidad y la apertura a la retroalimentación.
 
@@ -27,18 +27,18 @@ Demostrado por el compromiso con la mejora continua a través de la adaptabilida
    <dt>Mejora constante </dt>
    <dd>Invierte continuamente en crecimiento personal y profesional. Se mantiene técnicamente relevante al estar al tanto de las nuevas tecnologías y prácticas. Conoce las últimas tendencias de la industria leyendo libros, blogs, asistiendo a talleres, reuniones, clases y conferencias.</dd>
    <dt>Manejo de la ambigüedad </dt>
-   <dd>Funciona eficazmente con información limitada y sin comprender completamente el panorama completo. Encuentra un camino a seguir cuando no hay próximos pasos claros y trabaja con preguntas abiertas mientras mantiene una actitud constructiva en momentos de estrés. Puede participar en la creación de un diseño sólido con requisitos vagos. Puede cambiar de estrategia rápidamente cuando el enfoque inicial no funciona.</dd>
+   <dd>Funciona eficazmente con información limitada y sin comprender el panorama completo. Encuentra un camino a seguir cuando no hay próximos pasos claros y trabaja con preguntas abiertas mientras mantiene una actitud constructiva en momentos de estrés. Puede participar en la creación de un diseño sólido con requisitos ambiguos. Puede cambiar de estrategia rápidamente cuando el enfoque inicial no funciona.</dd>
    <dt>Inclusividad </dt>
    <dd>Abraza la diversidad de pensamiento, estilo de trabajo, perspectiva y experiencias fuera de las propias. Involucra activamente a personas que de otro modo podrían quedar excluidas o marginadas debido a su raza, género, discapacidades físicas o de aprendizaje, estilos de vida o por tener puntos de vista diferentes. Emocionalmente consciente y responsable al expresar preguntas y opiniones.</dd>
    <dt>Apertura </dt>
-   <dd>Busca y escucha comentarios sobre su trabajo y toma las medidas adecuadas en respuesta. Abierto a nuevas ideas, procesos y formas de hacer las cosas. Se centra en los resultados positivos y asume la responsabilidad de los malos resultados.</dd>
+   <dd>Busca y escucha comentarios sobre tu trabajo y toma las medidas adecuadas en respuesta. Abierto a nuevas ideas, procesos y formas de hacer las cosas. Se centra en los resultados positivos y asume la responsabilidad de los malos resultados.</dd>
    <dt>Ambición e iniciativa </dt>
    <dd>Demuestra impulso personal sin necesidad de reconocimiento o recompensa. Cuando hay tiempo de inactividad, busca una tarea productiva. Demuestra una tendencia a la acción con una fuerte voluntad de realizar la tarea con excelencia.</dd>
 </dl>
 
 ## La competencia de liderazgo
 
-Demostrado por su capacidad para influir en otros modelando responsabilidad e integridad, construyendo relaciones y asesorando a otros.
+Demostrado por tu capacidad para influir en otros modelando responsabilidad e integridad, construyendo relaciones y asesorando a otros.
 
 <dl>
    <dt>Responsabilidad</dt>
