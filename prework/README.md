@@ -6,7 +6,7 @@ Cada curso tiene una cantidad moderada de trabajo previo para ayudarte a estar l
 
 - Code 101 (no tiene trabajo previo)
 - [Code 102](/code-102-guide/curriculum/prework/)
-- [Code 201](/code-201-guide/curriculum/prework/)
+- Code 201 (próximamente)
 - Code 301 (próximamente)
 - Code 401: Full-Stack JavaScript (próximamente)
 
