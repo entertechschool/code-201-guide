@@ -51,7 +51,7 @@ Si ya tienes una cuenta de GitHub, ¡genial! Complete los pasos restantes.
 Asegúrate de seguir las mejores prácticas con tu cuenta de GitHub para impresionar a los posibles empleadores que la vean.
 
 
-Siga este [Taller Individual](https://docs.google.com/presentation/d/1WcsrMvSdZe3XyshQ_z_O8A-tPwbUmiBUv_gT8hOPX50/edit#slide=id.g2bbea01bd4_0_233){:target="_blank"} para conocer las expectativas de tu cuenta.
+Sige este [Taller Individual](https://docs.google.com/presentation/d/1WcsrMvSdZe3XyshQ_z_O8A-tPwbUmiBUv_gT8hOPX50/edit#slide=id.g2bbea01bd4_0_233){:target="_blank"} para conocer las expectativas de tu cuenta.
 
 Comparte un enlace de tu perfil e invita a tus compañeros de clase a destacar tus mejores repositorios o a seguirte si así lo desean.
 
