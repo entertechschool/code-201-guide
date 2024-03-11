@@ -27,7 +27,7 @@ Sige [estos pasos](https://support.google.com/accounts/answer/27441) para config
 
 ### Canvas Setup
 
-Cuando completes la inscripción al curso, recibirás un correo electrónico invitándote a unirte a Canvas para este curso. Sige las instrucciones del correo electrónico para conectarte.
+Cuando completes la inscripción al curso, recibirás un correo electrónico invitándote a unirte a Canvas para este curso. Sigue las instrucciones del correo electrónico para conectarte.
 
 Tómate unos minutos para familiarizarte con Canvas. Para empezar, mira este [vídeo de descripción general de Canvas (5 minutos)](https://youtu.be/bZ_z8f2Q_EI){:target="_blank"}. **Consejo profesional**: Luego simplemente indaga y explora un poco, especialmente si no has usado un LMS antes.
 
