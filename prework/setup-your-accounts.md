@@ -4,7 +4,7 @@ Ya sea si estás comenzando con el curso 102 o te hayas inscrito en el 401,¡con
 
 ## Foto de perfil
 
-Necesitarás una fotografía de tu rostro. No de tu gato ni de tu mascota. No es una caricatura ni un bitmoji. Agrega una bonita foto de tu rostro para que podamos aprender tu nombre más rápido y brindarte mejores comentarios sobre tus tareas. Tu foto de perfil debe ser idéntica en Google, Canvas, GitHub y Slack.
+Necesitarás una fotografía de tu rostro. No de tu gato ni de tu mascota. Tampoco una caricatura ni un bitmoji. Agrega una bonita foto de tu rostro para que podamos aprender tu nombre más rápido y brindarte mejores comentarios sobre tus tareas. Tu foto de perfil debe ser idéntica en Google, Canvas, GitHub y Slack.
 
 ## Familiarízate con tus herramientas en linea
 
