@@ -21,7 +21,7 @@ OpenAI es el creador de ChatGPT, un modelo de lenguaje de inteligencia artificia
 No dudes en utilizar una cuenta de Google existente si ya tienes una. Si no lo haces, podrás crear una cuenta y generar una nueva dirección de Gmail, o crear una cuenta con una dirección de correo electrónico existente de otro proveedor.
 
 
-Sige [Estos Pasos](https://support.google.com/accounts/answer/27441) para configurar una cuenta personal de Google. Guarda tu nombre de usuario y contraseña en un lugar seguro.
+Sigue [Estos Pasos](https://support.google.com/accounts/answer/27441) para configurar una cuenta personal de Google. Guarda tu nombre de usuario y contraseña en un lugar seguro.
 
 ### Canvas Setup
 
@@ -51,7 +51,7 @@ Si ya tienes una cuenta de GitHub, ¡genial! Complete los pasos restantes.
 Asegúrate de seguir las mejores prácticas con tu cuenta de GitHub para impresionar a los posibles empleadores que la vean.
 
 
-Sige este [Taller Individual](https://docs.google.com/presentation/d/1WcsrMvSdZe3XyshQ_z_O8A-tPwbUmiBUv_gT8hOPX50/edit#slide=id.g2bbea01bd4_0_233){:target="_blank"} para conocer las expectativas de tu cuenta.
+Sigue este [Taller Individual](https://docs.google.com/presentation/d/1WcsrMvSdZe3XyshQ_z_O8A-tPwbUmiBUv_gT8hOPX50/edit#slide=id.g2bbea01bd4_0_233){:target="_blank"} para conocer las expectativas de tu cuenta.
 
 Comparte un enlace de tu perfil e invita a tus compañeros de clase a destacar tus mejores repositorios o a seguirte si así lo desean.
 
