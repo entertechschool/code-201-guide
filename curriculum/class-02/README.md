@@ -31,9 +31,9 @@ Esta clase de centra en practicar con JavaScript, una introducción a los tipos 
 
 ## Notas
 
-- Questionarios:
-  - Ten en cuenta de que algunas partes del contenido del cuestionario no han sido tratados aún (por ejemplo, algunas cosas presentes en el questionario de esta clase recién se verán a detalle en la próxima).
-  - Ten en cuenta puedes repetir los questionarios de forma idefinida, y que los questionarios están diseñados para que se realicen con ayuda de notas y búsquedas en internet. Esto se trata más de lo que puedes resolver que de lo que has memorizado.
+- Cuestionarios:
+  - Ten en cuenta de que algunas partes del contenido del cuestionario no han sido tratados aún (por ejemplo, algunas cosas presentes en el cuestionario de esta clase recién se verán a detalle en la próxima).
+  - Ten en cuenta puedes repetir los cuestionarios de forma idefinida, y que los cuestionarios están diseñados para que se realicen con ayuda de notas y búsquedas en internet. Esto se trata más de lo que puedes resolver que de lo que has memorizado.
   - Además, ten en cuentra que los cuestionarios tienen dos propósitos principales:
       1. Involucrarte con el contenido de otra forma, reenforzando tus conocimientos.
       1. Ayudate a prepararte para el exámen de entrada para el curso Code 301, el cual tomarás al final del Módulo 3. Hay un puntaje mínimo que debes superar en ese exámen (80%), y además, el exámen influye en tu nota en esta clase.

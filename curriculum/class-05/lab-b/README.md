@@ -6,7 +6,7 @@ Dale los toques finales a tu sitio web About me. Asegúrate de que tu app final 
 
 ## Instrucciones
 
-Despliega tu app en GitHub Pages y dale los toques finales a tu CSS.  Crea un informe de Lighthouse, asegúrate de que tu página obtenga una puntuación entre 50-65 y añade una captura de pantalla de tu puntuación a tu README.md. Asegúrate de que app esté completa y cumpla con todos los requisitos de los laboratorios anteriores. Elimina todo el código comentado o console logs incluyendo cualquiera de los que esté comentado y fueron utilizados en el questionario.
+Despliega tu app en GitHub Pages y dale los toques finales a tu CSS.  Crea un informe de Lighthouse, asegúrate de que tu página obtenga una puntuación entre 50-65 y añade una captura de pantalla de tu puntuación a tu README.md. Asegúrate de que app esté completa y cumpla con todos los requisitos de los laboratorios anteriores. Elimina todo el código comentado o console logs incluyendo cualquiera de los que esté comentado y fueron utilizados en el cuestionario.
 
 ## Recursos
 
