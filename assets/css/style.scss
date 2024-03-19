@@ -72,14 +72,15 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
+/* Prevent truncated assignment titles */
 @media print, screen and (max-width: 1060px) {
 
-  /* Prevent truncated assignment titles: */
   header h1, section h1, footer h1 {
     white-space: normal;
+    overflow: auto;
+    text-overflow: initial;
   }
-  
-  /* Style cleanly with padding for narrow screens: */
+
   section {
     background: #fff;
     border: none;
@@ -89,4 +90,21 @@ a:hover, a:active {
     padding: 2em 4em;
     width: auto;
   }
+
+}
+
+/* Add interaction for <detail><summary> headings */
+summary {
+    cursor: pointer;
+}
+
+summary::before {
+    content: "˃";
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 100ms ease-in-out;
+}
+
+details[open] summary::before {
+    transform: rotate(90deg);
 }
