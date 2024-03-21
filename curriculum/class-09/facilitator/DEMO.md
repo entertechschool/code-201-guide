@@ -1,4 +1,4 @@
-Forms:  
+﻿Formularios:  
 ```HTML
 <div class="form">
 	<form id="new-store-form">
@@ -25,8 +25,8 @@ console.log('----------------Event Listeners-----------------');
 const submitButtonEl = document.getElementById('new-store-form');
 
 submitButtonEl.addEventListener('submit', function(event){
-  event.preventDefault(); //discuss
-  event.stopPropagation(); //discuss
+  event.preventDefault(); //hablen acerca de esto
+  event.stopPropagation(); //hablen acerca de esto
 
   const storeNameInput = event.target.name.value;
   const maxCustInput = event.target.maxCust.value;

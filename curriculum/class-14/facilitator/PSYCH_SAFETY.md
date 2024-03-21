@@ -1,107 +1,107 @@
-# 201: Psychological Safety
+﻿# 201: Seguridad Psicológica
 
-## Overview
+## Resumen
 
-In addition to being a core component of this educational environment, psychological safety is also a key factor in making successful teams across the tech industry. 
+Además de ser un componente principal de este entorno educativo, la seguridad psicológica también es un factor clave en crear equipos exitosos en la industria tecnológica. 
 
-We want our students to embody these principles, for their own enjoyment of their time with us, but also for their careers. Doing so will help them have a positive influence on their teams, their products, and their companies. 
+Queremos que nuestros estudiantes representen estos principio, para que disfruten su tiempo con nosotros, pero también para sus carreras profesionales. Hacer esto los ayudará a tener una influencia positiva en sus equipos, sus productos y sus empresas. 
 
-## Preparation
+## Preparativos
 
-Read the article assigned to the students: 
+Lee el artículo asignado a los estudiantes: 
 
-[Required Reading - What Google Learned About Teams](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)
+[Lectura Obligatoria - La búsqueda de Google del equipo perfecto](https://www.nytimes.com/es/2016/03/16/espanol/la-busqueda-de-google-por-el-equipo-perfecto.html)
 
-Create a PDF of this doc, ready to share with the class at the appropriate time:
+Crea un PDF de este documento, listo para compartir con la clase en el momendo adecuado:
 
 [How to Foster Psychological Saftey On Your Team](https://docs.google.com/document/d/19Uag1d1kcTNOq4fRDGN1TnJVfdocNuZphD3JaTP-glo)
 
-Of course, such a discussion should itself embody psychological safety. Ensure you are re-familiarized with the reading and the handout, so that you can model the concepts as much as possible during the discussion. 
+Por supuesto, ese debate deberá ser un ejemplo de seguridad psicológica. Asegúrate de que estás familiarizado con la lectura y el folleto, para que puedas hacer de modelo de los conceptos lo más que puedas durante el debate. 
 
-## Lecture Structure
-1. Instructor introduction:
-    1. With minimal introduction, dive right in to your personal pitch
-    1. Be sure it includes WHY you are in your role at your school.
-    1. Students have a Career Coaching assignment to develop their own pitch, so after you give yours, tell them that's an example for how to use it. 
-1. Confirm students did the reading:
-    1. Ask for thumbs on a sliding scale: "What percent of the reading did you get through?"
-    1. Hopefully most people completed the reading. 
-1. Student "Round Table" session: 
-    1. Introduce the discussion exercise by letting students know what to expect.
-        1. Ask students to close other windows on their screens, to focus on listening to their peers. 
-        1. There is a lot of insight and experience in the room, so you want to hear from everyone. 
-        1. You will "snake" around the "room", working through the list of students, so everyone knows when it will be thier turn to share. 
-        1. If anyone would rather, they can simply "pass".
-            1. If anyone does so, always respond with minimal fuss and a smile. 
-        1. You are looking to understand this new term "psychological safety". So you want to hear from students one of 3 things:
-            1. In your own words, what defines psychological safety.
-            1. How does your previous experience relate to the things your read?
-            1. What are the results for teams who practice psychological safety?
-        1. You will take notes directly on screen, with digital whiteboard or Zoom annotations. 
-        1. Ensure this is all clear, and re-iterate the 3 prompts above to get it started.
-        1. Segment the screen into 2 sections with a line down the middle. Do not label the sections at the start. 
-    1. Moderate the discussion:  
-        1. Your role is facilitator, not lecturer. 
-            1. Your goal is to draw out and record the ideas of the students. 
-            1. The exact outcome will be different every time, as cohorts will emphasize different aspects of the topic. 
-        1. Prompt the first student (and each successive) as minimally as possible. Mostly, just calling on them by name is sufficient. If needed: "Your thoughts?"
-        1. If they introduce themselves with their names, immediately respond with, "Hi, <name>!"
-        1. Actively listen to student response.
-            1. Be aware of your own facial expression: alert, interested, smile, nod
-            1. Be conscientious of body language: don't hover, keep eye contact with the camera.
-            1. Do not interrupt, or interject your own thoughts. Don't allow students to interrupt each other, they will all get a turn to speak. 
-            1. Do not rush students to conclude. Give them space to speak.
-            1. Identify key words or phrases that are unique to the thoughts each speaker shares. 
-        1. Interactively summarize with them, in one of the following ways:
-            1. Ask them to connect their thoughts to the reading.
-            1. In your own words, recap or restate the unique key phrase contributed .
-            1. Show empathy for the student's response, especially if they describe a bad work situation. Zero in on what the causes, as they relate to the readings. 
-        1. Create concise notes on the iPad describing the student's response.
-            1. Summarize the key contribution in 2-3 words.
-            1. Write it out on the appropriate segment of the iPad screen.
-            1. About half-way through the students, label the two columns with "**Actions** | **Results**". You can say, "You might have noticed i'm categorizing your comments..."
-            1. As you get towards the end, the **Results** side is usually light. Ask for some help in fleshing it out. 
-        1. Thank the student for their comments/sharing their story.
-1. Summarize what students told you: 
-    1. If no one identified $$ PROFIT $$ as a result, prompt the class as a whole: "Google dedicated hundreds of thousands of dollars, and years of researcher time to this! Why would they do that?" Take comments while filling in the **Results** column, until someone says it out loud.
-    1. Ask students for a summary of the **Actions** column. "Put it all into a word or guiding principle..." We often arrive at "Be kind."
-    1. Key moment: "So you are telling me, that if we just do what we were taught in kindergarten, we are going to be part of a successful, profitable, innovative, [words from board], company, where we enjoy our work, and like our team???" 
+## Estructura de la Clase
+1. Introducción del instructor:
+    1. Con una introducción mínima, comienza con tu pitch personal.
+    1. Asegúrate de que incluya POR QUÉ estás en tu puesto en tu institución.
+    1. Los estudiantes tienen una tarea de Orientación Profesional para desarrollar sus propios pitch, así que después de hacer el tuyo, diles que es un ejemplo de cómo utilizarlo. 
+1. Confirma que los estudiantes leyeron:
+    1. Pide que levanten la mano en una escala progresiva: "¿Qué porcentaje de la lectura terminaron?"
+    1. Con suerte la mayoría completaron la lectura. 
+1. Sesión de "mesa de diálogo" de los estudiantes: 
+    1. Presenta el ejercicio de debate dejando que los estudiantes sepan qué esperar.
+        1. Pídele a los estudiantes que cierren otras ventanas en sus pantallas para concentrarse en escuchar a sus compañeros. 
+        1. Hay bastante conocimiento y experiencia en la sala, así que querrás escuchar a todos. 
+        1. Irás por la "sala", revisando la lista de estudiantes para que todos sepan cuando será su turno para hablar. 
+        1. Si alguien lo prefiere, puede simplemente "no participar".
+            1. Si alguien hace esto, siempre responde con calma y una sonrisa. 
+        1. Estás tratando de entender este nuevo término "seguridad psicológica". Así que quieres escuchar una de estas 3 cosas de los estudiantes:
+            1. En tus propias palabras, qué define a la seguridad psicológica.
+            1. ¿Cómo se relaciona tu experiencia previa con las cosas que has leído?
+            1. ¿Cuáles son los resultados de los equipos que practican la seguridad psicológica?
+        1. Tomarás notas en la pantalla, con una pizarra digitar o las anotaciones de Zoom. 
+        1. Asegúrate de que esto esté claro, y vuelve a repetir las 3 indicaciones anteriores para comenzar.
+        1. Divide la pantalla en 2 secciones con una línea en el medio. No le pongas título a las secciones en un comienzo. 
+    1. Modera el debate:  
+        1. Tu rol es de instructor, no profesor. 
+            1. Tu objetivo es extraer y recopilar las ideas de los estudiantes. 
+            1. Las conclusiones exactas serán diferentes cada vez, ya que los grupos enfatizarán diferentes aspectos del tema. 
+        1. Pregúntale al primer alumnos (y a los que siguen) lo menos posible. En general, llamarlo por su nombre es suficiente. Si es necesario: "¿Cuál es tu opinión?
+        1. Si se presentan con sus nombres, inmediatamente responde con "¡Hola, <nombre>!"
+        1. Escucha de manera activa las respuestas de los estudiantes.
+            1. Ten en cuenta tus expresiones faciales: alerta, interesado, sonrisa, inclinaciones de cabeza
+            1. Se consciente de tu lenguaje corporal: no te inclines, mantén el contacto visual con la cámara.
+            1. No interrumpas o interpongas tus pensamientos. No permitas que los estudiantes se interrumpan entre ellos, todos tendrán un turno para hablar. 
+            1. No apresures a los estudiantes a que terminen. Dales espacio para hablar.
+            1. Identifica las palabras claves o frases que son únicas a los pensamientos que cada uno comparte. 
+        1. Haz un resumen interactivo con ellos, en una de las siguientes maneras:
+            1. Pídeles que conecten sus ideas con la lectura.
+            1. En tus propias palabras, resume o reitera la frase clave única que se ha aportado.
+            1. Muestra empatía por las respuestas de los estudiantes, especialmente si describen una mala situación laboral. Concéntrate en lo que lo causa, mientras que ellos lo relacionan con las lecturas. 
+        1. Crea notas concisas en el iPad describiendo las respuestas de los estudiantes.
+            1. Resume la contribución clave en 2-3 palabras.
+            1. Escríbela en el segmento adecuado de la pantalla del iPad.
+            1. Como a la mitad de la lista de estudiantes, etiqueta a los columnas como "**Acciones** | **Resultados**". Puedes decir, "Quizás hayan notado que estoy clasificando sus comentarios..."
+            1. Mientras te acercas al final, la columna **Resultados** por lo general no estará muy llena. Pide algo de ayuda para completarla. 
+        1. Da las gracias a los estudiantes por sus comentarios/compartir sus historias.
+1. Resume lo que los estudiantes te dijeron: 
+    1. Si nadie identificó $$ GANANCIAS $$ como un resultado, indícale a toda la clase: "¡Google dedicó cientos de miles de dólares, y años de investigación en esto! ¿Por qué harían eso?" Haz comentarios mientras llenas la columna **Resultados**, hasta que alguien lo diga en voz alta.
+    1. Pídele a los estudiantes un resumen de la columna **Acciones**. "Resúmanlo todo en una palabra o principio básico..." A menudo llegamos a la conclusión "Sé amable."
+    1. Momento clave: "Entonces, ¿me están diciendo que si solo hacemos lo que nos enseñaron de pequeños, vamos a ser parte de una empresa exitosa, lucrativa, innovadora, [palabras de la pizarra], en donde disfrutaremos de nuestro trabajo y nos llevaremos bien con nuestro equipo?" 
     1. Boom. 
-1. Worksheet Session:
-    1. Introduce the worksheet session: See directions below.
-    1. Moderate the worksheet session: See directions below.
-1. Conclude by kicking off the group discussion:
-    1. "You know your project teams? It's time to put this all in to action."
-    1. "Do you want your Project Time to be [**Result** words]?"
-    1. "Gather with your team, and share with them your top strength, and as you feel comfortable, how you want to grow. You can hold each other accountable."
-    1. Ask the instructor for the time to resume classroom lecture. 
-    1. "You have until then, to discuss with your team, and take a break. I look forward to seeing you around."
-    1. "THANK YOU!"
+1. Sesión de hojas de trabajo:
+    1. Presenta la sesión de hojas de trabajo: Mira las instrucciones a continuación.
+    1. Modera la sesión de hojas de trabajo: Mira las instrucciones a continuación.
+1. Concluye iniciando el debade grupal:
+    1. "¿Conocen a sus grupos del proyecto? Es momento de poner todo esto en marcha."
+    1. "¿Quieren que su tiempo en el proyecto sea [palabras de la columna **Resultados**]?"
+    1. "Reúnanse con sus grupos y compartan sus mayores fortaleces con ellos, y mientras se van sintiendo más cómodos, cómo quieres mejorar. Pueden responsabilizarse mutuamente."
+    1. Pregúntale al instructor a qué hora se reanuda la clase. 
+    1. "Tienen hasta entonces para debatir con sus grupos y luego tomar un descanso. Espero verlos de vuelta."
+    1. "¡GRACIAS!"
 
-### Worksheet Session Setup
+### Preparación de la Sesión de hojas de trabajo
 
-Provide students with a little quiet self-reflection time. 
+Proporciona a los estudiantes un pequeño tiempo autorreflexión en silencio. 
 
-1. "The same research team behind the findings we discussed has produced this helpful list of **tactical** steps that produce psychological safety." 
-1. "Take a minute to identify your top 3 strengths, and top 3 areas where you'd like to grow."
-1. "Mark up the PDF by line item with 'Strength' or 'Growth'.
+1. "El mismo equipo de investigación detrás de las conclusiones que debatimos ha producido esta útil lista de pasos **estratégicos** que producen la seguridad psicológica." 
+1. "Tomen un minuto para identificar sus 3 mayores fortalezas y las 3 mayores áreas en las que les gustaría mejorar."
+1. Marca el PDF por elementos con 'Fortaleza' o 'a mejorar'.
 
-Initiate the time of quiet reflection by loudly vocalizing: "OK! You have 2 minutes to scan this, and label your top 3 strengths, and your top 3 growth opportunies, go!" 
+Comienza con el tiempo de reflexión en silencio diciento: "¡OK! Tienen 2 minutos para inspeccionar esto, marquen sus 3 mayores fortaleza y sus 3 mayores oportunidades de mejora, ¡comencemos! 
 
-Note the time, on your phone, laptop, or watch. 
+Toma el tiempo en tu teléfono, laptop o reloj. 
 
-Watch the class as they make progress down the list of items. When you see the first person or two finish, give a warning of "One minute!" or "30 seconds!" depending on how it's looking like everyone else is doing. It doesn't need to be a literal 2 minutes. 
+Mira a la clase mientras avanzan por la lista de elementos. Cuando veas a la primera persona o dos que han terminado, da una advertencia de "¡Queda un minuto!" o "¡Quedan 30 segundos!" dependiendo de cómo parece que van los demás. No tiene que ser literalmente 2 minutos. 
 
-Conclude with: "Ok, I'd love to hear from you!"
+Concluye con: "Ok, ¡quiero saber sobre ustedes!"
 
-### Worksheet Session Discussion Moderation
+### Moderación del debate de la sesión de hojas de trabajo
 
-Students are generally more willing to share strengths, so start by asking, "Who would like to share one of their top stregnths?"
+Por lo general, los estudiantes están más dispuestos a compartir sus fortalezas, así que comienza diciendo "¿Quíen quiere compartir una de sus mayores fortalezas?"
 
-Take comments from 3 to 5 students, as time allows. Don't comment or elaborate on what they share, just listen, and reply with "Thanks."
+Toma los comentarios de 3 a 5 alumnos, según el tiempo. No comentes o te extiendas en lo que comparten, solo escucha y responde con "Gracias."
 
-Then ask, "Who would like to share an area of growth?" Hopefully, they are feeling safe enough to be vulnerable. Don't comment or elaborate on what they share, just listen, and reply with "Thanks," or "Yeah, that's hard to do!" 
+Luego pregunta "¿Quién quisiera compartir un área de crecimiento?" Con suerte, se sentirán lo suficientemente seguros para ser vulnerables. No comentes o te extiendas en lo que comparten, solo escucha y responde con "Gracias", o "Sí, ¡eso es difícil de lograr!" 
 
-Exception: If someone mentions one of the items that includes moderating team members, like "Don't interrupt, or allow interruptions", then you can respond with suggested language for doing that. "That can be tricky! But you want to be sure to let the speaker finish, and tell the interrupter: 'Let's hear out this thought, then I'd love to hear what you want to add.' or similar."
+Una excepción: Si alguien menciona uno de los elementos que incluye moderar a los miembros del equipo como "No interrumpir o permitir las interrupciones", entonces puedes responder con el lenguaje sugerido para hacerlo. "¡Eso puede ser difícil! Pero quieres asegurarte de que el interlocutor termine, así que dile al que interrumpe: 'Escuchemos esta idea, luego me gustaría oir lo que tienes para añadir' o algo similar."
 
-After a few people have shared growth areas, reconnect it to Project Work. Reiterate the benefits of doing these things, in terms of how it will affect their next few days, when things get stressful. 
+Después de que algunas personas hayan compartido sus áreas de crecimiento, conéctalo con el Proyecto. Recalca los beneficios de hacer estas cosas, en términos de como afectará sus próximos dias, cuando las cosas se vuelvan estresantes. 

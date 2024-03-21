@@ -1,33 +1,33 @@
-# Demo
+﻿# Desmostración
 
-## Overall Guide
+## Guía General
 
-- Start this demo by creating a git repo and cloning it to your machine.
-- After each piece of the demo, make a commit with a descriptive message.
+- Comienza esta demostración creando un repositorio de git y clonándolo a tu equipo.
+- Después de cada parte de la demostración, haz un commit con un mensaje descriptivo.
 
-## Data Types
+## Tipos de Datos
 
-There are three main data types in javascript:
+Hay tres tipos de datos principales en javascript:
 
 1. string
-   - Example: 'this is a string'
+   - Ejemplo: 'esto es un string'
 1. number
-   - Example: 4, 8, 15
+   - Ejemplo: 4, 8, 15
 1. boolean
-   - Example: true, false
+   - Ejemplo: true, false
 
-we can determine what the data type of a specific value by using the `typeof` operator.
+podemos determinar el tipo de dato de un valor específico utilizando el operador `typeof`.
 
-Source: [MDN - typeof operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+Fuente: [MDN - typeof operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 
-## Conditionals
+## Condicionales
 
-There are 2 different types of conditionals:
+Existen 2 tipos de condicionales:
 
-1. if/if....else statements
-1. switch statements
+1. declaraciones if/if....else
+1. declaraciones switch
 
-With the addition of conditionals and the student's prior knowledge of for loops, we can discuss scope. Give examples of the difference between variables declared inside a code block with the `var` keyword and with the `let` keyword. The highlight should be that if we want to use the value of a variable later on in our code, we should declare it in the global scope.
+Con la incorporación de los condicionales y el conocimiento previo del alumno acerca de los bucles for, podemos hablar del scope. Da ejemplos de la diferencia entre variables declaradas dentro de un bloque de código con la palabra clave `var` y con la palabra clave `let`. Lo más destacable será que si queremos utilizar el valor de una variable más adelante en nuestro código, debemos declararla en el scope global.
 
 ```js
 if(true){
@@ -41,13 +41,13 @@ if(true){
 console.log('favoriteColor :', favoriteColor);
 ```
 
-### If Statements
+### Declaraciones If
 
-If statement conditionals are a part of the prework, so you shouldn't need go over these too much into depth.
+Los condicionales if son parte del prework, así que no necesitas repasarlos a profundidad.
 
-The whole point of an if statement is to determine "IF" a condition is met.
+El punto de una declaración if es determinar "SI" se cumple una condición.
 
-example:
+ejemplo:
 
 ```js
 let name = 'Jane Smith';
@@ -56,18 +56,18 @@ if(name === "string"){
 }
 ```
 
-## Demo Instructions
+## Instrucciones de la demostración
 
-(refer to the app.js file in the demo folder):
+(consulta el archivo app.js en el folder demo):
 
-1. Discuss with the students about the concept of "Separation of Concerns." Create a new `app.js` file and save it externally from the `index.html` file.
-1. Add the `<script>` tag with the new `app.js` file in your html file right before the `</body>`.
-1. Write code to `Prompt()` or `Confirm()` the user to get input. Take the response and write out a conditional statement that gets evaluated. Follow the app.js file as a guideline for code.
-1. Show the students the difference between the && (and) operator and the || (or) operator.
+1. Habla con los estudiantes acerca del concepto "Separación de Intereses". Crea un nuevo archivo `app.js` y guárdalo de forma externa del archivo `index.html`.
+1. Añade la etiqueta `<script>` con el nuevo archivo `app.js` en tu archivo html justo antes del `</body>`.
+1. Escribe el código para que se le indique al usuario para obtener un input con `Prompt()` o `Confirm()`. Toma la respuesta y escribe una declaración condicional que sea evaluada. Sigue el archivo app.js como una guía para el código.
+1. Muéstrale a los estudiantes la diferencia entre el operador && (y) y el operador || (o).
 
-## Switch Statements
+## Declaraciones Switch
 
-Switch statements are similar to if conditionals, except they evaluate the value against different 'cases'. Here is an example:
+Las declaraciones switch son similares a las condicionales if, excepto que evalúan el valor en diferentes 'casos'. Este es un ejemplo:
 
 ```js
 let expr = 'Papayas';
@@ -78,109 +78,109 @@ switch (expr) {
   case 'Mangoes':
   case 'Papayas':
     console.log('Mangoes and papayas are $2.79 a pound.');
-    // expected output: "Mangoes and papayas are $2.79 a pound."
+    // output esperado: "Mangoes and papayas are $2.79 a pound."
     break;
   default:
     console.log('Sorry, we are out of ' + expr + '.');
 }
 ```
 
-Source: [MDN switch statements](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/switch)
+Fuente: [MDN switch statements](https://developer.mozilla.org/es/docs/web/javascript/reference/statements/switch)
 
-## Demo Website
+## Demostración de Página web
 
-1. Add onto your current code by asking the user a question.
-1. Evaluate the response using a switch statement.
+1. Añade más a tu código al hacerle una pregunta al usuario.
+1. Evalúa la respuesta utilizando una declaración switch.
 
 ## Arrays
 
-**Note that this portion of lecture is a preview of topics that won't be necessary for today's lab. If you are running short on time, skip the discussion of arrays.**
+**Ten en cuenta de que esta parte de la clase es una vista previa de temas que no serán necesarios para el laboratorio de hoy. Si no tienes mucho tiempo, sáltate esta conversación sobre arrays.**
 
-This demo works best in [repl.it](https://repl.it/). This is a great location that we can just demonstrate and showcase javascript code without having to create a whole new project. They will not be using Arrays in their lab today, so keeping this separate from the demo code is a good idea. *You are still able to share the result of your repl.it with the class at the end.*
+Esta demostración funciona mejor en [repl.it](https://repl.it/). Este es un buen lugar para mostrar y ejecutar código javascript sin tener que crear un nuevo proyecto desde cero. Los alumnos no utilizarán Arrays en su laboratorio hoy, así que mantener esto separado del código de la demostración es una buena idea. *De todas formas puedes mostrar el resultado de tu repl.it con la clase al final.*
 
-Arrays are brand new concepts for the students. Arrays are ways that we can group together data in one location. An array, at it's core, is an accumulation of data, similar to a list, that can be used to hold information for later use.
+Los arrays son conceptos nuevos para los alumnos. Los arrays son una forma de agrupar datos en una ubicación. Un array, en esencia, es una acumulación de datos, similar a una lista, que se puede utilizar para retener información para utilizarla después.
 
-There are many different ways that we can create arrays in javascript.
+Hay muchas formas de crear arrays en javascript.
 
 ```javascript
-// Create an empty array
+// Crea un array vacío
 let emptyArray = [];
 
-// Create an array full of "quiz answers' by putting the values directly into a new array
+// Crea un array lleno de "respuestas a un cuestionario" poniendo los valores directamente en un nuevo array
 let quizAnswers = ['b', 'd', 'a', 'a', 'c'];
 
-// we can even create an array of arrays!
+// ¡incluso podemos crear un array de arrays!
 let nestedArray = [ ['yes', 'y'], ['no', 'n'], ['no', 'n'] ];
-// this is exactly the same as the nestedArray above, except just formatted slightly different.
+// esto es igual que el nestedArray anterior, solo que con un formato ligeramente diferente.
 let multiLineArray = [
                       ['yes', 'y'],
                       ['no', 'n'],
                       ['no', 'n']
                     ];
 
-// we don't always have to commit to one data type in an array. here is an example of a mixed data type array.
+// no siempre tenemos que comprometernos a un solo tipo de datos en un array. Este es un ejemplo de un array con datos de diferentes tipos.
 let mixedArray = ['Harry', 'Potter', 10, true, 'luxurious'];
 ```
 
-Arrays are what we call ***index-based***. This means that every item in the array is at a specific index/location of that array. Array indexes start at 0 and increment by one for every position they are from the beginning.
+Los arrays son ***indexados***. Esto significa que cada elemento en el array está ubicado en un index/locación específica del array. Los index de un array comienzan desde 0 e incrementan en uno por cada posición en la que están desde el inicio.
 
-For example, in the array `[4,8,15,16,23,42]`:
+Por ejemplo, en el array `[4,8,15,16,23,42]`:
 
-- The value of 4 is at index of 0.
-- The value of 8 is at index of 1
-- The value of 42 is at the index of 5.
+- El valor 4 está en el index 0.
+- El valor 8 está en el index 1.
+- El valor 42 está en el index 5.
 
-This array is a *length* of 6, and has an index range of 0-5.
+Este array tiene una longitud de 6, y tiene un rango de index de 0-5.
 
-If we wanted to change the value of a specific index in the array, we can "target" it by specifying the index in the array directly.
+Si queremos cambiar el valor de un index específico en el array, podemos "ubicarlo" especificando el index en el array directamente.
 
-Here is an example:
+Este es un ejemplo:
 
 ```js
 let myArray = ['a' 'b', 'c'];
-myArray[0] = 'z'; // myArray is now equal to ['z' 'b', 'c']
+myArray[0] = 'z'; // myArray ahora es igual a ['z' 'b', 'c']
 ```
 
-We can easily check if a specific index in the array is equal to specific value
+Podemos revisar fácilmente si un index específico en el array es igual a un valor específico
 
 ```js
 let myArray = ['a' 'b', 'c'];
 if(myArray[1] === 'b')
 {
-    // do something here
+    // haz algo aquí
 }
 ```
 
-If we wanted to "add" an item to the end of the array, we can do so by the `.push()` method.
+Si queremos "añadir" un elemento al final de array, podemos hacerlo con el método `.push()`.
 
 ```js
 let myArray = [1,2,3,4,5];
 myArray.push(6);
-// myArray now is equal to [1,2,3,4,5,6]
+// myArray ahora es igual a [1,2,3,4,5,6]
 ```
 
-To remove an item from the end of an array, is a `.pop()`.
+Para eliminar un elemento del final de un array, utiliza `.pop()`.
 
 ```js
 let myArray = [1,2,3,4,5];
 myArray.pop();
-// myArray is now equal to [1,2,3,4]
+// myArray ahora es igual a [1,2,3,4]
 ```
 
-Feel free to discuss `shift()` and `unshift()` if you have time. Not required, but may be worth talking about if you feel the class is ready for this.
+Siéntete libre de explicar `shift()` y `unshift()` si tienes tiempo. No es obligatorio, pero puede valer la pena hablarlo si ves que la clase está lista para ello.
 
 ## Git vs GitHub
 
-Here are things you should highlight as you talk about the differences between git and GitHub:
+Estas son cosas que debes resaltar mientras hablas sobre la diferencia entre git y GitHub:
 
-- git is what we have on our local machine to track changes to our projects through a series of commits and branches.
-- GitHub is "the cloud" that stores our code so that we can share/collaborate amongst teams.
-- We use git on our local machine to send changes up to GitHub.
+- git es lo que tenemos en nuestra máquina local para monitorear los cambios en nuestros proyectos mediante una serie de commits y ramas.
+- GitHub es "la nube" que almacena nuestro código para que podramos compartir/colaborar entre equipos.
+- Utilizamos git en nuestra máquina local y mandamos los cambios a GitHub.
 
-### GitHub Walkthrough
+### Guía de Github
 
-Walk the students through the process of creating a new GH repo and clone it down to their `~/codefellows/201/` directory on their local machine.
+Guía a los estudiantes a través del proceso de crear un nuevo repositorio en GH y clonarlo a sus directorios `~/entertechschool/201/` a sus máquinas locales.
 
-While on `main`, have them all setup their `app.js`, `index.html`, and `style.css` with all the necessary boilerplate code to get them working together. Then `A-C-P` as a group to `main`.
+Mientras estén en `main`, haz que configuren sus `app.js`, `index.html`, y `style.css` con toda la plantilla de código necesaria para que trabajen juntos. Luego, que todo el grupo haga `A-C-P` hacia `main`.
 
-Be sure to show them the [lab setup instructions](../project-setup.md) document to assist them in future GitHub repo creations.
+Asegúrate de mostrarles el documento de [instrucciones de preparación para el laboratorio](../project-setup.md) para ayudarlos en la creación de sus futuros repositorios de GitHub.

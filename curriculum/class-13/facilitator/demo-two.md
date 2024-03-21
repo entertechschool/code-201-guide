@@ -1,4 +1,4 @@
-```HTML
+﻿```HTML
 <!DOCTYPE html>
 <html>
   <head>
@@ -13,7 +13,7 @@
 </html>
 ```
 
-Then, talk about `chartdata.js` from the prior class's demo:
+Ahora, habla del `chartdata.js` de la demostración de la clase anterior:
 
 ```javascript
 const context = document.getElementById('my-chart').getContext('2d');
@@ -44,10 +44,10 @@ const myChart = new Chart(context, {
 });
 ```
 
-Then, back in `app.js` add the following function:
+Ahora, de vuelta en `app.js`, añade la siguiente función:
 
 ```javascript
-//function to save to localStorage
+//función para guardar en localStorage
 function saveStatsToLocalStorage(dataSet){
   const productStats = [];
   for (let i = 0; i < dataSet.length; i++) {
@@ -60,43 +60,43 @@ function saveStatsToLocalStorage(dataSet){
 saveStatsToLocalStorage(dataSet);
 ```
 
-Then, in `app.js`, comment out the following:
+Luego, en `app.js`, comenta lo siguiente:
 
 ```javascript
 // const data = [12, 4, 9, 3, 100, 55, 31];
 ```
 
-Then add the following where `data` was:
+Luego añade lo siguiente en donde estaba `data`:
 
 ```javascript
 const dataSet = JSON.parse(localStorage.productStats);
 console.log(dataSet);
 ```
 
-## CSS Animations
+## Animaciones en CSS
 
-A good resource for css psuedo selectors:
+Un buen recurso para los pseudoselectores de css:
 <https://css-tricks.com/pseudo-class-selectors/>
 
-In `index.html`, add the following `div` underneath our chart `div`:
+En `index.html`, añade el siguiente `div` debajo del `div` de nuestro gráfico:
 
 ```html
 <div class="hello"></div>
 ```
 
-in css, add the following:
+en css, añade lo siguiente:
 
 ```css
 .hello {
-  width: 400px;
-  height: 400px;
+  width: 400 px;
+  height: 400 px;
   background: #2db34a;
-  border-radius: 6px;
+  border-radius: 6 px;
   transition: background .2s linear, border-radius .5s ease-in, width .25s ease-in-out;
 }
 
 .hello:hover {
-  width: 1000px;
+  width: 1000 px;
   background: #ff7b29;
   border-radius: 50%;
 }

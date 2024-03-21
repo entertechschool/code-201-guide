@@ -1,23 +1,23 @@
-# Lecture Notes
+﻿# Notas de la Clase
 
-## Lecture: HTML Links, JS Functions, and Intro to CSS Layout
+## Clase: Enlaces en HTML, Funciones en JS, e Introducción al CSS: Layout
 
-* Code Review
-  * It was intentional to avoid discussing `typeof` and `parseInt` previously. Hopefully students realized that `prompt` returns a string, even if the user inputs a number, and were guided to the solution by Googling the answer or reaching out to a member of the instructional staff
-  * Depending on the level of understanding (and frustration) during lab 3, it may be helpful to walk through an example approach to solving one or both of the questions from their lab assignment.
+* Revisión del código
+  * Evitamos hablar de `typeof` y `parseInt` anteriormente. Por suerte, los estudiantes se dieron cuenta de que un `prompt` retorna un string, incluso si el usuario ingresa un número, y encontraron la solución ya sea googleando la respuesta o consultando a uno de los instructores.
+  * Dependiendo del nivel de conocimiento (y frustración) durante el laboratorio 3, podrá ser de ayuda mostrar un ejemplo acerca de cómo resolver una o las dos preguntas de su tarea de laboratorio.
 
-## Lab: Pair Programming and More Extensions to About Me
+## Laboratorio: Pair programming y más extensiones para el About Me
 
-Here's the basics of what you need to know about *pair programming*. This is a methodology for work in software development that is increasingly more popular and widespread (not only in development work, but also in interview processes), and we place a high value on training our students to pair program effectively. Students can reference details in the lab assignment.
+Estos son los conceptos fundamentales que necesitas conocer acerca del *pair programming*. Esta es una metodología para trabajar en el desarrollo de software que es cada vez más popular (no solo en el ámbito de los desarrolladores, pero también en los procesos de entrevistas), y valoramos entrenar a nuestros estudiantes para que apliquen el pair programming de forma eficaz. Los estudiantes pueden consultar los detalles en la tarea de laboratorio.
 
-The process of forking and cloning a repository is brand new to most 201 students, so the explanation should not be rushed. Students should come out of the lab setup with an understanding of the terminal commands and GitHub procedures needed to make certain that there is consistency between the code base in all four locations: their GitHub account, their personal computer, their partner's GitHub account, and their partner's personal computer. The concepts of forking, pulling, and creating pull requests will likely be brand new.
+El proceso de hacer fork y clonar un repositorio es totalmente nuevo para la mayoría de los estudiantes del curso 201, así que la explicación no deberá ser apresurada. Los estudiantes deberán terminar la preparación del laboratorio con los conocimientos de los comandos del terminal y procedimientos de GitHub necesarios para asegurarse de que haya consistencia entre el código base en las cuatro ubicaciones: su cuenta de GitHub, su computadora personal, la cuenta de GitHub de su compañero y la computadora personal de su compañero. Los conceptos de fork, pull y crear pull request probablemente serán nuevos.
 
-Plan to run a pair programming demo along with another member of the instructional staff, such as a TA. As a backup you can use a volunteer from the class. A live demo is much more useful for students than watching a video. There is an example in [DEMO.md](./DEMO.md).  Encourage students to ask for a reminder during lab time if they forget any of the steps.
+Planea ejecutar una demostración de pair programming junto con otro instructor o un TA. Como apoyo puedes tener a un volutario de la clase. Una demostración en vivo es mucho más útil para los estudiantes que mirar un video. Aquí hay un ejemplo en [DEMO.md](./DEMO.md).  Incentiva a que los estudiantes pidan un repaso durante el laboratorio si se olvidan de alguno de los pasos.
 
-* In pair programming there are two developers working on a single body of code on a single computer.
-* One member of the pair is the Driver, and this person will be the one doing all of the actual typing work on the laptop. The Driver will be working on the Navigator's code by way of forking and cloning the Navigator's repository.
-* The other member of the pair is the Navigator, and this person will work with only their voice and their thoughts.
-* The Navigator does not touch the keyboard, nor does the Navigator work on their laptop "on the side". The Navigator is fully engaged with the work that the pair is doing, typically using a piece of scratch paper to sketch diagrams, take notes, or list ideas. At most the Navigator uses their laptop to perhaps keep a copy of this assignment document open or to look up something needed to write the code, such as a reference page like MDN.
-* Under no circumstances does the Navigator work on any code on their laptop: for the pair programming process to be effective, both parties must be fully engaged on the code they're working on together.
-* The lab time should be divided into two sections of approximately two hours each. At the halfway mark, students should swap roles and work on the other person's code. Remind students to watch the clock and determine the best point to swap roles.
-* In the case of an odd number of students, one group will have three members and they should rotate through three roles: Driver, Navigator, Observer. Each student should take on each role one time. They will need to be even more mindful about watching the clock to ensure that equal time is devoted to all three projects. Take note of the students in this group and ensure that they are not in a group of three in weeks 2 and 3.
+* En el pair programming, dos desarrolladores trabajan en un mismo código en una sola computadora.
+* Uno de los miembros es el Driver, es la persona que se va a encargar de escribir en la laptop. El Driver trabajará con el código del Navigator haciendo fork y clonando el repositorio del Navigator.
+* El otro miembro es el Navigator, es la persona que va a trabajar solo con su voz y sus pensamientos.
+* El Navigator no toca el teclado, ni tampoco trabaja con su laptop "por su lado". El navigator está completamente involucrado con el trabajo, utilizando por lo general un borrador para dibujar diagramas, tomar notas o enumerar ideas.  Como mucho, el Navigator utiliza su laptop para tener una copia abierta del documento de esta tarea o para buscar algo que necesiten para escribir el código, como una página de referencia como MDN.
+* Bajo ninguna circunstancia el Navigator trabajará con código o en su laptop: para que el proceso de pair programming sea efectivo, ambas partes deberán estar completamente involucradas con el código en el que están trabajando juntos.
+* El tiempo de laboratorio estará dividido en dos secciones de aproximádamente dos horas cada una. A la mitad, los estudiantes deberán cambiar de roles y trabajar con el código de la otra persona. Recuérdale a los estudiantes que deben medir el tiempo y determinar el mejor momento para cambiar de roles.
+* En el caso de que el número de estudiantes sea impar, un grupo tendrá tres integrantes y deberán rotar entre estos tres roles: Driver, Navigator, Observer. Cada estudiante deberá asumir cada rol una vez. Tendrán que tener aún más cuidado con el tiempo para asegurarse de que los tres roles tengan el mismo tiempo.  Toma nota de los estudiantes en este grupo y asegúrate de que no estén en un grupo de tres en las semanas 2 y 3.

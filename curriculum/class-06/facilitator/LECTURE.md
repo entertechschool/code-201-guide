@@ -1,36 +1,36 @@
-# Lecture Notes
+﻿# Notas de la Clase
 
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into REAMDE.md -->
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el README.md -->
 
-## Code Review
+## Revisión del código
 
-- Discuss lab 5, asking students to mention any struggles they encountered with this lab. This can include failing tests, syntax errors, and GitHub workflow issues.
-  - Demonstrate how to solve the problems from the lab, without going into too much detail about every single line, as each student should have completed the lab by now, or at least submitted what they had completed.
-- It is more important to discuss WHY the solutions are written the way they are and emphasize the ability to access return values with bracket notation. This is also their first exposure to callbacks, so point out that the inner function will evaluate first, then be used as an argument to the outer function, as in the `sumAndMultiply` and `sumArray` functions.
-- Some students may have solved these problems in a different way. It is okay to discuss these but avoid going down rabbit holes.
+- Habla del laboratorio 5, pídele a los estudiantes que menciones cualquer dificultad que encontraron en este laboratorio. Esto puede incluir pruebas fallidas, errores de sintaxis y problemas de flujo de trabajo de GitHub.
+  - Demuestra cómo solucionar los problemas del laboratorio, sin entrar en mucho detalle acerca de cada línea, ya que todos los estudiantes ya debieron haber completado el laboratorio, o por lo menos debieron haber enviado lo que han completado.
+- Es más importante hablar de POR QUÉ las soluciones están escritas de esa forma y enfatizar la capacidad de acceder a los valores de retorno con el bracket notation. Este también es su primer contacto con los callbacks, así que señala que la función interna se evaluará primero y después se utilizará como argumento para la función externa, como  las funciones `sumAndMultiply` y `sumArray`.
+- Algunos estudiantes pueden haber resuelto estos problemas de una forma distinta. Está bien hablar de esto, pero evita irte por las ramas.
 
-There are three big concepts to cover today:
+Hay tres grandes conceptos para abarcar hoy:
 
-## JavaScript Objects
+## Objetos de JavaScript
 
- Object literals. The key to this is to not allow the students to use constructors at all today. Make them build, by hand, a bunch of object literals to become familiar with the syntax and structure and demonstrate/encourage practicing how to access and modify properties/methods in the JS console. We'll transition to constructor functions in the following lab. Reiterate that the goal with JS objects is to model real-life entities that have characteristics (properties) and behaviors (methods). It also helps to tie to grammar, and describe properties as nouns, the values as adjectives, and methods as verbs.
+ Objetos literales. La clave para esto es no permitir que los estudiantes utilicen constructores por hoy. Haz que construyan, a mano, un puñado de objetos literales para familiarizarse con la sintaxis y la estructura, y demostrar/incentivar la práctica a cómo acceder y modificar las propiedades/métodos en la consola de JS. Pasaremos a las funciones constructoras en el siguiente laboratorio. Recuerda que el objetivo con los objetos de JS es modelar las entidades reales que tienen características (propiedades) y comportamientos (métodos). También ayuda relacionarlo con la gramática, y describe las propiedades como sustantivos, los valores como adjetivos y los métodos como verbos.
 
-In JavaScript, an object is an entity that contains properties that describe state and behavior of the object. Properties that describe behavior are also called methods.  These "objects" are intended to mimic real-world objects such as a car, person, cat, house, etc...
+En JavaScript, un objeto es una entidad que contiene propiedades que describen el estado y comportamiento del objeto. Las propiedades que describen el comportamiento también se llaman métodos.  Estos "objetos" tienen el propósito de imitar objetos reales como un carro, una persona, un gato, una cada, etc...
 
-JavaScript is what we call an object-based language. Just about everything in JavaScript is an object. We create objects directly through a template (we will get to this later), and not through classes, like other languages. Classes are still used in JavaScript but are not touched on in this course. 
+JavaScript es lo que llamamos un lenguaje basado en objetos. Casi todo en JavaScript es un objeto. Creamos objetos directamente mediante una plantilla (ya hablaremos de esto después), y no mediante clases, como otros lenguajes. Las clases también se usan en JavaScript, pero no tocaremos esto en este curso. 
 
-There are two ways for creating an object in JavaScript that we will cover in 201:
+Hay dos formas de crear un objeto en JavaScript que hemos abarcado en el curso 201:
 
-1. Object literals
-1. Instantiating objects with the new keyword through a constructor function
+1. Objetos literales
+1. Instanciar objetos con la nueva palabra clave mediante una función constructora
 
-We are going to focus on object literals today and will talk about constructor functions tomorrow. If you are comfortable enough with instantiating them directly, feel free to show them that as well. 
+Vamos a centrarnos en los objetos literales hoy y hablaremos de las funciones constructoras mañana. Si estás lo suficientemente cómodo para instanciarlos directamente, siéntete libre de mostrárselos también. 
 
-### Object Literals
+### Objetos Literales
 
-Object literals are the simplest way to create a JS object. The syntax for it is mostly based off of key/value pairs. This means that when you create your object, you define the properties (keys) of an object, you must also give it a value.
+Los objetos literales son la forma más simple de crear un objeto en JS. La sintaxis para esto está mayormente basada en los pares key/value. Esto significa que cuando creas un objeto, defines las propiedades (keys) de un objeto y también debes darle un valor.
 
-Here is an example of what a JS object looks like:
+Este es un ejemplo de cómo se ve un objeto en JS:
 
 ```js
 const person = {
@@ -41,13 +41,13 @@ const person = {
 };
 ```
 
-Note a few things about the object:
+Señala algunas cosas acerca del objeto:
 
-1. We create objects the same way we create variables. We start out with the declaration of the variable followed by the data we are setting the value too. 
-1. The full object value is encapsulated with curly braces `{}`
-1. Each set of data in the object is known as a property. This is showcased through a key/value pair. The "key" is the name of the property, and the "value" is the value stored in the property. For example, the `name` property is the key, and the value of `"Grace Hopper"` is the value. This means that within the object, the "name" of the person is "Grace Hopper". The same thing is true for the key `age`. The key is `age` the value is `85`. 
-1. After every property, if there is another one to follow, we end with a comma `,`.
-1. Properties can store any valid javascript value, even other objects.  
+1. Creamos objetos de la misma forma en la que creamos variables. Comenzamos con la declaración de la variable seguido de los datos a los que estamos asignando el valor. 
+1. El valor completo del objeto está encapsulado con llaves `{}`
+1. Cada conjunto de datos en el objeto se conoce como una propiedad. Esto se muestra mediante un par key/value. El "key" es el nombre de la propiedad, y el "value" es el valor almacenado en la propiedad. Por ejemplo, la propiedad `name` es el key, y el valor de `"Grace Hopper"` es el value. Esto significa que el "name" de la persona es "Grace Hopper". Lo mismo es válido para el valor del key `age`. El key es `age`, el value es `85`. 
+1. Después de cada propiedad, si le sigue otra colocamos una coma `,` al final.
+1. Las propiedades pueden almacenar cualquier valor de javascript válido, incluso otros objetos.  
 
 
 ```js
@@ -56,9 +56,9 @@ console.log(person.age) // 85
 console.log(person.education) // Vassar College, Yale University
 ```
 
-#### Object Methods
+#### Métodos de Objetos
 
-Methods in an object are the behaviors/actions of an object. For example, our `person` object should be able to actually "do" things, not just hold properties. Our `person` should be able to...walk. This means we should give our person this capability. We do this through what we call methods. At first sight, methods look like properties. That is because they are, method is the name we give to "properties" that have the values of functions. Here is an example, using our `person` from above:
+Los métodos en un objeto son comportamientos/acciones de un objeto. Por ejemplo, nuestro objeto `person` debería ser capar de "hacer" cosas, no solo contener propiedades. Nuestro `person` debería ser capaz de... caminar. Esto significa que deberíamos darle esta capacidad a nuestro person. Lo haremos mediante un método de llamada. A primera vista, los métodos se ven como propiedades. Eso es porque lo son, método es el nombre que la damos a las "propiedades" que tienen los valores de las funciones.  Este es un ejemplo, utilizando nuestro `person` de antes:
 
 ```js
 const person = {
@@ -72,17 +72,17 @@ const person = {
  };
 ```
 
-The first thing we can notice about or newly added method is that it is an anonymous function. This means that there is no "name" to the function, just simply an associated property. 
+Lo primero que notamos acerca de nuesto método recién agregado es que es una función anónima. Esto significa que la función no tiene un "nombre", simplemente tiene una propiedad asociada. 
 
-If we wanted to "call" this method within our object, we would simply call it by first specifying the object, then the name of the method. 
+Si queremos "llamar" a este método dentro de nuestro objeto, simplemente deberíamos llamarlo especificando el objeto y luego el nombre del método. 
 
 ```js
 person.walk(); // output: I am walking....
 ```
 
-#### Contextual 'this'
+#### 'this' contextual
 
-The term `this` is a bit tricky to understand at first. The easiest way to explain what `this` is, is by explaining to them that the `this` is directly talking about whatever object is currently being manipulated. For example, if we were to modify the current `person.walk()` method to output the name of the current person, we would have to use the contextual `this`. 
+El término `this` es un poco difícil de entender al comienzo. La forma más fácil es explicar lo que es `this`, explicándoles que el `this` habla directamente acerca del objeto que está siendo manipulado. Por ejemplo, si queremos modificar el método actual `person.walk()` para obtener el nombre de nuestro person, deberíamos de utilizar el `this` contextual. 
 
 
 ```js
@@ -97,9 +97,9 @@ const person = {
  };
 ```
 
-What is happening here is when we call `person.walk`, it is going to take the current object that is in the context and currently being called on, and use that piece of data when outputting the name. 
+Lo que está pasando es que cuando llamamos `person.walk`, va a tomar el objeto que está en el contexto y está siendo llamado, y va a utilizar ese dato al momento de obtener el output del nombre. 
 
-If we were to create 2 different object literals:
+Si creáramos 2 objetos literales diferentes:
 
 ```js
 const person1 = {
@@ -127,9 +127,9 @@ person2.walk() // output: Sally Joe is walking
 ```
 
 
-#### Nested Object 
+#### Objeto anidado 
 
-In addition to having an object with properties and methods, we can also have "nested" objects within a JS object. Here is an example:
+Además de tener un objeto con propiedades y métodos, también tenemos objetos "anidados" en un objeto de JS. Este es un ejemplo:
 
 ```js
 const person = {
@@ -148,56 +148,56 @@ const person = {
 
 ```
 
-Notice the new nested object of `birthplace` in our object. As you can see, we can "create" objects easily by explicitly stating the methods and properties from within them. 
+Nota el nuevo objeto anidado `birthplace` en nuestro objeto. Como puedes ver, podemos "crear" objetos fácilmente al declarar explícitamente los métodos y propiedades desde dentro de ellos. 
 
-#### Adding new props
+#### Añadiendo nuevas propiedades
 
-When adding NEW property methods, we will use the `=` instead of the `.` because we are assigning a value to the object. Example
+Cuando añadimos NUEVOS métodos de propiedad, utilizamos el  `=` en vez del `.` ya que estamos asignando un valor al objeto. Ejemplo:
 
 ```js
 person.serviceBranch = 'United States Navy';
 ```
 
-As a result, `person` now has a newly added property named `serviceBranch` with a value of `United States Navy`.
+Como resultado, ahora `person` tiene una propiedad recién añadida llamada `serviceBranch` con un valor de `United States Navy`.
 
 ### Dot vs Bracket Notation
 
-When accessing the properties of the object, there are two different ways to do so, dot notation and bracket notation.
+Al acceder a las propiedades del objeto, hay dos formas diferentes de hacerlo, dot notation y bracket notation.
 
-Dot notation is the more common and popular approach to accessing the properties of an object. Dot notation is specifying the object directly and calling the name of the property through a dot `.`. The reason this is preferred over bracket is because it is easier to read and less verbose. 
+Dot notation es un enfoque más común y popular para acceder a las propiedades de un objeto. Dot notation especifica el objeto directamente y llama al nombre de la propiedad mediante un punto `.`. La razón por la que esto se prefiere por encima de los corchetes es porque es más fácil de leer y ocupa menos caracteres. 
 
-Example: `foo.bar` <-- foo is the name of the object; bar is the name of the property. 
+Ejemplo: `foo.bar` <-- foo es el nombre del objeto; bar es el nombre de la propiedad. 
 
-Bracket notation is when we access a property on an object through the use of brackets `[]`. Specifically, accessing the name of the property attached to the object. Using the same example as above, we would access the `bar` property of the `foo` object by writing `foo['bar']`
+Bracket notation es cuando accedemos a la propiedad de un objeto mediante el uso de los corchetes `[]`. Específicamente, acceder al nombre de la propiedad adjunta al objeto. Utilizando el mismo ejemplo de antes, accederíamos a la propiedad `bar` del objeto `foo` escribiendo `foo['bar']`
 
-[HERE](https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781) is an article that explains the highlights of the two notations.  
+[ESTE](https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781) es un artículo que explica lo mas importante de los dos notations.  
 
-## The DOM
+## El DOM
 
-"The DOM" (Document Object Model) is where the HTML and CSS that we have been learning about this whole time come together to create a very powerful document that we use in our browsers. Within our browser, when looking at a webpage, we see HTML and CSS come together to create a structure that we can in turn see headings, images, links etc....
+"El DOM" (Modelo de Objeto de Documento) es donde el HTML y el CSS que hemos estado aprendiendo todo este tiempo se juntan para crear un documento que utilizaremos en nuestro navegadores. En nuestro navegador, cuando miramos una página web, vemos el HTML y CSS juntándose para crear una estructura que podemos ver en los encabezados, imágenes, enlaces, etc...
 
-Browsers represent the html document as a JS object. This means that we can access individual components of "The DOM" the same way we would access individual components of a JS object. 
+Los navegadores representan el documento html como un objeto de JS. Esto significa que podemos acceder a componentes individuales del "DOM" de la misma forma en la que accederíamos a componentes individuales de un objeto de JS. 
 
-Here is a quick exercise to prove this point: 
+Este es un ejercicio rápido para demostrar este punto: 
 
-1. type `document` in the console within your browser
-1. find `document.body`
-1. actually type in `document.body`
-1. change the document.body.textContext = 'to something else'
-1. look at all the options on the `document.` dot notation.
+1. escribe `document` en la consola de tu navegador
+1. encuentra `document.body`
+1. escribe en el `document.body`
+1. cambia el document.body.textContext = 'a otra cosa'
+1. mira a las opciones en el dot notation `document.`.
 
-Within the `document` object, we have a method in there called `getElementById`. This allows us to "get a specific element within the HTML by specifying the id"
+En el objeto `document`, tenemos un método llamado `getElementById`. Esto nos permite "obtener un elemento específico dentro del HTML especificando el id"
 
-One thing to note **we can only add one thing at a time**.
+Algo que señalar es que **solo se puede añadir una cosa a la vez**.
 
-If we wanted to add a `<p>` tag to our page, inside of say, an `<article>`, we can. The article that we want to add the `p` tag into though, **must have a unique id attached to it**. 
+Si queremos añadir una etiqueta `<p>` a nuestra página, dentro de, por ejemplo, un `<article>`, podemos hacerlo. Pero este article al que queremos añadirle la etiqueta `p` **debe tener un id único adjunto**. 
 
 ```HTML
 <article id="parentElement">
 </article>
 ```
 
-Here is the JS code to add a `p` tag to our `article`
+Este es un código JS para añadirle una etiqueta `p` a nuestro `article`
 
 ```javascript
 const parent = document.getElementById('parentElement');  
@@ -212,7 +212,7 @@ parent.appendChild(child);
 </div>
 ```
 
-There is a lot of potential for DOM manipulation and JS objects. We could potentially make a `render` method on one of the JS objects that can render these new HTML tags as a list to our page when called:
+Hay un montón de potenciar en la manipulación del DOM y los objetos de JS. Potencialmente podemos hacer un método `render` a uno de los objetos de JS que puede renderizar estas nuevas etiquetas HTML a nuestra página cuando las llamamos:
 
 ```js
 render: function(){
@@ -226,15 +226,15 @@ render: function(){
 ```
 
 
-## Domain Modeling
+## Modelos de Dominio
 
-A great resource as an introductory to Domain Modeling is found [HERE](https://www.scaledagileframework.com/domain-modeling/).
+Un buen recurso para la introducción a los Modelos de Dominio es [ESTE](https://www.scaledagileframework.com/domain-modeling/).
 
-Domain Modeling is a way to describe real world entities and their relationships between them. We can take a problem domain and extract from them system requirements by determining what entities are involved and the relationships required. The system architect is usually the one responsible for domain modeling and emulates it through drawings that highlight the "verbs" of each action that takes place within the system and how it links in the overall data flow. Domain modeling allows stakeholders and development teams to better understand the needs of the application and what components/entities are required. 
+Los Modelos de Dominio es una forma de describir entidades del mundo real y sus relaciones entre sí. Podemos tomar una descripción del problema y extraer de él los requisitos del sistema determinando qué entiedades están involucradas y las relaciones necesarias. Por lo general el arquitecto de sistemas es el responsable del modelo de dominio y lo emula mediante dibujos que resaltan los "verbos" de cada acción que toma lugar dentro del sistema y cómo se enlaza con el flujo de datos general. El modelo de dominio permite que los intersados y los equipos de desarrollo entiendan mejor las necesidades de la aplicación y que componentes/entidades se necesitan. 
 
-It ultimately comes down to how the problem is organized and defined. It is important to stress that there is no substitute for good planning, and that if a problem seems too big to effectively define, then it needs to be broken down more. There are two articles on this subject, [one by a former Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) and another by [a tech education entrepreneur](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/). It's a good time to talk about some business parts of the tech industry and the basic economics of how people get paid to do this work.
+En última instancia todo depende cómo se organiza y define el problema. Es importante resaltar que no hay ningún sustituto para la buena planeación, y si un problema parece muy grande para definir efectivamente, entonces necesita descomponerse más. Hay dos artículos acerca de este tema, [uno creado por un ex instructor de Code Fellows instructor (Ryan Sobol)](https://github.com/codefellows/domain_modeling#domain-modeling) y otro de [un empresario de la educación tecnológica](https://simpleprogrammer.com/2013/07/15/understanding-the-problem-domain-is-the-hardest-part-of-programming/). Es un buen momento para hablar de las partes empresariales de la industria tecnológica y la economía básica de cómo se le paga a la gente para hacer este trabajo.
 
 
-## Template Literals
+## Plantillas Literales
 
-A smaller topic for today is the introduction of ES6 template literals. Show students how to refactor the concatenation from week 1 into template literals.
+Un tema más pequeño para el dia de hoy es la introducción a las plantillas literales de ES6. Muéstrale a los estudiantes cómo refactorizar la concatenación de la semana 1 a plantillas literales.

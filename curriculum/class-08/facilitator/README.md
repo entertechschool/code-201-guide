@@ -1,83 +1,83 @@
-# Facilitators Guide: Advanced Topics in CSS Layouts
+﻿# Guía del Instructor: # Temas avanzados de CSS: Layout
 
-## Overview
+## Resumen
 
-Of all the classes in the course, this is the one that is left the most wide open. Why? It’s difficult to predict where the class is going to be at this point due to the heavy challenges of the past two classes. Some students need a class that is mostly review of the first two classes of the module. On the other hand, some students are ready to take on some new material. Most cohorts contain some mix of those two kinds of students. For the purposes of this guide we will assume that the class is mostly a half/half blend of the two extremes.
+De todas las clases en este curso, esta es la más libre. ¿Por qué? Es díficil predecir cómo estarán los alumnos a este punto debido a los desafíos de las últimas dos clases. Algunos estudiantes necesitan una clase que sea en su mayoría un repaso de las dos primeras clases del módulo. Por otro lado, algunos estudiantes están listos para ver un nuevo material. La mayoría de los grupos contienen una mezcla de esos dos tipos de estudiantes. A efectos de esta guía asumiremos que la clase es en su mayoría la mitad/una mezcla de los dos extremos.
 
-The new content for this class involves CSS layout, using Flexbox. A structured review of the CSS layout fundamentals is necessary, so as to serve as a foundation for extending into new topics, such as grid systems or responsive design.
+El nuevo contenido para esta clase involucra CSS Layout utiliando Flexbox. Es necesario un repaso estructurado de los conceptos básicos del CSS Layout para que nos sirva de base para extendermos a nuevos temas, como los sistemas gris o el diseño responsivo.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
-In the previous class students were introduced to Constructor Functions. They also learned how to refactor their unordered lists into an HTML table.
+**¿Qué hicimos?**:
+En la clase anterior los estudiantes aprendieron sobre las funciones constructoras. Los estudiantes aprenderán a refactorizar sus listas no ordenadas en una tabla HTML.
 
-**What are we focusing on in this class**:
-In this class, students will be learning more advanced topic in CSS layouts. One of their lab assignments will be to layout a page using CSS and HTML to match a given wireframe.
+**¿En qué nos centraremos en esta clase?**:
+En esta clase, los estudiantes aprenderán más temas avanzados de CSS Layout. Una de sus tareas de laboratorio será crear el layout de una página utilizando CSS y HTML para que se ajusten a un wireframe determinado.
 
-**Where we're headed**:
-Next class will focus on events and gathering information from an HTML form.
+**¿Qué haremos?**:
+En la siguiente clase nos centraremos en los eventos y en recolectar información de un formulario HTML.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in the class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md).
 
-## Preparation
+## Preparativos
 
-1. Skim the readings and be prepared if students have questions.
-1. Review the code demos and be sure to understand how to construct them within lecture. Review the respective markdown file for each demo.
-1. Ensure that your class repository for this class, has a folder called `lab` with the following content:
-    - The `images` folder inside of `lab-a`, containing the required images for lab.
-    - The `assets` folder located under the `lab-b`, containing the images required for the wrap up of the Salmon Cookies lab. 
-1. For fun, share with the students the image located in the `assets/peter-griffin-css.gif`.  
-   - Show this picture with the context that CSS is hard without a process, but we can take away that frustration if we apply direction to how we code CSS!
+1. Hojea las lecturas y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Asegúrate de que el repositorio de esta clase tenga una carpeta llamada `lab` con el siguiente contenido:
+    - La carpeta`images` dentro de `lab-a`, con las imágenes necesarias para el laboratorio.
+    - La carpeta `assets` dentro de `lab-b`, con las imágenes necesarias para la finalización del laboratorio Salmon Cookies. 
+1. Si quieres, muéstrale a los estudiantes la imágen ubicada en `assets/peter-griffin-css.gif`.  
+   - Muestra la imágen con el contexto que CSS es difícil sin un proceso, ¡pero podemos quitarnos esa frustración si le damos dirección a nuestra forma de programar con CSS!
 
-## Lecture Outline
+## Descripción de la Clase
 
-### Code review
+### Revisión del código
 
-Code review is a big part of this class. Expect to spend at least an hour in code review, if not 90 minutes.
+La revisión del código es una gran parte de esta clase. Espera pasar por lo menos una hora en la revisión del código, si no son 90 minutos.
 
 
-### Prototypal Inheritance
+### Herencia prototípica
 
-- **Why**
-  - Prototypal interitance is dynamic. Objects and methods can be shared, extended, and copied.
-- **What**
-  - Prototypal inheritance is the ability to access object properties from another object.
-- **How**
-  - Demonstrate prototypal inheritance by adding a method to an existing Javascript Object.
-  - Reinforce prototypal inheritance with the Kitten demo by converting cat ages from human to cat years.  
-  - Add a method to JavaSript's Number object.
-    - Encourage students to incorporate this into their Salmon Cookies Lab; perhaps total all values in an array for daily store totals.
+- **¿Por qué?**
+  - La herencia prototípica es dinámica. Los objetos y los métodos se pueden compartir, extender y copiar.
+- **¿Qué?**
+  - La herencia prototípica es la habilidad de acceder a las propiedades de los objetos desde otro objeto.
+- **¿Cómo?**
+  - Demuestra la herencia prototípica añadiendo un método a un objeto de Javascript existente.
+  - Refuerza la herencia prototípica con el demo Kitten, convirtiendo las edades de los gatos de años humanos a años de gatos.  
+  - Añade un método al objeto Number de JavaScript.
+    - Aconseja a los estudiantes a que incorporen esto a sus laboratorios Salmon Cookies; quizás sumando todos los valores en un array para obtener el total diario por tienda.
 
 ### Wireframing
 
-- **Why**
-  - Wireframing is important because it gives the client, developer, and designer an opportunity to walk through the structure of the website without getting sidetracked by design elements such as colors and images.
-- **What**
-  - A wireframe is a two-dimensional illustration of a web page's interface that shows the main elements of a web page layout as boxes with brief descriptions.
-- **How**
-  - Walk through the proper approach to creating an HTML and CSS project when given a basic wireframe. This will help prepare for the next lab as well.
+- **¿Por qué?**
+  - El wireframing es importante porque le da el cliente, desarrollador y diseñador una oportunidad para que revisen la estructura de la página web sin que se distraigan con elementos de diseño como colores e imágenes.
+- **¿Qué?**
+  - Un wireframe es una ilustración bidimencional de la interfaz de una página web que muestra los elementos principales del layout de una página web como cajas con descripciones breves.
+- **¿Cómo?**
+  - Revisa el enfoque correcto al crear un proyecto con HTML y CSS cuando se tiene un wireframe básico. Esto también nos ayudará a prepararnos para el siguiente laboratorio.
 
 ### CSS Flexbox
 
-- **Why**
-  - Flexbox is a simple way of dividing and aligning boxes.
-- **What**
-  - Flexbox allows us to lay a collection of items out in one direction or another.
-  - Allows development of "grid" style layouts (not CSS Grid, but visual grids).
-- **How**
-  - Use CodePen or VSCode to demonstrate flexbox.
-  - Instructor may also pass on the following site to students to help them with flexbox practice: [Flexbox Froggy](https://flexboxfroggy.com/)
+- **¿Por qué?**
+  - Flexbox es una forma simple de dividir y alinear cajas.
+- **¿Qué?**
+  - Flexbox nos permite colocar una colección de elementos en una dirección u otra.
+  - Permite el desarrollo de layouts de estilo "cuadrícula" (no CSS Grid, sino cuadrículas visuales).
+- **¿Cómo?**
+  - Utiliza CodePen o VSCode para la demostración de flexbox.
+  - El instructor también puede pasarle el siguiente sito a los estudiantes para ayudarlos a practicar con flexbox: [Flexbox Froggy](https://flexboxfroggy.com/)
 
-## Lab Notes
+## Notas de Laboratorio
 
-The lab is not as intense as the previous three classes. Students should focus on mopping up any non-functional pieces of their code, and adding styling as they are able to.
+Este laboratorio no es tan intenso como en las tres clases anteriores. Los estudiantes deberán centrarse en elimar las partes no funcionales de su código y añadir estilo mientras puedan.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-Students will be taking a small break from JavaScript and focusing heavily on CSS and styling.
+Los estudiantes tomarán un pequeño descando de JavaScript y se centrarán más en CSS y los estilos.
 
-## What bugs, issues, or suprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-No bugs or issues have come up for this particular class.
+No han surgido errores o problemas para este clase en particular.

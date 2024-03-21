@@ -1,34 +1,34 @@
-# Lecture Notes
+﻿# Notas de la Clase
 
-### Git branching and Deployment
+### Git branching & despliegue
 
 Branching:
-- Concepts of labeling and workflow  
-- New terminal commands:
-  - `git checkout -b <branch-name>`
-    - always checkout new branches from `main`
-  - `git checkout <branch-name>`
-  - `git push origin <branch-name>`
+- Conceptos de etiquetado y flujo de trabajo  
+- Nuevos comandos del terminal:
+  - `git checkout -b <nombre-de-la-rama>`
+    - Siempre haz checkout a nuevas ramas desde `main`
+  - `git checkout <nombre-de-la-rama>`
+  - `git push origin <nombre-de-la-rama>`
   - `git pull origin main`
-    - always keep local main branch current with main branch on GitHub
+    - siempre mantén la rama main local actualizada con la rama main en GitHub
   - `git branch`  
-- Pushing different branches  
-- Isolating changes  
-- Remind students of proper workflow and emphasize the importance of performing all of the steps in the correct order. They will confused at first, so encourage students to make a cheat sheet and be very mindful of when and why each command is used
-- It can be helpful to show a network graph in GitHub as an illustration of proper branching and workflow
+- Haciendo push a diferentes ramas  
+- Aislando los cambios  
+- Recuérdale a los estudiantes acerca del flujo de trabajo adecuado y enfatiza la importancia de realizar todos los pasos en el orden correcto. Al comienzo estarán confundidos, así que incentiva a que los estudiantes hagan una hoja de referencia y a que sean conscientes de cuándo y por qué se utiliza cada comando.
+- Puede ser útil mostrarles un diagrama de red en GitHub como una ilustración de branching y flujo de trabajo adecuados
 
 ### Git Branching
 
-Each student will be working on a separate branch for each problem. Work through the first problem together:
-1. Walk through the process of forking and cloning the repository
-1. Check out a new branch named `problem1`
-1. Solve the problem
-1. Add-Commit-Push to GitHub
-1. Making a pull request from `problem1` to `main`. 
-1. Point out that their pull request should be between branches within *THEIR OWN* forked repository, and NOT from their repository to the Code Fellows repository. 
-1. Switch back to main and demonstrate the purpose of the `git pull origin main` command.
+Cada estudiante trabajará en una rama distinta para cada problema. Trabajen en el primer problema juntos:
+1. Explícales el proceso de hacer fork y clonar el repositorio
+1. Haz check out a una nueva rama llamada `problem1`
+1. Resuelve el problema
+1. Add-Commit-Push a GitHub
+1. Crea un pull request de `problem1` a `main`. 
+1. Señala que su pull request debe ser entre ramas dentro de *SU PROPIO* repositorio duplicado, y NO de su repositorio al repositorio de Enter Tech School. 
+1. Vuelve a main y demuestra el propósito del comando `git pull origin main`.
 
-### Deployment:
+### Despliegue:
 
-- Show students how to navigate in GitHub to Settings, then scroll down to find the url of their deployed page
-  - The deployed site takes the format of: `https://<username>.github.io/<repo-name>/`
+- Muéstrale a los estudiantes cómo entrar a Settings en GitHub, luego bajar hasta encontrar la url de su página desplegada
+  - El sitio desplegado toma el formato: `https://<nombre-de-usuario>.github.io/<nombre-del-repositorio>/`

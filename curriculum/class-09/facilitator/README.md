@@ -1,87 +1,87 @@
-# Facilitators Guide: HTML Forms and JS Events
+﻿# Guía del Instructor: Formularios en HTML y Events en JS
 
-## Overview
+## Resumen
 
-This is the second of the two toughest classes in the course. HTML forms themselves have a lot of parts that need to be managed, and then there is the JavaScript events side to handle the form submission. Again, it is a lot of brand new material, with greater complexity, all hitting at once.
+Esta es la segunda de las dos clases más difíciles del curso. Los formularios de HTML tienen muchas partes para gestionar, y luego está el lado de los eventos de JavaScript para manejar el envío del formulario. De nuevo, es bastante material nuevo, con bastante complejidad, y todo el mismo tiempo.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
-In the previous class we covered prototypal inheritance and the importance of wireframing a page.
+**¿Qué hicimos?**:
+En la clase anterior abarcamos la herencia prototípica y la importancia de hacer wireframing para una página.
 
-**What are we focusing on in this class**:
-In this class we will cover JavaScript events and event handling. This class will also cover HTML forms.
+**¿En qué nos centraremos en esta clase?**:
+En esta clase abarcaremos los eventos de JavaScript y el event handling. Esta clase también abarca los formularios de HTML.
 
-**Where we're headed**:
-Next class we will discuss debugging code and review the different types of error messages we could potentially see in our console.
+**¿Qué haremos?**:
+En la siguiente clase hablaremos sobre la depuración de código y revisaremos los diferentes tipos de mensajes de error que podemos encontrar en nuestra consola.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Skim the readings and be prepared if students have questions
-1. Review the code demos and be sure you understand how to construct them within lecture. Review the respective markdown file for each demo.
-1. Review the [whiteboard diagrams](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) on the Code Fellow's Invision account or [here](whiteboards/class09WB.png) for lecture.
+1. Hojea las lecturas y prepárate en caso de que los alumnos tengan preguntas
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Revisa los [diagramas en la pizarra](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) en la cuenta de Invision de Code Fellow o [aquí](whiteboards/class09WB.png) para la clase.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code review
+### Revisión del código
 
-### JavaScript Events
+### Eventos de JavaScript
 
-- **Why**
-  - Events provide a dynamic interface to a webpage.
-- **What**
-  - Events are actions or occurances that happen to HTML elements. JavaScript code can then be written to react to these events.
-- **How**
-  - Start with a basic demonstration of an event and event listeners on a `<div>` element in CodePen or VSCode.
-  - Break down the steps with event handling:
-    - Grab element to listen to.
-    - Add `addEventListener()` method and pass in the 2 arguments of the event type and callback/event handler function.
-    - Build out the event handler function. You can demonstrate this as an inline anonymous function or a separately defined callback function.
+- **¿Por qué?**
+  - Los eventos proporcionan una interfaz dinámica a la página web.
+- **¿Qué?**
+  - Los eventos son acciones o acontecimientos que les ocurren a los elementos en HTML. Se puede escribir código en JavaScript para reaccionar a estos eventos.
+- **¿Cómo?**
+  - Comienza con una demostración básica de un evento y event listeners en un elemento `<div>` en CodePen o VSCode.
+  - Divide los pasos con el event handling.
+    - Toma un elento para escuchar.
+    - Añade el método `addEventListener()` y pasa los 2 argumentos del tipo de evento y la función callback/event handler.
+    - Construye la función event handler. Puedes demostrarlo como una función anónima inline o una función callback definida por separado.
 
-### HTML forms
+### Formularios en HTML
 
-- **Why**
-  - This is a great way for us to gather user info and input.
-- **What**
-  - An HTML form represents a document section containing interactive controls for submitting information.
-- **How**
-  - Demonstrate a form build out using the following semantic elements:
+- **¿Por qué?**
+  - Esta es una buena forma de recolectar información e input de los usuarios.
+- **¿Qué?**
+  - Un formulario HTML representa una sección del documento que contiene controles interactivos para enviar información.
+- **¿Cómo?**
+  - Demuestra la construcción de un formulario utilizando los siguientes elementos semánticos:
     - `<form>`
     - `<fieldset>`
     - `<legend>`
     - `<label>`
     - `<input>`
-  - Add event handling to the form button.
-  - Demonstrate grabbing form data on submit with an event handler function.
+  - Añade event handling al botón del formulario.
+  - Demuestra tomando los datos de un formulario en el momento del envío con una función event handler.
 
-### Lab prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be successful with their lab.
-- **What**
-  - Review Lab 09 instructions in Canvas.
-- **How**
-  - Refer to lab notes below.
+- **¿Por qué?**
+  - Les proporciona a los estudiantes las herramientas para que cumplan con su laboratorio.
+- **¿Qué?**
+  - Revisa las instrucciones del Laboratorio 09 en Canvas.
+- **¿Cómo?**
+  - Consulta las notas del laboratorio a continuación.
 
-## Lab Notes
+## Notas de Laboratorio
 
-This is the third heavy class in a row. One of the less intuitive pieces is that the input fields will convert numbers to strings, so a reminder about using `parseInt` or `Number` is helpful.
+Esta es la tercera clase difícil seguida. Una de las partes menos intuitivas es que los campos de input convertirán los numbers a strings, así que siempre es útil un recordatorio acerca de utilizar `parseInt` o `Number`.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-In the previous class, students had a break from JavaScript to dive into CSS layouts and wireframes.
+En la clase anterior, los alumnos tuvieron un descanso de JavaScripts para profundizar en CSS layouts y los wireframes.
 
-## What bugs, issues, or suprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-Expect students to struggle calling their functions in the correct order, or to forget to push their data into an array.
+Espers que los estudiantes tengan dificultades llamando a sus funciones en el órden correcto, o que se olviden de llevar los datos a un array.
 
-It is also common to run into typos or confusion with naming.
+También es común encontrarse con errores tipográficos o confusiones acerca de los nombres.
 
-Found students having difficulty with deletion of footer row, replacing it with form data, and then repopulating the footer row.
+Algunos estudiantes han tenido dificultades al borrar la fila del footer, reemplazarla con datos del formulario y luego volver a llenar la fila del footer.

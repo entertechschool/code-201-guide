@@ -1,64 +1,64 @@
-# Code 301 Preview and Project Week Kickoff
+﻿# Vista previa de Code 301 y Comienzo de la semana del proyecto
 
-## Overview
+## Resumen
 
-This is the last class for this course. The focus should be on preview of 301, final project overview, as well as a conversation around agile practices in software development.
+Esta es la última clase de este curso. El enfoque será la vista previa del Code 301, el resumen del proyecto final, así como una conversación acerca de las prácticas de agile en el desarrollo de software.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
+**¿Qué hicimos?**:
 
-In the previous class students had their psychological safety conversation to help them with going into project week. They also worked on a lab that required them to use local storage reinstantiation across multiple pages.
+En la clase anterior los estudiantes tuvieron su charla de seguridad psicológica para ayudarlos al inicio con la semana del proyecto. También trabajaron en un laboratorio que les pedía utilizar la reinstalación del local storage a través de múltiples páginas.
 
-**What we are focusing on in this class**:
+**¿En qué nos centraremos en esta clase?**:
 
-In this class students will get a preview of 301. Students will learn about agile practices in software development and will get with their final project team to complete the project prep assignments.
+En esta clase los estudiantes tendrán una vista previa del Code 301. Los estudiantes aprenderán acerca de las prácticas de agile en el desarrollo de software y se reunirán con su equipo para el proyecto final para completar las tareas de preparación del proyecyo.
 
-**Where we're headed**:
+**¿Qué haremos?**:
 
-Student will be working on their final project with their teams during the remainder of the course.
+Los estudiantes trabajarán en su proyecto final con sus equipos durante lo que queda del curso.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in the [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md).
 
-## Preparation
+## Preparativos
 
-1. Make sure all project teams have been created and communicated to your class.
-1. Upload the `project-guidelines.md` file to the daily class repo.
+1. Asegúrate que todos los equipos para el proyecto hayan sido creados y se lo hayas comunicado a la clase.
+1. Sube el archivo `project-guidelines.md` al repositorio diario de la clase.
 
-## Lecture Outline
+## Descripción de la Clase
 
-### Code Review
+### Revisión del código
 
-### Preview of 301 Topics
+### Vista previa de los temas de Code 301
 
-- Open the schools website and talk through the learning objectives.
+- Abre la página web de la institución y habla acerca de los objetivos de aprendizaje.
 
 ### Agile
 
-- Utilize the [agile demo](../demo/agile.md) to lead the converstation on agile practices in software development.
+- Utiliza la [demo de agile](../demo/agile.md) para llevar la conversación acerca de las prácticas de agile en el desarrollo de software.
 
-### Final Project Overview
+### Resumen del proyecto final
 
-- Go over the final project description/assignments.
-- Discuss GitHub workflow in teams.
-- Show the students the proper way to setup their coding infrastructure
-  - Create a sample GitHub Organization with a professional team name
-  - Create a GitHub Projects board and create a few issues for things like "website scaffolding" or "base CSS"
+- Ve a la descripción/tareas del proyecto final.
+- Conversa sobre el flujo de trabajo de GitHub en grupos.
+- Muéstrale a los estudiantes la forma adecuada de preparar la infraestructura de sus códigos.
+  - Crea una Organización de GitHub de prueba con un nombre de equipo profesional
+  - Crea una tabla de GitHub Proyects y crea algunos issues para cosas como "estructura de la página web" o "CSS de base"
 
-## Lab Notes
+## Notas de Laboratorio
 
-This lab activity should be completed as a project group. It is an exercise in dealing with potential merge conflicts. It should take approximately an hour to complete. Other than that, the rest of the day should be devoted to project planning.
+Esta actividad de laboratorio se deberá completar en grupo. Es un ejercicio acerca de lidiar con merge conflicts potenciales. Deberían tomar aproximádamente una hora en completarlo. Aparte de eso, el resto del día se deberá dedicar a la planificación del proyecto.
 
-## What Changed from previous class
-
-N/A
-
-## What bugs, issues, or surprises have come up in the past for this class
+## ¿Qué cambió desde la clase anterior?
 
 N/A
 
-## General Comments
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-As for Project Week preparation, by the end of class, students should be assembled into teams, have their project descriptions to work from, have reviewed the final project Canvas assignment in class, and have been instructed on how to manage team projects.
+N/A
+
+## Comentarios Geneales
+
+En cuando la preparación para la Semana del Proyecto, al final de la clase los estudiantes deberán estar agrupados en equipos, tener sus descripciones de sus proyectos para trabajar, haber revisado la tarea del proyecto final en Canvas, en clase; y haber recibido las instrucciones acerca de cómo gestionar los proyectos en equipo.

@@ -1,14 +1,14 @@
-# Lecture
+﻿# Clase
 
-## Code Review
+## Revisión del código
 
-- This will be a very large code review
-- Some potential topics to address during code review include:
-  - The importance of reading and implementing the technical requirements for each lab. Remind students that the TAs use the technical requirements as a reference when grading assignments.
-  - The importance of taking the time to plan out their project before jumping into writing code. It is tempting to jump right into the assignment of the day, but planning can save a lot of their debugging time (as well as the time of the instructional staff).
+- Esta será una revisión de código bastante larga
+- Algunos de los temas a abordar durante la revisión del código incluyen:
+  - La importancia de leer e implementar los requisitos técnicos en cada laboratorio. Recuérdale a los estudiantes de que los TA utilizan los requisitos técnicos como referencia al momento de calificar las tareas.
+  - La importancia de tomar el tiempo necesario para planear sus proyectos antes de comenzar a escribir el código. Es tentador saltarse de frente a la tarea del día, pero planear puede ahorrarnos bastante tiempo de depuración (así como tiempo de los instructores).
 
-## Code Demo
+## Demostración de código
 
-- Demonastrate prototypal inheritance by adding a method to JavaScript's Number object in Kitten demo and encourage students to add a method to JavaScript's Array class in their Salmon Cookies Lab to calculate daily total for each store.
-- This class is heavily focused on CSS and UI/UX. We will introduce Flexbox to the students as another way to layout a page. This is a good time to revisit [Learn Layout](http://learnlayout.com/) as a useful resource for any students struggling with CSS.
-- Walk through the proper approach to creating an HTML and CSS project when given a basic wireframe. This will help prepare for the next lab as well.
+- Demuestra la herencia prototípica añadiendo un método al objeto Number de JavaScript en la demo Kitten e incentiva a que los estudiantes añadan el método a la clase Array de JavaScript en sus laboratorios Salmon Cookies para calcular el total diario para cada tienda.
+- Esta clase estará mayormente centrada en CSS y UI/UX. Les enseñaremos Flexbox a los alumnos como otra forma de establecer el layout de una página. Este es un buen momento para revisitar [Learn Layout](http://learnlayout.com/) como un recurso útil para los estudiantes que tengan problemas con CSS.
+- Revisa el enfoque correcto al crear un proyecto con HTML y CSS cuando se tiene un wireframe básico. Esto también nos ayudará a prepararnos para el siguiente laboratorio.

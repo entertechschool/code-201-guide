@@ -1,16 +1,16 @@
-# Demo
+﻿# Desmostración
 
-## Writing HTML, CSS, and JavaScript
+## Programando en HTML, CSS y JavaScript
 
-Review the Demo code located in the `/demo` folder. Use VSCode for this demo.
+Repasa el código de demostración ubicado en la carpeta `/demo`. Utiliza VSCode para esta demostración.
 
 ## HTML
 
-- Start by creating an index.html file.
-- Build out the basic HTML skeleton.
-- Stress the importance of why students should be using semantic HTML elements.
-  - Semantic elements accurately describe the purpose of the element and the type of content that is inside of them.
-- This could also be a good time to show the students VSCode's built in Emmet shortcuts. To get a very basic piece of html code laid out, type `!` then hit `tab` or `enter`.
+- Comienza creando un archivo index.html.
+- Construye la estructura básica de HTML.
+- Resalta la importancia de que los estudiantes deban utilizar elementos semánticos en HTML.
+  - Los elementos semánticos describen con exactitud el propósito del elemento y el tipo de contenido que está dentro de estos.
+- Este también puede ser un buen momento para mostrarle a los estudiantes los atajos Emmet integrados en VSCode. Para obtener una parte básico de código html, escribe `!` y luego presiona `tab` o `enter`.
 
 ```html
   <!DOCTYPE html>
@@ -28,25 +28,25 @@ Review the Demo code located in the `/demo` folder. Use VSCode for this demo.
 
         </main>
 
-        <footer>&copy; Code Fellows</footer>
+        <footer>&copy; Enter Tech School</footer>
       </body>
     </html>
 ```
 
 ## CSS
 
-- For this first class assignment, students will keep the CSS inside of the HTML document through the use of internal and inline styles. Starting with the next class, and from there on, students will be writing CSS in external stylesheets.
-- First demonstrate internal style with the use of a `<style>` tag inside of the `<head>` tag.
-- Touch on each component in the CSS rule you create in the demo.
-  - CSS selector
-  - CSS properties inside of a `{ ... }` block separated by a semicolon
-  - Kebab casing on property names
-- Demonstrate inline style with the use of a the `style` attribute on an HTML element.
-  - CSS properties are placed inside of a set of double quotes and separated by a semicolon.
-  - Point out that the CSS will only apply to the HTML element into which they are embedded.
-  - Also note to the students that inline styles always overwrite any other styles in stylesheets or internal styles and have the highest specificity.
+- Para esta primera tarea, los estudiantes mantendrán el CSS dentro del documento HTML mediante el uso de los estilos internal e inline. Comenzando desde la siguiente clase, y a partir de ahí, los estudiantes escribirán el CSS en hojas de estilo externas. 
+- Primero demuestra el estilo interno mediante el uso de una etiqueta `<style>` dentro de la etiqueta `<head>`.
+- Menciona los componentes en el CSS rule que creaste en la demostración.
+  - Selector CSS
+  - Propiedades CSS dentro de un bloque`{ ... }` separado por un punto y coma
+  - Utiliza en kebab-case en los nombre de las propiedades
+- Demuesta el estilo inline con el uso del atributo `style` en un elemento HTML.
+  - Las propiedades CSS se colocan dentro de un par comillas dobles y separadas por un punto y coma.
+  - Señala que el CSS solo se aplicará al elemento HTML en el que están integrados.
+  - También explícale a los alumnos que los estilos inline siempre se sobreescriben a cualquier otro en la hoja de estilo o estilos internos, y tienen la mayor especificación.
 
-### Internal Style
+### Estilo Interno
 
 ```html
   <!DOCTYPE html>
@@ -64,7 +64,7 @@ Review the Demo code located in the `/demo` folder. Use VSCode for this demo.
     </html>
 ```
 
-### Inline Style
+### Estilo Inline
 
 ```html
   <p style="color: #023047; background-color: #ffb703">This is a paragraph tag.</p>
@@ -72,16 +72,16 @@ Review the Demo code located in the `/demo` folder. Use VSCode for this demo.
 
 ## JavaScript
 
-- Introduce the `<script>` tag and it's placement before the `</body>` tag. Like the CSS, for this class students will be keeping their JavaScript internal within their HTML document. Starting with the next class, and from there on, all JavaScript will be in a separate file.
-- Explain that even though we are in the HTML document they will still be writing JavaScript, so appropriate code style for JS should still be applied.
-  - Proper indenting and spacing
-  - Camel case format for variable names
-  - Single quotes around strings
-- Demonstrate an example of `prompt()`. Explain that `prompt()` has a return and as a developer, when a function has a return we will want to capture that value using a variable.
-- In this course students will be using `let` to declare variables within their code. But you may want to explain the difference between `var` and `let`. Explain that declaring variables with `let` is similar to `var` but that it is newer and tailored to writing cleaner code.
-  - Avoid discussions on scope and `const`, though it is fine to explain that we will be teaching it soon.
-- Create a `console.log()` to demonstrate string concatentation with the variable holding the value of the return from the previous `prompt()`. Explain the use of the escape character `\` if necessary.
-- Demonstrate an `alert()` by again using string contentation to alert the user a message based on their input from the prompt.
+- Presenta la etiqueta `<script>` y su ubicación antes de la etiqueta `</body>`. Al igual que el CSS, en esta clase los alumnos mantendrán su JavaScript interno dentro de su documento HTML. Comenzando desde la siguiente clase, y a partir de ahí, todo el código JavaScript estará en un archivo separado. 
+- Explica que aunque estamos en el documento HTML, seguirán escribiendo JavaScript, así que deberán seguir utiliando el estilo de código adecuado para JS.
+  - Indentación y espaciado adecuados
+  - Formato camel case para los nombres de las variables
+  - Comillas simples en los strings
+- Demuestra un ejemplo de `prompt()`. Explica que `prompt()` tiene un retorno y como desarrollador, cuando una función tiene un retorno queremos capturar ese valor utilizando una variable.
+- En este curso, los estudiantes utilizarán `let` para declarar variables en su código. Pero puede que desees explicar la diferencia entre `var` y `let`. Explica que declarar variables con `let` es similar a `var` pero es más nuevo y enfocado a escribir código más limpio.
+  - Evita las conversaciones acerca del scope y `const`, aunque está bien explicar lo que enseñaremos pronto.
+- Crea un `console.log()` para demostrar la concatenación de strings con la variable que contiene el valor del retorno del `prompt()` anterior. Explica el uso del caracter especial `\` de ser necesario.
+- Demuestra un `alert()` utilizando la concatenación de strings para avisar al usuario con un mensaje basado en su input del prompt.
 
 ```html
   <!DOCTYPE html>
@@ -95,7 +95,7 @@ Review the Demo code located in the `/demo` folder. Use VSCode for this demo.
           <h1>Class 01 Demo</h1>
         </header>
         <main></main>
-        <footer>&copy; Code Fellows</footer>
+        <footer>&copy; Enter Tech School</footer>
 
         <script>
           let siteVisitor = prompt('What is your name?');
@@ -108,22 +108,22 @@ Review the Demo code located in the `/demo` folder. Use VSCode for this demo.
     </html>
 ```
 
-## Developer Tools
+## Herramientas para Desarrolladores
 
-- This is a great demo to get students used to opening the Chrome DevTools (`cmd+option+j` on a Mac or `shift+CTRL+j` on Windows or Linux).
-- Show them the Elements, Console, and Sources tabs. Open the console to inspect the log messages.
-- Show the students how to access their variables in the console.
+- Esta es una buena demostración para que los alumnos se familiaricen con abrir las Herramientas para desarrolladores de Chrome (`cmd+option+j` en Mac o `shift+CTRL+j` en Windows o Linux).
+- Muéstrales las ventanas Elementos, Consola y Fuentes. Abre la consola para inspeccionar los mensajes del registro.
+- Muéstra a los estudiantes cómo acceder a sus variables en la consola.
 
-### Lighthouse Reports
+### Informes de Lighthouse
 
-- Run a Lighthouse report from the Chrome DevTools to analyze the accessibility of the application.
-- By implementing accessibility best practices, we are improving the usability of the site for all users. This is important because we want to ensure that all of our potential users have a decent user experience.
-- The following options to generate a Lighthouse report should be selected:
-  - Mode: Navigation
-  - Device: Desktop
-  - Categories: Accessibility
-- A score of 50-65 for the students to strive for within the first module is a good start. As they progress in following modules, they will want to strive for a higher score.
+- Ejecuta un informe de Lighthouse desde las Herramientas para desarrolladores de Chrome para analizar la accesibilidad de la aplicación.
+- Al implementar buenas prácticas de accesibilidad, estamos mejorando la funcionalidad del sitio para todos los usuarios. Esto es importante porque queremos asegurarnos de que todos nuestros usuarios potenciales tengan una experiencia de usuario decente.
+- Se deben seleccionar las siguientes opciones para generar un informe de Lighthouse:
+  - Modo: Navegación
+  - Dispositivo: Escritorio
+  - Categorías: Accesibilidad
+- Sería un buen comienzo que los alumnos se esforzaran por alcanzar una puntuación de 50-65 en el primer módulo. Mientras progresan en los siguientes módulos, querrán alcanzar una puntuación más alta.
 
-## Publish your Code
+## Publica tu Código.
 
-Create a gist, and copy/paste your code into a gist in Github. Show the students your link and how to submit the assignment to Canvas.
+Crea un gist, y copia/pega tu código en un gist en GitHub. Muéstrale a los estudiantes tu enlace y cómo enviar la tarea a Canvas.

@@ -18,14 +18,14 @@
 - Un documento HTML como un objeto que puede ser manipulado con JavaScript.
 - Objetos literales en JavaScript.
   - Acceder y reasignar sus propiedades y métodos.
-- Notación de puntos y llaves para objetos de JavaScript.
+- Dot and Bracket Notation para objetos de JavaScript.
 
 #### Ejecutar
 
 -Transporta un problema cotidiano a un modelo de código utilizando las historias de usuario y requerimientos técnicos proporcionados.
 - Añadir de forma dinámica nuevas etiquetas en HTML (listas) al DOM utilizando JavaScript desde un array.
 - Crear un objeto en JavaScript utilizando notaciones de objetos literales.
-- Gestionar un objeto de JavaScript utilizando notación de puntos y llaves.
+- Gestionar un objeto de JavaScript utilizando dot and bracket Notation.
 
 ## Notas
 

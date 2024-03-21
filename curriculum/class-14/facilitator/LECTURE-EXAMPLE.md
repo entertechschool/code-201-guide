@@ -1,18 +1,18 @@
-# Lecture
+﻿# Clase
 
-* Code Review
-  * Today's code review can be brief, focusing on the local storage functionality, as most of the other functionality was covered during code review earlier in the week.
+* Revisión del código
+  * Hoy la revisión del código puede ser corta, centrada en la funcionalidad del local storage, ya que las otras funcionalidades ya han sido abarcadas en las revisiones anteriores.
 
-## CSS Animations
+## Animaciones en CSS
 
-* Utilize the supplied demo or create your own. The intent is to give the students enough exposure to CSS animations so that they are comfortable exploring them on their own.
+* Utiliza la demostración proporcionada o crea la tuya. El propósito es darle a los estudiantes la exposición suficiente a las animaciones en CSS para que estén cómodos explorándolas por su cuenta.
 
-## Advanced JS Topics
+## Temas avanzados de JS
 
-* The public-facing readme has a list of potential topics for this segment. Edit them as needed for your cohort.
+* El readme público tiene una lista de temas potenciales para este segmento. Edítalos como sea necesario para tu grupo.
 
-## Reinstantiation of JS objects from local storage
+## Reinstanciación de objetos JS desde el local storage
 
-* This demo is about showing students how to use local storage as a persistence layer between two HTML pages. It is a challenging topic for them, and it is difficult to decide how much code to give them in advance (to save time). Ultimately, no one knows your cohort better than you. There should be some blend of working with existing code, and also adding functionality.
+* Esta demostración es acerca de mostrarle a los estudiantes cómo utilzar el local storage como una capa de persistencia entre dos páginas HTML. Es un tema desafiante para ellos, y es difícil decidir cuánto código darles por adelantado (para ahorrar tiempo). Al final, nadie conoce a tu grupo mejor que tú. Deberá haber una mezcla de trabajar con código existencia y también añadir funcionalidades.
 
-* Lab prep: See the whiteboard images below for examples of how to help the students prepare for the lab. I recommend coding the first TODO in app.js to help the students understand the process. This is an extremely challenging lab, and many students do not finish it. That is fine; telling them, "This codebase is more complex than you've seen so far, but also less complex than what you will create on your own in the final project" really sets the tone for projects.
+* Preparación para el laboratorio: Mira las imágenes de la pizarra a continuación para los ejemplos acerca de cómo ayudar a los estudiantes para que se preparen para el laboratorio. Recomiendo programar el primer TODO en el app.js para ayudar a los estudiantes a entender el proceso. Este es un laboratorio extremadamente desafiante, y varios estudiantes no lo terminan. Está bien; decirles "Este código base es más complicado de lo que han visto antes, pero también menos complejo de lo que crearán por su cuenta en el proyecto final" establece el tono para los proyectos.

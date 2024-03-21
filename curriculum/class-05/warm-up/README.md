@@ -1,17 +1,17 @@
-# Concept Review
+﻿# Repaso de Conceptos
 
-Assume you are in a pair programming session, and are the navigator. Your driver for this exercise will be a chatbot of your choice. For each of the lines of code below, provide the (nerdy) english instructions that you would describe to the chatbot so that it will return the code shown.
+Piensa que estás en una sesión de pair programming y eres el navigator. Tu driver para este ejercicio será un chatbot de tu elección. Para cada una de las líneas de código a continuación, proporciona las instrucciónes que le describirías al chatbot para que retorne el código mostrado.
 
-For example, if you wanted the chatbot to return this code:
+Por ejemplo, si quieres que el chatbot retorne este código:
 
 ```javascript
 let number = parseInt('2');
 ```
 
-You would say:
-> Declare a variable called number and assign it the return value from running the parseInt function with the argument '2'
+Dirías:
+> Declara una variable llamada number y asígnale el valor de retorno al ejecutar la función parseInt con el argumento '2'
 
-## Javascript Fundamentals
+## Conceptos básicos de JavaScript
 
 ```javascript
 let name = 'Hedy Lamarr';
@@ -37,75 +37,75 @@ console.log(nums.length);
 console.log(nums[3]);
 ```
 
-## CSS Selectors
+## Selectores de CSS
 
-The goal for these examples is to have the chatbot provide you with the correct CSS declarations.
+El objetivo de estos ejemplos es que el chatbot te proporcione las declaraciones CSS correctas.
 
-For example, if you wanted the chatbot to return this code:
+Por ejemplo, si quieres que el chatbot retorne este código:
 
 ```css
 div {
-  /* CSS rules */
+  /* Reglas de CSS */
 }
 ```
 
-You would say:
-> Create a CSS declaration that will target any div element.
+Dirías:
+> Crea una declaración CSS que seleccione cualquier elemento div.
 
-If you are unsure of what these selectors would target, refer to the following reference.
+Si no estás seguro de lo que estos selectores pueden seleccionar, consulta la siguiente referencia.
 
 Ref: https://teamtreehouse.com/library/css-selector-reference
 
 ```css
 div.car {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```
 
 ```css
 .car {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```
 
 ```css
 #main-content {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```
 
 ```css
 div > span {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```
 
 ```css
 div span {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```
 
 ```css
 div + span {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```
 
 ```css
 div ~ span {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```
 
 ```css
 input[type=text] {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```
 
 ```css
 div:hover {
-  /* CSS Rules */
+  /* Reglas de CSS */
 }
 ```

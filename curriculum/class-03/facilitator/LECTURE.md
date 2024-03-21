@@ -1,129 +1,129 @@
-# Lecture Notes
+﻿# Notas de la Clase
 
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into REAMDE.md -->
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el README.md -->
 
-## Online Tools
+## Herramientas en línea
 
-- This is a good opportunity to expose students to helpful online tools, if not already exposed
+- Esta es una buena oportunidad para enseñarle a los estudiantes herramientas en línea útiles, si es que aún no las conocen 
   - [Code Pen](https://codepen.io/pen/)
   - [repl.it](https://repl.it/languages/javascript)
 
-## Misc Topics
+## Contenido Misceláneo
 
-- Avoid introducing `typeof` and `parseInt` today. Allow students the opportunity to discover the solution on their own or seek out advice from their peers or the instructional team.
-- It can be helpful to approach the demonstrations in pseudocode first. This serves two purposes: walking through the logic at a higher level, and showing students how to write pseudocode.
+- Evita utilizar`typeof` y `parseInt` por hoy. Dale la oportunidad a los estudiantes de que descubran la solución por su cuenta o que busquen ayuda de sus compañeros o los instructores.
+- Puede ser de ayuda abordar las demostraciones con pseudocódigo primero. Esto tiene dos propósitos: guiarlos con la lógica a nivel avanzado, y mostrarle a los estudiantes cómo escribir pseudocódigo.
 
-## Comparison Operators
+## Operadores de Comparación
 
-Compare two values and get a result in the form of `true` or `false`  
+Compara dos valores y obtén un resultado en forma de `true` o `false`  
 
-| Operator | Name | Evaluates |
+| Operador | Nombre | Evalúa |
 | -------- | ---- | --------- |
-| a == b | loose equal to | equality of **values** a & b |
-| a === b | strict equal to | equality of **values and types** a & b |
-| a != b | not equal to | inequality of **values** a & b |
-| a !== b | strict not equal to | inequality of **values and types** a & b |
-| a > b | greater than | is value a greater than value b |
-| a < b | less than | is value a less than value b |
-| a >= b | greater than or equal to | is value a greater than OR equal to value b |
-| a <= b | less than or equal to | is value a less than OR equal to value b |
+| a == b | igual regular que | igualdad de los **valores** de a & b |
+| a === b | igual estricto que | igualdad de los **valores y tipos** de a & b |
+| a != b | no igual que | desigualdad de los **valores** de a & b |
+| a !== b | no igual estricto que | desigualdad de los **valores y tipos** de a & b |
+| a > b | mayor que | es un valor mayor que el valor de b |
+| a < b | menor que | es un valor menor que el valor de b |
+| a >= b | mayor o igual que | es un valor mayor O igual que el valor de b |
+| a <= b | menor o igual que | es un valor menor O igual que el valor de b |
 
-## Logical Operators
+## Operadores Lógicos
 
-Compare the results of multiple comparison operators and (usually) get a final `true` or `false` result
+Compara los resultados de múltiples operadores de comparación y (por lo general) obtén un resultado final `true` o `false`
 
-| Operator | Name | Evaluates |
+| Operador | Nombre | Evalúa |
 | -------- | ---- | --------- |
-| a && b   | and  | are a and b *both* true |
-| a &#124;&#124; b   | or   | is a *or* b true |
-| !a       | not  | inverts the boolean value of a |
+| a && b   | y | a y b son *ambos* true |
+| a &#124;&#124; b   | o   | a *o* b es true |
+| !a       | no  | invierte el valor del boolean de a |
 
-## Evaluating Comparisons
+## Evaluando Comparaciones
 
-Refer to `Demo.md` for further guidance
+Consulta `Demo.md` para más ayuda
 
 ## if...else
 
-You can use the comparison operators in an "if" statement (or if...else) to determine what to do when a situation is met.
+Puedes utilizar los operadores de comparación en una declaración "if" (o if...else) para determinar qué hacer cuando se cumple una situación.
 
 ```js
 if(condition){
-// do something
+// haz algo
 }
 ```
 
-or
+o
 
 ```js
 if(condition){
-// do something
+// haz algo
 } else{
 
 }
 ```
 
-The else will always run if the condition is not met.
+El else siempre se ejecutará si no se cumple la condición.
 
 ## Switch
 
-Refer to `Demo.md` for further guidance
+Consulta `Demo.md` para más ayuda
 
-## Type Coercion
+## Coerción de tipos
 
-Refer to `Demo.md` for further guidance
+Consulta `Demo.md` para más ayuda
 
-## Short Circuit
+## Cortocircuito
 
-Refer to `Demo.md` for further guidance
+Consulta `Demo.md` para más ayuda
 
-## Control Flow (loops)
+## Control de flujo (bucles)
 
-What are loops? Why do we need them? Introduce the concepts of loops and discuss the importance of them.
+¿Qué son los bucles? ¿Por qué los necesitamos? Presenta el concepto de los bucles y habla de la importancia de estos.
 
-A great way to introduce the concepts of loops is to talk about how something needs to repeated over and over again, such as mixing ingredients in a recipe.
+Una buena forma de presentar el concepto de los bucles es hablar acerca de cómo algo se debe repetir una y otra vez, como mezclar ingredientes en una receta.
 
-Walk through with the students how "they know they are done" with the prompt.
+Explícale a los alumnos cómo "saben que han terminado" con las indicaciones.
 
-In programming, we can create loops a few different ways.
+En la programación, podemos crear bucles de diferenes formas.
 
-### for loops
+### Bucles for
 
-`for` loops are primarily used when iterating over arrays. A for loop runs "for the number of times specified" is the basic summary of a for loop. The syntax is as follows:
+Los bucles `for` se utilizan principalmente al iterar por los arrays. Un bucle for se ejecuta "el número de veces especificadas", este es el resumen general de un bucle for. La sintaxis es la siguiente:
 
 ```javascript
   for(starting val; condition; increment) {
-    do something for a finite number of times
+    haz algo un número finito de veces
   }
 ```
 
-The secret to the for loops is that the starting value will always be evaluated at the beginning of every iteration. This means that the "condition" gets evaluated before every run to ensure it is still met. Indicate to students that once that "bottom curly brace" of the for loop is hit, the "increment" (or action) will execute.
+El secreto de los bucles for es que el valor de inicio siempre será evaluado al comienzo de cada iteración. Esto significa que la "condición" es evaluada antes de cada ejecución para asegurarse de que aún se cumpla. Indícale a los alumnos que una vez que se llegue a la "llave inferior" del bucle for, el "incremento" (o acción) se ejecutará.
 
-Refer to `Demo.md` for further guidance
+Consulta `Demo.md` para más ayuda
 
-### while loops
+### Bucles while
 
 ```javascript
   while(condition) {
-    do something until the condition is false
+    haz algo hasta que la condición sea falsa
   }
 ```
 
-### do...while loops
+### Bucles do...while
 
-do...while loops can guarantee an iteration occurs at least once. the "do" code will run initially before the "while" condition gets evaluated.
+Los bucles do...while pueden garantizar que una iteración ocurra al menos una vez, el código "do" se ejecutará inicialmente antes de que la condición "while" sea evaluada.
 
 ```javascript
   do {
-    do this at least once and until the condition is false
+    haz algo por lo menos una vez hasta que la condición sea falsa
   } while (condition)
 ```
 
 ## Box Model
 
-Review the basics of the box model
+Repasa los conceptos básicos del box model
 
 1. Margin
 1. Padding
 1. Border
 
-Layouts using CSS with the Box Model
+Layout utilizando CSS con el Box Model

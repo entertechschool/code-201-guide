@@ -1,77 +1,77 @@
-# Facilitators Guide: Adding a chart to the Vote Tracker App
+﻿# Guía del Instructor: Añadir un gráfico a la app Vote Tracker
 
-## Overview
+## Resumen
 
-The focus for this class is to utilize a 3rd party chart library so that students can provide a graphical representation of the click data that they are collecting from their vote tracker. This involves a discussion of the `<canvas>` element, which is where the chart library actually does its thing.
+El objetivo de esta clase es utilizar una librería de terceros para que los estudiantes puedan proporcionar una representación gráfica de los datos de clicks que han recolectado del vote tracker. Esto involucra la conversación sobre el elemento `<canvas>`, que es donde la librería de gráficos hace su trabajo.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
+**¿Qué hicimos?**:
 
-In the previous class students kicked off their new project, Odd Duck Products. 
+En la clase anterior, los estudiantes comenzaron con su nuevo proyecto, Odd Duck Products. 
 
-**What we are focusing on in this class**:
+**¿En qué nos centraremos en esta clase?**:
 
-In this class students will learn how to utilize a 3rd party library in their application. They will be using the `<canvas>` element to display their collected votes in a bar graph.
+En esta clase, los estudiantes aprenderán a utilizar una librería de terceros en su aplicación. Utilizarán el elemento `<canvas>` para mostrar sus votos recolectados en un gráfico de barras.
 
-**Where we're headed**:
+**¿Qué haremos?**:
 
-In the next class students will learn how to persist data from their application using local storage.
+En la siguiente clase, los estudiantes aprenderán a almacenar los datos de su aplicación utilizando el local storage.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Skim the readings and be prepared if students have questions.
-1. Review demo code.
+1. Hojea las lecturas y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa la demostración de código.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code review
+### Revisión del código
 
-- Depending on the cohort, a demo of a build-out may be more appropriate.
+- Dependiendo del grupo, una demostración de la maquetación podría ser mas adecuado.
 
-### Canvas + ChartJS overview
+### Resumen de Canvas + ChartJS
 
-- **Why**
-  - Third party libraries help us save time as we do not need to develop the functionality that the library provides!
-- **What**
-  - The `<canvas>` element is used to draw graphics using JavaScript.
-  - Chart.js is a 3rd party JavaScript library for data visualization, which supports a number of different chart types.
-- **How**
-  - Navigate to the [Chart.js docs](https://www.chartjs.org/docs/latest/getting-started/) and walk through them with the students
-  - Create an `index.html` file and include the `<canvas>` element and necessary script tag provided in the Chart.js docs.
-  - Create an `app.js` file and build out the code to render the chart.
-  - Show students how you can change the code to have your chart render different data or colors within the bar chart.
+- **¿Por qué?**
+  - ¡Las librerías de terceros nos ayudarán a ahorrar tiempo ya que no necesitamos desarrollar la funcionalidad que la librería proporciona!
+- **¿Qué?**
+  - El elemento `<canvas>` se utiliza para crear gráficos utilizando JavaScript.
+  - Chart.js es una librería de JavaScript de terceros para visualización de datos, la cual soporta bastantes tipos de datos diferentes.
+- **¿Cómo?**
+  - Entra a la [documentación de Chart.js](https://www.chartjs.org/docs/latest/getting-started/) y mírala con los estudiantes
+  - Crea un archivo `index.html` e incluye el elemento `<canvas>` y la etiqueta script necesaria proporcionada en la documentación de Chart.js.
+  - Crea un archivo `app.js` y construye el código para crear el gráfico.
+  - Muéstrale a los estudianes cómo cambiar el código para que tu gráfico muestre diferentes datos o colores en el gráfico de barras.
 
-### Lab prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be successful with their lab.
-- **What**
-  - Instructor to demo adding a chart to the Goat Vote Tracker application.
-- **How**
-  - Follow same steps used during the code demo with bringing in the Chart.js library.
+- **¿Por qué?**
+  - Les proporciona a los estudiantes las herramientas para que cumplan con su laboratorio.
+- **¿Qué?**
+  - El instructor hará una demostración acerca de añador un gráfico a la aplicación Goat Vote Tracker.
+- **¿Cómo?**
+  - Sigue los mismos pasos durante la demostración de código con la librería Chart.js.
 
-## Lab Notes
+## Notas de Laboratorio
 
-Because of the large amount of building from the previous lab, this class is meant to play catch-up. The only lab requirement is to take the data from the list and render it as a chart using the Chart.js library.
+Debido a la gran cantidad de trabajo del laboratorio anterior, esta clase es para ponerse al día. El único requisito del laboratorio es tomar los datos de la lista y mostrarlos como un gráfico utilizando la librería Chart.js.
 
-Remind students that they need to have full functionality before moving on to the chart implementation. If they are not tracking clicks and votes yet, it is not a good use of time to attempt the chart yet.
+Recuérdale a los estudiantes que necesitan tener todas las funcionalidades antes de seguir con la implementación del gráfico. Si no sus aplicación aún no monitoréan los clicks y votos, aún no es un buen momento para implementar el gráfico.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-No big changes from previous class.
+No hubieron grandes cambios desde la clase anterior.
 
-## What bugs, issues, or suprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-Many students will come into this class's lecture and not have the first portion of their lab completed. Reassure them that that is normal for this point in the course and this class's lab assignment is lighter in order to give them time to catch up. Depending on the cohort, a longer code review may be needed.
+Muchos estudiantes llegarán a esta clase sin tener la primera parte del laboratorio completa. Asegúrale a los estudiantes que esto es normal en este punto del curso y que la tarea de este laboratorio es menos pesada para darles más tiempo para ponerse al día. Dependiendo del grupo, se podría necesitar una revisión del código más larga.
 
-## General Comments
+## Comentarios Geneales
 
-One more thing we start doing at this time is looking at student projects from prior cohorts so that the students can start getting a feel for the scope of the projects in general. We like to discuss the successful ones as well as certain  aspects of them that needed more UI/UX attention.
+Una cosa más para comenzar a hacer en este momento es mirar a los proyectos de grupos anteriores para que los estudiantes puedan comenzar a calcular el alcance de los proyectos en general. Queremos hablar de los proyectos exitosos así como de los que tienen ciertas partes que necesitan más trabajo con el UI/UX.

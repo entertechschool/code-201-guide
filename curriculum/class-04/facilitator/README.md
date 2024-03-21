@@ -1,128 +1,128 @@
-# Facilitators Guide: JS Functions, Pair Programming, and Intro to CSS Layout
+﻿# Guía del Instructor: Functiones en JS, Pair Programming, e Introducción a CSS: Layout
 
-## Overview
+## Resumen
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
+**¿Qué hicimos?**:
 
-In the previous class, students learned more about control flow with the introduced to loops. They learned about the CSS box model.
+En la clase anterior, los estudiantes aprendieron más acerca del control de flujo con la introducción a los bucles. Aprendieron acerca del CSS box model.
 
-**What are we focusing on in this class**:
+**¿En qué nos centraremos en esta clase?**:
 
-In this class we will introduce CSS positioning, functions, and pair programming. This is a rather heavy class with content so keep an eye on your time management as you work through the lecture content.
+En esta clase enseñaremos CSS positioning, funciones, y pair programming. Esta clase es un poco pesada, así que gestiona tu tiempo mientras trabajas con el contenido de la clase.
 
-**Where we're headed**:
+**¿Qué haremos?**:
 
-Next class will focus more on functions and their return statement. Students will also be closing out on their "About Me" lab.  Three labs assignments are due consisting of deploying the "About Me" project, CSS practice, and Git branching.
+En la siguiente clase nos centraremos más en las funciones y su sentencia return. Los estudiantes también terminarán con su laboratorio "About Me".  Las tres tareas de los laboratorios consisten en desarrollar el proyecto "About Me", práctica de CSS y Git branching.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Skim the class reading and be prepared if students have questions.
-1. Review the code demos and be sure to understand how to construct them within lecture. Review the respective markdown file for each demo.
-1. The instructional staff should have a solid feel for the students who are starting to get overwhelmed and who might be at risk of not completing the course.
-   - ***It is important to make an opportunity to spend time with these students of concern, to help them along and also more closely evaluate where they are.***
-1. Review the [whiteboard diagrams](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) on the Code Fellow's Invision account or [here](whiteboards/class04WB.png) for lecture.
+1. Hojea la lectura de la clase y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Los instructores tendrán una idea clara de los alumnos que están comenzando a abrumarse y quienes corren el riesgo de no completar el curso.
+   - ***Es importante pasar tiempo con estos estudiantes que nos preocupan, ayudarlos y evaluar en qué punto se encuentran.***
+1. Revisa los [diagramas en la pizarra](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) en la cuenta de Invision de Code Fellow o [aquí](whiteboards/class04WB.png) para la clase.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code review
+### Revisión del código
 
-- Review Truthy/Falsy
-- Review Arrays
-- Review Loops
+- Repasa Verdadero/Falso
+- Repasa Arrays
+- Repasa Bucles
 
-### JS functions
+### Funciones en JS 
 
-- **Why**
-  - Functions are one of the fundamental building blocks in JavaScript.
-  - Functions can be reusable and help save time.
-- **What**
-  - A function is a set of statements that perform a task or calculates a value. It should take some input and return an output.
-  - To use a function, you must define it and then call it.
-- **How**
-  - Instructor may choose to use replit for the demonstration.
-  - Demonstrate how to declare and call a variety of functions:
-    - functions without parameters
-    - functions with parameters and then called with arguments
-    - functions with a return statment
-    - saving the value returned from the function to a variable
-  - Touch on function scope with a few examples.
+- **¿Por qué?**
+  - Las funciones son uno de los componentes fundamentales en JavaScript.
+  - Las funciones se pueden reutilizar y ahorrar tiempo.
+- **¿Qué?**
+  - Una función es un conjunto de declaraciones que ejecutan una tarea o calculan un valor. Deben tomar un input y retornar un output.
+  - Para utilizar una función debes definirla y luego llamarla.
+- **¿Cómo?**
+  - El instructor puede escoger utilizar replit para hacer la demostración.
+  - Demuestra cómo declarar y llamar varias funciones:
+    - funciones sin parámetros
+    - funciones con parámetros y luego llamadas con argumentos
+    - funcioenes con una sentencia return
+    - guardar el valor retornado de la función a una variable
+  - Abarca el scope de las funciones con algunos ejemplos.
 
 ### CSS layout - Positioning
 
-- **Why**
-  - A few benefits for using CSS for layout:
-    - Maintainability - it is easier to make changes when your layout is described in CSS.
-    - Better accessibility - organizing your document based on its content helps those with screen readers.
-- **What**
-  - Positioning allows you to take elements out of the normal document flow layout flow and make them behave differently.
-  - Few examples to demonstrate is having an element sit on top of one another or by having an element remain in the same place inside the viewport.
-- **How**
-  - Use Code Pen for this demonstration so that it can be shared to the class repository.
-  - Demonstrate the following position values to the students:
+- **¿Por qué?**
+  - Algunos beneficios de utilizar CSS para el layout:
+    - Mantenimiento - es más fácil hacer cambios cuando tu layout está descrito en CSS.
+    - Mejor accesibilidad - organizar tu documento en base a su contenido ayuda a aquellos con lectores de pantalla.
+- **¿Qué?**
+  - El positioning te permite tomar elementos del flujo normal del layout del documento y hacer que se comporte diferente.
+  - Algunos ejemplos para demostrar es tener un elemento encima de otro o que un elemento se mantenga en el mismo lugar dentro del viewport.
+- **¿Cómo?**
+  - Utiliza Code Pen en esta demostración para que pueda ser compartido en el repositorio de la clase.
+  - Demuestra los siguientes valores de position a los alumnos:
     - Absolute
     - Relative
     - Fixed
 
-### Pair Programming
+### Pair programming
 
-- **Why**
-  - A few benefits to pair programming:
-    - Two heads are better than one!
-    - An effective way to share knowledge.
-    - Develops interpersonal skills.
-    - Helps to develop higher quality code faster while reducing risk.
-- **What**
-  - Pair programming is an agile software development technique in which two programmers work together at one workstation.
-- **How**
-  - Define the roles of Navigator and Driver.
-  - Demonstration how to plan an approach before starting code.
-  - Encourage communication while coding.
-  - If available, pair program something with a TA or a fellow instructor.
+- **¿Por qué?**
+  - Algunos beneficios de pair programming:
+    - ¡Dos cabezas piensan mejor que una!
+    - Es una forma efectiva de compartir conocimiento.
+    - Desarrolla las habilidades interpresonales.
+    - Ayuda a desarrollar un código de buena calidad más rápido a la vez que reduce el riesgo.
+- **¿Qué?**
+  - El pair programming es una técnica de desarrollo de software en la que dos programadores trabajan juntos en una estación de trabajo.
+- **¿Cómo?**
+  - Define los roles de Navigator y Driver.
+  - Demuestra cómo planear un enfoque antes de comenzar a escribir código.
+  - Fomenta la comunicación al programar.
+  - Si se puede, haz pair programming con un TA u otro instructor.
 
-### Lab prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be successful with their lab.
-- **What**
-  - Review Lab 04 instructions in Canvas.
-- **How**
-  - This lab is going to focused mainly on pair programming.
-  - Whiteboard the git flow that will take place during pair programming:
-    - Forking, cloning, ACP, making a Pull Request, and then merging.
-  - Grab a TA, another instructor, or possibly a student volunteer as a backup to help with this demonstration.
-    - Refer to the [lecture example](LECTURE-EXAMPLE.md) for a more detailed example of what needs to be accomplished during the students pair programming lab.
+- **¿Por qué?**
+  - Les proporciona a los estudiantes las herramientas para que cumplan con su laboratorio.
+- **¿Qué?**
+  - Revisa las instrucciones del Laboratorio 04 en Canvas.
+- **¿Cómo?**
+  - Este laboratorio se centrará principalmente en el pair programming.
+  - Escribe en una pizarra el flujo de git que se utilizará durante el pair programming:
+    - Fork, clonar, ACP, crear un Pull Request, y luego merge.
+  - Haz que un TA, otro instructor, o quizás un alumno se ofrezca como apoyo para ayudarte con la demostración.
+    - Consulta el [ejemplo de la clase](LECTURE-EXAMPLE.md) para más detalles acerca de lo que necesitas lograr durante el laboratorio de pair programming de los estudiantes.
 
-## Lab Notes
+## Notas de Laboratorio
 
-This class's lab requires pair programming. Be sure to review with the students what the different roles are and how they work together to collaborate to accomplish the given goal.
+Este laboratorio requiere del pair programming. Asegúrate de repasar con los estudiantes cuáles son los diferentes roles y cómo deberán trabajar juntos para cumplir con el objetivo.
 
-- Students should be paired with similarly skilled students.
-  - e.g. If you rank your students on a scale from 1-10 based on overall ability, avoid pairing a 4 with a 10. Pair a 0 with no higher than a 5, and pair a 10 with no lower than a 6.
-- Use groups of 3 as needed, especially on teams where you suspect someone might not show up. This is more an issue with the night schedule where this assignment is done over consecutive evenings.
-- Announce partners over the slack channel, not in class.
-  - This way there is no drama with facial expressions over Zoom when people learn who their partner is.
+- Los estudiantes serán emparejados con otros estudiantes con habilidades similares.
+  - p.ej. Si calificas a tus estudiantes en una escala del 1-10 en base a su habilidad general, evita emparejar un 4 con un 10. Empareja un 0 con otro alumno que no sea más de un 5, y empareja a un 10 con otro alumno que no sea menos que un 6.
+- Utiliza gurpos de 3 si es necesario, especialmente en equipos en donde sospechas que alguien puede que no se presente. Este es un problema más frecuente en el horario nocturno en donde esta tarea se realiza en noches consecutivas.
+- Anuncia a las parejas por el canal de slack, no en clase.
+  - De esta forma no habrá problemas con las expresiones faciales en Zoom cuando las personas sepan quién es su compañero.
 
-It can be helpful to expose students to [learnlayout.com](http://learnlayout.com) as an introduction to CSS layouts.
+Puede ser de ayuda mostrarle [learnlayout.com](http://learnlayout.com) a los estudiantes como instroducción a CSS layouts.
 
-[This article from freecodecamp.org](https://medium.freecodecamp.org/css-floats-explained-by-riding-an-escalator-57fa55232333) is also a great resource for students to understand how floats work in CSS.
+[Este artículo de freecodecamp.org](https://medium.freecodecamp.org/css-floats-explained-by-riding-an-escalator-57fa55232333) también es un buen recurso para que los alumnos entiendan cómo funcionan los floats en CSS.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-Students will be learning new Git and GitHub workflows that may be a bit of a struggle.
+Los alumnos aprenderán nuevos flujos de trabajo de Git y GitHub que pueden ser un poco difíciles.
 
-## What bugs, issues, or surprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-Each of the two big topics brings challenges. With functions, students tend to want to make them much more complicated than they are, instead of simply being a wrapper around logic that they have already demonstrated the ability to manage. Plus, there is typically a lot of confusion with fundamentals of how parameters and arguments work, the difference between declaring and calling a function, and the use of ‘return’ statements. Experience shows that probably 50% or more of students actually know very little of how functions work… and that is before bringing the concept of ‘scope’ into the discussion. In addition, most students have seen and tend to haphazardly use function declarations and function expressions, and care needs to be taken to guide them (for now) down the declaration path, without getting sucked into the rabbit holes of hoisting and JS interpreter behavior if the students generally are struggling with the basics.
+Cada uno de los dos temas principales trae desafíos. Con las funciones, los estudiantes suelen hacerlas más complicadas de lo que realmente son, en vez de simplemente ser una envoltura alrededor de la lógica que ya han demostrado poder manejar. Además, usualmente hay mucha confusión con los conceptos básicos acerca del funcionamiento de los parámetros y los argumentos, la diferencia entre declarar y llamar una función, y el uso de las declaraciones ‘return’. La experiencia demuestra que probablemente el 50% o más de los estudiantes en realidad conocen muy poco acerca de cómo funcionan las funciones... y eso es antes de llevar el concepto de ‘scope’ a la conversación. Así mismo, la mayoría de los estudiantes han visto y suelen utilizar declaraciones de funciones y expresiones function al azar, y se necesita guiarlos con cuidado (por ahora) por el camino de las declaraciones, sin dejarse absorver por el concepto del hoisting y el comportamiento de interpretación de JS si los estudiantes por lo general tienen dificultaddes con los conceptos básicos.
 
-With CSS layout, there is an enormous range of possibilities that is impossible to manage without command of a handful of fundamental concepts; yet, it takes more work than expected to get the basic concepts across effectively. Students are used to thinking of formatting in word processing documents, and the ease of just highlighting and clicking options until the desired look is achieved. With the interaction of CSS and HTML, care must be given to planning and organization of a document within the constraints of the fundamental CSS layout concepts. This points to the need to have a plan in place before building, since structure and detail are so interlinked. Command of terminology is key, and this is another important place to stress the role of solid communication skills.
+Con CSS Layout, hay una gran rango de posibilidades que es imposible de gestionar sin el dominio de un puñado de conceptos fundamentales; aún así, toma más trabajo del esperado entender los conceptos básicos de forma efectiva. Los estudiantes están acostumbrados a pensar en el formato en los documentos procesados con word, y la facilidad de solo resaltar y hacer click en opciones hasta que se alcance la apariencia deseada. Con la interacción entre CSS y HTML, se debe prestar atención a la planeación y organización del documento dentro de las limitaciones de los conceptos fundamentales de CSS Layout. Esto señala la necesidad de tener un plan establecido antes de maquetar, ya que la estuctura y los detalles están entrelazados. El dominio de la terminología es la clase, y este es otro espacio importante para resaltar el rol de las habilidades de comunicación sólidas.
 
-On top of all of this, this class is their first experience in pair programming, so there are numerous technical and social/communication aspects to consider. Do not underestimate the time needed to demonstrate Git flow to the class. Expect a long lab, and stress the importance of time management.
+Además, esta clase es su primera experiencia con el pair programming, así que hay muchos aspectos técnicos y sociales/de comunicación a considerar. No calcules mal el tiempo necesario para demostrar el flujo de Git a la clase. Prevee que será un laboratorio largo y resalta la importancia de la gestión del tiempo.

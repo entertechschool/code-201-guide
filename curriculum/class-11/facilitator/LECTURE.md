@@ -1,27 +1,27 @@
-# Class 11 Lecture
+﻿# Clase 11
 
-## Career Coaching
+## Orientación Profesional
 
-Briefly discuss the upcoming Career Coaching assignments:
+Habla brevemente de las próximas tareas de Orientación Profesional:
 
-* Resume Review by Accountability Partners: Students will get together with their accountability partners on their own time and review each others' resumes. They are not checking for wording or grammar, but confirming that their partners have followed the recommended template and format.
+* Revisión de Curriculum de los Accountability Partners: Los estudiantes se reunirán con sus accountability partners en su tiempo libre y revisarán sus curriculums. No revisarán la redacción o la gramática, si no que confirmarán que sus compañeros hayan seguido la plantilla y el formato recomendados.
 
 ## CSS Grid
 
-Design a grid system that accounts for a column and row layout.  Showcase how to add proper column and row classes / ids to align your HTML elements to your grid system.  See the demo for a sample grid system.
+Diseña un sistema grid que tenga en cuenta el layout de columnas y filas.  Muestra cómo añadir las clases/ids de columnas y filas adecuadas para alinear tus elementos HTML a tu sistema grid.  Mira la demostración para ver un ejemplo de sistema grid.
 
-## A/V
+## Audio/Video
 
-Showcase to the students an example of adding an audio file and a video file to a basic HTML page. See the demo as an outline.
+Muéstrale a los estudiantes un ejemplo de añadir un archivo de audio y un archivo de video a una página HTML básica. Mira la demostración como un borrador.
 
 ## Vote Tracking
 
-This is the very beginning of the Odd Duck Products application. Review the provided code demo as an example.
+Este es el comienzo de la aplicación Odd Duck Products. Revisa la demostración de código proporcionada como ejemplo.
 
-This demo should showcase the following features:
+Esta demostración deberá mostrar las siguientes funcionalidades:
 
-1. Showcase 2 images, side-by-side that tracks the number of times an image is clicked. After each click, 2 new images are generated.
-1. Creating many objects and pushing them into an array
-1. Keeping track of when each image is seen
-1. keeping track of when each image is clicked
-1. Randomizing the images as they are rendered to the page.
+1. Muestra 2 imágenes, una al lado de la otra, que monitora el número de tiempos que se le hace click a una imágen. Después de cada click, se generan 2 nuevas imágenes.
+1. Crea varios objetos y envíalos a un array
+1. Monitorea cuándo se ve cada imagen.
+1. monitorea cuando se le hace click a cada imágen
+1. Aleatoriza las imágenes a medida que se muestran en la página.

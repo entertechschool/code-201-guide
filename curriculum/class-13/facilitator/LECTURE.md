@@ -1,35 +1,35 @@
-Code review is essential to a good start for the day. As with Class 9, your focus should be on getting all student assignments as close to functional as possible and getting everyone caught up who has slipped behind. Have the students with working assignments lead the way and explain their code. Also, ask students with incomplete projects and particular sticking points if they will share their work with the class to get assistance. By this time in the class, there should adequate trust all around to really do some deep code review.
+﻿La revisión del código es esencial para comenzar bien el día. Así como en la Clase 9, tu enfoque deberá ser que todas las tareas de los estudiantes estén lo más funcionales posible y hacer que todos se pongan al día . Haz que los estudiantes con tareas funcionales guíen al grupo y expliquen su código. También, pregúntale a los estudiantes con proyectos incompletos y puntos de conflicto si pueden compartir su trabajo con la clase para que les ayuden. A este punto de la clase, debería haber la suficiente confianza entre todos para profundizar en la revisión del código.
 
 
-The one instructional piece today, local storage, is straightforward in terms of how it works. The key is to make sure that all of the big conceptual topics are being covered as well:
-* Persistence, whether in the browser or across multiple machines
-* Techniques for managing persistence: when to store, when to retrieve
-* What to store, exactly?
-* JSON and data modeling
+La única parte didáctica de hoy, el local storage, es directo en la forma en cómo funciona. La clase es asegurarse de que todos los temas teóricos grandes estén cubiertos también:
+* Persistencia, ya sea en el navegador o a través de múltiples equipos
+* Técnias para administar la persistencia: cuándo almacenar, cuándo recuperar
+* ¿Exactamente qué almacenamos?
+* JSON y modelado de datos
 
 ## Local Storage
-Start by discussing what "data persistence" means. Data persistence is the act of data being saved for later use, even after the browser shuts down or another machine is used to access the application. The use of data persistence is strong within development. We will traditionally use databases to persist data within an app, but we will wait until 301 before getting to that level of persistence. 
+Comienza hablando de qué significa la "persistencia de datos". La persistencia de datos es el acto de guardar datos para utilizarlos después, incluso después de que el navegador se cierre o se utilice otra máquina para acceder a la aplicación. El uso de la persistencia de datos es fuerte dentro del desarrollo. Tradicionalmente, utilizaremos bases de datos para almacenar los datos dentro de la aplicación, pero esperaremos hasta el curso 301 antes de llegar a ese nivel de persistencia. 
 
-In 201, we will work with another form of data persistence, local storage. Local storage is great because it's browser specific and saves information with no expiration date. Meaning that all of the data that is being saved/persisted is specific to the browser you are using and once you close that browser down and open the app back up, your data will still be present. Your friend will be able to open up their own browser and see only the data that they specifically saved and will not at all affect the data you saved. 
+En el curso 201, trabajaremos con otra forma de persistencia de datos, el local storage. El local storage es genial porque es específico del navegador y guarda información sin fecha de expiración. Lo cual significa que todos los datos que son guardados/almacenados son específicos del navegador que estás utilizando y una vez que cierras el navegador y abres la aplicación de vuelta, tus datos seguirán presentes. Tu amigo podrá abrir su proprio navegador y ver solo los datos que él mismo ha guardado y no afectará para nada los datos que has guardado. 
 
-The great part about local storage is that it can hold significantly more data than Cookies, which is another way to store local data to a user. Local Storage has a 5MB max size, where as Cookies have a 4KB size limit.
+La mejor parte del local storage es que puede almacenar más datos que las cookies, la cual es otra forma de almacenar datos locales para un usuario. El local storage tiene una capacidad máxima de 5MB, mientras que las cookies tienen un límite de 4KB.
 
-Local storage stores both keys and values as strings. This means that when you save data into local storage, it will save it as a string, meaning you will have to convert it to a different data type upon retrieving the data.
+El local storage almacena tanto keys como values en forma de strings. Esto significa que cuando guardas datos en el local storage, se guardarán como string, es decir que tendrás que convertirlos a un tipo de dato distinto al recuperar los datos.
 
-Local storage works off of the key/value pair concept. Every item that you insert into local storage must have both a key and a value associated with it. 
+El local storage se basa en el concepto de key/value. Cada elemento que has insertado en el local storage deberá tener un key y un value asociado con él. 
 
-Here is an overview of the local storage methods:
-1. `setItem()` - Add key and value to the local storage
-1. `getItem()` - Retrieve a value by the key
-1. `removeIem` - Remove an item by the key
-1. `clear()` - Clear all of the storage
+Este es un resumen de los métodos de local storage:
+1. `setItem()` - Añade los key y value al local storage
+1. `getItem()` - Recupera un value por su key
+1. `removeIem` - Elimina un elemento por su key
+1. `clear()` - Limpia todo el storage
 
 ### Demo
-Refer to the [Demo file](Demo.md) to walk through the  demo of local storage.
+Consulta el [archivo Demo](Demo.md) para ver la demostración de local storage.
 
-1. Console manipulation of local storage
-1. Saving an array into local storage
-1. Retrieving the array from local storage and converting it back to JS. 
+1. Manipulación por consola del local storage
+1. Guarda un array en el local storage
+1. Recupera el array del local storage y conviértelo de vuelva a JS. 
 
 
 

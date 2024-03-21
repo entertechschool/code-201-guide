@@ -1,66 +1,66 @@
-# Advanced JS Topics and CSS Animations
+﻿# Temas avanzados de JS y Animaciones en CSS
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in the [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md).
 
-## Overview
+## Resumen
 
-In this class we will introduce re-instantiation. This is challenging material for the students to even grasp the architecture of the demo, much less implement it on their own. Be sure to point out that this is something they will be expected to implement on their final projects as well.
+En esta clase enseñaremos sobre la reinstanciación. Es difícil que los estudiantes comprendan la arquitectura de la demostración, mucho menos que lo puedan implementar por su cuenta. Asegúrate de señalar que esto es algo que se espera que implementen en sus proyectos finales también.
 
-Depending on the skill level of the cohort, you may choose to spend the remainder of the time discussing advanced JS topics and/or CSS animations. Refer to the main daily class README for advanced JS topics.
+Dependiendo del nivel de habilidad del grupo puedes escoger pasar el tiempo que queda hablando sobre temas avanzados de JS y/o las animaciones en CSS. Consulta el README principal de esta clase para ver los temas avanzados de JS.
 
-## Preparation
+## Preparativos
 
-1. Open the [template repository](https://github.com/codefellows/201-lab-14) for the workshop portion of the class.
-1. Skim the daily readings and be prepared if students have questions.
-1. Review the code demos and be sure to understand how to construct them within lecture. Review the respective markdown file for each demo.
-1. Work with your principal instructor directly to conduct the [Psychological Safety talk](./PSYCH_SAFETY). This discussion should last about an hour at the beginning of the class.
-1. Have groups created for project week and share them with the students. Refer to the [Projects doc](PROJECTS).
-1. Upload `css-animations.md` file is uploaded to the daily class repo.
-1. Create and post paired-programming partners for the lab.
+1. Abre el [repositorio plantilla](https://github.com/codefellows/201-lab-14) para la parte de taller de la clase.
+1. Hojea las lecturas diarias y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Trabaja directamente con tu instructor principal para realizar la [charla de Seguridad Psicológica](./PSYCH_SAFETY). Esta plática deberá tardar como una hora al comienzo de la clase.
+1. Crea grupos para la semana del proyecto y comparte la lista con los estudiantes. Consulta el [documento de Proyectos](PROJECTS).
+1. Sube el archivo `css-animations.md` al repositorio diario de la clase.
+1. Crea y publica la lista parejas de pair-programming para el laboratorio.
 
-## Lecture
+## Clase
 
-1. Psychological safety (1 hour)
-1. Code review (30 min)
-   - Final review of Odd Duck Products
-1. Discuss final project ideas (30 min)
-   - Publish groups and discuss requirements
-1. CSS Animations
-1. Reinstantiation of JS objects from local storage (30-45 min)
-1. Code 301 Entrance exam to be open and set to close at the end of class 15.
+1. Seguridad Psicológica (1 hora)
+1. Revisión del código (30 min)
+   - Revisión final de Odd Duck Products
+1. Debatiendo ideas para el proyecto final (30 min)
+   - Publica los grupos y habla de los requisitos
+1. Animaciones en CSS
+1. Reinstanciación de objetos JS desde el local storage (30-45 min)
+1. El examen de ingreso a Code 301 se abrirá y cerrará al final de la clase 15.
 
-## Lab Notes
+## Notas de Laboratorio
 
-Lab for this class is divided into 2 parts, and will challenge the students in a number of ways.
+El laboratorio de esta clase está dividido en 2 partes, y desafiará a los estudiantes de varias formas.
 
-1. It's going require them to perform their work in an existing codebase, so they'll have to familiarize themselves with the code, where things are and how the functions connect.
-1. The lab will require them to use multiple .js files and multiple .html files ... an architecture they've not yet seen.
-1. LocalStorage will be required to share data between pages. This is a HUGE takeaway for them!
+1. Va a necesitar que trabajen con un código base existente, así que tendrán que familiarizarse con el código, dónde están las cosas y cómo se conectan las funciones. 
+1. El laboratorio necesitará que utilicen múltiples archivos .js y .html... una arquitectura que no han visto aún.
+1. Se necesita que el LocalStorage comparta los datos entre páginas. ¡Esta es una GRAN enseñanza para ellos!
 
-Spend about 30 - 45 minutes work-shopping this with the student before sending them out to work with their partner.
+Pasa como 30 - 45 minutos viendo esto con los alumnos antes de mandarlos a trabajar con sus respectivos compañeros.
 
-1. Show them how to create a new repository from a [template repository](https://github.com/codefellows/201-lab-14).
-1. Remind them how to add a collaborator, since they'll be pairing with another student.
-1. Review the architecture with them.
-   - How would start the website?
-   - What does the code do?
-   - Work with the class on how to understand where the app "starts" and how everything connects together.
-   - Maybe write the saving of data to local storage with them, collectively to help them start out.
+1. Muéstrales cómo crear un nuevo repositorio desde un [repositorio plantilla](https://github.com/codefellows/201-lab-14).
+1. Recuérdales cómo añadir un colaborador, ya que estarán emparejados con otro estudiante.
+1. Revisa la arquitectura con ellos.
+   - ¿Cómo se comenzaría con la página web?
+   - ¿Qué hace el código?
+    Trabaja con la clase sobre cómo entender en dónde "comienza" una aplicación y cómo se conecta todo.
+   - Quizás puedas escribir el guardado de datos al local storage con ellos, y así los ayudas a comenzar.
 
-This lab is a pair programming lab. This is a tricky timed lab, with provided starter code; groups are not allowed to change the HTML. Students will have 4 hours to work on the lab. It can help to create the pairs from the project groups to catch any potential conflicts, then post the project groups later in the afternoon so adjustments can be made, if needed.
+El laboratorio de esta clase es uno de pair programming. Este es un laboratorio cronometrado con un código de inicio proporcionado; no se permite que los grupos cambien el HTML. Los estudiantes tendrán 4 horas para trabajar en el laboratorio. Puede ser de ayuda crear las parejas a partir de los grupos del proyecto para detectar posibles conflictos, luego publicar los grupos para el proyecto en la tarde para que se hagan cambios de ser necesario.
 
-The assignment is to create a second page for the Odd Duck voting app and have the chart show only on that separate page. The stretch goal is to add CSS styling to the application.
+La tarea es crear una segunda página para la Odd Duck voting app y que el gráfico se muestre solo en una página por separado. El logro adicional es añadir estilos CSS a la aplicación.
 
-## What Changed from previous class
-
-N/A
-
-## What bugs, issues, or surprises have come up in the past for this class
+## ¿Qué cambió desde la clase anterior?
 
 N/A
 
-## General Comments
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-During class time you need to discuss with students how to approach the 301 entrance exam. Students may take the exam at the time of their choosing at any time between the class 14 and the end of class 15. Students may utilize as much time as necessary during that time block, generally students complete it in under 3 hours. The exam is open note, and they are encouraged to write and run code to figure out the answers. Tell students directly that they may not collaborate with others who are currently taking the test or have done so in the past (e.g.: online test answers).
+N/A
+
+## Comentarios Geneales
+
+Durante la clase necesitarás hablar con los estudiantes acerca de cómo abordar el examen de ingreso a Code 301. Los estudiantes podrán dar el examen en el momento que escojan entre la clase 14 y el final de la clase 15. Los estudiantes pueden utilizar el tiempo que necesiten durante ese periodo de tiempo, por lo general los estudiantes lo completan en menos de 3 horas. Los estudiantes pueden consultar el material y se les anima a que escriban y ejecuten código para encontrar las respuestas. Dile a los estudiantes directamente que no pueden colaborar con quienes están dando el examen o lo han dado antes (p.ej. respuestas de exámenes en línea).

@@ -1,11 +1,11 @@
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into REAMDE.md -->
+﻿<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el README.md -->
 
-### Class 7 Lecture: Object-Oriented Programming with Constructor Functions; HTML Tables
-* Code Review
-  * Depending on how the students worked during the previous lab, decide if it is a better use of time to code the solution from scratch or to go through one student's solution as a class
+### Clase 7: Programación orientada a objetos con funciones constructoras; tablas HTML
+* Revisión del código
+  * Dependiendo de cómo trabajaron los estudiantes en el laboratorio anterior, decide asi es mejor utilizar el tiempo para escribir el código de la solución desde cero o solo revisar la solución de un estudiantes frente a la clase.
 
-* Code Demo
-  * Compare the amount of code needed to write an object literal and a constructor function. On the surface, constructors don't appear to save much time, but point out that it takes a single line to create a new instance of an object with a constructor, whereas an object literal required the same lines of code to be written out each time.
-    * For example: if it takes 10 lines to make each student into an object literal, and there are 25 students in the class, that is 250 lines of code
-    * However, with a 10-line constructor, the same can be accomplished in 35 lines of code
-  * Take time to explain the nested nature of creating a table in JavaScript. For example, each table has children, each of which is `<tr>`, and each `<tr>` then has its own children, each of which is `<th>` or `<td>`. Run through a basic demonstration of how to append `<td>`/`<th>` elements to a `<tr>` element, then append the `<tr>` element to a `<table>` element. This will provide some basic context for the lab setup.
+* Demostración de código
+  * Compara la cantidad de código que se necesita para escribir un objeto literal y una función constructora. A simple vista, parece que los constructores no ahorran mucho tiempo, pero señala que toma una sola línea crear una nueva instancia de un objeto con un constructor, mientras que un objeto literal necesita que se escriban las mismas líneas de código cada vez.
+    * Por ejemplo: si te toma 10 líneas hacer que cada estudiante sea aun objeto literal, y hay 25 estudiantes en la clase, serían 250 líneas de código
+    * Sin embardo, con una constructor de 10 líneas, se puede lograr lo mismo en 35 líneas de código
+  * Toma el tiempo necesario para explicar la naturaleza anidada de crear una tabla en JavaScript. Por ejemplo, cada tabla tiene elementos hijos, cada uno de ellos es `<tr>`, y cada `<tr>` tiene sus propios elementos hijos, los cuales son `<th>` o `<td>`. Ejecuta una demostración básica de como agregar los elementos  `<td>`/`<th>` a un elemento `<tr>`, y luego agregar el elemento `<tr>` a un elemento `<table>`. Esto proporciona algo de contexto básico para la preparación del laboratorio.

@@ -1,89 +1,89 @@
-# Facilitators Guide: Object-Oriented Programming with Constructor Functions and HTML Tables
+﻿# Guía del Instructor: Programación orientada a objetos con funciones constructoras y tablas HTML
 
-## Overview
+## Resumen
 
-This is the first of the two toughest classes in the course. Introducing inheritance with constructor functions, plus adding another dimension to dynamic DOM rendering by creating a table instead of lists from stored array data, is often a bigger bite than most students can completely chew on one day, especially if there were any issues lingering from Class 6.
+Esta es la primera de las dos clases más difíciles del curso. La introducción de la herencia con funciones constructoras, además de añadir otra dimensión al renderizado dinámico del DOM al crear una tabla en vez de listas de datos almacenados en arrays puede ser demasiado para lo que la mayoría de los estudiantes pueden comprender en un dia, especialmente si aún tienen problemas pendientes de la Clase 6.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
-In the previous class students were introduced to object literals and DOM manipulation.
+**¿Qué hicimos?**:
+En la clase anterior los estudiantes aprendieron sobre los objetos literales y la manipulación del DOM.
 
-**What are we focusing on in this class**:
-In this class, we'll be learning about Constructor functions and more on DOM manipulation. Students will be creating a Constructor function to instanciate stores and refactor their unordered list into an HTML table.
+**¿En qué nos centraremos en esta clase?**:
+En esta clase, aprenderemos acerca de las funciones constructoras y más acerca de la manipulación del DOM. Los estudiantes crearán una función constructora para instanciar tiendas y refactorizar sus listas no ordenadas en una tabla HTML.
 
-**Where we're headed**:
-Next class will focus on CSS layouts with an introduction to wireframe a page. Students will also dive more into 2D Arrays and nested loops.
+**¿Qué haremos?**:
+La siguiente clase se centrará en CSS layouts con una introducción al wireframe de una página. Los estudiantes también profundizarán en los Arrays bidimencionales y bucles anidados.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Skim the class readings and be prepared if students have questions.
-1. Review the code demos and be sure to understand how to construct them within lecture. Review the respective markdown file for each demo.
+1. Hojea las lecturas de la clase y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code review
+### Revisión del código
 
-### Constructor functions
+### Funciones constructoras
 
-- **Why**
-  - Constructor functions are used to initialize objects with the default or initial state.
-- **What**
-  - A constructor is a function used to create object instances.
-- **How**
-  - Use a tool like Replit or VSCode to demo constructors.
-  - Breakdown the anatomy of a constructor and how the syntax differs from object literals.
-  - Explain how the term `this` differs with constructors.
+- **¿Por qué?**
+  - Las funciones constructoras se utilizan para inicializar objetos con el estado por defecto o inicial.
+- **¿Qué?**
+  - Un constructor es una función utilizada para crear instancias de objetos.
+- **¿Cómo?**
+  - Utiliza una herramienta como Replit o VSCode para demostrar el uso de los constructores.
+  - Descompónla anatomía de un constructor y cómo la sintaxis es diferente a la de los objetos literales.
+  - Explica cómo el término `this` es diferente a los constructores.
 
-### Prototypes
+### Prototipos
 
-- **Why**
-  - With prototypes, the objects created by the constructor function will inherit methods and properties.
-- **What**
-  - A method that will be available to all objects instanciated by the constructor function.
-- **How**
-  - Demonstrate the difference between adding a method to a created object vs a prototype method to the constructor.
+- **¿Por qué?**
+  - Con los prototipos, los objetos creados por la función constructora heredarán métodos y propiedades.
+- **¿Qué?**
+  - Un métodos que estará disponible para todos los objetos instanciados por la función constructora.
+- **¿Cómo?**
+  - Demuestra la diferencia entre añadir un método a un objeto creado vs añadir un método de prototipo al constructor.
 
-### HTML tables
+### Tablas en HTML
 
-- **Why**
-  - Tables are a great way to render data to the page.
-- **What**
-  - HTML tables consist of the `<table>` element and one or more `<tr>`, `<th>`, and `<td>` elements.
-- **How**
-  - Demonstrate a quick table add in the HTML file.
-  - Then demonstrate how the students will need to render their tables for lab using JavaScript.
+- **¿Por qué?**
+  - Las tablas son una buena forma de mostrar datos en una página.
+- **¿Qué?**
+  - Las tablas de HTML consisten en el elemento `<table>` y uno o más elementos `<tr>`, `<th>`, y `<td>`.
+- **¿Cómo?**
+  - Demuesta cómo añadir una tabla al archivo HTML.
+  - Demuestra cómo los estudiantes tendrán que generar sus tablas para el laboratorio utilizando JavaScript.
 
-### Lab prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be successful with their lab.
-- **What**
-  - Review Lab 07 instructions in Canvas.
-- **How**
-  - Refer to the lab notes below.
+- **¿Por qué?**
+  - Les proporciona a los estudiantes las herramientas para que cumplan con su laboratorio.
+- **¿Qué?**
+  - Revisa las instrucciones del Laboratorio 07 en Canvas.
+- **¿Cómo?**
+  - Consulta las notas del laboratorio a continuación.
 
-## Lab Notes
+## Notas de Laboratorio
 
-For this lab, students will be refactoring all of their object literals for the cookie stores into a single constructor function with multiple instances. The second component of this lab is to convert their list elements from the previous lab's work into a table that is dynamically rendered to the DOM from their JavaScript file.
+Para este laboratorio, los estudiantes tendrán que refactorizar todos sus objetos literales para la tienda de galletas en una sola función constructora con múltiples instancias. El segundo componente de este laboratorio será convertir los elementos de la lista del trabajo de laboratorio anterior a una tabla que se genere dinámicamente al DOM de su archivo JavaScript.
 
-All of the methods for the constructor function should be inherited using its `.prototype` property.
+Todos los métodos para la función constructora deberán ser heredados utilizando la propiedad `.prototype`.
 
-Encourage students to approach this lab one step and a time and outline what they plan to do prior to writing the code. Also encourage students to write out the functionality the long way first to make it work, then refactor into for loops, functions, etc.
+Aconseja que los estudiantes abarquen este laboratorio poco a poco y que definan lo que planean hacer antes de escribir el código. También incentiva a que los estudiantes escriban la funcionalidad de la forma más larga primero para que funcione, y que luego lo refactorizen a bucles, funciones, etc.
 
-Some common pitfalls for this lab include appending children to parents in the incorrect order, misuse of `this`, and figuring out how to access the data in each individual object. Prepare for a more detailed code review in the next class.
+Algunas dificultades comunes para este laboratorio incluyen agregar elementos hijos al elemento padre en el órden correcto, el uso incorrecto de `this`, y averiguar cómo acceder a los datos en cada objeto individual. Prepárate para una revisión de código más detallada en la próxima clase.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-Students will be refactoring their previous lab and switching from object literals to Constructor functions.
+Los estudiantes refactorizarán lo que hicieron en el laboratorio anterior y cambiarán de objetos literales a funciones constructoras.
 
-## What bugs, issues, or suprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-Students will be creating feature branches for each day's lab. Watch for students running into git issues.
+Los estudiantes crearán ramas para cada día del laboratorio. Espera ver a estudiantes que se encuentran con problemas al utilizar git.

@@ -1,85 +1,85 @@
-# Facilitators Guide: A/V, Practical Info, and Getting the Vote Tracker Started
+﻿# Guía del Instructor: Audio/video, Información práctica y Comenzar con el app Vote Tracker
 
-## Overview
+## Resumen
 
-There are two main parts to this class:
+Hay dos partes principales en esta clase:
 
-First, provide a little discussion time on a couple of auxiliary topics, including the use of audio/visual resources in a web document, as well as SEO, analytics, and site hosting.
+Primero, proporciona un pequeño tiempo para debatir acerca de un par de temas adicionales, incluyendo el uso de recursos de audio/visuales en un documento web, así como el SEO, analytics, y el hosting del sitio.
 
-Second, get the students started on the next code project, which is a vote tracker. It’s also more OOP. The goal for the end of lab is for students to display some number of random images from a collection, and keep track of which images were displayed and how often each image was clicked. This involves creating a set of picture objects from a constructor function that each have a name, a file path, times shown, and times clicked properties, and maybe others depending on the specifics of the project.
+Segundo, haz que los estudiantes comiencen con el siguiente proyecto de programación, el cual es un vote tracker. También es más OOP. El objetivo para el final del laboratorio es que los estudiantes muestren un número de imágenes al azar de una colección, y monitorear qué imágenes son mostradas y qué tantas veces se le hizo click a una imágen. Esto involucra crear un conjunto de objetos de imágen desde una función constructora y que cada una tenga las propiedades de nombre, ruta del archivo, las veces que se mostró y las veces que se le hizo click, y quizás otras dependiendo de los detalles del proyecto.
 
-At the end of this lab, students should be able to render a list of image names to the DOM along with the number of votes each item received. In the following lab, this data will be funneled into a chart library and displayed graphically.
+Al final de esta laboratorio, los estudiantes deberán ser capaces de mostrar una lista de imágenes en el DOM junto con el número de votos que cada elemento recibió. En el siguiente laboratorio, estos datos serán procesados por una librería de gráficos y se mostrarán como tal.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
-In the previous class students closed out on their Salmon Cookies application. Students also learned more about debugging practices.
+**¿Qué hicimos?**:
+En la clase anterior, los alumnos terminaron con su aplicación Salmon Cookies. Los estudiantes también aprendieron más acerca de las prácticas de depuración.
 
-**What are we focusing on in this class**:
-In this class students are starting a new project which should help to cement concepts and features they used in their previous project. They will also be learning another CSS layout method, using Grid.
+**¿En qué nos centraremos en esta clase?**:
+En esta clase, los estudiantes comenzarán con un nuevo proyecto el cual deberá ayudarlos a consolidar los conceptos y funcionalidades que utilizaron en su proyecto anterior. También aprenderán otro método de CSS Layout utilizando Grid.
 
-**Where we're headed**:
-Next class students will learn how to bring a third party library into their application to display data in a chart.
+**¿Qué haremos?**:
+En la siguiente clase, los estudiantes aprenderán a integrar librerías de terceros a sus aplicaciones para mostrar datos en un gráfico.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Upload the `lab/assets` folder to your class repository. These assets are required for this class's lab.
-1. Upload the `wireframe.jpg` file located in the lab folder as a suggested wireframe for the Odd Duck Products application.
-1. Review the lab assignment for this class and make sure that your demo closely aligns with it's requirements.
+1. Sube la carpeta `lab/assets` al repositorio de la clase. Estos assets son necesarios para el laboratorio de esta clase.
+1. Sube el archivo `wireframe.jpg` ubicado en la carpeta del laboratorio como el wireframe sugerido para la aplicación Odd Duck Products.
+1. Revisa la tarea de laboratorio para esta clase y asegúrate de que tu demostración se asemeje a los requisitos.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code Review
+### Revisión del código
 
-- Review chocolate pizza.
+- Revisa chocolate pizza.
 
-### Audio/Video in Web Doc
+### Audio/Video en el Documento Web
 
-- **Why**
-  - HTML5 allow us to embed video and audio into web pages.
-- **What**
-  - The HTML `<audio>` element is used to play an audio file on a web page.
-  - The HTML `<video>` element is used to show a video on a web page.
-- **How**
-  - Utilize the [index.html](../demo/media-click-tracker/index.html) file to demonstrate audio and video files on a web page.
+- **¿Por qué?**
+  - HTML5 nos permite integrar video y audio en las páginas web.
+- **¿Qué?**
+  - El elemento HTML `<audio>` se utiliza para reproducir archivos de audio en una página web.
+  - El elemento HTML `<video>` se utiliza para mostrar un video en una página web.
+- **¿Cómo?**
+  - Utiliza el archivo [index.html](../demo/media-click-tracker/index.html) para demostrar los archivos de audio y video en una página web.
 
 ### CSS Grid
 
-- **Why**
-  - With CSS grid, we can work with rows **and** columns together, where flexbox only allowed to us to work with rows **or** columns. This allows us to build more complex and organized designs.
-- **What**
-  - Grid is a layout system that allows you to set up a series of row and column lines and place items within specified segments of the page based on the row/column number.
-- **How**
-  - Use a CodePen or VSCode to demonstrate grid.
-  - Instructor may also pass on the following site to students to help them with grid practice: [CSS Grid Garden](https://cssgridgarden.com/)
+- **¿Por qué?**
+  - Con CSS Grid podemos trabajar con filas **y** columnas, cuando flexbox solo nos permitía trabajar con filas **o** columnas. Esto nos permite construir diseños más complejos y organizados.
+- **¿Qué?**
+  - Grid es un sistema de layout que te permite establecer una serie de filas y columnas y colocar elementos en segmentos específicos de la página en base al número de fila/columna.
+- **¿Cómo?**
+  - Utiliza CodePen o VSCode para la demostración de grid.
+  - El instructor también puede pasarle el siguiente sito a los estudiantes para ayudarlos a practicar con grid: [CSS Grid Garden](https://cssgridgarden.com/)
 
-### Lab Prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be success with their lab.
-- **What**
-  - Instructor will be building out a Goat Vote Tracker application using the demo outlined in the [Demo folder](../demo/).
-- **How**
-  - Before the build-out, review the problem domain for the Goat Vote Tracker application.
-  - Have a class discussion and brainstorm what needs to go into the project.
-  - Build-out the Goat Vote Tracker application and reinforce concepts students have learned from their previous project.
-  - After build-out of Goat Vote Tracker, introduce Odd Duck Products.
+- **¿Por qué?**
+  - Proporciona las herramientas que los estudiantes necesitan para completar su laboratorio.
+- **¿Qué?**
+  - El instructor constuirá una aplicación Goat Vote Tracker utilizando la demostración indicada en la [carpeta demo](../demo/).
+- **¿Cómo?**
+  - Antes de comenzar, revisa la descripción del problema de la aplicación Goat Vote Tracker.
+  - Haz que la clase debata y haga una lluvia de ideas acerca de lo que se necesita para comenzar con el proyecto.
+  - Construye la aplicación Goat Vote Tracker y refuerza conceptos que los estudiantes han aprendido de su proyecto anterior.
+  - Después de construir la aplicación Goat Vote Tracker, presenta el proyecto Odd Duck Products.
 
-## Lab Notes
+## Notas de Laboratorio
 
-There is a lot that goes into this class's lab, so prepare students for a large build-out. The only new concept should be changing the `src` attribute of the `img` element to a randomly-selected image. Otherwise, the concepts of event listeners, constructor functions, and modifying properties of objects should be familiar from the previous application.
+Hay mucho que hacer en el laboratorio de esta clase, así que prepara a los estudiantes para una ejecución larga. El único bueno concepto será cambiar el atributo `src` del elemento `img` a una imagen seleccionada al azar. De lo contrario, los conceptos de event listeners, funciones constructoras y modificar las propiedades de los objetos deberían ser conocidas de la aplicación anterior.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-Students are starting a new project, Odd Duck Products, with this class.
+Los estudiantes estarán comenzando un nuevo proyecto, Odd Duck Products, en esta clase.
 
-## What bugs, issues, or surprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-Lab 11 is large in comparison to what they're used to, and can cause stress. Remind students that this project is designed to be built incrementally during the course of the next 3 lab sessions, and that pacing is an important component to their success.
+El laboratorio 11 es grande en comparación a lo que están acostumbrados y eso puede causar estrés. Recuérdale a los estudiantes que este proyecto está diseñado para construirse poco a poco durante los 3 siguientes laboratorios y que el tiempo es un componente importante de su éxito.

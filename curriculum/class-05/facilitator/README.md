@@ -1,117 +1,117 @@
-# Facilitators Guide: Understanding Images, CSS for Color & Text Styling, and Git Branching
+﻿# Guía del Instructor: Entendiendo imágenes, CSS para el Color y Estilos de Texto, y Git Branching
 
-## Overview
+## Resumen
 
-This class is a close-out to the About Me Quiz. Students have 3 lab assignments, with one of them completing anything left within their ongoing project. The other two consists of Git branching and CSS practice.
+En esta clase se finaliza el Cuestionario About Me. Los estudiantes tendrán 3 tareas de laboratorio, con una de ellas sobre completar todo lo que falta en sus proyectos. Las otras dos consisten en Git branching y práctica de CSS.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
-In the previous class we introduced CSS positioning, functions, and pair programming.
+**¿Qué hicimos?**:
+En la clase anterior enseñamos CSS positioning, funciones y pair programming.
 
-**What are we focusing on in this class**:
-In this class, we'll be learning about images and the benefits/disadvantages for each image type. We will also be diving deeper into CSS with color and text styling. Students will also be shown another git flow with branches.
+**¿En qué nos centraremos en esta clase?**:
+En esta clase, aprenderemos acerca de las imágenes y los beneficios/desventajas de cada tipos de imágen. También profundizaremos en CSS con el color y estilos de texto. Los alumnos también conocerán otro flujo de git con las ramas.
 
-**Where we're headed**:
-Next class will be a kickoff to a new project. Students will get their first look into object literals and manipulating the DOM.
+**¿Qué haremos?**:
+La siguiente clase será el inicio de un nuevo proyecto. Los alumnos tendrán su primer encuentro con los objetos literales y manipulando el DOM.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Skim the class readings and be prepared if students have questions.
-1. Review the code demos and be sure you understand how to construct them during lecture. Review the respective markdown file for each demo.
-1. Add the starter code for lab-a to the class repo. Instruct students to create a new public repo and copy the starter code into it.
-1. Review the [whiteboard diagrams](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) on the Code Fellow's Invision account or [here](whiteboards/) for lecture.
+1. Hojea las lecturas de la clase y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Añade el código de inicio para el laboratorio-a al repositorio de la clase. Indícales a los alumnos que creen un nuevo repositorio público y que copien el código de inicio ahí.
+1. Revisa los [diagramas en la pizarra](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) en la cuenta de Invision de Code Fellow o [aquí](whiteboards/) para la clase.
 
-1. Share this link with the students: <https://medium.freecodecamp.com/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329#.ih137zeoo>
+1. Comparte este enlace con los alumnos: <https://medium.freecodecamp.com/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329#.ih137zeoo>
 
-1. Setup 15 minute 1-on-1 meetings students with each student over the next few days. This will be your opportunity to check in with them individually to review how they are doing in the course so far.
+1. Organiza reuniones individuales de 15 minutos con cada estudiante a lo largo de los siguientes días. Esta será tu oportunidad para ponerse en contacto con ellos de forma individual y evaluar cómo les va en el curso hasta ahora.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code review
+### Revisión del código
 
-- Review or code out the solution to the About Me Quiz.
-- Share the [warm up page](https://codefellows.github.io/code-201-guide/curriculum/class-05/warm-up/) with the class.
-- Balance timing on warm up with code review as needed.
+- Revisa o programa la solución para el Cuestionario About Me.
+- Comparte la [página de calentamiento](https://entertechschool.github.io/code-201-guide/curriculum/class-05/warm-up/) con la clase.
+- Balancea el tiempo del calentamiento con el de la revisión de código como sea necesario.
 
-### Images, Color, Text
+### Imágenes, Color, Texto
 
-- **Why**
-  - Images, font color, and text are a great way for students to style their applications.
-- **What**
-  - Images
+- **¿Por qué?**
+  - Las imágenes, color de fuente, y texto son una buena forma en la que los estudiantes puedan agregarle estilo a sus aplicaciones.
+- **¿Qué?**
+  - Imágenes
     - JPEG (.jpg, .jpeg)
     - GIF (.gif)
     - PNG (.png)
-- **How**
-  - Image Demo:
-    - Discuss the advantages and disadvantages of the different image file formats listed above.
-    - Can use VSCode for image demo - build out HTML and CSS pages.
-    - Add image in HTML along with other HTML elements like `<p>` or `<article>`.
-    - Style figure and show different ways you can resize image.
-  - CSS Color / Font Demo:
-    - Using the same CSS file that was used in the Image demo, show how to style the `<p>` or `<article>` elements.
-    - Style text using `font-family`, `color`, `line-height`, and `font size`.
+- **¿Cómo?**
+  - Demostración de imagen:
+    - Habla sobre las ventajas y desventajas de los diferentes formatos de imágen listados anteriormente.
+    - Puedes utilizar VSCode para la demostración - construye páginas con HTML y CSS.
+    - Añade una imagen en HTML junto con otros elementos como `<p>` o `<article>`.
+    - Modifica el figure y muestra diferentes formas en la que puedes cambiar una imagen de tamaño.
+  - Demostración de CSS Color / Font:
+    - Utilizando el mismo archivo CSS que se utilizó en la demostración de imagen, muestra cómo añadir estilo a los elementos `<p>` o `<article>`.
+    - Añade estilos al texto utilizando `font-family`, `color`, `line-height`, y `font size`.
 
-### Git branching & deployment
+### Git branching & despliegue
 
-- **Why**
-  - Branching allows each developer to branch out from the original code base and isolate their work from others.
-  - Allows all risk involved in a merge to be deferred until that point.
-- **What**
-  - Branches represent an isolated line of development.
-- **How**
-  - Use a whiteboard to demonstrate branching.
-  - Demonstrate using a project that you may have onr your local machine.
-    - Create and checkout to a branch.
-  - Demonstrate the pull requests and merging the branch back into main.
+- **¿Por qué?**
+  - El branching le permite a cada desarrollador que cree ramas a partir del código base original y aisle su trabajo de los demás.
+  - Permite aplazar todos los riesgos que involucra un merge hasta ese punto.
+- **¿Qué?**
+  - Las ramas representan una línea de desarrollo aislada.
+- **¿Cómo?**
+  - Utiliza una pizarra para demostrar el branching.
+  - Demuestra utilizando un proyecto que puedas tener en tu máquina local.
+    - Crea haz checkout a una rama.
+  - Demuestra los pull requests y hazle merge a la rama de vuelta al main.
 
-### Function Review
+### Repaso de funciones
 
-- Review definition of a function.
-- Demonstrate examples on how to return a value or multiple values.
-  - This will help students prep for one of the 3 labs that will be due.
+- Repasa la definición de una función.
+- Demuesta ejemplos de cómo retornar un valor o múltiples valores.
+  - Esto le ayudará a los alumnos a prepararse para uno de sus 3 laboratorios pendientes.
 
-### Lab prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be successful with their lab.
-- **What**
-  - Review Lab 05a, 05b, and 05c instructions in Canvas.
-- **How**
-  - Lab05a review:
-    - Code out the first problem with students so they have an understanding of what is asked of them.
-    - Confirm what the function needs to return to meet the test requirements.
-    - Point out after question 2 they are NOT allowed to use the arthmetic operators.
-    - Students should not touch the test file!
-  - Lab05b review:
-    - Point out where they should be navigating to in GitHub for deployment.
-  - Lab05c review:
-    - Walk through a few of the first questions in CSS Diner.
-    - Advise students they will need to take a screenshot of the menu once completed.
+- **¿Por qué?**
+  - Les proporciona a los estudiantes las herramientas para que cumplan con su laboratorio.
+- **¿Qué?**
+  - Revisa las instrucciones de los Laboratorios 05a, 05b, y 05c en Canvas.
+- **¿Cómo?**
+  - Revisión del Laboratorio05a:
+    - Crea el código del primer problema para que los alumnos entiendan lo que se pide que hagan.
+    - Confirma lo que necesita retornar la función para que cumpla con los requisitos del test.
+    - Señala que después de la pregunta 2 NO tienen permitido utilizar los operadores aritméticos.
+    - ¡Los estudiantes no deberán tocar el archivo test!
+  - Revisión del Laboratorio05b:
+    - Señala a dónde se deberán dirigir para su despliegue en GitHub.
+  - Revisión del Laboratorio05c:
+    - Explica algunas de las primeras preguntas en el CSS Diner.
+    - Indícale a los estudiantes que tendrán que tomar una captura de pantalla del menú una vez lo hayan completado.
 
-## Lab Notes
+## Notas de Laboratorio
 
-There are three labs assigned for this class:
+Hay tres laboratorios asignados para este clase:
 
 1. GitHub Branching
-   - Starter Code
-1. Complete the About Me Quiz
-   - Finishing touches on the About Me Quiz
-1. CSS tutorial with CSS Diner
-   - This lab was published on class 02
+   - Código de inicio
+1. Completa el Cuestionario About Me
+   Toques finales al Cuestionario About Me
+1. Tutorial de CSS con CSS Diner
+   - Este laboratorio ha sido publicado en la clase 02
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-Students will be introduced to a new git workflow with branching. Students also have a heavy lab day with 3 being due.
+Se le explicará a los alumnos un nuevo flujo de trabajo de git con ramas. Los estudiantes tendrán un día de laboratorio con 3 tareas pendientes.
 
-## What bugs, issues, or surprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-Gituations may arise with the new branching workflow being introduced.
+Surgirán "gituaciones" con el nuevo flujo de trabajo con ramas que se les será explicado.
