@@ -53,7 +53,7 @@ Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 - **¿Por qué?**
   - La manipulación del DOM se utiliza para cambiar la estructura, estilo y contenido del documento.
 - **¿Qué?**
-  Modelo de Objeto de Documento - representa la unión del HTML y CSS para crear un documento que utilizaremos en nuestro navegadores.
+  - Modelo de Objeto de Documento - representa la unión del HTML y CSS para crear un documento que utilizaremos en nuestro navegadores.
 - **¿Cómo?**
   - Utiliza esto como preparación para el laboratorio y para la demostración en clase. 
   - Construye una estructura HTML básica pero crea un elemento `section` de inicio con un `id` específico.
