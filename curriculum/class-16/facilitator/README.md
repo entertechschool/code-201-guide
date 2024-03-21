@@ -1,34 +1,34 @@
-# Project Week, Day 1
+﻿# Semana del proyecto, Día 1
 
-This is probably the busiest day of project week. The morning is occupied with students getting their projects up and running. Be sure to read the "Project Requirements" doc CAREFULLY; it is in Class 15 so you know what the students are expected to prepare and produce for the initialization of their projects.
+Esta probablemente será el día más con más trabajo de la semana del proyecto. La mañana se pasará con los estudiantes poniendo en marcha sus proyectos. Asegúrate de leer el documento "Requisitos del Proyecto" CUIDADOSAMENTE; está en la Clase 15 para que sepas lo que los estudiantes deben preparar y producir para el inicio de sus proyectos.
 
-**Reminder**: You should schedule another round of one-on-one meetings this week.
+**Recordatorio**: Debes programar otra ronda de reuniones individuales esta semana.
 
 ---
 
-In addition, you will be leading your students through their first standup meetings. Here are some recommendations on how to do that:
+Además, guiarás a tus alumnnos en sus primeras reuniones de actualizaciones. Estas son algunas recomendaciones para hacerlo:
 
-## Initial, shorter standup at the beginning of each day (Project Manager role)
+## Reunión de actualización inicial y más corta al inicio de cada día (Rol del Jefe del Proyecto)
 
-- Make each student stand up
-- Close laptop lids!
-- 30 seconds per person to check in: what did you do previously, what do you plan to do next, is anything blocking you from moving forward?
-- As a team, what is the goal by the end of the day?
-- Tell them you will circle back with each group for a Technical Review later in the day
-- Tell them you will circle back for a very brief, end-of-day check-in to make sure each group is okay and there are no major blocking issues
+- Haz que cada alumno se levante
+- ¡Cierren sus laptops!
+- Cada persona tiene 30 segundos para hablar: ¿qué hiciste antes?, ¿qué planeas hacer ahora?, ¿hay algo que te impida avanzar?
+- Como equipo, ¿cuál es el objetivo al final del día?
+- Diles que volverás a reunirte con cada grupo para una Revisión Técnica después
+- Diles que volverás para tener una reunión muy breve al final del día para asegurarte de que cada grupo esté bien y que no hayan problemas de bloqueo graves
 
-## Technical Review (Technical Lead role)
+## Revisión Técnica
 
-- Begin with a demonstration of the application in its current state
-- Dive into their code base
-- Ask the group to evaluate their percentage of completion, then adjust it based on observations from reviewing the code base
-- Make yourself available every other day or so to allow groups to block off time and tackle larger issues one-on-one with the instructor
+- Comienza con una demostración de la aplicación en su estado actual
+- Profundiza en su código base
+- Pídele al grupo que evalúen su porcentaje de finalización, y luego que lo ajusten en base a observaciones de la revisión del código base
+- Trata de estar disponible cada dos días más para permitirle a los grupos reservar tiempo y abordar los problemas más importantes de forma individual con el instructor 
 
-## Notes
+## Notas
 
-- Makes grading final projects easier
-- Lets students know that you are available throughout the day
-- Review individual daily project reports before standups so the instructor is aware of any issues and where the group is at
-- Deploy on Day 1
-- Define milestones based on MVP: when should they hit MVP? What should that include at the bare minimum
-- Maybe establish for students some targets for CSS?
+- Hace que calificar los proyectos finales sea más sencillo
+- Deja que los estudiantes sepan que estarás disponible a lo largo del día
+- Revisa los informes individuales todos los días antes de las reuniones para que el instructor esté consciente de cualquier problema y el progreso del grupo
+- Despliegue en el Día 1
+- Define los hitos en base al MVP: ¿cuándo deben alcanzar el MVP? ¿Qué debería ser lo mínimo?
+- ¿Quizás se deba establecer metas para el CSS?

@@ -1,80 +1,80 @@
-# Facilitators Guide: HTML Lists, Control Flow with JS, and the CSS Box Model
+﻿# Guía del Instructor: Listas en HTML, Control de flujo en JS, y CSS: Box Model
 
-## Overview
+## Resumen
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
+**¿Qué hicimos?**:
 
-In the previous class students got more exposure to JavaScript, with an introduction to data types, conditionals, and arrays. Students were also introduced to new Git and GitHub concepts with creating a new repository and building their lab assignment using a very basic git workflow.
+En la clase anterior, los estudiantes tuvieron más interacción con JavaScript, con una introducción a los tipos de datos, condicionales y arrays. También recibieron una introducción a los conceptos nuevos de Git y GitHub, al crear un nuevo repositorio y realizando su tarea de laboratorio utilizando un flujo de trabajo de git básico.
 
-**What are we focusing on in this class**:
+**¿En qué nos centraremos en esta clase?**:
 
-Class 3 is highly conceptual, and usually the first appearance of serious cracks in student knowledge acquired via the prework. In particular, concepts in control flow cause the most trouble because of how the various structures can be applied to similar problems (doing the same task with an ‘if’ or a ‘while’, for instance). Infinite loops are inevitable and always cause a lot of frustration. Also provide an introduction to truthy/falsy conditions (probably best done by listing the falsy cases alone; all else is truthy).
+La clase 3 es altamente conceptual, y usualmente es la aparición de las primeras grietas en el conocimiento de los alumnos que han adquirido mediante el trabajo previo. En particular, los conceptos del control de flujo causan la mayoría de problemas porque las diferentes estructuras se pueden aplicar a problemas similares (hacer la misma tarea con un  ‘if’ o un ‘while’, por ejemplo). Los bucles infinitos son inevitables y siempre causan mucha frustración. También proporciona una introducción a las condiciones de verdadero/falso (probablemente la mejor forma de hacerlo es listando solo los casos falsos; todo lo demás es verdadero).
 
-Introduction to the CSS box model also exposes potential weaknesses in knowledge and concepts from the prework; furthermore, the integration with the developer tools in Chrome and also the necessity of understanding pixels as a measurement unit adds a new layer of complexity to what the students have already seen.
+La introducción al CSS: box model también expone debilidades potenciales en el conocimiento y en los conceptos del prework; además, la integración con las herramientas para desarrolladores en Chrome y también la necesidad de entender pixeles como unidad de medida añade una nueva capa de complejidad a lo que los estudiantes ya han visto.
 
-**Where we're headed**:
+**¿Qué haremos?**:
 
-Next class will focus on CSS positioning, functions, and pair programming. A new git/GitHub flow will also be introduced to the students that comes with pair programming involving making a pull request, merging, and pulling changes down to their local machine.
+En la siguiente clase nos centraremos en CSS positioning, funciones, y pair programming. Se les presentará un nuevo flujo de git/GitHub a los estudiantes, que viene con pair programming, e involucra hacer un pull request, hacer merge y pull a cambios hacia sus máquinas locales.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Skim the class reading and be prepared if students have questions.
-1. Review the code demos and be sure to understand how to construct them within lecture. Review the respective markdown file for each demo.
-1. Review the [whiteboard diagrams](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) on the Code Fellow's Invision account or [here](whiteboards/class03WB.png) for lecture.
+1. Hojea la lectura de la clase y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Revisa los [diagramas en la pizarra](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) en la cuenta de Invision de Code Fellow o [aquí](whiteboards/class03WB.png) para la clase.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code review
+### Revisión del código
 
-### Review of Arrays or Introduction to them if not covered in previous class
+### Repaso de Arrays o Enséñaselos si no es un tema que haya sido cubierto en la clase anterior
 
-- **Why**
-  - If we didn't have arrays, we'd have to store every item in a separate variable. This would be much longer to write out and less efficient.
-- **What**
-  - Arrays are ways that we can group together data in one location.
-  - They are an accumulation of data, similar to a list, that can be used to hold information for later use.
-- **How**
-  - Instructor may choose to use replit to demo arrays.
-  - Show how to create arrays of different types:
-    - empty, mixed, nested
-  - Target a specific value in array.
-  - Use a for loop to traverse through an array.
-  - Skip a value in an array.
-  - Show how to add to an array:
-    - Assign value to array using bracket notation
-    - Could introduce push method here as well
+- **¿Por qué?**
+  - Si no tenemos arrays, tendríamos que almacenar cada elemento en una variable por separado. Esto sería mucho para escribir y sería menos eficiente.
+- **¿Qué?**
+  - Los arrays son una forma de agrupar datos en una ubicación.
+  - Son una acumulación de datos, similar a una lista, que se puede utilizar para retener información para utilizarla después.
+- **¿Cómo?**
+  - El instructor puede escoger utilizar replit para demostrar los arrays.
+  - Muestra cómo crear arrays de diferentes tipos:
+    - vacíos, combinados, multidimensionales
+  - Selecciona un valor específico del array.
+  - Utiliza un bucle for para recorrer un array.
+  - Omite un valor en un array.
+  - Muestra cómo añadir valores a un array:
+    - Asígnale valores a un array utilizando llaves
+    - Aquí también puedes hacer una introducción al método push
 
-### Control Flow
+### Control de flujo
 
-- **Why**
-  - Control flow lets us control the flow of the execution of the code in our program.
-- **What**
-  - Control flow is the order in which individual statements, instructions, or function calls are executed or evaluated.
-- **How**
-  - Review the following with the students:
-    - Comparison Operator
-    - Logical Operator
-    - Evaluating Comparisons
-    - Type coercion, weak typing, truthy/falsy
+- **¿Por qué?**
+  - El control de flujo nos deja controlar el flujo de la ejecución del código en nuestro programa.
+- **¿Qué?**
+  - El control de flujo es el órden en el que las declaraciones, instrucciones o llamadas a funciones individuales son ejecutadas o evaluadas.
+- **¿Cómo?**
+  - Repasa lo siguiente con los estudiantes:
+    - Operadores de Comparación
+    - Operadores Lógicos
+    - Evaluando Comparaciones
+    - Coerción de tipos, tipado débil, verdadero/falso
 
-### JS Control Flow (loops, while, do while)
+### JS Control de flujo (bucles, while, do while)
 
-- **Why**
-  - Loops are used in JavaScript to perform repeated tasks based on a condition.
-- **What**
-  - For loops: repeats until a specified condition evaluates to `false`.
-    - **Statement 1** is executed (one time) before the execution of the code block.
-    - **Statement 2** defines the condition for executing the code block
-    - **Statement 3** is executed (everytime) after the code block has been executed
+- **¿Por qué?**
+  - Los bucles se utilzan en JavaScript para realizar tareas repetidas en base a una condición.
+- **¿Qué?**
+  - Bucles for: se repite hasta que una condición en específico sea evaluada como `false`.
+    - **Declaración 1** se ejecuta (una vez) antes de la ejecución del bloque de código.
+    - **Declaración 2** define la condición para ejecutar el bloque de código
+    - **Declaración 3** se ejecuta (cada vez) después de que el bloque se código se haya ejecutado.
 
     ```js
     for(statement 1; statement 2; statement 3) {
@@ -82,7 +82,7 @@ Refer to the [example lecture](LECTURE.md) for lecture details.
     }
     ```
 
-  - While loop: executes its statements as long as a specified condition evaluates to `true`.
+  - Bucle while: ejecuta sus declaraciones siempre que una condición específica se evalúe como `true`.
 
     ```js
     while(condition) {
@@ -90,7 +90,7 @@ Refer to the [example lecture](LECTURE.md) for lecture details.
     }
     ```
 
-  - do...while: repeats until a specified condition evaluates to `false`.
+  - do...while: se repite hasta que una condición específica se evalúe como `false`.
 
     ```js
     do {
@@ -98,44 +98,44 @@ Refer to the [example lecture](LECTURE.md) for lecture details.
     } while (condition)
     ```
 
-- **How**
-  - Instructor may choose to use Replit to demo.
-  - Break down the syntax for each loop.
-  - Demo a few examples of each loop using arrays and evaluating comparisons.
-  - To help students understand how loops work, whiteboarding each pass through the loops may be helpful.
+- **¿Cómo?**
+  - El instructor puede escoger utilizar replit para hacer la demostración.
+  - Descompón la sintaxis de cada bucle.
+  - Demuestra algunos ejemplos de cada bucle utiliando arrays y evaluando las comparaciones.
+  - Para ayudar a los estudiantes a entender cómo funcionan los bucles, utilizar una pizarra para explicar cada repetición de los bucles puede ser de ayuda.
 
-### CSS Box Model (code Demo)
+### CSS Box Model (Demostración de código)
 
-- **Why**
-  - This is a fundamental concept for the composition of HTML webpages.
-- **What**
-  - CSS box model is essentially a box that wraps around every HTML element.
-  - CSS determines the size, position, and properties of these boxes.
-- **How**
-  - Demo of creating a basic layout with the box model.
-  - Code Pen could be a good tool to use with the students so that it can be uploaded to their class repo after.
+- **¿Por qué?**
+  - Este es un concepto fundamental de la composición de las página web HTML.
+- **¿Qué?**
+  - CSS Box model es esencialmente una caja que envuelve a todos los elementos HTML.
+  - El CSS determina el tamaño, posición y propiedades de estas cajas.
+- **¿Cómo?**
+  - Demuestra la creación de un layout básico con el box model.
+  - Code Pen puede ser una buena herramienta para utilizar con los estudiantes para que después se pueda subir al repositorio de la clase.
 
-### Lab prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be successful with their lab.
-- **What**
-  - Review Lab 03 instructions in canvas and review lab notes below for anything else that might stick out.
+- **¿Por qué?**
+  - Les proporciona a los estudiantes las herramientas para que cumplan con su laboratorio.
+- **¿Qué?**
+  - Revisa las instrucciones del Laboratorio 03 en canvas y revisa las notas del laboratorio al final por cualquier cosa que pueda destacar.
 
-## Lab Notes
+## Notas de Laboratorio
 
-This lab provides a great opportunity for the instructional staff to help students work through their debugging process in the Chrome console and using console.log messages. The instructional staff should also make sure to ask students to explain what they are attempting to accomplish so students get used to talking about their code.
+Este laboratorio es una buena oportunidad para que los instructores ayuden a los estudiantes para que trabajen en su proceso de depuración en la consola de Chrome y utilizando mensajes con console.log. Los instructores también deberán asegurarse de pedirle a los estudiantes que expliquen lo que están tratando de lograr para que los estudiantes se acostumbren a hablar de su código.
 
-Point out that the technical requirements carry over from any prior labs for each module. For example, they are responsible for the tasks of lab 2 in addition to the tasks assigned in lab 3.
+Señala que los requisitos técnicos son los mismos que en los laboratorios anteriores para cada módulo. Por ejemplo, son responsables de las tareas del laboratorio 2 además de las tareas asignadas en el laboratorio 3.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-Students will still be using conditional logic, but integrating it deeper with loops. Students are also being introduced to their first major JS data structure: arrays!
+Los estudiantes seguirán utilizando la lógica condicional, pero integrándola a profundidar con bucles. Los estudiantes también conocerán su primera estructura de datos importante: ¡los arrays!
 
-## What bugs, issues, or surprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-Ensuring students have set up their repository properly with file structure and config files provided them with the previous class lab instruction. In particular, make sure the students' linter is working properly and they are utilizing the README template.
+Asegúrate de que los estudiantes hayan configurado su repositorio adecuadamente con la estructura de archivos y archivos de configuración proporcionados en el laboratorio de la clase anterior. En particular, asegúrate de que el linter de los estudiantes esté funcionando adecuadamente y de que estén utilizando la plantilla de README.
 
-## General Comments
+## Comentarios Geneales
 
-The goal for this class is to get the students comfortable working with the entire tool chain.
+El objetivo de esta clase es que los alumnos estén cómodos trabajando con toda la cadena de herramientas.

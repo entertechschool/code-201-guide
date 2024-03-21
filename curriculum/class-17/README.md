@@ -6,7 +6,7 @@ Ahora que tu proyecto ha iniciado, así es como debes organizar los esfuerzos de
 
 * Utiliza [GitHub Issues](https://guides.github.com/features/issues/) u otra herramienta de gestión de proyectos para administrar y dividir el trabajo entre los miembros de tu equipo.
 * Crea nuevos issues que tomen entre 30 minutos - 2 horas en completar.
-* Utiliza etiquetas y hitos como tu equipo vea conveniente, pero deja todos los issues creados recientemente como **unassigned**.
+* Utiliza etiquetas e hitos como tu equipo vea conveniente, pero deja todos los issues creados recientemente como **unassigned**.
 * Asígnate un issue cuando te compremetas a trabajar en él.
 * Una vez esté asignado, crea una rama utilizando una nomenclatura consistente y semántica.
 

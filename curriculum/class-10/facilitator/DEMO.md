@@ -1,6 +1,6 @@
-# Debugging
+﻿# Depuración
 
-## Order of Execution
+## Orden de ejecución:
 
 ```javascript
 showMsg();
@@ -15,22 +15,22 @@ const msgExpression = function() {
 };
 ```
 
-1. create new scope
-1. read all variable/function declarations & create values
-1. execute: assign values to vars, run functions, execute statements
+1. crea un nuevo scope
+1. lee todas las declaraciones de variables/funciones y crea valores
+1. ejecuta: asigna valores a los var, ejecuta funciones y declaraciones
 
 
-## Execution Context
+## Contexto de Ejecución
 
 ```javascript
 
-//global scope
+//scope global
 const name = 'Dan';
 function globalFunc() {
   console.log('I can be called anywhere');
 }
 
-//function scope
+//scope de la función
 function scopyFunc(doggy) {
   function privateFunc() {
     const privatelet = 'woof!';
@@ -43,7 +43,7 @@ function scopyFunc(doggy) {
 
 scopyFunc('Fido');
 
-//object context
+//contexto del objeto
 const teacherBot = {
   first: 'Dan',
   last: 'Schwartz',
@@ -81,15 +81,15 @@ function report(x,y) {
 report(2,4);
 ```
 
-## Errors
+## Errores
 
-- SyntaxError: usually typos
-- ReferenceError: try to reference a variable or function that doesn't exist or is out of scope:
+- SyntaxError: usualmente son errores tipográficos
+- ReferenceError: intenta referenciar a una variable o función que no existe o está fuera del alcance:
   - undefined vs. not defined
   - `const a = b;`
   - `someFunc();`
 
-- TypeError: try to operate on the wrong kind of data. often signals an error with the data object. Might be caused by trying to perform illegal type coercion
+- TypeError: intetna operar un tipo de dato equivocado. Por lo general significa un error con el objeto de datos. Puede ser causado por tratar de ejecutar una coerción de tipo ilegal
 
 ```javascript
 const someObj = {
@@ -100,7 +100,7 @@ const someObj = {
 someObj.push(20);
 ```
 
-- RangeError: try to call a function with an unacceptable numerical value:
+- RangeError: trata de llamar a una función con un valor número no aceptable:
 
 ```javascript
 const price = 10;
@@ -111,14 +111,14 @@ const impossibleArray = new Array(-1);
 
 ```javascript
 try {
-  //try to do this
+  //intenta hacer esto
 } catch (exception) {
-  //do this if there's an exception
+  //haz esto si hay una excepción
 } finally {
-  //always do this
+  //siempre haz esto
 }
 ```
 
-## Debugging
+## Depuración
 
-- The adjacent folder `debugging-salmon-cookies` contains a series of bugs separated by type. Have the students take turns identifying the type of error and its message, finding the error location, and fixing the bug
+- La carpeta adyacente `debugging-salmon-cookies` contiene una serie de errores separados por tipo. Haz que los estudiantes se turnen identificando el tipo de error y su mensaje, encontrando la ubicación del error y arreglándolo

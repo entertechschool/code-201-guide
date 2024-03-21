@@ -1,121 +1,121 @@
-# Lecture Notes
+﻿# Notas de la Clase
 
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into REAMDE.md -->
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el README.md -->
 
-## Campus Kickoff
+## Inicio en el Campus
 
-Work with your campus director for the Class 1 kickoff, using the [201 orientation slide deck](https://codefellows.github.io/common_curriculum/slides/template/index.html?slides=/common_curriculum/career_coaching/201/kickoff/slides.md).
+Trabaja con tu director de campus del Inicio de la Clase 1, utilizando las [diapositivas de orientación del Code 201](https://codefellows.github.io/common_curriculum/slides/template/index.html?slides=/common_curriculum/career_coaching/201/kickoff/slides.md).
 
-Introduce yourself and your instructional team to the class by providing them a quick background of your experience. If you have TAs, or other instructional staff, have them also introduce themselves.
+Preséntate y presenta a tu equipo a la clase, proporcionándoles un resumen de tu experiencia. Si tienes TAs u otros instructores, haz que también se presenten.
 
-Inform students that the TA's will be helping with grading and student questions during lab.
+Infórmales a los estudiantes que los TA los ayudarán con las calificaciones y a responder las perguntas de los alumnos durante el laboratorio.
 
-Provide students with the general availability of the instructional staff. Encourage them to utilize each other when staff are unavailable.
+Infórmale a los estudiantes la disponibilidad general de los instructores. Incentívalos a apoyarse entre ellos cuando los instructores no estén disponibles.
 
-## Intro to Canvas
+## Introducción a Canvas
 
-Introduce Canvas to the students. Show them the following:
+Muéstrale Canvas a los alumnos. Muéstrales lo siguiente:
 
-1. Modules view of assignments
-1. Syllabus
-1. Course Overview
-1. Calender view
+1. La vista por módulos de las tareas
+1. El sílabo
+1. El resumen del curso
+1. El calendario
 
-### Review of Career Coaching Assignments
+### Tareas de la Revisión de la Orientación Profesional
 
-Students should have completed some prework assignments related to Career Coaching. Discuss the value of focusing on each of these, even though it is early in their career change process.
+Los estudiantes deberán hacer completado algunas tareas de trabajo previo relacionadas a la Orientación Profesional. Debatan acerca del valor de concentrarse en cada uno de estas, aunque recién estén comenzando en su proceso de cambio de carrera profesional.
 
-- Career Coaching Overview: Sets the tone of the career assignments.
-- Professional Competency Self-Assessment: Students will likely rank themselves lower in areas such as networking and tool proficiency, which is expected at this stage. Remind students that these numbers should increase as they continue throughout the program, and even by the end of 201. These competencies are evaluated from the instructor perspective for the End-of-course Instructor Review in Canvas. If time allows, discuss their responses together in your one-on-one session in week 2.
-- Prepare your Resume: Clarify to students that this should contain the structure of their resume, but they are not expected to have much content related to programming yet. The focus of this assignment is to follow the structure based on the template they choose. By working on the correct structure, they can easily add other information later.
-- Prepare your LinkedIn: LinkedIn is a popular tool used by job-seekers and recruiters. It is important that students begin to think about their professional online presence.
-- Identify Your Accountability Partners: Each student will have two accountability partners for later assignments. Encourage students to form groups of three and serve as each others' partners.
-- Partner Power Hour Reports: Students are required to fill our a report following every Partner Power Hour talk, which takes place regularly.
+- Resumen de la Orientación Profesional: Sienta las pautas de las tareas en este ámbito.
+- Autoevaluación de Competencia Profesional: Los alumnos probablemente se calificarán bajo en áreas como red de contactos y conocimiento en las herramientas, es algo que se espera en esta etapa. Recuérdale a los estudiantes que estos número deberán incrementar mientras continúan en el programa, e incluso al final del curso 201. Estas competencias son evaluadas desde la perspectiva del instructor para la Revisión de Fin de Curso en Canvas. Si el tiempo lo permite, conversen acerca de sus respuestas en sus sesiones individuales en la semana 2.
+- Prepara tu curriculum: Aclárale a los estudiantes lo que deberá contener el currículum y su estructura, pero que no se espera que tengan mucho contenido relacionado con la programación aún. El enfoque de esta tarea es seguir la estructura en base a la plantilla que escojan. Al trabajar en la estructura correcta, pueden añadir más información después fácilmente.
+- Prepara tu LinkedIn: LinkedIn es una herramienta popular utilizada por personas que buscan trabajo y reclutadores. Es importante que los estudiantes comiencen a pensar acerca de su presencia profesional online.
+- Identifica a tus Accountability Partners: Cada estudiante tendrá dos accountability partners para sus siguientes tareas. Incentiva a los alumnos a que formen grupos de tres y sean los partners de los demás.
+- Informes Partner Power Hour: Se necesita que los alumnos creen un informe después de cada charla Partner Power Hour, la cual se dará regularmente.
 
-Take this opportunity to provide an overview of the upcoming Career Coaching assignments for the first week.
+Toma esta oportunidad para proporcionales un resumen de las próximas tareas de Orientación Profesional para la primera semana.
 
-- Talk to Your Network: Students are not expected to be well-connected in the industry yet, this assignment is geared towards talking to anyone they happen to know or meet in tech. It is an informal meeting so they begin to warm up their network.
-- Attend a Meetup: Meetups are a great way to meet fellow developers. Encourage students to find a Meetup that they find interesting. For shy students, encourage them to attend with a classmate.
-- Behavioral Interview Questions: Students will use the S.T.A.R method to write drafts of two behavioral interview questions.
+- Habla con tu red de contactos: No se espera que los alumnos estén bien conectados en la industria aún, esta tarea está orientada a hablar con cualquer persona que puedan conocer en el ámbito de la tecnología. Es una reunión informal para que comiencen a darse a conocer.
+- Asiste a un Meetup: Los meetups son una buena forma de conocer a otros desarrolladores. Incentiva a los estudiantes a que encuentren un Meetup que les parezca interesante. Para los estudiantes tímidos, incentívalos a que asistan con un compañero de clase.
+- Preguntas de entrevista conductuales: Los estudiantes utilizarán el método S.T.A.R para escribir borradoras de dos preguntas de entrevista conductual.
 
-## Reading Review
+## Repaso de las lecturas
 
-Don't spend more than 10 minutes or so on this. Teach the students how to "skim" technical documentation. They should pay close attention to the dark colored purple pages. These pages are really great overviews and high level notes of what the chapters contain.
+No le dediques más de 10 minutos a esto. Enséñale a los estudiantes cómo "hojear" la documentación técnica. Deberán prestar bastante atención a las páginas de color morado oscuro. Estas páginas son muy buenos resúmenes y notas detalladas acerca del contenido de los capítulos.
 
-Encourage students to do the reading assignments, and utilize the material as a resource for their lab assignments and questions they have on their assignments.
+Incentiva a los estudiantes a que hagan las tareas de lectura, y utiliza el material como recurso para las tareas de laboratorio y preguntas que tengan acerca de sus tareas.
 
-Let students know that they will often see `var` used in place of `let` in online references. That is an artifact of the progressing nature of code. What was best practice when many articles were written has evolved and we will be teaching `let` and `const` because they are more suited to writing clean code.
+Haz saber a los estudiantes que frecuentemente verán que se utiliza `var` en vez de `let` en las referencias que puedan encontrar en internet. Es un rasgo de la naturaleza progresiva del código. Lo que se consideraba una buena práctica cuando varios de los artículos fueron escritos ha evolucionado y estaremos enseñando `let` y `const` porque son más adecuados al momento de escribir un código limpio.
 
-## Command Line, VS Code & Linter Setup
+## Línea De Comandos, VS Code y Configuración del Linter
 
-### Command Line Basics
+### Conceptos básicos de la Línea de Comandos
 
-Review the basic Unix Commands:
+Repaso de los comandos básicos de Unix:
 
 - `pwd`
-- Filepaths and up/down navigation concepts
+- Ruta de archivos y conceptos de navegación arriba/abajo
 - `tree`
 - `ls`, `ls -la`
 - `cd`, `mkdir`
 - `touch`, `code`
 - `mv`, `rm`, `cp`
 
-### Intro to Git & GitHub
+### Introducción a Git y GitHub
 
-Git Intro:
+Introducción a Git:
 
-- What is Git?
-- Version control concepts, show an example of a 201 final project repo and, at a high level, point out commits, branches, network graph
-  - Point out the benefits of keeping their code organized
-- Analogy of saving multiple versions of a term paper vs. overwriting changes with each save
-- Series of snapshots
+- ¿Qué es Git?
+- Conceptos de control de versiones, muestra el ejemplo de un repositorio del proyecto final del curso 201 y en general señala los commits, ramas y diagramas de red
+  - Señala los beneficios de mantener el código organizado
+- Analogía de guardar múltiples versiones de un trabajo vs. sobreescribir cambios cada vez que se guarda
+- Serie de capturas de pantalla
 - HEAD
 
-### Configure VS Code
+### Configurar VS Code
 
-In settings:
+En la configuración:
 
 - editor.tabSize = 2
 - editor.detectIndentation = true
 - editor.wordWrap = on
 
-### Setup your Linter
+### Configura tu Linter
 
-The goal of this section is to setup your the `.eslintrc` with the students. In addition, explain to the students
-that this file should exist in **every** project they create in javascript, so save it somewhere that is easily accessible.
+El objetivo de esta sección es configurar el `.eslintrc` con los alumnos. Además, explícales
+que este archivo debe existir en **todos** los proyectos que creen en javascript, así que deben guardarlo en un lugar fácilmente accesible.
 
-- Students need to be guided through creating a .eslintrc.json and placing it inside of each project directory that they create.
-  - Have students enter `cd` on the command line to navigate to their Home directory
-  - Students then should then enter `code .eslintrc.json` to create a file to store the linter rules. If this command does not work, then the students have a problem with their VSCode setup that needs to be addressed, most likely a `failure to "Install Shell Commands"` from the VSCode menu.
-  - Open `.eslintrc.json`, located in the [configs](../../../configs/.eslintrc.json) folder of this guide:
-    - Put this file into your class GitHub repo for students to have as a reference for their assignments.
-    - Be sure to point out that this is probably the ONLY time that it is OK to just copy/paste code!
-  - Have the students copy/paste that code into the `.eslintrc.json` file that they created, and be sure to tell them to save the file.
-  - Students will need to restart VSCode for the changes to take effect.
+- Los estudiantes necesitan ayuda para crear un .eslintrc.json y ponerlo en todos los directorios de los proyectos que creen.
+  - Haz que los estudiantes escriban `cd` en la línea de comandos para navegar a su directorio principal
+  - Los estudiantes deberán escribir `code .eslintrc.json` para crear un archivo que almacene las reglas del linter. Si este comando no funciona, entonces los estudiantes tendrán un problema con su configuración de VSCode que necesita ser tratado, lo más probable es que sea un `failure to "Install Shell Commands"` del menú de VSCode.
+  - Abre `.eslintrc.json`, ubicado en el folder [configs](../../../configs/.eslintrc.json) de esta guía:
+    - Coloca este archivo en tu repositorio de la clase GitHub para que los estudiantes lo tengan como referencia para sus tareas.
+    - ¡Asegúrate de señalar que esta es probablemente la ÚNICA vez que está bien copiar/pegar código!
+  - Haz que los estudiantes copien/peguen el código en el archivo `.eslintrc.json` que han creado, y asegúrate de decirles que guarden el archivo.
+  - Los alumnos tendrán que reiniciar VSCode para que los cambios hagan efecto.
 
-Confirm VSCode: type `code` in the command line to verify that it opens properly. Command line tools may need to be installed. If Mac users find that `code` disappears from their PATH every so often, they need to reinstall VSCode, and ensure they drag the extracted application into the `Applications` directory BEFORE opening it for the first time.
+Confirma VSCode: escribe `code` en la línea de comandos para verificar que se abre correctamente. Las herramientas de la línea de comandos necesitarán ser instaladas. Si los usuario de Mac ven que `code` desaparece de su PATH de vez en cuando, necesitan reinstalar VSCode y asegurarse de que arrastren la aplicación extraída al directorio `Aplicaciones` ANTES de abrirlo por primera vez.
 
-Directory structure: Have students set up a directory at `~/codefellows/201/` in which they will store their classwork. Go over directory structure in general; compare to GUI.
+Estructura del directorio: Haz que los estudiantes creen un directorio en `~/entertechschool/201/` en el cual guardarán su trabajo de la clase. Repasa la estructura del directorio en general; compárala con el GUI.
 
-### Live code Demo
+### Demostración de Código en Tiempo Real
 
-Demo Code is located in the `demo` folder.
-An outline of how to approach the demo is located [HERE](demo.md)
+La demostración del código está ubicada en la carpeta `demo`.
+Un borrador acerca de cómo abordar la demostración se encuentra [AQUÍ](demo.md)
 
-The code demo should be written completely from scratch in front of the class. After lecture, push your code demo to the class repo and inform students that these demos will be available for their reference each day. This will relieve any pressure that students may feel to follow along with the code demo during class.
+La demostración del código deberá ser escrita completamente desde cero en frente de la clase. Después de la clase, haz un push de tu demostración al repositorio de la clase e infórmale a los estudiantes que estas demostraciones estarán disponibles todos los días para que las consulten. Esto aliviará cualquier presión que los alumnos puedan sentir de seguir la demostración del código durante la clase.
 
-Introduce `let`. Cover the difference between `var` and `let`. Students will not have to worry about scope in the first lab but you should introduce it to prepare them. If a student brings up `const` you can briefly cover it as well. We will be using only `let` and `const` in 201.
+Haz una introduccón sobre `let`. Trata la diferencia entre `var` y `let`. Los alumnos no tendrán que preocuparse acerca del scope en el primer laboratorio pero deberías presentarles los conceptos para prepararlos. Si un estudiante menciona `const` también puedes abarcarlo. Solo utilizaremos `let` y `const` en el Code 201.
 
-Do not be deceived by the simplicity of this demo: there is A LOT of stuff to go over with the students that will take a lot of time to cover. This is their first real dive into writing code with their new tools.
+No te dejes engañar por la simpleza de esta demostración: hay UN MONTÓN de cosas por repasar con los alumnos que tomará bastante tiempo. Este será la primera vez en la que escribirán código con sus nuevas herramientas.
 
-This code demo is to help students be ready to complete the first assignment and also to show off some functionality of the REPL and Chrome Developer Tools. This demo should also reveal any lingering issues with student computer setups.
+Esta demostración de código es para ayudar a los alumnos a que estén listos para completar su primera tarea y también para mostrarles algunas funcionalidades del REPL y las Herramientas para Desarrolladores de Chrome. Esta demostración también deberá mostrar cualquier problema pendiente con la configuración de las computadoras de los alumnos.
 
-Demonstrate how to use the `live-server` command to enable automatic browser refreshing.
+Demuestra cómo utilizar el comando `live-server` para activar la actualización automática del navegador.
 
-### Lab Setup
+### Preparación del Laboratorio
 
-To finish the day, go over the lab assignment and show students how to find/read the assignment, complete the assignment as a code demo, and submit the assignment (which for today, is submitted in a GitHub Gist to introduce the students to that tool).
+Para finalizar el día, repasa la tarea de laboratorio y muéstrale a los alumnos cómo encontrar/leer la tarea, complétala como una demostración de código y envía la tarea (la cual es para hoy, y es enviada en GitHub Gist para presentarle esta herramienta a los alumnos).
 
-The lab assignments are located in Canvas everyday.
+Las tareas de laboratorio se ubicarán en Canvas a diario.
 
-Demonstrate how to open projects in the editor from the command line. For example, `code .`. Also demonstrate how to touch and open a file in a single command. For example, `code index.html`.
+Demuestra cómo abrir proyectos en el editor desde la línea de comandos. Por ejemplo, `code .`. También demuestra cómo ubicar y abrir un archivo en un solo comando. Por ejemplo, `code index.html`.

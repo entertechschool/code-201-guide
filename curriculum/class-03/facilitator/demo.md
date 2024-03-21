@@ -1,17 +1,17 @@
-# JavaScript Control Flow
+﻿# Control de flujo en JavaScript
 
-a.k.a. *In What Order Shall We Do All of the Things?*
+Es decir *¿En qué orden deberíamos hacer las cosas?*
 
-Scripts without any Decision Points aren't very useful, so we use conditionals to decide which parts of our script to run. All conditionals return a `true` or `false` and we use this value to make `if / else if / else` decisions.
+Los scripts sin Puntos de Decisión no son útiles, así que utilizaremos condicionales para decidir qué partes de nuestro script deberemos ejecutar. Todos los condicionales retornan `true` o `false` y utilizaremos este valor para decidir utilizar `if / else if / else`.
 
-## Evaluating Comparisons
+## Evaluando Comparaciones
 
-1. syntax: `( <operand> <operator> <operand> )`
-1. each operand can be a value, a variable, or an expression
-1. comparisons will usually be wrapped in `()`
-1. if comparing expressions using a logical operator:
-   1. evaluate each expression to get `true` or `false`
-   1. use the booleans to evaluate the logical expression
+1. sintaxis: `( <operando> <operador> <operando> )`
+1. cada operando puede ser un valor, una variable, o una expresión
+1. las comparaciones generalmente estarán envueltas con un `()`
+1. si comparamos las expresiones utilizando un operador lógico:
+   1. evalúa cada expresión para obtener `true` o `false`
+   1. utiliza los booleans para evaluar la expresión lógica
 
 ```javascript
 1 === 1     -> true
@@ -37,23 +37,23 @@ a >= 50       -> false
                        -> true
 ```
 
-## 'if...else' Statements
+## Declaraciones 'if...else'
 
-Evaluate a conditional and proceed based on whether the result is `true` or `false`. All `if` and `else if` conditions are checked, even if a match is found.
+Evalúa un condicional y procese en base a si el resultado es `true` o `false`. Todas las condiciones `if` y `else if` son verificadas, incluso si se encuntra una correspondencia.
 
 ```javascript
 if (condition === true) {
-  //do this stuff
+  // haz esto
 } else if (condition2 === true) {
-  //do this other stuff
+  // haz otra cosa
 } else {
-  //do this last stuff
+  // haz esto último
 }
 ```
 
-## 'switch' Statements
+## Declaraciones 'switch'
 
-Check a local variable called the *switch value* against *cases* that represent possible values for the variable. Do not continue checking cases once a matching case is found and executed.
+Verifica una variable local llamada el *valor switch* frente a *casos* que representan valores posibles para la variable. No sigue verificando casos una vez que se encuentra y ejecuta un caso correspondiente.
 
 ```javascript
 switch (faveColor) {
@@ -72,18 +72,18 @@ switch (faveColor) {
 }
 ```
 
-## Type Coercion, Weak Typing, and Truthy/Falsy Values
+## Coerción de Tipos, Tipado Débil, y Valores verdadero/falso
 
-JavaScript is called *weakly typed* because values can be changed from one data type to another. Languages that don't allow this are *strongly typed*. When performing loose equality checks, JS performs *type coercion* to see if values are equal if they are evaluated as having the same data type.
+Se dice que JavaScript es de *débilmente tipado* porque los valores pueden cambiar de un tipo de dato a otro. Los lenguajes que no permiten esto son *fuertemente tipados*. Al realizar verificaciones de igualdad regulares, JS realiza una *coerción de tipos* para ver si los valores son iguales y se envalúan como si tuvieran el mismo tipo de dato.
 
 ```javascript
 let a = 5;
-a = 'cookie'; //this is legit in JS
+a = 'cookie'; //esto es legítimo en JS
 
 '10' > 1 -> true
 ```
 
-| Truthy  | Falsy   |
+| Verdadero | Falso   |
 | ------- | ------- |
 | true    | false   |
 | 1       | 0       |
@@ -94,7 +94,7 @@ a = 'cookie'; //this is legit in JS
 | 'false' |         |
 | '0'     |         |
 
-Any existing value is considered truthy, so we can use a conditional to check whether something exists:
+Cualquier valor existente es considerado verdadero, así que podemos utilizar una condicional para verificar si algo existe:
 
 ```javascript
 let a = 10;
@@ -109,9 +109,9 @@ if (a && obj) {
 }
 ```
 
-## Short Circuit Values
+## Valores Cortocircuito
 
-Logical operators work from left -> right, and stop as soon as they get a result. When they stop, they return whatever value stopped them, so we can write logical expressions that return a value other than `true` or `false`. This can be used to set default values.
+Los operadores lógicos funcionan de izquierda -> derecha, y se detienen tan pronto como encuentren un resultado. Cuando se detienen, retornan cualquier valor que los detuvo, así que podemos escribir expresiones lógicas que retornen un valor diferente a `true` o `false`. Esto se puede utilizar para establecer valores por defecto.
 
 ```javascript
 let name1 = 'Dan';
@@ -121,43 +121,43 @@ let userName1 = (name1 || 'unknown'); -> userName = 'Dan'
 let userName2 = (name2 || 'unknown'); -> userName2 = 'unknown'
 ```
 
-## Loops
+## Bucles
 
-Check a condition. If `condition === true`, repeatedly execute a code block until the condition becomes `false`.
+Verifica una condición. Si la `condición === true`, ejecuta un bloque de código repetidamente hasta que la condición se vuelva `false`.
 
-1. Keywords
-   1. `break` - stop the loop and go to the next statement outside the loop
-   1. `continue` - stop looping, re-check the loop condition, and keep looping if `condition === true`
+1. Palabras clave
+   1. `break` - detiene el bucle y va a la siguiente declaración fuera del bucle
+   1. `continue` - detiene el bucle, vuelve a verificar la condición del bucle y continúa con el bucle si la `condición === true`
 
-## 'for' Loops
+## Bucles 'for'
 
-Use a `for` loop when you want to run a loop a certain number of times. Track how many times the loop has executed using a counter variable.
+Utiliza un bucle `for` cuando quieras ejecutar un bucle un número determinado de veces. Monitorea cuántas veces se ha ejecutado el bucle utilizando una variable counter.
 
-Order of operations:
+Orden de operaciones:
 
-1. set counter = <initial value>
-1. check counter against <stop condition>. if this expression is true, continue
-1. execute the loop statements once
-1. increment counter
-1. repeat steps 2 - 4 until <stop condition> is met
+1. establece que counter = <valor inicial>
+1. verifica si el counter cumple con la <condición para detenerse>. si esta expresión es verdadera, continúa
+1. ejecuta la declaración del bucle una vez
+1. incrementa el counter
+1. repite los pasos 2 - 4 hasta que se cumpla la <condición para detenerse>
 
 ```javascript
-for (let counter = <initial value>; <stop condition>; <increment>) {
-  //do stuff
+for (let counter = <valor inicial>; <condición para detenerse>; <incremento>) {
+  // haz algo
 }
 
-//console log the values in an array
+// utiliza console log para los valores en un array
 let arr = ['a', 2, false, {}, 'I am last'];
 for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
 ```
 
-## 'while' and 'do...while' Loops
+## Bucles 'while' y 'do...while'
 
-Use a `while` loop when you don't know how many times you need to loop - maybe even zero times. Use a 'do...while' loop when you know you want to run the loop once, but don't know how many more times.
+Utiliza un bucle `while` cuando no sabes cuantas veces tienes que realizar el bucle - quizás sean cero veces. Utiliza un bucle 'do...while' cuando sabes que quieres ejecutar el bucle una vez, pero no sabes cuántas veces más.
 
-These loops will keep running until `condition === false`, so you must ensure that the condition will become false at some point. If you don't, you'll get an infinite loop.
+Estos bucles seguirán ejecutándose hasta que la `condición === false`, así que debes asegurarte de que la condición sea falsa en algún punto. Si no lo haces, obtendrás un bucle infinito.
 
 ```javascript
 let myNumber = 3;
@@ -175,7 +175,7 @@ do {
 } while (i < 1);
 ```
 
-For loop:  
+Bucle for:  
 
 ```javascript
 for (let i = 0; i < 10; i++) {
@@ -183,7 +183,7 @@ for (let i = 0; i < 10; i++) {
 }
 ```  
 
-While and do while loops:  
+Bucles while y do while:  
 
 ```javascript
 let index = 0;

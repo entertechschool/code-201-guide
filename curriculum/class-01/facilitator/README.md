@@ -1,81 +1,81 @@
-# Facilitators Guide: Introduction to Development
+﻿# Guía del Instructor: Introducción al Desarrollo
 
-## Overview
+## Resumen
 
-This day is all about getting everyone off to a good start with the numerous new tools that they will be using in the coming weeks. For many students this is the first time to work in a code editor and the first time to use the command line for file manipulation. These tools are foreign to most students, and students often bring extra anxiety into the first day. It’s an important life marker to have that “first day of school” moment with students by addressing their concerns and anxieties with reassurance. It can be especially helpful during this first week to acknowledge these feelings and assure students that it is normal to feel like the concepts are not clicking right away, but will with time. It can also help throughout this first week to ask TAs to share their 201 experiences and what they have learned from those experiences.
+El objetivo de este día es que todos comiencen a conocer las numerosas herramientas que utilizarán en las siguientes semanas. Para muchos alumnos esta es la primera vez que van a trabajar con un editor de código y la primera vez que van a utilizar la línea de comandos para manipular archivos. Estas herramientas son nuevas para la mayoría de los alumnos, y muchas veces eso les causa ansiedad en el primer día. Es importante tener ese momento del "primer día de clases" con los estudiantes resolviendo sus preocupaciones e inquietudes con calma. Puede ser de bastante ayuda durante esta primera semana reconocer estos sentimientos y asegurarle a los alumnos que es normal sentir que no están captando los conceptos de inmediato pero lo lograrán con el tiempo. Durante esta semana, también puede ser de ayuda pedirle a los TA que compartan sus experiencias con el curso 201 y lo que han aprendido de esas experiencias.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in today's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de hoy.
 
-## Preparation
+## Preparativos
 
-1. Skim the daily readings and be prepared if students have questions.
-1. Review the code demos and be sure to understand how to construct them within lecture. Review the respective markdown file for each demo.
-1. This is the first day of class, so be sure that Canvas assignments are fully published for the course and the GitHub repo is created and populated with the daily class README's.
+1. Hojea las lecturas diarias y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Este es el primer día de clase, así que asegúrate de que las tareas de Canvas del curso estén publicadas y que el repositorio de GitHub esté creado y lleno con los README de las clases.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the `lecture.md` for lecture details.
+Consulta el `lecture.md` para los detalles de la clase.
 
-## Welcome and Kickoff
+## Bienvenida e Inicio
 
-- Campus Kickoff
-  - Rules/Policies of the Campus
-- Full Student Introductions
+- Inicio en el Campus
+  - Reglas/Políticas del Campus
+- Presentaciones de los estudiantes
 
-## All about 201
+## Todo acerca del Code 201
 
-- Intro to Canvas
-  - Show them around the tool and how to find and submit assignments
-- Reading Review
-  - Quick overview on how to "skim" readings
+- Introducción a Canvas
+  - Muéstrales la herramienta y cómo encontrar y enviar las tareas
+- Repaso de las lecturas
+  - Resumen rápido acerca de cómo "hojear" las lecturas
 
-## Command Line Basics, VSCode Configuration and Code Demo
+## Conceptos básicos de la Línea De Comandos, Configuración de VSCode y Demostración de código
 
-- **Why**
-  - Command Line
-    - Terminal use and terminal commands can be a lot faster and more efficient
-    - Things done in the terminal can be easily repeatable
-  - VSCode Configuration
-    - It is important for students to have same linter settings. When they work on teams, it is important that when they pull down projects, they will all be on the same page.
-- **What**
-  - Everything you do in the command line is related to **files**, **directories**, and **executables**
-  - Git and GitHub
-    - Git: version control system that lets you manage and keep track of your source code history.
-    - GitHub: a cloud-based hosting service that lets you manage Git repositories
-  - VSCode is the text editor students will be using. VSCode is a streamlined code editor with support for development operations like version control.
-- **How**
-  - Go over basic commands ([see cheat sheet](LECTURE-EXAMPLE.md#command-line-basics))
-  - Go over VSCode Configuration that students will need to set up for this course([see configs](LECTURE-EXAMPLE.md#configure-vs-code))
-  - Go over Linter Setup ([see setup](LECTURE-EXAMPLE.md#setup-your-linter))
-  - Build out Code Demo ([Overview Outline](DEMO.md))
+- **¿Por qué?**
+  - Línea de Comandos
+    - El uso del terminal y los comandos del terminal pueden ser más rápidos y más eficientes
+    - Las cosas hechas en el terminal se pueden repetir fácilmente
+  - Configuración de VSCode
+    - Es importante que los alumnos tengan la misma configuración de linter. Cuando trabajen en equipos, es importante que cuando comiencen a trabajar en los proyectos, todos estén en al día.
+- **¿Qué?**
+  - Todo lo que se hace en la línea de comandos está relacionado con **archivos**, **directorios** y **ejecutables**
+  - Git y GitHub
+    - Git: Un sistema de control de versiones que te permite administrar y monitorear tu historial de código fuente.
+    - GitHub: un servicio de alojamiento basado en la nube que te permite administrar repositorios de Git.
+  - VSCode es el editor de texto que los alumnos utilizarán. VSCode es un editor de código ágil con soporte para operaciones de desarrollo como el control de versiones.
+- **¿Cómo?**
+  - Revisar comandos básicos ([ver hoja de referencia](LECTURE-EXAMPLE.md#conceptos-básicos-de-la-línea-de-comandos))
+  - Revisar la configuración de VSCode que los alumnos van a necesitar para este curso([ver configuraciones](LECTURE-EXAMPLE.md#configurar-vs-code))
+  - Revisar la Configuración del Linter ([ver configuración](LECTURE-EXAMPLE.md#configura-tu-linter))
+  - Arma tu Demostración de Código ([Resumen](DEMO.md))
     - prompts
-    - alerts
+    - alertas
     - console.log
-    - in-line styles
-    - internal styles
-  - Run a Lighthouse report from the Chrome DevTools to analyze the accessibility of the application.
-  - **NOTE** Some Chrome extensions could inject markup into the HTML code at runtime and could affect the Lighthouse scores. If this happens, advise students to either turn off their Chrome extensions or run their Lighthouse while in an incognito window.
-  - Lab Prep
-    - Show them how to submit their lab
+    - estilos in-line
+    - estilos internos
+  - Ejecuta un informe de Lighthouse desde las Herramientas para desarrolladores de Chrome para analizar la accesibilidad de la aplicación.
+  - **NOTA** Algunas extensiones de Chrome pueden insertar lenguaje de marcado en el código HTML durante el tiempo de ejecución y pueden afectar las puntuaciones en Lighthouse. Si esto sucede, recomienda que los alumnos apaguen sus extensiones en Chrome o activen Lighthouse mientras estén en una ventana en incognito.
+  - Preparación para el laboratorio
+    - Enséñales cómo enviar su trabajo de laboratorio
 
-## Lab Notes
+## Notas de Laboratorio
 
-Students will have completed a prework assignment, lab-01a, to set up a repo for storing their reading notes. They should have created a very similar repo for their 102 daily journal. However, some students may come in with their prework incomplete,so make sure to remind students to complete this assignment as a priority before lab-b so they don't fall behind on their readings.
+Los alumnos habrán completado una tarea de trabajo previo, lab-01a, para configurar un repositorio para almacenar sus notas. Deberán hacer creado un repositorio similar para su registro de aprendizaje en Code 102. Sin embargo, algunos estudiantes pueden haber no completado su trabajo previo, así que asegúrate de recordarle a los alumnos que completen sus tareas antes del lab-b para que no se atrasen con sus lecturas.
 
-Today's lab utilizes GitHub's gist functionality. [Here is an overview of a gist](https://help.github.com/en/articles/creating-gists).
+El laboratorio utilizar la funcionalidad gist de GitHub. [Esta es una descripción de un gist](https://docs.github.com/es/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists).
 
-At the end of lecture, publish your code to a gist and then show them how to get the link for their gist and where to submit it in Canvas for lab-b.
+Al final de la clase, publica tu código en un gist y muéstrales cómo obtener el enlace para sus gists y dónde enviarlos en Canvas para el lab-b.
 
-One detail to note: In lab-b, we help the students set up their JS linter in VSCode and also set a custom .bash_profile that will ultimately show their Git status once we start working with Git. Doing this serves two purposes: 1) Gives us another means of verifying their computer setups; 2) Creates a point of 1-on-1 interaction with the students so we can get to know them better. Work on learning names as you deal with individual students.
+Un detalle a tomar en cuenta: En lab-b, ayudamos a los alumnos a configurar su linter de JS en VSCode y también a configurar un .bash_profile personalizado que al final les mostrará su Git status cuando comencemos a trabajar con Git. Hacer esto tiene dos fines: 1) Nos da otra forma de verificar sus configuraciones de computadora; 2) Crea un punto de interacción individual con los estudiantes para conocerlos mejor. Trata de aprenderte sus nombres mientras interactúas con los alumnos.
 
-### What changed from previous class?
+### ¿Qué cambió desde la clase anterior?
 
-Nothing, this is day one!
+Nada, ¡este es el primer día!
 
-## What bugs, issues, or suprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-- Computer Setup
-- Some Chrome extensions could inject markup into the HTML code at runtime and could affect the Lighthouse scores. If this happens, advise students to either turn off their Chrome extensions or run their Lighthouse while in an incognito window.
+- Configuración de la computadora
+- Algunas extensiones de Chrome pueden insertar lenguaje de marcado en el código HTML durante el tiempo de ejecución y pueden afectar las puntuaciones en Lighthouse. Si esto sucede, recomienda que los alumnos apaguen sus extensiones en Chrome o activen Lighthouse mientras estén en una ventana en incognito.

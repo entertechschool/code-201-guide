@@ -1,17 +1,17 @@
-# 201 Project Prep
+﻿# Preparación para el Proyecto 201
 
-## Group Creation
+## Creación del Grupo
 
-Project groups should be decided by the instructor and TA team to ensure balanced skill levels in all groups. Ideally, groups should contain four or five members; a strong team of three members could also be successful. Be conscious of personality traits where possible.
+Los proyectos grupales deberán decidirse por el equipo de instructores y TA para asegurar que todos los grupos tengan niveles de habilidad balanceados. Idealmente, los grupos deberían contener cuatro o cinco miembros; un equipo fuerte de tres miembros también podría ser exitoso. Sé conciente de las personalidades si es posible.
 
-An alternate approach to groups: decide the groups among the instructional staff, but do not tell the students yet. Then in lab, when they are pair-programming, have them work with a future possible team member. This is a great way to test out any questionable pairings before assigning students to teams.
+Un enfoque distinto a los grupos: decide los grupos con los instructores, pero aún no se lo digas a los estudiantes. En el laboratorio, cuando estén haciendo pair-programming, haz que trabajen con un posible futuro compañero de equipo. Esta es una buena forma de poner a prueba parejas cuestionables antes de asignar a los estudiantes a sus grupos.
 
-## Project Examples
+## Ejemplos de Proyecto
 
-Review student final projects from prior cohorts, again, striving for concepts in UI/UX and also to help students get a feel for the scope of the final projects. Students should have completed the project pitch Canvas assignment by now, so it is really time for students to start mentally transitioning into a Project Week mentality.
+Revisa los proyectos finales de grupos anteriores, de nuevo, tratando de explicar conceptos de UI/UX y también para ayudar a los estudiantes a entender el alcance al proyecto final. Los estudiantes ya deberían haber completado la tarea del pitch del proyecto, así que es momento de que los estudiantes comiencen a cambiar de mentalidad para la semana del proyecto.
 
-## Project Prep
+## Preparación para el Proyecto
 
-The project teams will discuss their ideas together and ultimately select a project idea to pitch to the instructional team. By the beginning of the next class, groups should have a pitch idea or two of what they would like to create.
+Los equipos del proyecto debatirán sus ideas y seleccionarán una idea para el proyecto para hacer un pitch para los instructores. Para el inicio de la siquiente clase, los grupos deberán tener una idea de pitch o dos de lo que les gustaría crear.
 
-Refer to the common curriculum for the prep assignments for project week. All of these assignments are expected to be completed by end of class 15 (including lab time). Class 15 will be primarily dedicated to these assignments.
+Consula el common curriculum para las tareas de preparación para la semana del proyecto. Se espera que todas estas tareas estén completadas para el final de la clase 15 (incluyendo el tiempo del laboratorio). La clase 15 se dedicará principalmente a estas tareas.

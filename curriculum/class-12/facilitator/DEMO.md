@@ -1,9 +1,9 @@
-# Lecture Code  
+﻿# Código de la Clase  
 
-Today's lecture code will be based around building a simple `Charts.js` example application.  
-It is recommended that you follow chartJs docs in front of the students [https://www.chartjs.org/docs/latest/getting-started/](https://www.chartjs.org/docs/latest/getting-started/)
+El código de la clase de hoy estará basado en construir una aplicación simple de ejempo con `Charts.js`  
+Se recomienda que sigas la documentación de chartJs frente a los estudiantes [https://www.chartjs.org/docs/latest/getting-started/](https://www.chartjs.org/docs/latest/getting-started/)
 
-Start by creating your `index.html`:  
+Comienza creando tu `index.html`:  
 
 ```HTML
 <!DOCTYPE html>
@@ -20,16 +20,16 @@ Start by creating your `index.html`:
 </html>
 ```  
 
-Then in `style.css`:
+Luego, en `style.css`:
 
 ```css
 canvas {
   width: 75%;
-  height: 500px;
+  height: 500 px;
 }
 ```  
 
-Add a `app.js` file:
+Añade un archivo `app.js`:
 
 ```JavaScript
 'use strict';
@@ -61,10 +61,10 @@ const myChart = new Chart(ctx, {
 });
 ```  
 
-Show students that they can also change the data using `.` notation:  
+Muéstrale a los estudiantes que también pueden cambiar los datos utilizando `.` notation:  
 
 ```javascript
 myChart.data.datasets[0].data = [100,200,300,50,10];
 ```
 
-Finally ask the students if they would like to try and change anything about our chart. Try to use the docs to find and demo their suggestions.
+Por último, pregúntale a los estudiantes si les gustaría cambiar algo de nuestro gráfico. Trata de utilizar la documentación para encontrar e integrar sus sugerencias a la demostración.

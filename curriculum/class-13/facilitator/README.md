@@ -1,74 +1,74 @@
-# Facilitators Guide: Local Storage and UI/UX Concepts
+﻿# Guía del Instructor: Conceptos de Local Storage y UI/UX
 
-## Overview
+## Resumen
 
-In this class we introduce the concept of persisting application state with local storage. This is the only new topic that will be covered. If there is time in the end of the class, you may also introduce some basic UI/UX design rules.
+En esta clase presentaremos el concepto de estado de aplicación persistente con local storage. Este es el único tema nuevo que abarcaremos. Si hay tiempo al final de la clase, también podrías presentar algunos conceptos básicos de diseño UI/UX.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
+**¿Qué hicimos?**:
 
-In the previous class students learned how to utilize a third party library in their application. They learned to use the `<canvas>` element to display their collected votes in a graph.
+En la clase anterior, los estudiantes aprendieron a utilizar una librería de terceros en su aplicación. Aprendieron a utilizar el elemento `<canvas>` para mostrar sus votos recolectados en un gráfico.
 
-**What we are focusing on in this class**:
+**¿En qué nos centraremos en esta clase?**:
 
-In this class students will learn about persisting data in their application with local storage.
+En esta clase, los estudiantes aprenderán acerca de los datos persistentes en su aplicación con local storage.
 
-**Where we're headed**:
+**¿Qué haremos?**:
 
-In the next class students will be finishing up their Odd Duck Products application and gearing up for final projects!
+¡En la siguiente clase los estudiantes terminarán con su aplicación Odd Duck Products y se prepararán para sus proyectos finales!
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Skim the readings and be prepared if students have questions.
-1. Review the code demos and be sure you understand how to construct them within lecture. Review the respective markdown file for each demo.
-1. Review the [whiteboard diagrams](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) on the Code Fellow's Invision account or [here](whiteboards/class13WB.png) for lecture
+1. Hojea las lecturas y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de entender cómo recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Revisa los [diagramas en la pizarra](https://code-fellows.invisionapp.com/freehand/201-Whiteboards-8r4qFnMn2) en la cuenta de Invision de Code Fellow o [aquí](whiteboards/class13WB.png) para la clase.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code Review
+### Revisión del código
 
-- Review the previous classes lab requirements:
-  - Generate unique images between rounds of voting.
-  - Installing and rendering charts via ChartJS.
+- Revisa los requisitos de laboratorio de la clase anterior:
+  - Genera imágenes únicas entre rondas de votos.
+  - Instala y muestra gráficos con ChartJS.
 
-### Managing application state (data persistence) with local storage
+### Administrando el estado de la aplicación (persistencia de datos) con local storage
 
-- **Why**
-  - We want the user of our application to be able to retain data across page refreshes and on different parts of the application.
-- **What**
-  - Local storage is an object that is stored in your (browser's) application files on your computer.
-- **How**
-  - Demonstrate for the students how to view their local storage in the browser developer tools.
-  - Use the console to demonstrate how to set, get, update, and delete data from local storage.
-  - Continue demonstration of local storage in the Goat Vote Tracker application.
+- **¿Por qué?**
+  - Queremos que el usuario de nuestra aplicación sea capaz de retener los datos entre actualizaciones de página y en diferentes partes de la aplicación.
+- **¿Qué?**
+  - El local storage es un objeto que se almacena entre los archivos de la aplicación (del navegador) en tu computadora.
+- **¿Cómo?**
+  - Demuéstrale a los estudiantes cómo ver su local storage en las herramientas para desarrolladores del navegador.
+  - Utiliza la consola para demostrar cómo establecer, obtener, actualizar y eliminar datos del local storage.
+  - Continúa con la demostración del local storage en la aplicación Goat Vote Tracker.
 
 ### UI/UX
 
-### Lab prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be successful with their lab.
-- **What**
-  - Review Lab 13 instructions in Canvas.
-- **How**
-  - Refer to lab notes below for additional information.
+- **¿Por qué?**
+  - Les proporciona a los estudiantes las herramientas para que cumplan con su laboratorio.
+- **¿Qué?**
+  - Revisa las instrucciones del Laboratorio 13 en Canvas.
+- **¿Cómo?**
+  - Consulta las notas del laboratorio a continuación para más información.
 
-## Lab Notes
+## Notas de Laboratorio
 
-Some students will still be catching up from the previous class' build out. This lab is also on the lighter side, requiring students to add local storage to their vote tracker app. Once the functionality is in place, adding local storage should not take too long. Students will need to be mindful of when and where they are storing and retrieving data. A common mistake is forgetting to stringify or parse the data.
+Algunos estudiantes todavía se están poniendo al día con el trabajo de la clase anterior. Este laboratorio es más ligero, requiere que los estudiantes añadan el local storage a la aplicación vote tracker. Una vez que la funcionalidad esté lista, añadir el local storage no debería tomar mucho tiempo. Los estudiantes necesitan ser conscientes de cuándo y dónde están almacenando los datos extraídos. Un error común es olvidar convertir a string (stringify) o utilizar parse con los datos.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-No big changes from previous class.
+No hubieron grandes cambios desde la clase anterior.
 
-## What bugs, issues, or suprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-No big bugs or issues that come up for this class.
+No han surgido errores o problemas para este clase.

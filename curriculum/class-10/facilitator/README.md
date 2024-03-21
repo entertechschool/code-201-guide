@@ -1,78 +1,78 @@
-# Facilitators Guide: JS Debugging and More CSS Layout
+﻿# Guía del Instructor: Depuración en JS y más CSS: Layout
 
-## Overview
+## Resumen
 
-This is another big class for code review as the students are getting their Salmon Cookie apps wrapped up. Ideally, at this point the students should be more focused on the look and feel of the app than its JavaScript functionality. That said, this is the best time to re-engage with debugging concepts, providing some reminders and refreshes on what the students have experienced with JS debugging, and to get into some advanced and under-the-hood topics that they are now ready to consider.
+Esta es otra clase importante para la revisión del código ya que los estudiantes están terminando con sus aplicaciones Salmon Cookies. Idealmente, a este punto los estudiantes deberán estar más centrados en el aspecto y el estilo de la aplicación que en su funcionalidad en JavaScript. Dicho esto, este es el mejor momento para volver a abordar los conceptos de depuración, proporcionando algunos recordatorios y repasos acerca de lo que los estudiantes han experimentado con la depuración en JS, y para tocar algunos de los temas más avanzados que ahora están listos para abordar.
 
-The CSS layout component of this class will again depend upon the progress of a particular cohort. If more time is needed on the fundamentals, or in a hands-on exploration of grid systems, then that is what must be done. If the class is more advanced, however, this could be a chance to explore topics such as CSS frameworks or responsive design.
+El componente CSS Layout de esta clase de nuevo dependerá del progreso de un grupo en particular. Si se necesita más tiempo con los conceptos fundamentales, o en una exploración práctica de los sistemas de grid, entonces es lo que se deberá de hacer. Sin embargo, si la clase es más avanzada, esta puede ser una oportunidad para explorar temas como los frameworks de CSS o el diseño responsivo.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
-In the previous class students learned about JavaScript events and event handling. They were also tasked with building an HTML form into their application with the purpose of adding new stores to their sales table.
+**¿Qué hicimos?**:
+En la clase anterior, los estudiantes aprendieron acerca de los eventos de JavaScript y el event handling. También se les pidió que armaran un formulario HTML en su aplicación con el propósito de añadir nuevas tiendas a su tabla de ventas.
 
-**What are we focusing on in this class**:
-In this class students will be diving into JavaScript debugging workflows. Students also have another pair programming lab that will focus on CSS layout.
+**¿En qué nos centraremos en esta clase?**:
+En esta clase, los estudiantes se dividirán en flujos de trabajo de depuración de JavaScript. Los estudiantes también tendrán otro laboratorio de pair programming que se centrará en el CSS layout.
 
-**Where we're headed**:
-Next class will begin a new project! This project will hopefully help cement concepts learned from the previous project.
+**¿Qué haremos?**:
+¡En la siguiente clase comenzaremos con un nuevo proyecto! Esperamos que este proyecto ayude a consolidar los conceptos aprendidos del proyecto anterior.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Add the contents located in the `lab-assets` folder into your class repository under the `class-10/lab-a` directory.
-1. This class's lab is a pair programming lab. 
-   - Post pairs before lab time. 
-   - Note: Take skill levels and overall understanding of the content into consideration.
-3. Skim the readings and be prepared if students have questions.
+1. Añade los contenidos ubicados en la carpeta `lab-assets` a tu repositorio de la clase en el directorio `class-10/lab-a`.
+1. El laboratorio de esta clase será uno de pair programming. 
+   - Publica las parejas antes del laboratorio. 
+   - Nota: Toma en consideración los niveles de habilidad y el entendimiento general del contenido.
+3. Hojea las lecturas y prepárate en caso de que los alumnos tengan preguntas. 
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code review
+### Revisión del código
   
-- Focus on Salmon Cookies build out.
+- Céntrate en la construcción del código en Salmon Cookies.
 
-### JavaScript Debugging
+### Depuración en JavaScript
 
-- **Why**
-  - We want error free code!
-- **What**
-  - Debugging is the process of detecting and removing errors in software code.
-- **How**
-  - Discuss as a class different ways to debug code. Get students involved and ask them for examples.
-  - Discuss the differet types of error messages they can encounter in the console. Provide an example of each error type.
-  - Instructors can choose to use a Replit riddled with bugs and put students in small groups to find bugs within the code.
-    - Online classes should use Zoom breakout rooms (or equivalent) for this.
+- **¿Por qué?**
+  - ¡Queremos un código libre de errores!
+- **¿Qué?**
+  - La depuración es el proceso de detectar y eliminar errores en el código del software.
+- **¿Cómo?**
+  - Debate con la clase acerca de diferentes formas de depurar el código. Haz que los estudiantes se involucren y pregúntales ejemplos.
+  - Hablen acerca de los diferentes tipos de mensajes de error que pueden encontrar en la consola. Proporciona un ejemplo para cada tipo de error.
+  - Los instructores pueden escoger utilizar un Replit lleno de errores y poner a los estudiantes en pequeños grupos para encontrar los errores en el código.
+    - Para las clases en línea utiliza las salas de Zoom (o su equivalente).
 
-### Lab prep
+### Preparación para el laboratorio
 
-- **Why**
-  - Provides students with the tools to be success with their lab.
-- **What**
-  - Review Lab 10a instructions in Canvas.
-- **How**
-  - Advise students this is a timeboxed lab and they will be working in pairs.
-  - Direct students to the assets for this lab in the class repository.
-  - Refer to lab notes below for additional information.
+- **¿Por qué?**
+  - Proporciona las herramientas que los estudiantes necesitan para completar su laboratorio.
+- **¿Qué?**
+  - Revisa las instrucciones del Laboratorio 10a en Canvas.
+- **¿Cómo?**
+  - Avísale a los estudiantes que este es un laboratorio con un límite de tiempo y que trabajarán en parejas.
+  - Dirige a los estudiantes a los assets para este laboratorio en el repositorio de la clase.
+  - Consulta las notas del laboratorio a continuación para más información.
 
-## Lab Notes
+## Notas de Laboratorio
 
-Students will have approximately four hours to work on this assignment, getting their project as close as possible to the recipe mockup. The secondary purpose of the cutoff time is to encourage students to head home and get some rest.
+Los estudiantes tendrán aproximádamente cuatro horas para trabajar en esta tarea y hacer que su proyecto se vea lo más parecido posible a la maqueta. El segundo propósito de tener un tiempo limitado es para alentar a los estudiantes a que vayan a casa y descansen.
 
-The assignment is more about "crank through a lot of CSS work" than striving for an ideal solution. Present it as a puzzle, and encourage students to do it as collaboratively as possible to compare each other’s solutions. If good effort is given, grade for full credit. It's more about process than product.
+Esta tarea es más "hacer un montón de CSS" que tratar de alcanzar una solución ideal. Preséntalo como un rompecabezas e incentiva a que los estudiantes colaboren en lo posible para comparar sus soluciones. Si se esfuerzan, califícalos con todos los créditos. Esto es más acerca del proceso que el producto.
 
-The intent of this lab is that they dive into a problem, come up with a plan to attack it, go through the mechanics of managing the image resources and setting up the HTML, and then do whatever they can with CSS. It hits a lot of stuff. And ideally lots of teaching happens while they are working, when the instructor circulates and gives tips.
+El propósito de este laboratorio es que profundicen en un problema, ideen un plan para solucionarlo, elaboren las mecánicas de gestionar los recursos de imágenes, armen el HTML y hagan todo lo posible con el CSS. Toca varios temas. Idealmente, aprenden bastante mientras trabajan, y el instructor se les acerca y les da consejos.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-No big changes from previous class.
+No hubieron grandes cambios desde la clase anterior.
 
-## What bugs, issues, or suprises have come up in the past for this class?
+## ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-Students may still be having a hard time getting the grand totals in their table functioning correctly within their applications. The code review for this class could be a help for a lot of students still struggling with that component.
+Puede que los estudiantes todavía tengan problemas obteniendo el total general en su tabla funcionando correctamente en sus aplicaciones. La revisión del código de esta clase podrá ser de ayuda para muchos estudiantes que aún tienen dificultades con ese componente.

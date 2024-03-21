@@ -1,28 +1,28 @@
-# Lecture: JS Debugging and More CSS Layout
+﻿# Clase: Depuración en JS y más CSS: Layout
 
-During lecture, continue working on the wireframe exercise together. This will help prepare students for their first timed lab assignment, Chocolate Pizza. This lab can be done individually or in assigned pairs.
+Durante la clase, continúen trabajando en el ejercicio de wireframe juntos. Esto ayudará a los estudiantes a prepararse para su primer laboratorio con límite de tiempo, Chocolate Pizza. Este laboratorio se puede hacer individualmente o con parejas asignadas.
 
-There is a directory in the demo folder that contains several buggy salmon cookies projects, organized by error typ. You can use this to show the students specific errors or create your own bugs.
+Hay un directorio en la carpeta demo que contiene varios proyectos salmon cookies con errores, organizados por tipo de error. Puedes utilizar esto para mostrar errores específicos a los estudiantes o crear tus propios errores.
 
-Debugging Workflow:
+Flujo de trabajo de depuración:
 
-- check browser console & resolve all error messages
-  - look at file name, line number of error, and error type
-- check for useful linter messages near the source of the error
-- console log the value you are trying to work with
-- note all of the places in your code that define or modify the value you are working with
-- try commenting things out, then adding them back. work backward until you find the first source of error
-- try calling functions or inspecting vars in console
-  - is the value named correctly?
-  - is the value defined?
-  - is the value the right type?
-  - does the object have the props/methods you expect?
-  - does the function return the value(s) it should?
-  - are you calling the function with the right number/type of arguments?
-  - does the array have the number/type of elements you expect?
-- inspect the HTML elements
-  - do all the elements exist in the HTML?
-  - is the HTML hierarchy correct?
-  - does the element actually have an event listener attached?
-  - does the element have all the attributes you expect?
-  - have you mixed up a class & an ID?
+- revisa la consola del navegador y resuelve todos los mensajes de error
+  - mira el nombre del archivo, el número de línea de error y tipo de error
+- revisa los mensajes útiles del linter cerca del origen del error
+- utiliza console log con el valor que estás tratando de trabajar
+- toma nota de todos los lugares en tu código que definen o modifican el valor con el que estás trabajando
+- intenta comentar cosas, luego añadirlas de nuevo, trabaja hacia atrás hasta que encuentras la primera fuenta del error.
+- intenta llamar a las funciones o inspeccionar los var en la consola
+  - ¿el valor ha sido nombrado correctamente?
+  - ¿el valor ha sido definido?
+  - ¿el valor es del tipo correcto?
+  - ¿el objeto tiene las propiedades/métodos que esperabas?
+  - ¿la función retorna el valor(es) que debería?
+  - ¿estás llamando a la función con la cantidad/tipo correcto de argumentos?
+  - ¿el array tiene el número/tipo de elementos que esperabas?
+- inspecciona los elementos HTML
+  - ¿todos los elementos existen en el HTML?
+  - ¿la jerarquía HTML es correcta?
+  - ¿el elemento tiene un event listener añadido?
+  - ¿el elemento tiene todos los atributos que esperabas?
+  - ¿haz mezclado un class y un ID?

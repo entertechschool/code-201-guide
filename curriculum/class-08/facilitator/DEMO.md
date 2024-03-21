@@ -1,16 +1,16 @@
-# Demo
+﻿# Desmostración
 
-Refer to the starter [flexbox-demo code](flexbox-demo). This demo includes starter html and css files. Use VSCode for this demo.
+Consulta el [flexbox-demo code](flexbox-demo) inicial. Esta demostración incluye archivo html y css iniciales. Utiliza VSCode para esta demostración.
 
-Use the following demo steps in the [style.css](flexbox-demo/css/style.css)
+Utiliza los siguientes pasos de la demostración en el archivo [style.css](flexbox-demo/css/style.css)
 
-## Flexbox Properties
+## Propiedades de Flexbox
 
 ### `display: flex`
 
-### `flex-direction: row` or `flex-direction: column`
+### `flex-direction: row` o `flex-direction: column`
 
-The `flex-direction` property sets how flex items are placed in the flex container defining the **main axis** and the direction.
+La propiedad `flex-direction` establece cómo los elementos de flex se colocan en el flex container definiendo el ***main axis** y la dirección.
 
 ```css
    #container {
@@ -30,16 +30,16 @@ The `flex-direction` property sets how flex items are placed in the flex contain
 
 ```
 
-Steps to demo `display: flex` and `flex-direction`:
+Pasos para demostrar `display: flex` y `flex-direction`:
 
-1. ADD: `display` property with value of `flex` - on the container element.
-1. ADD: add `flex direction` property. The default is set to row but show the difference when switched to `flex-direction: column`.
-1. When demoing `flex-direction: column`, change the height property on this container.
-    1. At the current height of `500px`, the height of each div is not `200px` as stated in the starter code. They shrink to fit the container. Change the height to `1200px` to see that the divs will have enough room and will maintain their `200px` height. Then change the height back to `500px`.
+1. AÑADE: la propiedad `display` con el valor `flex` - en el elemento container.
+1. AÑADE: añade la propiedad `flex direction`. La opción por defecto es row pero muestra la diferencia al cambiarlo a `flex-direction: column`.
+1. Al demostrar `flex-direction: column`, cambia la propiedad height en este container.
+    1. Con el height actual de `500px`, el height de cada div no es `200px` como se indica en el código inicial. Se encogen para entrar en el container. Cambia el height a `1200px` para ver que los divs tendrán suficiente espacio y mantendrán su height de `200px`. Luego cambia el height de vuelta a `500px`.
 
 ### `justify-content`
 
-The `justify-content` property determines how the content is distributed across the **main axis** (left to right).
+La propiedad `justify-content` determina cómo se distribuye el contenido por el **main axis** (izquierda a derecha).
 
 ```css
    #container {
@@ -60,18 +60,18 @@ The `justify-content` property determines how the content is distributed across 
 
 ```
 
-Steps to demo `justify-content`:
+Pasos para demostrar `justify-content`:
 
-1. ADD: `justify-content` property. The default is flex-start.
-1. DEMO the other values for `justify-content`:
-    1. `center`: centers along the main axis.
-    1. `space-between`: takes all the extra spaxe and distributes it between the elements but NOT on the outside edges.
-    1. `space-around`: gives each element the same amount of space around it.
-    1. `space-evenly`: ensures the space is even between every element.
+1. AÑADE: la propiedad `justify-content`. El valor por defecto es flex-start.
+1. DEMUESTRA los otros valores para `justify-content`:
+    1. `center`: se centra a lo largo del main axis.
+    1. `space-between`: toma todo el espacio extra y lo distribuyes entre los elementos pero NO en los border externos.
+    1. `space-around`: le da a cada elemento la misma cantidad de espacio alrededor.
+    1. `space-evenly`: se asegura de que el espacio sea igual entre cada elemento.
 
 ### `flex-wrap`
 
-The `flex-wrap` property determines whether the elements wrap along the main axis on to a new line if it is horizon or new column if it is vertical.
+La propiedad `flex-wrap` determina si los elementos se envuelven a lo largo del main axis a una nueva línea si es horizontal o una nueva columna si es vertical.
 
 ```css
    #container {
@@ -93,17 +93,17 @@ The `flex-wrap` property determines whether the elements wrap along the main axi
 
 ```
 
-Steps to demo `flex-wrap`:
+Pasos para demostrar `flex-wrap`:
 
-1. CHANGE: `flex-direction` to `column`. The divs will shrink to fit into the `500px` height of the container.
-1. CHANGE (optional): `justify-content` to `flex-start`.
-1. ADD: `flex-wrap` property and set the value to `wrap`. This will create new columns and the divs will now maintain their `200px` height as they wrap.
-1. DEMO `flex-wrap` with a `flex-direction` of `row`.
-    1. CHANGE the width on the divs to a much larger width to see them wrap.
+1. CAMBIA: `flex-direction` a `column`. Los divs se encogerán para entrar al height de`500px` del contenedor.
+1. CAMBIA (opcional): `justify-content` a `flex-start`.
+1. AÑADE: la propiedad `flex-wrap` y establece el valor a `wrap`. Esto creará nuevas columnas y los divs ahora mantendrán su height de `200px` mientras se ajustan.
+1. DEMUESTRA `flex-wrap` con un `flex-direction` de `row`.
+    1. CAMBIA el width en los divs a un width más largo para ver cómo se ajustan.
 
 ### `align-items`
 
-The `align-items` property determines how the content is distributed across the **cross axis** (top to bottom).
+La propiedad `align-items` determina cómo se distribuye el contenido a lo largo del **cross axis** (de arriba a abajo).
 
 ```css
    #container {
@@ -125,19 +125,19 @@ The `align-items` property determines how the content is distributed across the 
 
 ```
 
-Steps to demo `align-items`:
+Pasos para demostrar `align-items`:
 
-1. CHANGE: `flex-direction` to `row` if not already.
-1. CHANGE: `justify-content` to `center`.
-1. ADD: `align-items` property. The default is `flex-start` which will align the items to the top of the container, no change.
-1. DEMO a few other values for `align-items`:
-    1. `flex-end`: align items to the bottom of the container.
-    1. `center`: centers the items vertically.
-1. CHANGE `flex-direction` to `column` and use `align-items` to show how columns are effected.
+1. CAMBIA: `flex-direction` a `row` si no está así.
+1. CAMBIA: `justify-content` a `center`.
+1. AÑADE: la propiedad `align-items`. La opción por defecto esc`flex-start` la cual alineará los elementos a la parte superior del container, sin modificaciones.
+1. DEMUESTRA algunos otros valores de `align-items`:
+    1. `flex-end`: alínea los elementos a la parte inferior del container.
+    1. `center`: centra los elementos verticalmente.
+1. CAMBIA: `flex-direction` a `column` y utiliza `align-items` para mostrar cómo se crean las columnas.
 
 ### `align-self`
 
-The `align-self` property is similiar to `align-items` but can be added to the items in the flex container.
+La propiedad `align-self` es parecida a `align-items` pero se puede añadir a los elementos en el flex container.
 
 ```css
    #container {
@@ -163,22 +163,22 @@ The `align-self` property is similiar to `align-items` but can be added to the i
 
 ```
 
-Steps to demo `align-self`:
+Pasos para demostrar `align-self`:
 
-1. CHANGE: `flex-direction` to `row` if not already.
-1. CHANGE: `justify-content` to `center` if not already.
-1. CHANGE: `align-items` to `flex-start` if not already.
-1. TARGET one of the divs and ADD `align-self` property.
-1. DEMO the following values for `align-self`:
-    1. `center`: this will align this div to the center of the cross axis.
-    1. `flex-start`: this will align the div at the top of the cross axis.
-    1. `flex-end`: this will align the div at the bottom of the cross axis.
+1. CAMBIA: `flex-direction` a `row` si no está así.
+1. CAMBIA: `justify-content` a `center` si no está así.
+1. CAMBIA: `align-items` a `flex-start` si no está así.
+1. SELECCIONA uno de los divs y añade la propiedad `align-self`.
+1. DEMUESTRA los siguientes valores de `align-self`:
+    1. `center`: esto alineará este div al centro del cross axis.
+    1. `flex-start`: esto alineará al div a la parte superior del cross axis.
+    1. `flex-end`: esto alineará al div a la parte inferior del cross axis.
 
-## Layout Demo Using Flex
+## Demostración de Layout utilizando Flex
 
-Refer to the [simple layout](whiteboard-diagrams/flex-layout.png) to demonstrate how to use flex to layout a page.
+Consulta el [layout simple](whiteboard-diagrams/flex-layout.png) para demostrar cómo utilizar flex para hacer el layout de una página.
 
-Use CodePen or VSCode and enter the following:
+Utiliza CodePen o VSCode e ingresa lo siguiente:
 
 ### HTML
 
@@ -207,18 +207,18 @@ Use CodePen or VSCode and enter the following:
 
 ### CSS
 
-Demo using VSCode, include a reset.css.
+Haz la demostración utilizando VSCode, incluye un reset.css.
 
 ```css
 header {
   background-color: lightgrey;
-  border: 1px solid black;
+  border: 1 px solid black;
 }
 
 nav ul {
   align-items: center;
   display: flex;
-  height: 150px;
+  height: 150 px;
   justify-content: space-around;
   margin: auto;
   width: 80%;
@@ -234,15 +234,15 @@ main {
 
 aside {
   background-color: lightpink;
-  border: 1px solid black;
-  height: 1000px;
+  border: 1 px solid black;
+  height: 1000 px;
   width: 30%;
 }
 
 article {
   align-items: flex-end;
   background-color: lightblue;
-  border: 1px solid black;
+  border: 1 px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -250,12 +250,12 @@ article {
 }
 
 img {
-  margin-bottom: 50px;
+  margin-bottom: 50 px;
 }
 
 footer {
   background-color: lightgrey;
-  border: 1px solid black;
-  height: 150px;
+  border: 1 px solid black;
+  height: 150 px;
 }
 ```

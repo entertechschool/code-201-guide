@@ -1,20 +1,20 @@
-# JavaScript Objects and Const
+﻿# Objetos de JavaScript y Const
 
 ## Const
 
-- **Why**
-  - When we do not need to change a variable, we should set it to const so that it never does change. This prevents errors and makes for cleaner code.
-- **What**
-  - Cover const
-- **How**
-  - Demonstrate in a short repl what happens if you redeclare a const, we will be using const wherever possible in 201.
-  - Show that arrays can be const even when they have values pushed into them.
+- **¿Por qué?**
+  - Cuando no necesitamos cambiar una variable, deberíamos establecerla como const para que nunca cambie. Esto previene los errores y crea un código más limpio.
+- **¿Qué?**
+  - Abarca const
+- **¿Cómo?**
+  - Demuestra en un repl corto lo que ocurre cuando vuelves a declarar un const, utilizaremos const cada vez que sea posible en el curso 201.
+  - Muestra que los arrays pueden ser const incluso cuando se le añaden valores.
 
-## What Is an Object?
+## ¿Qué es un Objeto?
 
-JavaScript objects are convenient & powerful ways to group data and functions. They store data as **properties**, which are represented as `key: value` pairs, and can have **methods**, which are functions associated with the object.
+Los objetos de JavaScript son formas convenientes y poderosas de agrupar datos y funciones. Almacenan datos como **propiedades**, las cuales están representadas como parejas `key: value`, y pueden tener **métodos**, los cuales son funciones asociadas al objeto.
 
-Similar to arrays, but with semantic element names:
+Similar a los arrays, pero con nombres de elementos semánticos:
 
 ```javascript
 const myArray = ['a', 'b', 'c'];
@@ -26,7 +26,7 @@ const myObject = {
 };
 ```
 
-Arrays are great for storing similar pieces of data, but get confusing if they contain mixed data.
+Los arrays son buenos para almacenar datos similares, pero pueden volverse confusos si contienen datos mixtos.
 
 ```javascript
 const samArray = ['Sam', null, 'Hamm', 0, true, ['Nadia', 'Spencer', 'Dan']];
@@ -47,12 +47,12 @@ const person = {
 
 ## Notation
 
-We can declare objects using object literal notation:
+Podemos declarar objetos utilizando notaciones de objetos literales.
 
-1. curly braces `{}`
-1. key: value pairs - colon between k/v, comma after each pair (except the last one)
-1. properties - any data type, including other objects
-1. methods - function(s) associated with the object
+1. llaves `{}`
+1. pares key: value - dos punto entre k/v, una coma después de cada par (excepto el último)
+1. propiedades - cualquier tipo de dato, incluyendo otros objetos
+1. métodos - función(es) asociadas con el objeto
 
 ```javascript
 const emptyObject = {};
@@ -63,14 +63,14 @@ const genericObject = {
   key2: value2,
   'multi-word key': value3,
   method: function() {
-    //do stuff
+    // haz algo
   }
 };
 ```
 
 ```javascript
 const sam = {
-  //properties
+  //propiedades
   firstName: 'Sam',
   middleName: null,
   lastName: 'Hamm',
@@ -78,7 +78,7 @@ const sam = {
   isABoss: true,
   underlings: ['Nadia', 'Spencer', 'Dan'],
 
-  //methods
+  //métodos
   getRating: function() {
   	return this.rating;
   },
@@ -88,19 +88,19 @@ const sam = {
  };
 ```
 
-## Accessing Properties & Calling Methods
+## Accediendo a Propiedades y Métodos de Llamada
 
-1. accessing properties
+1. acceder a las propiedades
    1. dot notation
-   1. bracket notation - w/string, outside variable. multi-word keys
-1. calling methods
+   1. bracket notation - con un string, fuera de la variable, keys con múltiples palabras
+1. métodos de llamada
    1. `objectName.method();`
-   1. methods declared in context of an object must be called in that context, so calling `method();` gives an error
+   1. los métodos declarados en el contexto de un objeto deben ser llamados en ese contexto, así que llamar a `method();` da un error
 
-## Modifying Objects
+## Modificando Objetos
 
-1. adding new properties, methods
-	1. use `=` instead of `:` because we're assigning a value
+1. añadiendo nuevas propiedades, métodos
+	1. utiliza `=` en vez de `:` porque estamos asignando un valor
 
 ```javascript
 sam.employer = {
@@ -113,54 +113,54 @@ sam.logName = function() {
 };
 ```
 
-1. clearing & removing
-   1. set value to '', 0, or null
-   1. `delete` operator
+1. limpiando y removiendo
+   1. establece el valor como '', 0, o null
+   1. operador `delete`
 
-## Built-in Objects
+## Objetos Incorporados
 
 1. String, Array, Document, Math
 
-## Prototypes
+## Prototipos
 
-1. Every object has a prototype. It can be assigned explicitly, or is set to the global Object by default
-1. All objects have the props & methods of their prototype
-1. If a prop or method can't be found on the object itself, the JS engine will look up the prototype chain for it
+1. Cada objeto tiene un prototipo. Se puede asignar específicamente, o se puede establecer al objeto global por defecto.
+1. Todos los objetos tienen propiedades y métodos de su prototipo
+1. Si una propiedad o método no se puede encontrar en el objeto, el intérprete de JS buscará la cadena de prototipos correspondiente
 
 ## this
 
-1. complicated!
-1. changes based on context.
-1. when calling a method in the context of an object, `this = the object`
+1. ¡complicado!
+1. cambia en base al contexto.
+1. al llamar un método en el contexto de un objeto, `this = el objeto`
 
 ```javascript
 sam.whatIsThis = function() {
   console.log(this);
 }
 
-sam.whatIsThis(); //logs the sam object
+sam.whatIsThis(); //aparece el objeto sam
 ```
 
 
-#Adding Something to the DOM
+# Añadiendo algo al DOM
 
-**We can only add ONE THING AT A TIME.**
+**Solo podemos añadir UNA COSA A LA VEZ.**
 
-As an example, let's add a `<p>` to an existing `<div>`
+Como ejemplo, añadiremos un `<p>` a un `<div>` existente
 
-This is our existing HTML:
+Este es nuestro HTML existente:
 
 ```HTML
 <div id="parentElement">
 </div>
 ```
 
-### Steps
+### Pasos
 
-1. Make a JavaScript reference (a variable) to the parent element
-1. Create the child element we want to add and save it as a variable
-1. Give the child content - in this case, the content is text
-1. Append the child to the parent
+1. Haz una referencia JavaScript (una variable) al elemento padre
+1. Crea el elemento hijo que queremos añadir y guárdalo como una variable
+1. Dale contenido a este elemento - en este caso, el contenido es texto
+1. Agrega el elemento hijo al elemento padre
 
 **JavaScript:**
 
@@ -171,7 +171,7 @@ child.textContent = 'Some words we want in our p element';
 parent.appendChild(child);
 ```
 
-**Finished HTML:**
+**HTML Terminado:**
 
 ```HTML
 <div id="parent">

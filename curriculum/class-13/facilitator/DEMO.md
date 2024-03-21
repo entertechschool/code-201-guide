@@ -1,91 +1,91 @@
-# Demo
+﻿# Desmostración
 
-## Local Storage in the Console
+## Local Storage en la Consola
 
-To introduce local storage, start by opening up your browser developer tools and navigate to where local storage is stored. If you are using Chrome, it is in the "application" tab. If you are using Edge, it is in the "Storage" tab.
+Para enseñar acerca del local storage, comienza abriendo las herramientas para desarrolladores de tu navegador y ve a donde se almacena el local storage. Si estás utilizando Chrome, es en la pestaña "aplicación". Si estás utilizando Edge, es en la pestaña "aplicación".
 
 ### Set Item
 
-You will see "local storage" as an option on the left hand side. This is where all of our data will store. To practice, go back to your console in your browser and enter the following:
+Verás "almacenamiento local" como una opción en la parte izquierda. Ahí es donde se van a almcenar nuestros datos. Para practicar, vuelve a la consola de tu navegador e ingresa lo siguiente:
 
 `localStorage.setItem('name', 'Jane Smith');`
 
-The syntax for `setItem()` require 2 arguments that you must provide. These values will in turn save directly to local storage with the key and the value as the data that you sent in.
+La sintaxis de `setItem()` necesita de 2 argumentos que debes proporcionar. Estos valores se guardarán directamente al local storage con el key y value como los datos que has enviado.
 
 > `setItem(key, value)`  
 
 ### Get Item
 
-Navigate to where your local storage is stored and you should see a new entry, with the 'name' as the key, and 'Jane Smith' as the value.
+Dirígente a donde está almacenado tu local storage y deberás ver una nueva entrada, con 'name' como key y 'Jane Smith' como value.
 
-To retrieve an item, go back to your console and enter the following:
+Para recuperar un elemento, vuelva a la consola e ingresa lo siguiente:
 
 `localStorage.getItem('name');`
 
-You will receive the value of 'Jane Smith' back. `getItem()` requires just the argument of key.
+Recibirás el value de 'Jane Smith'. `getItem()` solo requiere el argumento del key.
 
 > `getItem(key)`
 
-Remember that the key and the value must be a string, so make sure you are only entering strings in to the function arguments.
+Reucerda que el key y el value deben ser un string, así que asegúrate de solo ingresar strings como argumentos de la función.
 
-### Update an Item
+### Actualiza un elemento
 
-Because local storage is driven by key/value pairs. That means we can easily update a specific value as long as we have a key.
+El local storage se rige con los pares key/value. Esto significa que podemos actualizar fácilmente un valor en específico siempre que tengamos un key.
 
-Given the example from above, if i wanted to change the 'name' value to "William Shakespeare", all I would have to do is run the following code in our console:
+Utilizando el ejemplo anterior, si queremos cambiar el value 'name' a "William Shakespeare", todo lo que tendría que hacer sería ejecutar el siguinete código en nuestra consola:
 
 `localStorage.setItem('name', 'William Shakespeare');`
 
-Take a look in local storage and you will find that the name has been updated from 'Jane Smith' to 'William Shakespeare'
+Revisa el local storage y encontrarás que el nombre ha sido actualizado de 'Jane Smith' a 'William Shakespeare'
 
 ### Remove Item
 
-To remove a specific entry in local storage, all you have to do is call the `removeItem()` function. The only argument you sending it is the key of the data that you wish to remove.
+Para eliminar una entrada en específico en el local storage, todo lo que debes hacer es llamar a la función `removeItem()`. El único argumento que enviarás será el key de los datos que quieres eliminar.
 
 > `removeItem(key)`
 
-Navigate to your console in your browser and enter
+Ve a tu consola en el navegador e ingresa:
 
 `localStorage.removeItem('name')`;
 
-You can confirm that your 'name' has been removed by navigating back to your local storage and verifying that the 'name' key is now removed, along with it's value.
+Puedes confirmar que tu 'name' ha sido eliminado volviendo al local storage y verificando que el key 'name' ha sido eliminado con su value.
 
-### Clear Local Storage
+### Limpiar Local Storage
 
-To clear all of the values in local storage, it is a simple
-`localStorage.clear()` call. This function does not take any arguments and it will wipe your local storage clean of any data.
+Para limpiar todos lo values en el local storage, solo se debe llamar a la función
+ `localStorage.clear()`. Esta función no necesita de argumentos y puede limpiar todos los datos de tu local storage.
 
-Go to your console, and add multiple entries into your localStorage
+Ve a tu consola y añade varias entradas a tu local storage.
 
  `setItem('name', 'Jack Shepard')`  
  `setItem('age', '35')`  
  `setItem('color', 'red')`
 
-One you have multiple items in your local storage, run a
+Una vez que tengas varios elementos en tu local storage, ejecuta un
 
 `localStorage.clear()`
 
-You will notice that your local storage is now completely empty. You can also verify that it is empty by running the command
+Notarás que tu local storage ahora está totalmente vacío. También puedes verificar que está vacío ejecutando el comando
 
-`localStorage` by itself in the console. You will receive the length of items in your local storage. You should see this value to 0.
+`localStorage` solo en la consola. Recibirás el length de los elementos en tu local storage. Verás que el valor es 0.
   
-## Local Storage in VSCode
+## Local Storage en VSCode
 
-For this demo, you will show how to utilize the commands from above in an actual app. You *may* need to have starter code for your demo. Review the starter code provided in the demo folder "site-settings-starter-code" as a starting point. This means that you will need to spend the first few minutes reviewing with the students the initial state of the code. If you feel like you have enough time, build out the starter code with them.
+Para esta demostración, mostrarás cómo utilizar los comandos anteriores en la aplicación. Es *posible* que necesites código de inicio para tu demostración. Revisa el código de inicio proporcionado en la carpeta "site-settings-starter-code" como punto de partida. Esto signifca que necesitarás pasar los primeros minutos revisando el estado inicial de código con los estudiantes. Si sientes que tienes suficiente tiempo, modifica el código de incio con ellos.
 
-A few things to note about the starter code:
+Unas cosas que resaltar del código de inicio:
 
-1. This contains a light/dark mode, an accordian, and a textarea element. The state of the app will be saved as a global object literal.
-1. The whole point of this app is to save the state of site settings in local storage, so that they persist on page refresh.
-1. This is a great opportunity to introduce the concept of state to the class.
+1. Esto contiene un modo claro/oscuro, un menú acordeón y un elemento textarea. El estado de la aplicación se guardará como un objeto literal global.
+1. El propósito de esta aplicación es guardar el estado de la configuración del sitio en el local storage, para que persista al actualizarse la página.
+1. Esta es una buena oportunidad para presentar el concepto del estado a la clase.
 
-Our goal with this application is to save the state of site settings. We want the data to persist through page refreshes and closing of the browser.
+Nuestro objetivo con esta aplicación es guardar el estado de la configuración del sitio. Queremos que los datos persistan aunque se actualice la página o se cierre el navegador.
 
 
-### Saving to Local Storage
+### Guardar en Local Storage
 
 ```js
-// save to local storage
+// guardar en local storage
 function saveSettings() {
   let stringify = JSON.stringify(settings);
   localStorage.setItem("settings", stringify);
@@ -94,10 +94,10 @@ function saveSettings() {
 ```
 
 
-### Load From Local Storage
+### Cargar desde Local Storage
 
 ```js
-// load from local storage
+// cargar desde local storage
 function loadSettings() {
   let getSettings = localStorage.getItem("settings");
   if (getSettings) {
@@ -109,9 +109,9 @@ function loadSettings() {
 ```
 
 
-### Making Dark Mode/Light Mode Work With Local Storage
+### Hacer que el modo oscuro/claro funcione con el local storage
 
-Add saveSettings() call to the bottom of enterDarkMode and enterLightMode functions.
+Añade saveSettings() al final de las funciones enterDarkMode y enterLightMode.
 
 ```js
 function enterDarkMode() {
@@ -126,7 +126,7 @@ function enterDarkMode() {
 
   // local storage
   settings.darkMode = true;
-  saveSettings();  // <------ add this line
+  saveSettings();  // <------ añade esta línea
 }
 
 function enterLightMode() {
@@ -141,15 +141,15 @@ function enterLightMode() {
 
   // local storage
   settings.darkMode = false;
-  saveSettings();  // <------ add this line
+  saveSettings();  // <------ añade esta línea
 }
 ```
 
-### Have Settings Load from Local Storage on Page Load
-Define a page load function that loads the settings object from local storage.
+### Haz que la configuración se cargue desde local storage al momento de cargar la página
+Defina una función page load que cargue el objeto de configuración desde el local storage.
 
 ```js
-// use settings from local storage on page load
+// utilizar la configuración del local storage al momento de cargar la página
 function pageLoad() {
   let savedSettings = localStorage.getItem("settings");
   if (!savedSettings) {
@@ -168,29 +168,29 @@ function pageLoad() {
 }
 ```
 
-Don't forget to invoke the function at the bottom of app.js!
+¡No te olvides de llamar a la función al final de app.js!
 
 ```js
-// loads page with saved settings
+// cargar la página con la configuración guardada
 pageLoad();
 ```
 
-## Stretch Goals:
-If time permits, you can add the local storage functionality to the current open details and the comment box at the bottom of the page. When local storage is utilized this way the the current details tab will stay open and the comment in progress will still be there on page reload/refresh.
+## Logros Adicionales:
+Si alcanza el tiempo, puedes añadir la funcionalidad local storage a los details y la caja de comentarios al final de la página. Cuando el local storage se utiliza de esta forma la pestaña details se mantendrá abierta y el comentario en progreso se mantendrá cuando la página se actualice.
 
 
 
-### Saving Open Details:
-Add the code within the comment block to the callback function attached to the details elements:
+### Guardando Details Abiertos:
+Añade el código con el bloque de comentarios a la función callback adjunta a los elementos details:
 
 ```js
-// add event listener to all details
+// añade un event listener a todos los details
 for (let i = 0; i < details.length; i++) {
   details[i].addEventListener("click", function () {
 
 ////////////////////////////////////////////////////////////////////////////////////////    
-    // store the open detail & local storage
-    if (settings.open === i) { // guard clause so that details that get closed, stay closed
+    // guarda el detail abierto y el local storage
+    if (settings.open === i) { // cláusula de protección para que los details que se cierren se queden cerrados
       settings.open = null;
       saveSettings();
       return
@@ -200,7 +200,7 @@ for (let i = 0; i < details.length; i++) {
     saveSettings();
 ////////////////////////////////////////////////////////////////////////////////////////   
 
-    // remove 'open' attribute from other details
+    // elimina el atributo 'open' de los otros details
     for (let j = 0; j < details.length; j++) {
       if (j !== openDetail) {
         details[j].removeAttribute("open");
@@ -210,8 +210,8 @@ for (let i = 0; i < details.length; i++) {
 }
 ```
 
-### Saving Comment in Progress:
-Add the event listener and callback function to the comment box. Here is a good time to talk about the "input" event.
+### Guardando un comentario en progreso:
+Añade el event listener y la función callback a la caja de comentarios. Este es un buen momento para hablar del evento "input".
 
 ```js
 commentBox.addEventListener("input", function () {

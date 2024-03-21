@@ -1,105 +1,105 @@
-# Facilitators Guide: The DOM and Introduction to Objects
+﻿# Guía del Instructor: El DOM e Introducción a los objetos
 
-## Overview
+## Resumen
 
-This is the kickoff of a new project. Over the next 4 labs, students will incrementally build out an application that utilizes and manipulates the DOM. In this class, we are introducing these new concepts and kicking off Salmon Cookies.
+Este es el inicio de una nuevo proyecto. Durante los siguientes 4 laboratorios, los estudiantes construirán poco a poco una aplicación que utilizará y manipulará el DOM. En esta clase presentaremos estos nuevos conceptos y comenzaremos con Salmon Cookies.
 
-### How does this topic fit?
+### ¿Qué lugar ocupa este tema?
 
-**Where we've been**:
-In the previous class we closed out the first week's project. Students dived deeper into functions and their return statement, CSS styling, and a new git workflow with creating feature branches.
+**¿Qué hicimos?**:
+En la clase anterior terminamos con el proyecto de la primera semana. Los estudiantes profundizarán en las funciones con su sentencia return, CSS styling, y un nuevo flujo de trabajo de git creando ramas.
 
-**What are we focusing on in this class**:
-In this class, we'll be starting a new project. Students are going to be learning about object literals and manipulating the DOM.
+**¿En qué nos centraremos en esta clase?**:
+En esta clase comenzaremos con un nuevo proyecto. Los estudiantes aprenderán acerca de los objetos literales y manipular el DOM.
 
-**Where we're headed**:
-Next class will focus on refactoring our code and removing all the object literals and creating a Constructor function. Students will also be learning about HTML tables and more DOM manipulation.
+**¿Qué haremos?**:
+En la siguiente clase nos centraremos en refactorizar nuestro código y elimar todos los objetos literales para crear una función constructora. Los estudiantes también aprenderán acerca de las tablas en HTML y más acerca de la manipulación del DOM.
 
-## Learning Objectives
+## Objetivos de aprendizaje
 
-Review the detailed objectives in this class's [student-facing readme](../README.md).
+Revisa los objetivos detallados en el [readme de los alumnos](../README.md) de esta clase.
 
-## Preparation
+## Preparativos
 
-1. Skim the class readings and be prepared if students have questions.
-1. Review the code demos and be sure you know how to construct them within lecture. Review the respective markdown file for each demo.
-1. Upload to your class repo in GitHub a lab folder that contains the `assets` folder located in the `lab` folder of this day. The students will need this data to complete their lab.
-1. Announce to the students that you will start 1-on-1 syncs with each student. Refer to the "General Comments" below for more information on what the syncs will consist of.
+1. Hojea las lecturas de la clase y prepárate en caso de que los alumnos tengan preguntas. 
+1. Revisa las demostraciones de código y asegúrate de que sepas como recrearlas durante la clase. Revisa el archivo markdown respectivo de cada demostración.
+1. Sube tu repositorio de la clase a una carpeta de GitHub que contenga la carpeta `assets` ubicada en la carpeta `lab`. Los estudiantes necesitarán de estos datos para completar su laboratorio.
+1. Anuncia que vas a comenzar con las reuniones individuales con los estudiantes. Consulta los "Comentario Generales" más abajo para más información acerca de en qué consistirán las reuniones.
 
-## Lecture Outline
-<!-- NOTE TO INSTRUCTOR: If you make any changes to the lecture, make matching changes into LECTURE.md -->
+## Descripción de la Clase
+<!-- NOTA PARA EL INSTRUCTOR: Si haces algún cambio en la clase, haz los cambios correspondientes en el LECTURE.md -->
 
-Refer to the [example lecture](LECTURE.md) for lecture details.
+Consulta el [ejemplo de clase](LECTURE.md) para los detalles de la clase.
 
-### Code review
+### Revisión del código
 
-### Object literal notation
+### Notaciones de objetos literales
 
-- **Why**
-  - JavaScript objects are convenient & powerful ways to group data and functions.
-- **What**
-  - Objects store data as **properties**, which are represented as `key: value` pairs, and can have **methods**, which are functions associated with the object.
-- **How**
-  - Write out an object literal in Replit or text editor.
-    - Break down the syntax.
-    - Show how it appears in the console.
-  - Demonstrate how to access value of proptery using dot notation and bracket notation.
-  - Demonstrate adding a new property to the object from outside of the object.
-  - Demonstrate adding a method to the object.
-  - Talk about the term `this` when referring to object literals.
+- **¿Por qué?**
+  - Los objetos de JavaScript son formas convenientes y poderosas de agrupar datos y funciones.
+- **¿Qué?**
+  - Los objetos pueden almacenar datos como **propiedades**, las cuales están representadas como parejas `key: value`, y pueden tener **métodos**, los cuales son funciones asociadas al objeto.
+- **¿Cómo?**
+  - Escribe un objeto literal en Replit o en un editor de texto.
+    - Descompón la sintaxis.
+    - Muestra cómo aparece en la consola.
+  - Demuesta cómo acceder a la propiedad de un valor utilizando dot notation y bracket notation.
+  - Demuestra añadir una nueva propiedad al objeto desde afuera del objeto.
+  - Demuestra añadir un método al objeto.
+  - Habla acerca del término `this` al referirse a objetos literales.
 
-### The DOM & DOM manipulation
+### El DOM y Manipulación del DOM
 
-- **Why**
-  - DOM manipulation is used to change the document structure, style, and content.
-- **What**
-  - Document Object Model - represents the HTML and CSS coming together to create a document that we use in our browsers.
-- **How**
-  - Use this as lab prep and in class demo purposes.
-  - Build out basic HTML structure but give yourself a starting `section` element with a specified `id`.
-  - Create your object literals and fill out necessary information.
-  - Demonstrate the 4 step process on DOM manipulation:
-    - Get the section from HTML with specified id from the DOM that is to be modified.
-    - Create an element.
-    - Give it content.
-    - Append it to the parent or DOM element.
+- **¿Por qué?**
+  - La manipulación del DOM se utiliza para cambiar la estructura, estilo y contenido del documento.
+- **¿Qué?**
+  Modelo de Objeto de Documento - representa la unión del HTML y CSS para crear un documento que utilizaremos en nuestro navegadores.
+- **¿Cómo?**
+  - Utiliza esto como preparación para el laboratorio y para la demostración en clase. 
+  - Construye una estructura HTML básica pero crea un elemento `section` de inicio con un `id` específico.
+  - Crea tus objetos literales y llena la información necesaria.
+  - Demuesta los 4 pasos del procedimento de manipulación del DOM:
+    - Toma el section del HTML con el id específico del DOM a modificar.
+    - Crea un elemento.
+    - Dale contenido.
+    - Agrégalo al elemento padre o DOM.
 
-### Lab prep
+### Preparación para el laboratorio
 
-## Lab Notes
+## Notas de Laboratorio
 
-Like the About Me project, this new lab project will be progressively enhanced across multiple labs. For this lab, students are only permitted to use object literal notation, NO constructors. There will likely be students who want to use constructors, so make sure they wait until lab 7 to do so.
+Así como en el proyecto About Me, este nuevo proyecto de laboratorio será mejorado a lo largo de varios laboratorios. Para este laboratorio, los estudiantes solo tendrán permitido utilizar notaciones de objetos literales, NO constructores. Probablemente habrán estudiantes que querrán utlizar constructores, así que asegúrate de que esperen hasta el laboratorio 7.
 
-This is the first exposure to problem domains and having to build something from specific specs and sample data. Take time to walk through the problem domain as a class and highlight specific items to pay attention to. For example, they are given a few pieces of data but need to come up with the logic for the other technical requirements.
+Este es el primer contacto con las descripciones del problema y tener que construir algo con especificaciones concretas y datos de muestra. Toma tu tiempo para explicar la descripción del problema a la clase y resaltar elementos específicos a tener en cuenta. Por ejemplo, se les dará algunos datos pero necesitan idear la lógica para los otros requisitos técnicos.
 
-Differentiate between the content of each HTML file. The `index.html` page should be thought of as the customer-facing page containing the store locations, hours, branding, fonts, etc. The `sales.html` page should be thought of as the admin-facing page. For this lab, that page will hold a list of the projected sales per hour. In the following lab, that data will be converted to a table. In the lab for Class 8, they will also add a form to this page for the admin to add new stores to the table.
+Diferencia el contenido de cada archivo HTML. La página `index.html` deberá ser pensada como la página de cara al consumidor, la cual contiene las ubicaciones, horas, marca, fuentes, etc. La página `sales.html` deberá ser pensada como la página de cara al administrador. Para este laboratorio, la página tendrá una lista de las previsiones de ventas por hora. En el siguiente laboratorio, esos datos serán convertidos a una tabla. En el laboratorio de la Clase 8, también añadirán un formulario a esta página para que el administrador pueda añadir nuevas tiendas a la tabla.
 
-Remind students that user stories give some requirements. They should read both the problem domain and the user stories carefully to determine the requirements for the lab.
+Recuérdale a los estudiantes que las historias de usuario dan algunos requisitos. Deberán leer la descripción del problema y las historias de usuario con cuidado para determinar los requisitos del laboratorio.
 
-This is a big lab, so encourage students to take it one piece at a time. Also encourage students to retype every object rather than copying and pasting code from one object to another. It is tempting to copy and paste in the interest of time, but the more they can type the code, the faster they'll build up muscle memory through repetition.
+Este laboratorio es grande, así que aconseja a los alumnos a que vayan por partes. También recomienda que los estudiantes vuelvan a escribir cada objeto en vez de copiar y pegar código de un objeto a otro. Es tentador copiar y pegar para ganar tiempo, pero entre más escriban el código, más rápido construirán una memoria muscular mediante la repetición.
 
-## What changed from previous class?
+## ¿Qué cambió desde la clase anterior?
 
-Students are starting a new project this week.
+Los estudiantes estarán comenzando un nuevo proyecto esta semana.
 
-### What bugs, issues, or surprises have come up in the past for this class?
+### ¿Qué errores, problemas o sorpresas han aparecido en el pasado en esta clase?
 
-This class' content and lab might be a make or break for a lot of students. Prepare for a lot of self-doubt to bubble up during upcoming 1-on-1 meetings.
+El contenido de esta clase y el laboratorio pueden ser decisivos para muchos estudiantes. Prepárate para que surja mucha inseguridad durante las reuniones individuales.
 
-## General Comments
+## Comentarios Geneales
 
-Sample flow of a one-on-one meeting:
+Ejemplo del flujo de una reunión individual:
 
-1. "How's it going in the class?"
-1. "Here's what I am seeing..." (Pull up the gradebook to check student progress, and the student's survey response in Survey Monkey to address anything there)
-1. "Let's review your self-assessment that you've completed already..."
-1. "Is there anything you want to talk about, or do you have any questions for me?"
-1. "Since we have a few minutes, let's talk about whiteboarding and do a sample whiteboard problem."
+1. "¿Cómo te va en la clase?"
+1. "Esto es lo que veo..." (Saca el registro de calificaciones para verificar el progreso del alumno y su respuesta a la encuesta en Survey Monkey para tratar cualquier asunto)
+1. "Revisemos la autoevaluación que ya has completado..."
+1. "¿Hay algo de lo que quieras hablar, o tienes alguna pregunta para mí?"
+1. "Ya que tenemos algunos minutos, hablemos acerca del brainstorming y hagamos un problema simple en la pizarra."
 
-We have found that regular one-on-one meetings with students have beneficial outcomes in student/instructor relationships, monitoring student progress, answering student questions, starting students with some basic whiteboard practice, and overall increase of student success and student satisfaction.
+Hemos encontrado que las reuniones individuales regulares con los estudiantes tienen resultados beneficiosos en la relación estudiante/instructor, monitorear el progreso del estudiante, responder las preguntas de los estudiantes, hacer que los estudiantes practiquen brainstorming en las pizarras, y un incremento general del éxito y la satisfacción de los estudiantes.
 
-### Review of Career Coaching Assignments
+### Revisión de las tareas de Orientación Profesional
 
-Briefly discuss the upcoming Career Coaching assignments:
+Habla brevemente de las próximas tareas de Orientación Profesional:
 
-Targeted Job Search: Students will begin to research companies and start a spreadsheet to keep track as they perform their research. Remind students to submit this assignment as a Google document with sharing access granted so the instructional staff can view and grade the assignment.
+Búsqueda de trabajo dirigida: Los estudiantes comenzarán a investigar empresas y crearán una hoja de cálculo para darles seguimiento mientras realizan su investigación. Recuérdale a los estudiantes que envíen esta tarea como un documento de Google con acceso compartido para que los instructores puedan ver y calificar la tarea.

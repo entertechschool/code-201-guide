@@ -1,36 +1,36 @@
-# JavaScript Structure
+﻿# Estructura de JavaScript
 
 1. Declara las Variables Globales 
-1. Declara las Funciones constructoras - ¡sus nombres deberá comenzar con mayúsculas!
-1. Declara los métodos de prototype
+1. Declara las Funciones constructoras - ¡sus nombres deberán comenzar con mayúsculas!
+1. Declara los métodos de prototipo
 1. Declara las funciones regulares
 1. Añade event listeners
 1. Llama a las funciones
 
 ```javascript
-//declare global variables at the top of your file
+//declara las variables globales al inicio de tu archivo
 const globalVariable1 = 'hello';
 const globalVariable2 = [0, 1, 2];
 const myForm = document.getElementById('my-form');
 
-//create an instance of PersonConstructor and save it to the sam variable
-//note that we can do this before the constructor function declaration
+//crea una instancia de PersonConstructor y la guarda en la variable sam
+//ten en cuenta que hacemos esto antes de la declaración de la función constructora
 const sam = new PersonConstructor('Sam', 'Hamm');
-//now sam = { firstName: 'Sam', lastName: 'Hamm' }
+//ahora sam = { firstName: 'Sam', lastName: 'Hamm' }
 
-//then put any object constructors
+//ahora pon los objetos constructores
 function PersonConstructor(first, last) {
  this.firstName = first;
  this.lastName = last;
 }
 
-//then put any prototype functions that go with the object constructor
-//call this function on an instance of PersonConstructor
+//luego pon las funciones de prototipo que van con el objeto constructor
+//llama a esta función en una instancia de PersonConstructor
 PersonConstructor.prototype.sayHello = function() {
  console.log('Hello, my name is ' + this.firstName);
 }
 
-//then put regular function declarations
+//luego coloca las declaraciones de función regulares
 function firstFunction(parameter) {
  console.log(parameter);
 }
@@ -45,15 +45,15 @@ function formHandler(event) {
  console.log(event.target);
 }
 
-//then add any event listeners
+//luego añade los event listeners
 myForm.addEventListener('submit', formHandler);
 
-//finally, call your functions
+//por último, llama a tus funciones
 firstFunction(globalVariable1);
-//logs 'hello'
+//el resultado es 'hello'
 secondFunction(globalVariable2);
-//logs  0
+//el resultado es  0
 //  1
 //  2
 sam.sayHello();
-//logs 'Hello, my name is Sam'
+//el resultado es 'Hello, my name is Sam'

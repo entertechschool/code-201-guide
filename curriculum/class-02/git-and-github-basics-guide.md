@@ -1,81 +1,81 @@
-# Understanding Git and GitHub
+﻿# Entendiendo Git y GitHub
 
-## What is Git?
+## ¿Qué es Git?
 
-It's a way of storing and controlling versions of files on your computer.
+Es una forma de almacenar y controlar versiones de archivos en tu computadora.
 
-## What is GitHub?
+## Qué es GitHub?
 
-A cloud service where you can 'store' your versions online.
+Es un servicio en la nube en donde puedes 'almacenar' tus versiones en línea.
 
-## How to save versions on your computer:
+## Cómo guardar versiones en tu computadora:
 
- 1. Make or move into the directory you want to 'save'.
- 1. Initialize Git - in the terminal.
+ 1. Crea o entra el directorio que quieres 'guardar'.
+ 1. Inicia Git - en el terminal.
 
    `$git init`
 
-  This will initialize git in a hidden .git folder (you can check this with ls -a)
-  This hidden folder will allow you to track and save versions of files in this folder
+  Esto iniciará git en una carpeta .git oculta (puedes verificar esto con ls -a)
+  Esta carpeta oculta te permitirá monitorear y guardar versiones de tus archivos en esta carpeta
 
- 1. Check the status of git in that directory.
+ 1. Revisa el estado de git en ese directorio.
 
    `$git status`
 
-  The output from terminal should read "On branch main" and then list Untracked files
-  it will also prompt you to git add to track
+  El output del terminal deberá decir "On branch main" y luego enumerará los Untracked files
+  también te indicará que escribas git add para monitorear
 
- 1. Add files to be tracked.
+ 1. Añade los archivos para monitorear.
 
-   `$git add <filename>`
+   `$git add <nombre-del-archivo>`
 
-  This will tell git that you want to 'track' that file and the changes made to it
+  Esto le dirá a git que quieres 'monitorear' ese archivo y los cambios que se le hicieron
 
- 1. Commit track snapshot to memory.
+ 1. Envía y guarda una captura.
 
-   `$git commit -m "add a message here"`
+   `$git commit -m "añade un mensaje aquí"`
 
-  Here you are telling git to actually take the snapshot, be sure to add -m and a message in quotes
-  This message you be a human readable note about what has been changed since the last snapshot
+  Aquí le indicas a git que tome la captura, asegúrate de añadir -m y un mensaje entre las comillas 
+  Este mensaje será una nota legible acerca de lo que se ha cambiado desde la última captura
 
-  At this point, your computer has taken a picture of the code at this moment and you are free to modify your files and repeat the cycle.
+  En este punto, tu computadora ha tomado una foto del código en este momento y eres libre de modificar tus archivos y repetir el ciclo.
 
-## How to add a commit to GitHub:
+## Cómo añadir un commit a GitHub:
 
- 1. Log on to your account on GitHub, in the upper right hand corner select the *+* sign, from the drop down menu select NEW REPOSITORY.
+ 1. Ingresa a tu cuenta de GitHub, en la parte superior derecha selecciona el símbolo *+*, en el menú desplegable selecciona NEW REPOSITORY.
 
- 1. Enter in a repository name.
+ 1. Ingresa un nombre para el repositorio.
 
- 1. Select Public or Private. GitHub allows each user to have several free private files, however as new developers it is great to beef up your public repos for potential employers to see how you code
+ 1. Selecciona Public o Private. GitHub le permite a cada usuario tener varios archivos privados, sin embargo, al ser un desarrollador nuevo, es una buena idea fortalecer tus repositorios públicos para que los empleadores potenciales vean tu código 
 
- 1. Click the create repository button.
+ 1. Haz click al botón create repository.
 
- 1. You will be directed to a new page that will tell you how to create a repo locally. If you have already saved a version on your computer (see How to save version on your computer), skip to the line that reads
+ 1. Te enviará a una nueva página que te indicará cómo crear un repositorio de forma local. Si ya tienes una versión guardad en tu computadora (mira Cómo guardar versiones en tu computadora), avanza hasta la línea que dice
 
-   `git remote add origin https://github.com/<yourUserName>/<yourRepoName>.git`
+   `git remote add origin https://github.com/<tuNombreDeUsuario>/<nombreDeTuRepo>.git`
 
-  Copy this line and add it in your terminal. This tells your computer where to 'push' files to online
+  Copia esta línea y pégala en tu terminal. Esto le indica a tu computadora dónde hacer 'push' a los archivos
 
- 1. Push your commits up to GitHub
-  Once you have successfully committed files in terminal run
+ 1. Haz push a tus commits en GitHub
+  Una vez que hayas realizado los commits a tus archivos en el terminal, ejecuta
 
    `$git push -u origin main`
 
-  This will push your commits to your main branch on GitHub.
+  Esto le hará push a tus commits a tu rama main en GitHub.
 
- 1. Refresh your page on GitHub, you should now see a repo with the files you pushed up from your computer.
+ 1. Actualiza tu página en GitHub, deberás ver un repositorio con los archivos a los que has hecho push desde tu computadora.
 
-  Now you are free to continue working (and taking more snapshots) on your computer
+  Ahora puedes continuar trabajando (y tomando más caputas) en tu computadora
 
-  The next time you want to take a snapshot, these are the commands:
-
-   `$git status`
-
-   `$git add <filename>`
+  La próxima vez que quieras tomar una captura, estos son los comandos:
 
    `$git status`
 
-   `$git commit -m "your message here"`
+   `$git add <nombre-del-archivo>`
+
+   `$git status`
+
+   `$git commit -m "tu mensaje"`
 
    `$git status`
 

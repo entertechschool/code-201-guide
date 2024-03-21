@@ -1,24 +1,24 @@
-# Verify student computer setups
+﻿# Verifica la Configuración de las Computadoras de los Alumnos
 
-This checklist is intended to help instructional staff verify that students successfully completed the computer setup portions of the prework.
+Esta lista está pensada para ayudar a los instructores a verificar que los estudiantes hayan completado exitosamente con la parte de la configuración de sus computadoras en el prework.
 
-## Windows/WSL students *only*
+## *Solo* para los estudiantes con Windows/WSL
 
-- Ask them how it went
-- `cdwr` should take them to their Ubuntu root
-- Once there, try `chrome` and `code` commands to open files
-- If not installed properly, go thru prework setup. This will take a while; try to do multiple students simultaneously if possible.
+- Pregúntales cómo les fue
+- `cdwr` los deberá llevar su raíz de Ubuntu
+- Una vez ahí, utilicen los comandos `chrome` y `code` para abrir archivos
+- Si no están instalados adecuadamente, realiza la configuración previa. Esto tomará un poco, trata de hacer estos pasos con varios estudiantes a la vez de ser posible.
 
-## Mac students *only*
+## *Solo* para los estudiantes con Mac
 
-- verify Homebrew (`which brew`)
-- Run these commands individually: `brew update`, `brew upgrade`, `brew cleanup`, `brew doctor`
+- verifica Homebrew (`which brew`)
+- Ejecuta estos comandos individualmente: `brew update`, `brew upgrade`, `brew cleanup`, `brew doctor`
 
-## All students
+## Todos los alumnos
 
-Run the following shell commands *individually* in the students' terminals. Each of these commands should return something; if they do not, there is an issue to be addressed. Refer back to the corresponding instructions in the prework.
+Ejecuta los siguientes comandos de shell *individualmente* en los terminales de los alumnos. Cada uno de estos comandos deberá retornar algo; si no lo hacen, hay un problema que resolver. Consulta las instrucciones correspondientes en el prework.
 
-### Installations
+### Instalaciones
 
 - `code --version`
 - `git --version`
@@ -27,24 +27,24 @@ Run the following shell commands *individually* in the students' terminals. Each
 - `live-server --version`
 - `tree --version`
 
-### Configs
+### Configuraciones
 
-- `echo $PS1` *(Direct the student to http://ezprompt.net to create a PS1)*
-- `ls ~/codefellows` *(Guide them through creating these directories if they do not exist)*
-- `cat ~/.gitconfig` *(If this comes back blank, investigate their Git and GitHub setups)*
+- `echo $PS1` *(Dirige al alumnno a http://ezprompt.net para crear un PS1)*
+- `ls ~/entertechschool` *(Guíalos al crear estos directorios si no existen)*
+- `cat ~/.gitconfig` *(Si el resultado es en blanco, revisa sus configuraciones de Git y GitHub)*
 
 ### ESLint
 
-- Make sure they have the ESLint extension installed and enabled in VSCode
-- Create a `.eslintrc.json` file in their `~/codefellows/201/` directory.
-- Copy the content of that same file from the root level of the class repository
-- Create a test JS file to see that the linter is working
+- Asegúrate de tener la extensión ESLint instalada y activada en VSCode
+- Crea un archivo `.eslintrc.json` en sus directorios `~/entertechschool/201/`.
+- Copia el contenido de ese mismo archivo desde la raíz del repositorio de la clase.
+- Crea un archivo JS de prueba para ver que el linter esté funcionando
 
-### Additional VSCode settings
+### Configuraciones adicionales para VSCode
 
-In the lower left-hand corner of VSCode, click on the gear icon and select "Settings". Use the search functionality to set up the following values.
+En la parte inferior izquierda de VSCode, haz click en el ícono de la tuerca y selecciona "Configuración". Usa la barra de búsqueda para establecer los siguientes valores.
 
-- "editor.tabSize" should be set to **2**
-- "editor.detectIndentation" should be set to **true**
-- "editor.wordWrap" should be set to **on**
-- "editor.minimap.enabled" should be set to **true**
+- "editor.tabSize" debe estar en **2**
+- "editor.detectIndentation" debe ser **verdadero**
+- "editor.wordWrap" debe establecerse como **on**
+- "editor.minimap.enabled" debe ser **verdadero**

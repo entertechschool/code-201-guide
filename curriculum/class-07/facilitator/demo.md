@@ -1,5 +1,5 @@
-# Demo Outline
-Constructors:  
+﻿# Descripción de la Demostración
+Constructores:  
 ```javascript
 function CookieStore(name, minCust, maxCust, avgCookie){
   this.name = name;
@@ -19,7 +19,7 @@ const anotherCookieStore = new CookieStore('anotherCookieStore', 5, 45, 3.3);
 const stores = [pikePlace, otherStore, anotherCookieStore];
 ```  
 
-Tables:  
+Tablas:  
 ```javascript
 const tableEl = document.createElement('table');
 
