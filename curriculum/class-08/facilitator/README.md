@@ -1,4 +1,4 @@
-﻿# Guía del Instructor: # Temas avanzados de CSS: Layout
+﻿# Guía del Instructor: Temas avanzados de CSS: Layout
 
 ## Resumen
 
