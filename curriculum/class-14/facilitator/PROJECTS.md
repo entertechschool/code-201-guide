@@ -14,4 +14,4 @@ Revisa los proyectos finales de grupos anteriores, de nuevo, tratando de explica
 
 Los equipos del proyecto debatirán sus ideas y seleccionarán una idea para el proyecto para hacer un pitch para los instructores. Para el inicio de la siquiente clase, los grupos deberán tener una idea de pitch o dos de lo que les gustaría crear.
 
-Consula el common curriculum para las tareas de preparación para la semana del proyecto. Se espera que todas estas tareas estén completadas para el final de la clase 15 (incluyendo el tiempo del laboratorio). La clase 15 se dedicará principalmente a estas tareas.
+Consulta el common curriculum para las tareas de preparación para la semana del proyecto. Se espera que todas estas tareas estén completadas para el final de la clase 15 (incluyendo el tiempo del laboratorio). La clase 15 se dedicará principalmente a estas tareas.
